@@ -1,0 +1,119 @@
+/*==================================================
+  Worksheet Wonder
+  Responsive Stylesheet
+==================================================*/
+
+/*==============================
+  1440px (Large Desktops)
+==============================*/
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/*==============================
+  1024px (Laptops)
+==============================*/
+@media (max-width: 1024px) {
+    .hero-section h1 {
+        font-size: 48px;
+    }
+    .stats-section h2 {
+        font-size: 40px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .free-downloads h2 {
+        font-size: 36px;
+    }
+}
+
+/*==============================
+  768px (Tablets)
+==============================*/
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+        text-align: center;
+    }
+    .hero-section h1 {
+        font-size: 42px;
+        margin-top: 20px;
+    }
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .hero-buttons .btn {
+        margin-right: 0;
+        width: 100%;
+    }
+    .stats-section {
+        padding: 50px 0;
+    }
+    .stats-section .col-md-3 {
+        margin-bottom: 30px;
+    }
+    .categories, .featured, .why-us, .featured-categories, .best-sellers, .free-downloads, .testimonials, .cta-section, .blog-section, .faq-section {
+        padding: 50px 0 !important;
+    }
+    .footer-section {
+        padding: 50px 0 20px;
+        text-align: center;
+    }
+    .social-icons {
+        justify-content: center;
+        display: flex;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+    .footer-heading {
+        margin-top: 20px;
+    }
+    .navbar-collapse {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .nav-link {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .btn-rainbow {
+        margin-left: 0 !important;
+        margin-top: 15px;
+        display: inline-block;
+    }
+    .category-card, .worksheet-card, .feature-box, .product-card, .testimonial-card {
+        margin-bottom: 20px;
+    }
+}
+
+/*==============================
+  425px & 375px & 320px (Mobile)
+==============================*/
+@media (max-width: 425px) {
+    .hero-section h1 {
+        font-size: 32px;
+    }
+    .hero-section p {
+        font-size: 16px;
+    }
+    .brand-text {
+        font-size: 24px;
+    }
+    .section-title h2, .free-downloads h2 {
+        font-size: 28px;
+    }
+    .stats-section h2 {
+        font-size: 32px;
+    }
+    .cta-box h2 {
+        font-size: 28px;
+    }
+    .newsletter-box h2 {
+        font-size: 28px;
+    }
+}

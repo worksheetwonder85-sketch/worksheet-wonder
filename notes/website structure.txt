@@ -1,0 +1,211 @@
+Worksheet Wonder
+│
+├── 🏠 HOME
+│   ├── Hero Banner
+│   ├── Search Bar
+│   ├── Browse by Grade
+│   ├── Browse by Subject
+│   ├── Featured Worksheets
+│   ├── New Arrivals
+│   ├── Popular Downloads
+│   ├── Free Resources
+│   ├── Premium Bundles
+│   ├── Teacher Resources Preview
+│   ├── Parent Corner Preview
+│   ├── Blog Preview
+│   ├── Testimonials
+│   ├── Newsletter
+│   └── Footer
+│
+├── 📚 WORKSHEETS
+│   │
+│   ├── Preschool (Age 3–4)
+│   │     ├── Alphabet
+│   │     ├── Numbers
+│   │     ├── Shapes
+│   │     ├── Colors
+│   │     ├── Matching
+│   │     ├── Tracing
+│   │     ├── Animals
+│   │     ├── Fruits
+│   │     ├── Vegetables
+│   │     └── Fine Motor Skills
+│   │
+│   ├── Nursery
+│   │
+│   ├── LKG
+│   │
+│   ├── UKG
+│   │
+│   ├── Kindergarten
+│   │     ├── English
+│   │     ├── Math
+│   │     ├── Phonics
+│   │     ├── Reading
+│   │     ├── Writing
+│   │     └── Activities
+│   │
+│   ├── Grade 1
+│   │
+│   ├── Grade 2
+│   │
+│   ├── Grade 3
+│   │
+│   ├── Grade 4
+│   │
+│   └── Grade 5
+│
+├── 🎨 COLORING PAGES
+│   │
+│   ├── Animals
+│   ├── Birds
+│   ├── Dinosaurs
+│   ├── Princesses
+│   ├── Unicorns
+│   ├── Space
+│   ├── Vehicles
+│   ├── Nature
+│   ├── Festivals
+│   ├── Seasons
+│   ├── Alphabets
+│   ├── Numbers
+│   └── Holidays
+│
+├── 🧩 ACTIVITIES
+│   │
+│   ├── Mazes
+│   ├── Dot to Dot
+│   ├── Matching
+│   ├── Cut & Paste
+│   ├── Flash Cards
+│   ├── Word Search
+│   ├── Crossword
+│   ├── Sudoku
+│   ├── Spot the Difference
+│   ├── Scissor Skills
+│   └── Memory Games
+│
+├── 📖 SUBJECTS
+│   │
+│   ├── English
+│   │     ├── Alphabet
+│   │     ├── Phonics
+│   │     ├── Vocabulary
+│   │     ├── Grammar
+│   │     ├── Reading
+│   │     ├── Writing
+│   │     └── Comprehension
+│   │
+│   ├── Mathematics
+│   │     ├── Counting
+│   │     ├── Addition
+│   │     ├── Subtraction
+│   │     ├── Multiplication
+│   │     ├── Division
+│   │     ├── Fractions
+│   │     ├── Time
+│   │     ├── Money
+│   │     └── Geometry
+│   │
+│   ├── EVS
+│   ├── Science
+│   ├── General Knowledge
+│   ├── Handwriting
+│   └── Coding for Kids (Future)
+│
+├── 👨‍🏫 TEACHER RESOURCES
+│   │
+│   ├── Lesson Plans
+│   ├── Classroom Posters
+│   ├── Certificates
+│   ├── Assessment Sheets
+│   ├── Report Cards
+│   ├── Attendance Sheets
+│   ├── Timetables
+│   ├── Flashcards
+│   └── Classroom Decorations
+│
+├── 👨‍👩‍👧 PARENT CORNER
+│   │
+│   ├── Parenting Tips
+│   ├── Learning Activities
+│   ├── Reading Lists
+│   ├── Screen-Free Activities
+│   ├── Educational Games
+│   ├── Printable Schedules
+│   └── Homeschool Resources
+│
+├── 🛍 STORE
+│   │
+│   ├── Preschool Bundle
+│   ├── Kindergarten Bundle
+│   ├── Grade 1 Bundle
+│   ├── Grade 2 Bundle
+│   ├── Grade 3 Bundle
+│   ├── Coloring Books
+│   ├── Flash Cards
+│   ├── Printable Workbooks
+│   ├── Seasonal Packs
+│   └── Membership Plans
+│
+├── 📝 BLOG
+│   │
+│   ├── Teaching Tips
+│   ├── Parenting
+│   ├── Learning Activities
+│   ├── Homeschooling
+│   ├── Child Development
+│   ├── Educational Games
+│   └── Printables
+│
+├── 🔍 SEARCH
+│   ├── Search by Grade
+│   ├── Search by Subject
+│   ├── Search by Age
+│   ├── Search by Skill
+│   └── Search by Keyword
+│
+├── ❤️ USER ACCOUNT
+│   ├── Login
+│   ├── Register
+│   ├── Dashboard
+│   ├── Wishlist
+│   ├── Downloads
+│   ├── Purchase History
+│   ├── Saved Worksheets
+│   └── Account Settings
+│
+├── 📧 NEWSLETTER
+│   ├── Free Alphabet Pack
+│   ├── Free Number Pack
+│   ├── Free Coloring Pack
+│   └── Weekly Learning Tips
+│
+├── ℹ ABOUT US
+│   ├── Our Story
+│   ├── Mission
+│   ├── Vision
+│   ├── Meet the Team (Future)
+│   └── Careers (Future)
+│
+├── 📞 CONTACT
+│   ├── Contact Form
+│   ├── Email
+│   ├── FAQ
+│   └── Support
+│
+├── 📜 LEGAL
+│   ├── Privacy Policy
+│   ├── Terms & Conditions
+│   ├── Cookie Policy
+│   ├── Refund Policy
+│   └── Copyright Policy
+│
+└── 🌐 FOOTER
+    ├── Quick Links
+    ├── Categories
+    ├── Social Media
+    ├── Newsletter Signup
+    ├── Contact Information
+    ├── Copyright Notice
+    └── Back to Top
