@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /assets/pdf/
+Disallow: /data/
+
+Sitemap: /sitemap.xml

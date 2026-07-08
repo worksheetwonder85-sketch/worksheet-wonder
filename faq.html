@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Worksheet Wonder</title>
-    <meta name="description" content="Contact Worksheet Wonder. We'd love to hear from parents, teachers, homeschoolers, and schools. Get in touch with us for support, feedback, or inquiries.">
+    <title>FAQ | Worksheet Wonder</title>
+    <meta name="description" content="Frequently Asked Questions about Worksheet Wonder printable worksheets, bundles, and downloads.">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -33,7 +36,7 @@
                 <img src="assets/images/logo.png" alt="Worksheet Wonder Logo" class="navbar-logo">
                 <span class="brand-text ms-2">Worksheet Wonder</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="mainMenu">
@@ -44,7 +47,7 @@
                     <li class="nav-item"><a class="nav-link" href="freebies.html">Freebies</a></li>
                     <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
                 <a href="login.html" class="btn btn-rainbow ms-lg-3">
                     <i class="bi bi-person-circle"></i> Login
@@ -64,7 +67,7 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    <li class="breadcrumb-item active" aria-current="page">FAQ</li>
                 </ol>
             </nav>
         </div>
@@ -75,92 +78,22 @@
     ========================== -->
     <section class="hero-section py-5 text-center bg-white">
         <div class="container">
-            <h1 class="display-4 fw-bold">Contact Worksheet Wonder</h1>
-            <p class="lead text-muted mb-0">We'd love to hear from parents, teachers, homeschoolers and schools.</p>
+            <h1 class="display-4 fw-bold">How Can We Help You?</h1>
+            <p class="lead text-muted mb-4">Search our knowledge base or browse frequently asked questions below.</p>
         </div>
     </section>
 
     <!-- =========================
-         CONTACT CARDS
+         SEARCH FAQ
     ========================== -->
-    <section class="contact-info py-5 bg-light">
-        <div class="container">
-            <div class="row g-4 text-center">
-                
-                <div class="col-md-6 col-lg-3">
-                    <div class="ww-card p-4 rounded shadow-sm border-0 h-100 d-flex flex-column align-items-center">
-                        <div class="display-4 text-primary mb-3"><i class="bi bi-envelope-at-fill"></i></div>
-                        <h4 class="mb-2">Email</h4>
-                        <p class="text-muted mb-0">hello@worksheetwonder.com</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="ww-card p-4 rounded shadow-sm border-0 h-100 d-flex flex-column align-items-center">
-                        <div class="display-4 text-success mb-3"><i class="bi bi-telephone-fill"></i></div>
-                        <h4 class="mb-2">Phone</h4>
-                        <p class="text-muted mb-0">+91 98765 43210</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="ww-card p-4 rounded shadow-sm border-0 h-100 d-flex flex-column align-items-center">
-                        <div class="display-4 text-warning mb-3"><i class="bi bi-geo-alt-fill"></i></div>
-                        <h4 class="mb-2">Location</h4>
-                        <p class="text-muted mb-0">Chennai, Tamil Nadu, India</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="ww-card p-4 rounded shadow-sm border-0 h-100 d-flex flex-column align-items-center">
-                        <div class="display-4 text-danger mb-3"><i class="bi bi-clock-fill"></i></div>
-                        <h4 class="mb-2">Business Hours</h4>
-                        <p class="text-muted mb-0">Mon - Fri: 9 AM - 6 PM</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- =========================
-         CONTACT FORM
-    ========================== -->
-    <section class="contact-form-section py-5">
+    <section class="search-faq py-4 bg-light">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="bg-white p-5 rounded shadow-sm border">
-                        <h3 class="mb-4 text-center">Send Us a Message</h3>
-                        <form action="#" method="POST" id="contactForm">
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <label for="contactName" class="form-label fw-bold">Name</label>
-                                    <input type="text" class="form-control" id="contactName" placeholder="Your Full Name" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="contactEmail" class="form-label fw-bold">Email</label>
-                                    <input type="email" class="form-control" id="contactEmail" placeholder="you@example.com" required>
-                                </div>
-                                <div class="col-12">
-                                    <label for="contactSubject" class="form-label fw-bold">Subject</label>
-                                    <select class="form-select" id="contactSubject" required>
-                                        <option value="" selected disabled>Choose a subject...</option>
-                                        <option value="General Inquiry">General Inquiry</option>
-                                        <option value="Support">Product Support / Downloads</option>
-                                        <option value="Feedback">Feedback / Suggestions</option>
-                                        <option value="Partnership">Partnership Opportunities</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <label for="contactMessage" class="form-label fw-bold">Message</label>
-                                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="How can we help you?" required></textarea>
-                                </div>
-                                <div class="col-12 text-center mt-4">
-                                    <button type="submit" class="btn btn-rainbow btn-lg px-5">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
+                <div class="col-lg-6">
+                    <div class="input-group input-group-lg shadow-sm">
+                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-search"></i></span>
+                        <input type="text" class="form-control border-start-0" placeholder="Search for answers..." aria-label="Search FAQ">
+                        <button class="btn btn-rainbow" type="button">Search</button>
                     </div>
                 </div>
             </div>
@@ -168,14 +101,106 @@
     </section>
 
     <!-- =========================
-         FAQ CTA
+         FAQ CATEGORIES & ACCORDION
     ========================== -->
-    <section class="cta-section py-5 bg-light text-center border-top">
+    <section class="faq-accordion py-5">
+        <div class="container">
+            <div class="row g-5">
+                
+                <!-- Categories Sidebar -->
+                <div class="col-lg-4">
+                    <div class="ww-card p-4 rounded shadow-sm border-0 sticky-top" style="top: 100px;">
+                        <h4 class="mb-4">Categories</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent px-0 border-bottom">
+                                <a href="#general" class="text-decoration-none text-dark fw-bold"><i class="bi bi-info-circle text-primary me-2"></i> General Questions</a>
+                            </li>
+                            <li class="list-group-item bg-transparent px-0 border-bottom">
+                                <a href="#downloads" class="text-decoration-none text-dark"><i class="bi bi-cloud-arrow-down text-success me-2"></i> Downloads & Printing</a>
+                            </li>
+                            <li class="list-group-item bg-transparent px-0 border-bottom">
+                                <a href="#payments" class="text-decoration-none text-dark"><i class="bi bi-credit-card text-warning me-2"></i> Payments & Refunds</a>
+                            </li>
+                            <li class="list-group-item bg-transparent px-0">
+                                <a href="#licensing" class="text-decoration-none text-dark"><i class="bi bi-shield-check text-danger me-2"></i> Licensing & Usage</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Accordion Content -->
+                <div class="col-lg-8">
+                    
+                    <h3 id="general" class="mb-4">General Questions</h3>
+                    <div class="accordion shadow-sm mb-5" id="faqGeneral">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="genOne">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGenOne" aria-expanded="true" aria-controls="collapseGenOne">
+                                    What age groups are these worksheets for?
+                                </button>
+                            </h2>
+                            <div id="collapseGenOne" class="accordion-collapse collapse show" aria-labelledby="genOne" data-bs-parent="#faqGeneral">
+                                <div class="accordion-body text-muted">
+                                    Our worksheets are primarily designed for children in Preschool, Kindergarten, and Primary grades (typically ages 3 to 8). We also provide specialized bundles for foundational literacy and numeracy.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="genTwo">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGenTwo" aria-expanded="false" aria-controls="collapseGenTwo">
+                                    Are you a subscription service?
+                                </button>
+                            </h2>
+                            <div id="collapseGenTwo" class="accordion-collapse collapse" aria-labelledby="genTwo" data-bs-parent="#faqGeneral">
+                                <div class="accordion-body text-muted">
+                                    No, we are not a subscription. All our bundles and worksheets are available for a one-time purchase. Once you buy them, you have lifetime access.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 id="downloads" class="mb-4">Downloads & Printing</h3>
+                    <div class="accordion shadow-sm mb-5" id="faqDownloads">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="downOne">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDownOne" aria-expanded="false" aria-controls="collapseDownOne">
+                                    How do I download my purchases?
+                                </button>
+                            </h2>
+                            <div id="collapseDownOne" class="accordion-collapse collapse" aria-labelledby="downOne" data-bs-parent="#faqDownloads">
+                                <div class="accordion-body text-muted">
+                                    After purchase, you will instantly be redirected to a download page. Additionally, we will send an email with secure download links for all your PDF files.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="downTwo">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDownTwo" aria-expanded="false" aria-controls="collapseDownTwo">
+                                    What format are the worksheets in?
+                                </button>
+                            </h2>
+                            <div id="collapseDownTwo" class="accordion-collapse collapse" aria-labelledby="downTwo" data-bs-parent="#faqDownloads">
+                                <div class="accordion-body text-muted">
+                                    All worksheets are provided in high-quality PDF format, optimized for standard A4 and US Letter size printing.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         CONTACT SUPPORT CTA
+    ========================== -->
+    <section class="cta-section py-5 bg-light text-center">
         <div class="container">
             <div class="ww-card p-5 rounded shadow-sm border-0 bg-white">
-                <h3 class="mb-3">Need quick answers?</h3>
-                <p class="text-muted mb-4">You might find exactly what you're looking for in our FAQ section.</p>
-                <a href="faq.html" class="btn btn-outline-primary btn-lg">Go to FAQ</a>
+                <h3 class="mb-3">Still have questions?</h3>
+                <p class="text-muted mb-4">Our support team is always here to help you out.</p>
+                <a href="contact.html" class="btn btn-outline-primary btn-lg">Contact Support</a>
             </div>
         </div>
     </section>
@@ -287,6 +312,10 @@
 
     <!-- Bootstrap & Custom JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 900, once: true });
+    </script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

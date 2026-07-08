@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Worksheet Wonder</title>
-    <meta name="description" content="Log in to your Worksheet Wonder account to access your downloads and purchases.">
+    <title>404 Page Not Found | Worksheet Wonder</title>
+    <meta name="description" content="Oops! The page you are looking for does not exist.">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,18 +22,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="bg-light">
+<body>
 
     <!-- =========================
          NAVBAR
     ========================== -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
                 <img src="assets/images/logo.png" alt="Worksheet Wonder Logo" class="navbar-logo">
                 <span class="brand-text ms-2">Worksheet Wonder</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="mainMenu">
@@ -46,7 +46,7 @@
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
-                <a href="login.html" class="btn btn-rainbow ms-lg-3 active" aria-current="page">
+                <a href="login.html" class="btn btn-rainbow ms-lg-3">
                     <i class="bi bi-person-circle"></i> Login
                 </a>
                 <a href="cart.html" class="btn btn-outline-primary ms-2 d-none d-lg-inline-block" aria-label="Cart">
@@ -57,57 +57,40 @@
     </nav>
 
     <!-- =========================
-         LOGIN SECTION
+         BREADCRUMB
     ========================== -->
-    <section class="auth-section py-5 min-vh-100 d-flex align-items-center">
+    <section class="breadcrumb-section py-3 bg-light">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">404 Error</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- =========================
+         404 MAIN CONTENT
+    ========================== -->
+    <section class="error-page py-5 text-center bg-white min-vh-100 d-flex align-items-center">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-5">
+                <div class="col-lg-8">
+                    <!-- Large Illustration -->
+                    <img src="assets/images/404-illustration.png" class="img-fluid mb-4 w-50" alt="404 Illustration" onerror="this.src='assets/images/logo.png'; this.style.width='150px';">
                     
-                    <div class="card border-0 shadow rounded-4 overflow-hidden">
-                        <div class="card-header bg-white border-bottom-0 pt-5 pb-0 text-center">
-                            <h2 class="fw-bold mb-0">Welcome Back!</h2>
-                            <p class="text-muted mt-2">Log in to access your digital downloads</p>
-                        </div>
-                        <div class="card-body p-5">
-                            
-                            <form action="account.html" method="GET">
-                                <div class="mb-4">
-                                    <label for="email" class="form-label fw-bold">Email address</label>
-                                    <div class="input-group">
-                                        <span class="input-group-text bg-white"><i class="bi bi-envelope"></i></span>
-                                        <input type="email" class="form-control border-start-0 ps-0" id="email" placeholder="you@example.com" required>
-                                    </div>
-                                </div>
-                                
-                                <div class="mb-4">
-                                    <div class="d-flex justify-content-between align-items-center mb-1">
-                                        <label for="password" class="form-label fw-bold mb-0">Password</label>
-                                        <a href="#" class="text-decoration-none small">Forgot Password?</a>
-                                    </div>
-                                    <div class="input-group">
-                                        <span class="input-group-text bg-white"><i class="bi bi-lock"></i></span>
-                                        <input type="password" class="form-control border-start-0 ps-0" id="password" placeholder="••••••••" required>
-                                    </div>
-                                </div>
-                                
-                                <div class="mb-4 form-check">
-                                    <input type="checkbox" class="form-check-input" id="remember">
-                                    <label class="form-check-label text-muted" for="remember">Remember me on this device</label>
-                                </div>
-                                
-                                <div class="d-grid mt-4">
-                                    <button type="submit" class="btn btn-rainbow btn-lg">Log In</button>
-                                </div>
-                            </form>
+                    <h1 class="display-1 fw-bold text-primary mb-0">404</h1>
+                    <h2 class="mb-4">Oops! Page Not Found</h2>
+                    <p class="lead text-muted mb-5">
+                        It looks like the page you were looking for doesn't exist, has been moved, or is temporarily unavailable. Let's get you back on track!
+                    </p>
 
-                            <div class="text-center mt-4">
-                                <p class="text-muted mb-0">Don't have an account yet? <a href="register.html" class="fw-bold text-primary text-decoration-none">Register here</a></p>
-                            </div>
-
-                        </div>
+                    <div class="d-flex justify-content-center flex-wrap gap-3">
+                        <a href="index.html" class="btn btn-rainbow btn-lg">Go Home</a>
+                        <a href="worksheets.html" class="btn btn-outline-primary btn-lg">Browse Worksheets</a>
+                        <a href="shop.html" class="btn btn-outline-success btn-lg">Shop Now</a>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -146,10 +129,10 @@
                         resources designed for parents, teachers and homeschoolers.
                     </p>
                     <div class="social-icons">
-                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                        <a href="javascript:void(0)" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="javascript:void(0)" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="javascript:void(0)" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+                        <a href="javascript:void(0)" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-2">
