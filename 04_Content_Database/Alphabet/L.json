@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "L",
+    "uppercase":  "L",
+    "lowercase":  "l",
+    "phonicsSound":  "/l/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Lion",
+                      "Leaf",
+                      "Lamp"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Lion",
+                           "syllables":  1,
+                           "phonics":  "/l/",
+                           "imageId":  "asset-lion",
+                           "outlineImageId":  "asset-lion-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "lion",
+                                            "l",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Lion starts with the letter L.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Leaf",
+                           "syllables":  1,
+                           "phonics":  "/l/",
+                           "imageId":  "asset-leaf",
+                           "outlineImageId":  "asset-leaf-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "leaf",
+                                            "l",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Leaf starts with the letter L.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Lamp",
+                           "syllables":  1,
+                           "phonics":  "/l/",
+                           "imageId":  "asset-lamp",
+                           "outlineImageId":  "asset-lamp-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "lamp",
+                                            "l",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Lamp starts with the letter L.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Lock",
+                           "syllables":  1,
+                           "phonics":  "/l/",
+                           "imageId":  "asset-lock",
+                           "outlineImageId":  "asset-lock-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "lock",
+                                            "l",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Lock starts with the letter L.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Log",
+                           "syllables":  1,
+                           "phonics":  "/l/",
+                           "imageId":  "asset-log",
+                           "outlineImageId":  "asset-log-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "log",
+                                            "l",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Log starts with the letter L.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Lemon",
+                           "syllables":  2,
+                           "phonics":  "/l/",
+                           "imageId":  "asset-lemon",
+                           "outlineImageId":  "asset-lemon-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "lemon",
+                                            "l",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Lemon starts with the letter L.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Lake",
+                           "syllables":  1,
+                           "phonics":  "/l/",
+                           "imageId":  "asset-lake",
+                           "outlineImageId":  "asset-lake-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "lake",
+                                            "l",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Lake starts with the letter L.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Leg",
+                           "syllables":  1,
+                           "phonics":  "/l/",
+                           "imageId":  "asset-leg",
+                           "outlineImageId":  "asset-leg-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "leg",
+                                            "l",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Leg starts with the letter L.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Letter",
+                           "syllables":  2,
+                           "phonics":  "/l/",
+                           "imageId":  "asset-letter",
+                           "outlineImageId":  "asset-letter-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "letter",
+                                            "l",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Letter starts with the letter L.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Lizard",
+                           "syllables":  2,
+                           "phonics":  "/l/",
+                           "imageId":  "asset-lizard",
+                           "outlineImageId":  "asset-lizard-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "lizard",
+                                            "l",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Lizard starts with the letter L.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Ladder",
+                            "syllables":  2,
+                            "phonics":  "/l/",
+                            "imageId":  "asset-ladder",
+                            "outlineImageId":  "asset-ladder-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "ladder",
+                                             "l",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Ladder starts with the letter L.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Ladybug",
+                            "syllables":  2,
+                            "phonics":  "/l/",
+                            "imageId":  "asset-ladybug",
+                            "outlineImageId":  "asset-ladybug-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "ladybug",
+                                             "l",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Ladybug starts with the letter L.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Lamb",
+                            "syllables":  1,
+                            "phonics":  "/l/",
+                            "imageId":  "asset-lamb",
+                            "outlineImageId":  "asset-lamb-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "lamb",
+                                             "l",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Lamb starts with the letter L.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Laptop",
+                            "syllables":  2,
+                            "phonics":  "/l/",
+                            "imageId":  "asset-laptop",
+                            "outlineImageId":  "asset-laptop-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "laptop",
+                                             "l",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Laptop starts with the letter L.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Lasso",
+                            "syllables":  2,
+                            "phonics":  "/l/",
+                            "imageId":  "asset-lasso",
+                            "outlineImageId":  "asset-lasso-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "lasso",
+                                             "l",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Lasso starts with the letter L.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "L",
+                       "l",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /l/ sound when introducing L.",
+    "parentTips":  "Look for objects starting with L around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /l/ sound in spoken words."
+}

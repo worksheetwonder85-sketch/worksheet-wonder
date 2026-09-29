@@ -1,0 +1,26 @@
+:root {
+  --color-ink: #2C3E50;
+  --color-brand: #FF7043;
+  --color-grade-bg: #FFE082;
+  --color-page-bg: #FFFDF9;
+  --color-scaffold-bg: #FFFDE7;
+  --color-panel-bg: #ffffff;
+  --color-funfact-bg: #E0F2F1;
+  --color-notes-bg: #fafafa;
+  --color-text-muted: #7F8C8D;
+  --color-text-darker-muted: #555555;
+  --color-funfact-title: #00796B;
+  --color-dashed-line: #BDC3C7;
+  --color-white: #ffffff;
+  
+  --font-primary: 'Fredoka', sans-serif;
+  --font-secondary: 'Nunito', sans-serif;
+  
+  --border-radius-panel: 16px;
+  --border-radius-badge: 6px;
+  --border-radius-funfact: 12px;
+  --border-radius-notes: 10px;
+  
+  --shadow-panel: 4px 4px 0px var(--color-ink);
+  --shadow-badge: 2px 2px 0px var(--color-ink);
+}

@@ -1,0 +1,294 @@
+{
+    "letter":  "B",
+    "uppercase":  "B",
+    "lowercase":  "b",
+    "phonicsSound":  "/b/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Bear",
+                      "Ball",
+                      "Butterfly"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Bear",
+                           "syllables":  1,
+                           "phonics":  "/b/",
+                           "imageId":  "asset-bear",
+                           "outlineImageId":  "asset-bear-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "bear",
+                                            "b",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Bear starts with the letter B.",
+                           "emoji":  "✨"
+                       },
+                       {
+                           "word":  "Ball",
+                           "syllables":  1,
+                           "phonics":  "/b/",
+                           "imageId":  "asset-ball",
+                           "outlineImageId":  "asset-ball-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "ball",
+                                            "b",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ball starts with the letter B.",
+                           "emoji":  "✨"
+                       },
+                       {
+                           "word":  "Butterfly",
+                           "syllables":  2,
+                           "phonics":  "/b/",
+                           "imageId":  "asset-butterfly",
+                           "outlineImageId":  "asset-butterfly-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "butterfly",
+                                            "b",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Butterfly starts with the letter B.",
+                           "emoji":  "✨"
+                       },
+                       {
+                           "word":  "Boat",
+                           "syllables":  1,
+                           "phonics":  "/b/",
+                           "imageId":  "asset-boat",
+                           "outlineImageId":  "asset-boat-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "boat",
+                                            "b",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Boat starts with the letter B.",
+                           "emoji":  "✨"
+                       },
+                       {
+                           "word":  "Book",
+                           "syllables":  1,
+                           "phonics":  "/b/",
+                           "imageId":  "asset-book",
+                           "outlineImageId":  "asset-book-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "book",
+                                            "b",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Book starts with the letter B.",
+                           "emoji":  "✨"
+                       },
+                       {
+                           "word":  "Bell",
+                           "syllables":  1,
+                           "phonics":  "/b/",
+                           "imageId":  "asset-bell",
+                           "outlineImageId":  "asset-bell-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "bell",
+                                            "b",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Bell starts with the letter B.",
+                           "emoji":  "✨"
+                       },
+                       {
+                           "word":  "Bus",
+                           "syllables":  1,
+                           "phonics":  "/b/",
+                           "imageId":  "asset-bus",
+                           "outlineImageId":  "asset-bus-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "bus",
+                                            "b",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Bus starts with the letter B.",
+                           "emoji":  "✨"
+                       },
+                       {
+                           "word":  "Banana",
+                           "syllables":  2,
+                           "phonics":  "/b/",
+                           "imageId":  "asset-banana",
+                           "outlineImageId":  "asset-banana-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "banana",
+                                            "b",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Banana starts with the letter B.",
+                           "emoji":  "✨"
+                       },
+                       {
+                           "word":  "Bee",
+                           "syllables":  1,
+                           "phonics":  "/b/",
+                           "imageId":  "asset-bee",
+                           "outlineImageId":  "asset-bee-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "bee",
+                                            "b",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Bee starts with the letter B.",
+                           "emoji":  "✨"
+                       },
+                       {
+                           "word":  "Bird",
+                           "syllables":  1,
+                           "phonics":  "/b/",
+                           "imageId":  "asset-bird",
+                           "outlineImageId":  "asset-bird-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "bird",
+                                            "b",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Bird starts with the letter B.",
+                           "emoji":  "✨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Balloon",
+                            "syllables":  2,
+                            "phonics":  "/b/",
+                            "imageId":  "asset-balloon",
+                            "outlineImageId":  "asset-balloon-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "balloon",
+                                             "b",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Balloon starts with the letter B.",
+                            "emoji":  "✨"
+                        },
+                        {
+                            "word":  "Bat",
+                            "syllables":  1,
+                            "phonics":  "/b/",
+                            "imageId":  "asset-bat",
+                            "outlineImageId":  "asset-bat-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "bat",
+                                             "b",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Bat starts with the letter B.",
+                            "emoji":  "✨"
+                        },
+                        {
+                            "word":  "Bed",
+                            "syllables":  1,
+                            "phonics":  "/b/",
+                            "imageId":  "asset-bed",
+                            "outlineImageId":  "asset-bed-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "bed",
+                                             "b",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Bed starts with the letter B.",
+                            "emoji":  "✨"
+                        },
+                        {
+                            "word":  "Button",
+                            "syllables":  2,
+                            "phonics":  "/b/",
+                            "imageId":  "asset-button",
+                            "outlineImageId":  "asset-button-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "button",
+                                             "b",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Button starts with the letter B.",
+                            "emoji":  "✨"
+                        },
+                        {
+                            "word":  "Barn",
+                            "syllables":  1,
+                            "phonics":  "/b/",
+                            "imageId":  "asset-barn",
+                            "outlineImageId":  "asset-barn-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "barn",
+                                             "b",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Barn starts with the letter B.",
+                            "emoji":  "✨"
+                        }
+                    ],
+    "searchTags":  [
+                       "B",
+                       "b",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /b/ sound when introducing B.",
+    "parentTips":  "Look for objects starting with B around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /b/ sound in spoken words.",
+    "tracingRows":  [
+                        {
+                            "lowercase":  "b",
+                            "type":  "trace",
+                            "uppercase":  "B"
+                        },
+                        {
+                            "lowercase":  "b",
+                            "type":  "trace",
+                            "uppercase":  "B"
+                        }
+                    ]
+}

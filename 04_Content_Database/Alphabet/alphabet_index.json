@@ -1,0 +1,132 @@
+﻿[
+    {
+        "letter":  "A",
+        "file":  "A.json",
+        "phonics":  "/a/"
+    },
+    {
+        "letter":  "B",
+        "file":  "B.json",
+        "phonics":  "/b/"
+    },
+    {
+        "letter":  "C",
+        "file":  "C.json",
+        "phonics":  "/k/"
+    },
+    {
+        "letter":  "D",
+        "file":  "D.json",
+        "phonics":  "/d/"
+    },
+    {
+        "letter":  "E",
+        "file":  "E.json",
+        "phonics":  "/e/"
+    },
+    {
+        "letter":  "F",
+        "file":  "F.json",
+        "phonics":  "/f/"
+    },
+    {
+        "letter":  "G",
+        "file":  "G.json",
+        "phonics":  "/g/"
+    },
+    {
+        "letter":  "H",
+        "file":  "H.json",
+        "phonics":  "/h/"
+    },
+    {
+        "letter":  "I",
+        "file":  "I.json",
+        "phonics":  "/i/"
+    },
+    {
+        "letter":  "J",
+        "file":  "J.json",
+        "phonics":  "/j/"
+    },
+    {
+        "letter":  "K",
+        "file":  "K.json",
+        "phonics":  "/k/"
+    },
+    {
+        "letter":  "L",
+        "file":  "L.json",
+        "phonics":  "/l/"
+    },
+    {
+        "letter":  "M",
+        "file":  "M.json",
+        "phonics":  "/m/"
+    },
+    {
+        "letter":  "N",
+        "file":  "N.json",
+        "phonics":  "/n/"
+    },
+    {
+        "letter":  "O",
+        "file":  "O.json",
+        "phonics":  "/o/"
+    },
+    {
+        "letter":  "P",
+        "file":  "P.json",
+        "phonics":  "/p/"
+    },
+    {
+        "letter":  "Q",
+        "file":  "Q.json",
+        "phonics":  "/kw/"
+    },
+    {
+        "letter":  "R",
+        "file":  "R.json",
+        "phonics":  "/r/"
+    },
+    {
+        "letter":  "S",
+        "file":  "S.json",
+        "phonics":  "/s/"
+    },
+    {
+        "letter":  "T",
+        "file":  "T.json",
+        "phonics":  "/t/"
+    },
+    {
+        "letter":  "U",
+        "file":  "U.json",
+        "phonics":  "/u/"
+    },
+    {
+        "letter":  "V",
+        "file":  "V.json",
+        "phonics":  "/v/"
+    },
+    {
+        "letter":  "W",
+        "file":  "W.json",
+        "phonics":  "/w/"
+    },
+    {
+        "letter":  "X",
+        "file":  "X.json",
+        "phonics":  "/ks/"
+    },
+    {
+        "letter":  "Y",
+        "file":  "Y.json",
+        "phonics":  "/y/"
+    },
+    {
+        "letter":  "Z",
+        "file":  "Z.json",
+        "phonics":  "/z/"
+    }
+]

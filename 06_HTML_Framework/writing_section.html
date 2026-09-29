@@ -1,0 +1,21 @@
+<!-- 
+  COMPONENT: Independent Writing (Recall)
+  PURPOSE: Blank handwriting lines testing independent fine motor recall.
+  MODULARITY: Loops over {{WRITING_ROWS_COUNT}} from JSON to generate N empty rows.
+-->
+<section class="independent-writing panel col-12">
+  <div class="hw-container">
+    <!-- Loop through empty rows defined by JSON -->
+    {{#each BLANK_ROWS}}
+    <div class="hw-row">
+      <!-- Immutable structural guides -->
+      <div class="hw-line-top"></div>
+      <div class="hw-line-mid"></div>
+      <div class="hw-line-base"></div>
+      
+      <!-- Starting dot to assist with stroke origin -->
+      <div class="hw-start-dot" style="top: 25%; left: 5%;"></div>
+    </div>
+    {{/each}}
+  </div>
+</section>

@@ -1,0 +1,27 @@
+<!-- 
+  COMPONENT: Guided Tracing (Fine Motor)
+  PURPOSE: Multi-row practice with highly scaffolded dotted guides.
+  MODULARITY: Loops over an array of {{TRACING_ROWS}} provided by JSON.
+              Can render letters, numbers, or CVC words depending on the payload.
+-->
+<section class="guided-trace panel scaffold col-12">
+  <div class="hw-container">
+    <!-- Loop through each tracing row defined in the JSON payload -->
+    {{#each TRACING_ROWS}}
+    <div class="hw-row">
+      <!-- Immutable 3-line structural guides -->
+      <div class="hw-line-top"></div>
+      <div class="hw-line-mid"></div>
+      <div class="hw-line-base"></div>
+      
+      <!-- The dotted tracing payload -->
+      <div class="hw-content">
+        <span class="t-tracing" style="opacity: 0.3;">{{this.uppercase}}</span>
+        <span class="t-tracing" style="opacity: 0.3;">{{this.lowercase}}</span>
+        <span class="t-tracing" style="opacity: 0.3;">{{this.uppercase}}</span>
+        <span class="t-tracing" style="opacity: 0.3;">{{this.lowercase}}</span>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</section>

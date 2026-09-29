@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "I",
+    "uppercase":  "I",
+    "lowercase":  "i",
+    "phonicsSound":  "/i/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Ice",
+                      "Igloo",
+                      "Island"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Ice",
+                           "syllables":  1,
+                           "phonics":  "/i/",
+                           "imageId":  "asset-ice",
+                           "outlineImageId":  "asset-ice-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "ice",
+                                            "i",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ice starts with the letter I.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Igloo",
+                           "syllables":  2,
+                           "phonics":  "/i/",
+                           "imageId":  "asset-igloo",
+                           "outlineImageId":  "asset-igloo-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "igloo",
+                                            "i",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Igloo starts with the letter I.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Island",
+                           "syllables":  2,
+                           "phonics":  "/i/",
+                           "imageId":  "asset-island",
+                           "outlineImageId":  "asset-island-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "island",
+                                            "i",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Island starts with the letter I.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Iron",
+                           "syllables":  1,
+                           "phonics":  "/i/",
+                           "imageId":  "asset-iron",
+                           "outlineImageId":  "asset-iron-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "iron",
+                                            "i",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Iron starts with the letter I.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Insect",
+                           "syllables":  2,
+                           "phonics":  "/i/",
+                           "imageId":  "asset-insect",
+                           "outlineImageId":  "asset-insect-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "insect",
+                                            "i",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Insect starts with the letter I.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Idea",
+                           "syllables":  1,
+                           "phonics":  "/i/",
+                           "imageId":  "asset-idea",
+                           "outlineImageId":  "asset-idea-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "idea",
+                                            "i",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Idea starts with the letter I.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Iguana",
+                           "syllables":  2,
+                           "phonics":  "/i/",
+                           "imageId":  "asset-iguana",
+                           "outlineImageId":  "asset-iguana-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "iguana",
+                                            "i",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Iguana starts with the letter I.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Ink",
+                           "syllables":  1,
+                           "phonics":  "/i/",
+                           "imageId":  "asset-ink",
+                           "outlineImageId":  "asset-ink-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "ink",
+                                            "i",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ink starts with the letter I.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Iris",
+                           "syllables":  1,
+                           "phonics":  "/i/",
+                           "imageId":  "asset-iris",
+                           "outlineImageId":  "asset-iris-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "iris",
+                                            "i",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Iris starts with the letter I.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Item",
+                           "syllables":  1,
+                           "phonics":  "/i/",
+                           "imageId":  "asset-item",
+                           "outlineImageId":  "asset-item-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "item",
+                                            "i",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Item starts with the letter I.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Ivy",
+                            "syllables":  1,
+                            "phonics":  "/i/",
+                            "imageId":  "asset-ivy",
+                            "outlineImageId":  "asset-ivy-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "ivy",
+                                             "i",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Ivy starts with the letter I.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Iceberg",
+                            "syllables":  2,
+                            "phonics":  "/i/",
+                            "imageId":  "asset-iceberg",
+                            "outlineImageId":  "asset-iceberg-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "iceberg",
+                                             "i",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Iceberg starts with the letter I.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Icon",
+                            "syllables":  1,
+                            "phonics":  "/i/",
+                            "imageId":  "asset-icon",
+                            "outlineImageId":  "asset-icon-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "icon",
+                                             "i",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Icon starts with the letter I.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Idol",
+                            "syllables":  1,
+                            "phonics":  "/i/",
+                            "imageId":  "asset-idol",
+                            "outlineImageId":  "asset-idol-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "idol",
+                                             "i",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Idol starts with the letter I.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Illusion",
+                            "syllables":  2,
+                            "phonics":  "/i/",
+                            "imageId":  "asset-illusion",
+                            "outlineImageId":  "asset-illusion-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "illusion",
+                                             "i",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Illusion starts with the letter I.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "I",
+                       "i",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /i/ sound when introducing I.",
+    "parentTips":  "Look for objects starting with I around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /i/ sound in spoken words."
+}

@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "J",
+    "uppercase":  "J",
+    "lowercase":  "j",
+    "phonicsSound":  "/j/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Jug",
+                      "Jam",
+                      "Jet"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Jug",
+                           "syllables":  1,
+                           "phonics":  "/j/",
+                           "imageId":  "asset-jug",
+                           "outlineImageId":  "asset-jug-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "jug",
+                                            "j",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Jug starts with the letter J.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Jam",
+                           "syllables":  1,
+                           "phonics":  "/j/",
+                           "imageId":  "asset-jam",
+                           "outlineImageId":  "asset-jam-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "jam",
+                                            "j",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Jam starts with the letter J.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Jet",
+                           "syllables":  1,
+                           "phonics":  "/j/",
+                           "imageId":  "asset-jet",
+                           "outlineImageId":  "asset-jet-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "jet",
+                                            "j",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Jet starts with the letter J.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Jelly",
+                           "syllables":  2,
+                           "phonics":  "/j/",
+                           "imageId":  "asset-jelly",
+                           "outlineImageId":  "asset-jelly-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "jelly",
+                                            "j",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Jelly starts with the letter J.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Juice",
+                           "syllables":  2,
+                           "phonics":  "/j/",
+                           "imageId":  "asset-juice",
+                           "outlineImageId":  "asset-juice-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "juice",
+                                            "j",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Juice starts with the letter J.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Jacket",
+                           "syllables":  2,
+                           "phonics":  "/j/",
+                           "imageId":  "asset-jacket",
+                           "outlineImageId":  "asset-jacket-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "jacket",
+                                            "j",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Jacket starts with the letter J.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Jeep",
+                           "syllables":  1,
+                           "phonics":  "/j/",
+                           "imageId":  "asset-jeep",
+                           "outlineImageId":  "asset-jeep-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "jeep",
+                                            "j",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Jeep starts with the letter J.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Jewel",
+                           "syllables":  2,
+                           "phonics":  "/j/",
+                           "imageId":  "asset-jewel",
+                           "outlineImageId":  "asset-jewel-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "jewel",
+                                            "j",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Jewel starts with the letter J.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Jungle",
+                           "syllables":  2,
+                           "phonics":  "/j/",
+                           "imageId":  "asset-jungle",
+                           "outlineImageId":  "asset-jungle-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "jungle",
+                                            "j",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Jungle starts with the letter J.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Jump",
+                           "syllables":  1,
+                           "phonics":  "/j/",
+                           "imageId":  "asset-jump",
+                           "outlineImageId":  "asset-jump-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "jump",
+                                            "j",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Jump starts with the letter J.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Jigsaw",
+                            "syllables":  2,
+                            "phonics":  "/j/",
+                            "imageId":  "asset-jigsaw",
+                            "outlineImageId":  "asset-jigsaw-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "jigsaw",
+                                             "j",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Jigsaw starts with the letter J.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Jester",
+                            "syllables":  2,
+                            "phonics":  "/j/",
+                            "imageId":  "asset-jester",
+                            "outlineImageId":  "asset-jester-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "jester",
+                                             "j",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Jester starts with the letter J.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Judge",
+                            "syllables":  2,
+                            "phonics":  "/j/",
+                            "imageId":  "asset-judge",
+                            "outlineImageId":  "asset-judge-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "judge",
+                                             "j",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Judge starts with the letter J.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Jar",
+                            "syllables":  1,
+                            "phonics":  "/j/",
+                            "imageId":  "asset-jar",
+                            "outlineImageId":  "asset-jar-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "jar",
+                                             "j",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Jar starts with the letter J.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Joker",
+                            "syllables":  2,
+                            "phonics":  "/j/",
+                            "imageId":  "asset-joker",
+                            "outlineImageId":  "asset-joker-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "joker",
+                                             "j",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Joker starts with the letter J.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "J",
+                       "j",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /j/ sound when introducing J.",
+    "parentTips":  "Look for objects starting with J around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /j/ sound in spoken words."
+}

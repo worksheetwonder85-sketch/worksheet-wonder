@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worksheet Wonder — {{TITLE}}</title>
+  
+  <!-- CSS Engine (Generated via Gold Master Specifications) -->
+  <link rel="stylesheet" href="master_variables.css">
+  <link rel="stylesheet" href="master_layout.css">
+  <link rel="stylesheet" href="master_components.css">
+  <link rel="stylesheet" href="master_styles.css">
+  <link rel="stylesheet" href="master_print.css" media="print">
+</head>
+<body>
+
+  <!-- 
+    The Page Wrapper is immutable and strictly enforces the A4 Grid.
+    It acts as the root container for PDF generation.
+  -->
+  <div class="page-wrapper">
+    
+    <!-- 01. HEADER COMPONENT -->
+    {{> header}}
+
+    <!-- 02. MAIN GRID CONTAINER (Strict 2-Column Math) -->
+    <main class="main-grid">
+
+      <!-- ZONE A: LOOK (Gross Motor & Hero Context) -->
+      {{> hero_letter}}
+      {{> finger_trace}}
+
+      <!-- ZONE B: SAY (Context & Vocabulary) -->
+      {{> vocabulary}}
+
+      <!-- ZONE C: TRACE (Fine Motor Scaffolding) -->
+      {{> tracing_section}}
+
+      <!-- ZONE D: WRITE (Fine Motor Recall) -->
+      {{> writing_section}}
+
+      <!-- ZONE E: COLOUR & SUCCEED (Decompression & Support) -->
+      {{> colouring_section}}
+
+    </main>
+
+    <!-- 03. FOOTER COMPONENT -->
+    {{> footer}}
+
+  </div>
+
+</body>
+</html>

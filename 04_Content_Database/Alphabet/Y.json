@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "Y",
+    "uppercase":  "Y",
+    "lowercase":  "y",
+    "phonicsSound":  "/y/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Yak",
+                      "Yarn",
+                      "Yoyo"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Yak",
+                           "syllables":  1,
+                           "phonics":  "/y/",
+                           "imageId":  "asset-yak",
+                           "outlineImageId":  "asset-yak-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "yak",
+                                            "y",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Yak starts with the letter Y.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Yarn",
+                           "syllables":  1,
+                           "phonics":  "/y/",
+                           "imageId":  "asset-yarn",
+                           "outlineImageId":  "asset-yarn-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "yarn",
+                                            "y",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Yarn starts with the letter Y.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Yoyo",
+                           "syllables":  1,
+                           "phonics":  "/y/",
+                           "imageId":  "asset-yoyo",
+                           "outlineImageId":  "asset-yoyo-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "yoyo",
+                                            "y",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Yoyo starts with the letter Y.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Yacht",
+                           "syllables":  2,
+                           "phonics":  "/y/",
+                           "imageId":  "asset-yacht",
+                           "outlineImageId":  "asset-yacht-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "yacht",
+                                            "y",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Yacht starts with the letter Y.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Yard",
+                           "syllables":  1,
+                           "phonics":  "/y/",
+                           "imageId":  "asset-yard",
+                           "outlineImageId":  "asset-yard-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "yard",
+                                            "y",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Yard starts with the letter Y.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Yellow",
+                           "syllables":  2,
+                           "phonics":  "/y/",
+                           "imageId":  "asset-yellow",
+                           "outlineImageId":  "asset-yellow-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "yellow",
+                                            "y",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Yellow starts with the letter Y.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Yoga",
+                           "syllables":  1,
+                           "phonics":  "/y/",
+                           "imageId":  "asset-yoga",
+                           "outlineImageId":  "asset-yoga-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "yoga",
+                                            "y",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Yoga starts with the letter Y.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Yogurt",
+                           "syllables":  2,
+                           "phonics":  "/y/",
+                           "imageId":  "asset-yogurt",
+                           "outlineImageId":  "asset-yogurt-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "yogurt",
+                                            "y",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Yogurt starts with the letter Y.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Yolk",
+                           "syllables":  1,
+                           "phonics":  "/y/",
+                           "imageId":  "asset-yolk",
+                           "outlineImageId":  "asset-yolk-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "yolk",
+                                            "y",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Yolk starts with the letter Y.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Youth",
+                           "syllables":  2,
+                           "phonics":  "/y/",
+                           "imageId":  "asset-youth",
+                           "outlineImageId":  "asset-youth-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "youth",
+                                            "y",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Youth starts with the letter Y.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Yawn",
+                            "syllables":  1,
+                            "phonics":  "/y/",
+                            "imageId":  "asset-yawn",
+                            "outlineImageId":  "asset-yawn-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "yawn",
+                                             "y",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Yawn starts with the letter Y.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Year",
+                            "syllables":  1,
+                            "phonics":  "/y/",
+                            "imageId":  "asset-year",
+                            "outlineImageId":  "asset-year-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "year",
+                                             "y",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Year starts with the letter Y.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Yeast",
+                            "syllables":  2,
+                            "phonics":  "/y/",
+                            "imageId":  "asset-yeast",
+                            "outlineImageId":  "asset-yeast-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "yeast",
+                                             "y",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Yeast starts with the letter Y.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Yell",
+                            "syllables":  1,
+                            "phonics":  "/y/",
+                            "imageId":  "asset-yell",
+                            "outlineImageId":  "asset-yell-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "yell",
+                                             "y",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Yell starts with the letter Y.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Yield",
+                            "syllables":  2,
+                            "phonics":  "/y/",
+                            "imageId":  "asset-yield",
+                            "outlineImageId":  "asset-yield-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "yield",
+                                             "y",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Yield starts with the letter Y.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "Y",
+                       "y",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /y/ sound when introducing Y.",
+    "parentTips":  "Look for objects starting with Y around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /y/ sound in spoken words."
+}

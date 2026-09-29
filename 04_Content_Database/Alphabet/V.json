@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "V",
+    "uppercase":  "V",
+    "lowercase":  "v",
+    "phonicsSound":  "/v/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Van",
+                      "Vase",
+                      "Violin"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Van",
+                           "syllables":  1,
+                           "phonics":  "/v/",
+                           "imageId":  "asset-van",
+                           "outlineImageId":  "asset-van-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "van",
+                                            "v",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Van starts with the letter V.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Vase",
+                           "syllables":  1,
+                           "phonics":  "/v/",
+                           "imageId":  "asset-vase",
+                           "outlineImageId":  "asset-vase-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "vase",
+                                            "v",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Vase starts with the letter V.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Violin",
+                           "syllables":  2,
+                           "phonics":  "/v/",
+                           "imageId":  "asset-violin",
+                           "outlineImageId":  "asset-violin-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "violin",
+                                            "v",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Violin starts with the letter V.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Volcano",
+                           "syllables":  2,
+                           "phonics":  "/v/",
+                           "imageId":  "asset-volcano",
+                           "outlineImageId":  "asset-volcano-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "volcano",
+                                            "v",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Volcano starts with the letter V.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Vine",
+                           "syllables":  1,
+                           "phonics":  "/v/",
+                           "imageId":  "asset-vine",
+                           "outlineImageId":  "asset-vine-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "vine",
+                                            "v",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Vine starts with the letter V.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Vest",
+                           "syllables":  1,
+                           "phonics":  "/v/",
+                           "imageId":  "asset-vest",
+                           "outlineImageId":  "asset-vest-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "vest",
+                                            "v",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Vest starts with the letter V.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Vet",
+                           "syllables":  1,
+                           "phonics":  "/v/",
+                           "imageId":  "asset-vet",
+                           "outlineImageId":  "asset-vet-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "vet",
+                                            "v",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Vet starts with the letter V.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Video",
+                           "syllables":  2,
+                           "phonics":  "/v/",
+                           "imageId":  "asset-video",
+                           "outlineImageId":  "asset-video-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "video",
+                                            "v",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Video starts with the letter V.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Village",
+                           "syllables":  2,
+                           "phonics":  "/v/",
+                           "imageId":  "asset-village",
+                           "outlineImageId":  "asset-village-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "village",
+                                            "v",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Village starts with the letter V.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Voice",
+                           "syllables":  2,
+                           "phonics":  "/v/",
+                           "imageId":  "asset-voice",
+                           "outlineImageId":  "asset-voice-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "voice",
+                                            "v",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Voice starts with the letter V.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Vote",
+                            "syllables":  1,
+                            "phonics":  "/v/",
+                            "imageId":  "asset-vote",
+                            "outlineImageId":  "asset-vote-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "vote",
+                                             "v",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Vote starts with the letter V.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Vulture",
+                            "syllables":  2,
+                            "phonics":  "/v/",
+                            "imageId":  "asset-vulture",
+                            "outlineImageId":  "asset-vulture-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "vulture",
+                                             "v",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Vulture starts with the letter V.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Vacuum",
+                            "syllables":  2,
+                            "phonics":  "/v/",
+                            "imageId":  "asset-vacuum",
+                            "outlineImageId":  "asset-vacuum-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "vacuum",
+                                             "v",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Vacuum starts with the letter V.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Valley",
+                            "syllables":  2,
+                            "phonics":  "/v/",
+                            "imageId":  "asset-valley",
+                            "outlineImageId":  "asset-valley-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "valley",
+                                             "v",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Valley starts with the letter V.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Value",
+                            "syllables":  2,
+                            "phonics":  "/v/",
+                            "imageId":  "asset-value",
+                            "outlineImageId":  "asset-value-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "value",
+                                             "v",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Value starts with the letter V.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "V",
+                       "v",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /v/ sound when introducing V.",
+    "parentTips":  "Look for objects starting with V around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /v/ sound in spoken words."
+}

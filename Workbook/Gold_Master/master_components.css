@@ -1,0 +1,118 @@
+/* UI COMPONENTS & HANDWRITING ENGINE */
+
+/* Panels */
+.panel {
+  border: var(--border-width) solid var(--color-ink);
+  border-radius: var(--border-radius-large);
+  background-color: var(--color-panel-bg);
+  box-shadow: var(--shadow-offset) var(--shadow-offset) 0px var(--shadow-color);
+  padding: 4mm;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel.scaffold {
+  background-color: var(--color-scaffold-bg);
+}
+
+.panel.coloring-box {
+  border: 3px dashed var(--color-ink);
+  background-color: transparent;
+  box-shadow: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Write-in lines (Header) */
+.header-field {
+  display: flex;
+  align-items: flex-end;
+  gap: 2mm;
+}
+
+.header-line {
+  border-bottom: 1.5px dashed var(--color-dashed-line);
+  width: 25mm;
+  height: 5mm;
+}
+.header-line.long {
+  width: 45mm;
+}
+
+/* Section Headings */
+.section-heading {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-heading);
+  font-weight: 700;
+  color: var(--color-ink);
+  margin: 0 0 2mm 0;
+  display: flex;
+  align-items: center;
+  gap: 2mm;
+}
+
+/* HANDWRITING SYSTEM (3-Line Grid) */
+.handwriting-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--handwriting-row-gap);
+  width: 100%;
+}
+
+.hw-row {
+  position: relative;
+  height: var(--handwriting-row-height);
+  width: 100%;
+}
+
+/* The physical guidelines */
+.hw-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top: 1.5px solid var(--color-solid-line);
+}
+
+.hw-mid {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-top: 1.5px dashed var(--color-dashed-line);
+}
+
+.hw-base {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2.5px solid var(--color-baseline);
+}
+
+/* Dotted Tracing Content */
+.hw-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; /* Align letters to baseline */
+  padding: 0 5mm;
+  font-family: var(--font-secondary);
+  font-size: 32pt;
+  color: var(--color-solid-line);
+  letter-spacing: 5mm;
+  line-height: 1;
+}
+
+/* Start Dots for Stroke Order */
+.start-dot {
+  width: 4px;
+  height: 4px;
+  background-color: var(--color-accent-alt);
+  border-radius: 50%;
+  position: absolute;
+}

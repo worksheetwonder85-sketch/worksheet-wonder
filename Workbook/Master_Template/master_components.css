@@ -1,0 +1,387 @@
+/* ==========================================================================
+   WORKSHEET WONDER - MASTER COMPONENTS
+   Reusable UI Components & Structural Layout Elements
+   ========================================================================== */
+
+/* ── Page Layout & Outer Frame ── */
+.page {
+  position: relative;
+  width: var(--page-width);
+  height: var(--page-height);
+  padding: var(--page-margin-top) var(--page-margin-right) var(--page-margin-bottom) var(--page-margin-left);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.page-frame {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: var(--page-width);
+  height: var(--page-height);
+  pointer-events: none;
+  z-index: 50;
+}
+
+/* ── Header Component ── */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2.5mm;
+  border-bottom: 2.5px solid var(--theme-color-primary);
+  margin-bottom: 2mm;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 2.5mm;
+}
+
+.brand-name {
+  font-family: var(--font-family-heading);
+  font-size: 15pt;
+  font-weight: 700;
+  color: var(--theme-color-primary);
+}
+
+.tags {
+  display: flex;
+  gap: 2mm;
+}
+
+.tag {
+  font-family: var(--font-family-heading);
+  font-size: 7.5pt;
+  font-weight: 600;
+  border: 1.8px solid var(--theme-color-primary);
+  border-radius: var(--radius-badge);
+  padding: 1px 10px;
+  background: var(--theme-color-light);
+  color: var(--theme-color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* ── Name & Date Box Component ── */
+.info-row {
+  display: flex;
+  gap: 5mm;
+  margin-bottom: 3mm;
+}
+
+.info-field {
+  display: flex;
+  align-items: flex-end;
+  font-family: var(--font-family-heading);
+  font-size: 10.5pt;
+  font-weight: 600;
+  color: var(--theme-color-text);
+  flex-grow: 1;
+}
+
+.info-field.name { 
+  flex-grow: 2.4; 
+}
+
+.field-label { 
+  margin-right: 2mm; 
+  white-space: nowrap; 
+}
+
+.field-line {
+  flex-grow: 1;
+  height: 5.5mm;
+  border-bottom: 2px solid var(--theme-color-dash);
+  position: relative;
+}
+
+.field-line::before {
+  content: '';
+  position: absolute;
+  bottom: 2.5mm;
+  left: 0; 
+  right: 0;
+  border-bottom: 1.2px dashed var(--theme-color-dash-light);
+}
+
+/* ── Title Block Component ── */
+.title-area {
+  text-align: center;
+  margin-bottom: 3mm;
+}
+
+.main-title {
+  font-family: var(--font-family-heading);
+  font-size: 24pt;
+  font-weight: 800;
+  color: var(--theme-color-secondary);
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-family: var(--font-family-body);
+  font-size: 9.5pt;
+  font-weight: 600;
+  color: var(--theme-color-text-muted);
+  margin-top: 0.5mm;
+}
+
+/* ── Hero Letter & Focal Display Component ── */
+.hero-letter-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6mm;
+  background: var(--theme-color-light);
+  border: 2px solid var(--theme-color-border);
+  border-radius: var(--radius-section-card);
+  padding: 2.5mm 4mm;
+  margin-bottom: 3mm;
+}
+
+.hero-letter-display {
+  font-family: var(--font-family-heading);
+  font-size: 36pt;
+  font-weight: 800;
+  color: var(--theme-color-secondary);
+  line-height: 1;
+}
+
+.hero-tagline {
+  font-family: var(--font-family-body);
+  font-size: 11pt;
+  font-weight: 700;
+  color: var(--theme-color-text);
+}
+
+/* ── Section Card Container ── */
+.section {
+  border: 2px solid var(--theme-color-border);
+  border-radius: var(--radius-section-card);
+  padding: 3mm 4mm;
+  margin-bottom: 3mm;
+  background: var(--theme-color-subtle);
+  position: relative;
+}
+
+.section-header {
+  font-family: var(--font-family-heading);
+  font-size: 11.5pt;
+  font-weight: 700;
+  color: var(--theme-color-secondary);
+  border-bottom: 1.8px solid var(--theme-color-border);
+  padding-bottom: 1.5mm;
+  margin-bottom: 2.5mm;
+  display: flex;
+  align-items: center;
+  gap: 2mm;
+}
+
+.section-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.5mm;
+  height: 6.5mm;
+  background: var(--theme-color-primary);
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 8.5pt;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* ── Hero Illustration Area Component ── */
+.illustrations-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 2mm 0 1mm;
+}
+
+.illust-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5mm;
+}
+
+.illust-label {
+  font-family: var(--font-family-heading);
+  font-size: 11pt;
+  font-weight: 700;
+  color: var(--theme-color-text);
+}
+
+.illust-letter {
+  font-family: var(--font-family-heading);
+  font-size: 8pt;
+  font-weight: 600;
+  color: var(--theme-color-primary);
+}
+
+/* ── Vocabulary Section Component ── */
+.vocab-section {
+  text-align: center;
+  padding: 2mm 0;
+}
+
+.vocab-heading {
+  font-family: var(--font-family-heading);
+  font-size: 16pt;
+  font-weight: 800;
+  color: var(--theme-color-secondary);
+  margin-bottom: 1.5mm;
+}
+
+.vocab-words {
+  display: flex;
+  justify-content: center;
+  gap: 12mm;
+}
+
+.vocab-word {
+  font-family: var(--font-family-heading);
+  font-size: 14pt;
+  font-weight: 700;
+  color: var(--theme-color-text);
+  position: relative;
+}
+
+.vocab-word .highlight {
+  color: var(--theme-color-primary);
+  font-size: 15pt;
+}
+
+/* ── Tracing Section Component ── */
+.trace-instruction {
+  font-size: 9pt;
+  font-weight: 600;
+  color: var(--theme-color-text-muted);
+  margin-bottom: 2mm;
+  font-style: italic;
+}
+
+.trace-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.trace-demo-row {
+  display: flex;
+  align-items: center;
+  gap: 4mm;
+  margin-bottom: 2mm;
+}
+
+.trace-row {
+  display: flex;
+  align-items: flex-end;
+  height: var(--trace-row-height);
+  border-bottom: var(--baseline-border-width) solid var(--theme-color-dash);
+  position: relative;
+  padding: 0 2mm;
+  gap: 3mm;
+}
+
+.trace-row::before {
+  content: '';
+  position: absolute;
+  bottom: var(--midline-dashed-offset);
+  left: 0; 
+  right: 0;
+  border-bottom: 1.5px dashed var(--theme-color-dash-light);
+}
+
+.trace-row::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0; 
+  right: 0;
+  border-top: 1px solid var(--topline-border-color);
+}
+
+.row-label {
+  position: absolute;
+  right: 1mm;
+  top: 0.5mm;
+  font-family: var(--font-family-heading);
+  font-size: 6pt;
+  color: var(--theme-color-text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* ── Writing Section Component ── */
+.writing-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* ── Independent Practice Component ── */
+.blank-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.blank-row {
+  display: flex;
+  align-items: flex-end;
+  height: var(--blank-row-height);
+  border-bottom: var(--baseline-border-width) solid var(--theme-color-dash);
+  position: relative;
+}
+
+.blank-row::before {
+  content: '';
+  position: absolute;
+  bottom: 5mm;
+  left: 0; 
+  right: 0;
+  border-bottom: 1.5px dashed var(--theme-color-dash-light);
+}
+
+.blank-row::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0; 
+  right: 0;
+  border-top: 1px solid var(--topline-border-color);
+}
+
+/* ── Footer Component ── */
+.footer {
+  margin-top: auto;
+  border-top: 2px solid var(--theme-color-border);
+  padding-top: 2mm;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 7pt;
+  color: var(--theme-color-text-muted);
+}
+
+.footer-brand {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  color: var(--theme-color-primary);
+}
+
+.encouragement {
+  display: flex;
+  align-items: center;
+  gap: 1.5mm;
+  font-family: var(--font-family-heading);
+  font-weight: 600;
+  font-size: 8pt;
+  color: var(--theme-color-text-muted);
+}

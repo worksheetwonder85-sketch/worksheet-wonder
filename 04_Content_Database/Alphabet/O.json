@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "O",
+    "uppercase":  "O",
+    "lowercase":  "o",
+    "phonicsSound":  "/o/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Owl",
+                      "Octopus",
+                      "Orange"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Owl",
+                           "syllables":  1,
+                           "phonics":  "/o/",
+                           "imageId":  "asset-owl",
+                           "outlineImageId":  "asset-owl-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "owl",
+                                            "o",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Owl starts with the letter O.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Octopus",
+                           "syllables":  2,
+                           "phonics":  "/o/",
+                           "imageId":  "asset-octopus",
+                           "outlineImageId":  "asset-octopus-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "octopus",
+                                            "o",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Octopus starts with the letter O.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Orange",
+                           "syllables":  2,
+                           "phonics":  "/o/",
+                           "imageId":  "asset-orange",
+                           "outlineImageId":  "asset-orange-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "orange",
+                                            "o",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Orange starts with the letter O.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Ocean",
+                           "syllables":  2,
+                           "phonics":  "/o/",
+                           "imageId":  "asset-ocean",
+                           "outlineImageId":  "asset-ocean-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "ocean",
+                                            "o",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ocean starts with the letter O.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Ostrich",
+                           "syllables":  2,
+                           "phonics":  "/o/",
+                           "imageId":  "asset-ostrich",
+                           "outlineImageId":  "asset-ostrich-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "ostrich",
+                                            "o",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ostrich starts with the letter O.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Oval",
+                           "syllables":  1,
+                           "phonics":  "/o/",
+                           "imageId":  "asset-oval",
+                           "outlineImageId":  "asset-oval-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "oval",
+                                            "o",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Oval starts with the letter O.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Oven",
+                           "syllables":  1,
+                           "phonics":  "/o/",
+                           "imageId":  "asset-oven",
+                           "outlineImageId":  "asset-oven-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "oven",
+                                            "o",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Oven starts with the letter O.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Ox",
+                           "syllables":  1,
+                           "phonics":  "/o/",
+                           "imageId":  "asset-ox",
+                           "outlineImageId":  "asset-ox-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "ox",
+                                            "o",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ox starts with the letter O.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Onion",
+                           "syllables":  2,
+                           "phonics":  "/o/",
+                           "imageId":  "asset-onion",
+                           "outlineImageId":  "asset-onion-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "onion",
+                                            "o",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Onion starts with the letter O.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Otter",
+                           "syllables":  2,
+                           "phonics":  "/o/",
+                           "imageId":  "asset-otter",
+                           "outlineImageId":  "asset-otter-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "otter",
+                                            "o",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Otter starts with the letter O.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Oar",
+                            "syllables":  1,
+                            "phonics":  "/o/",
+                            "imageId":  "asset-oar",
+                            "outlineImageId":  "asset-oar-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "oar",
+                                             "o",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Oar starts with the letter O.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Oasis",
+                            "syllables":  2,
+                            "phonics":  "/o/",
+                            "imageId":  "asset-oasis",
+                            "outlineImageId":  "asset-oasis-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "oasis",
+                                             "o",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Oasis starts with the letter O.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Oat",
+                            "syllables":  1,
+                            "phonics":  "/o/",
+                            "imageId":  "asset-oat",
+                            "outlineImageId":  "asset-oat-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "oat",
+                                             "o",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Oat starts with the letter O.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Object",
+                            "syllables":  2,
+                            "phonics":  "/o/",
+                            "imageId":  "asset-object",
+                            "outlineImageId":  "asset-object-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "object",
+                                             "o",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Object starts with the letter O.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Olive",
+                            "syllables":  2,
+                            "phonics":  "/o/",
+                            "imageId":  "asset-olive",
+                            "outlineImageId":  "asset-olive-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "olive",
+                                             "o",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Olive starts with the letter O.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "O",
+                       "o",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /o/ sound when introducing O.",
+    "parentTips":  "Look for objects starting with O around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /o/ sound in spoken words."
+}

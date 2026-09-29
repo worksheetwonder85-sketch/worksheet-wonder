@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "E",
+    "uppercase":  "E",
+    "lowercase":  "e",
+    "phonicsSound":  "/e/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Elephant",
+                      "Egg",
+                      "Eagle"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Elephant",
+                           "syllables":  2,
+                           "phonics":  "/e/",
+                           "imageId":  "asset-elephant",
+                           "outlineImageId":  "asset-elephant-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "elephant",
+                                            "e",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Elephant starts with the letter E.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Egg",
+                           "syllables":  1,
+                           "phonics":  "/e/",
+                           "imageId":  "asset-egg",
+                           "outlineImageId":  "asset-egg-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "egg",
+                                            "e",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Egg starts with the letter E.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Eagle",
+                           "syllables":  2,
+                           "phonics":  "/e/",
+                           "imageId":  "asset-eagle",
+                           "outlineImageId":  "asset-eagle-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "eagle",
+                                            "e",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Eagle starts with the letter E.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Ear",
+                           "syllables":  1,
+                           "phonics":  "/e/",
+                           "imageId":  "asset-ear",
+                           "outlineImageId":  "asset-ear-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "ear",
+                                            "e",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ear starts with the letter E.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Eye",
+                           "syllables":  1,
+                           "phonics":  "/e/",
+                           "imageId":  "asset-eye",
+                           "outlineImageId":  "asset-eye-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "eye",
+                                            "e",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Eye starts with the letter E.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Engine",
+                           "syllables":  2,
+                           "phonics":  "/e/",
+                           "imageId":  "asset-engine",
+                           "outlineImageId":  "asset-engine-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "engine",
+                                            "e",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Engine starts with the letter E.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Earth",
+                           "syllables":  2,
+                           "phonics":  "/e/",
+                           "imageId":  "asset-earth",
+                           "outlineImageId":  "asset-earth-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "earth",
+                                            "e",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Earth starts with the letter E.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Eel",
+                           "syllables":  1,
+                           "phonics":  "/e/",
+                           "imageId":  "asset-eel",
+                           "outlineImageId":  "asset-eel-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "eel",
+                                            "e",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Eel starts with the letter E.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Elbow",
+                           "syllables":  2,
+                           "phonics":  "/e/",
+                           "imageId":  "asset-elbow",
+                           "outlineImageId":  "asset-elbow-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "elbow",
+                                            "e",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Elbow starts with the letter E.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Envelope",
+                           "syllables":  2,
+                           "phonics":  "/e/",
+                           "imageId":  "asset-envelope",
+                           "outlineImageId":  "asset-envelope-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "envelope",
+                                            "e",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Envelope starts with the letter E.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Elf",
+                            "syllables":  1,
+                            "phonics":  "/e/",
+                            "imageId":  "asset-elf",
+                            "outlineImageId":  "asset-elf-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "elf",
+                                             "e",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Elf starts with the letter E.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Emu",
+                            "syllables":  1,
+                            "phonics":  "/e/",
+                            "imageId":  "asset-emu",
+                            "outlineImageId":  "asset-emu-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "emu",
+                                             "e",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Emu starts with the letter E.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Eraser",
+                            "syllables":  2,
+                            "phonics":  "/e/",
+                            "imageId":  "asset-eraser",
+                            "outlineImageId":  "asset-eraser-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "eraser",
+                                             "e",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Eraser starts with the letter E.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Eskimo",
+                            "syllables":  2,
+                            "phonics":  "/e/",
+                            "imageId":  "asset-eskimo",
+                            "outlineImageId":  "asset-eskimo-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "eskimo",
+                                             "e",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Eskimo starts with the letter E.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Exit",
+                            "syllables":  1,
+                            "phonics":  "/e/",
+                            "imageId":  "asset-exit",
+                            "outlineImageId":  "asset-exit-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "exit",
+                                             "e",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Exit starts with the letter E.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "E",
+                       "e",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /e/ sound when introducing E.",
+    "parentTips":  "Look for objects starting with E around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /e/ sound in spoken words."
+}

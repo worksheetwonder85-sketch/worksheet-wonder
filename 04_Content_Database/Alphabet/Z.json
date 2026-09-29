@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "Z",
+    "uppercase":  "Z",
+    "lowercase":  "z",
+    "phonicsSound":  "/z/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Zebra",
+                      "Zero",
+                      "Zoo"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Zebra",
+                           "syllables":  2,
+                           "phonics":  "/z/",
+                           "imageId":  "asset-zebra",
+                           "outlineImageId":  "asset-zebra-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "zebra",
+                                            "z",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Zebra starts with the letter Z.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Zero",
+                           "syllables":  1,
+                           "phonics":  "/z/",
+                           "imageId":  "asset-zero",
+                           "outlineImageId":  "asset-zero-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "zero",
+                                            "z",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Zero starts with the letter Z.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Zoo",
+                           "syllables":  1,
+                           "phonics":  "/z/",
+                           "imageId":  "asset-zoo",
+                           "outlineImageId":  "asset-zoo-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "zoo",
+                                            "z",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Zoo starts with the letter Z.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Zipper",
+                           "syllables":  2,
+                           "phonics":  "/z/",
+                           "imageId":  "asset-zipper",
+                           "outlineImageId":  "asset-zipper-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "zipper",
+                                            "z",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Zipper starts with the letter Z.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Zigzag",
+                           "syllables":  2,
+                           "phonics":  "/z/",
+                           "imageId":  "asset-zigzag",
+                           "outlineImageId":  "asset-zigzag-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "zigzag",
+                                            "z",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Zigzag starts with the letter Z.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Zombie",
+                           "syllables":  2,
+                           "phonics":  "/z/",
+                           "imageId":  "asset-zombie",
+                           "outlineImageId":  "asset-zombie-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "zombie",
+                                            "z",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Zombie starts with the letter Z.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Zone",
+                           "syllables":  1,
+                           "phonics":  "/z/",
+                           "imageId":  "asset-zone",
+                           "outlineImageId":  "asset-zone-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "zone",
+                                            "z",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Zone starts with the letter Z.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Zucchini",
+                           "syllables":  2,
+                           "phonics":  "/z/",
+                           "imageId":  "asset-zucchini",
+                           "outlineImageId":  "asset-zucchini-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "zucchini",
+                                            "z",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Zucchini starts with the letter Z.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Zeppelin",
+                           "syllables":  2,
+                           "phonics":  "/z/",
+                           "imageId":  "asset-zeppelin",
+                           "outlineImageId":  "asset-zeppelin-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "zeppelin",
+                                            "z",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Zeppelin starts with the letter Z.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Zeus",
+                           "syllables":  1,
+                           "phonics":  "/z/",
+                           "imageId":  "asset-zeus",
+                           "outlineImageId":  "asset-zeus-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "zeus",
+                                            "z",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Zeus starts with the letter Z.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Zinc",
+                            "syllables":  1,
+                            "phonics":  "/z/",
+                            "imageId":  "asset-zinc",
+                            "outlineImageId":  "asset-zinc-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "zinc",
+                                             "z",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Zinc starts with the letter Z.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Zodiac",
+                            "syllables":  2,
+                            "phonics":  "/z/",
+                            "imageId":  "asset-zodiac",
+                            "outlineImageId":  "asset-zodiac-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "zodiac",
+                                             "z",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Zodiac starts with the letter Z.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Zookeeper",
+                            "syllables":  2,
+                            "phonics":  "/z/",
+                            "imageId":  "asset-zookeeper",
+                            "outlineImageId":  "asset-zookeeper-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "zookeeper",
+                                             "z",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Zookeeper starts with the letter Z.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Zoom",
+                            "syllables":  1,
+                            "phonics":  "/z/",
+                            "imageId":  "asset-zoom",
+                            "outlineImageId":  "asset-zoom-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "zoom",
+                                             "z",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Zoom starts with the letter Z.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Zephyr",
+                            "syllables":  2,
+                            "phonics":  "/z/",
+                            "imageId":  "asset-zephyr",
+                            "outlineImageId":  "asset-zephyr-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "zephyr",
+                                             "z",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Zephyr starts with the letter Z.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "Z",
+                       "z",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /z/ sound when introducing Z.",
+    "parentTips":  "Look for objects starting with Z around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /z/ sound in spoken words."
+}

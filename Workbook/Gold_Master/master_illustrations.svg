@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <defs>
+    <!-- GENERIC SVG PLACEHOLDER (For Meet The Letter) -->
+    <!-- Viewbox 0 0 100 100 -->
+    <g id="placeholder-svg">
+      <rect x="5" y="5" width="90" height="90" rx="16" fill="#F8FAFC" stroke="#94A3B8" stroke-width="4" stroke-dasharray="8 8" />
+      <!-- Landscape Icon -->
+      <circle cx="70" cy="30" r="12" fill="#E2E8F0" />
+      <path d="M 15 85 L 45 45 L 65 70 L 75 55 L 90 85 Z" fill="#CBD5E1" />
+    </g>
+
+    <!-- FINGER TRACE PLACEHOLDER (Oversized Box) -->
+    <g id="placeholder-finger-trace">
+      <rect x="5" y="5" width="90" height="90" rx="16" fill="#F8FAFC" stroke="#3B82F6" stroke-width="4" stroke-dasharray="8 8" />
+      <!-- Giant Hand/Finger Icon -->
+      <path d="M 40 70 L 40 40 C 40 35, 48 35, 48 40 L 48 45 L 50 45 C 50 40, 58 40, 58 45 L 58 48 C 65 45, 70 50, 68 55 L 60 70 Z" fill="#93C5FD" stroke="#2563EB" stroke-width="3" stroke-linejoin="round" />
+      <path d="M 40 45 C 32 45, 32 55, 40 55" fill="none" stroke="#2563EB" stroke-width="3" />
+    </g>
+
+    <!-- COLOURING ACTIVITY PLACEHOLDER -->
+    <!-- Viewbox 0 0 150 150 -->
+    <g id="placeholder-coloring">
+      <rect x="5" y="5" width="140" height="140" rx="16" fill="#FFFFFF" stroke="#1E293B" stroke-width="4" stroke-dasharray="10 10" />
+      <!-- Crayon Icon -->
+      <path d="M 40 100 L 110 30 L 120 40 L 50 110 Z" fill="none" stroke="#1E293B" stroke-width="4" stroke-linejoin="round" />
+      <path d="M 40 100 L 30 120 L 50 110 Z" fill="none" stroke="#1E293B" stroke-width="4" stroke-linejoin="round" />
+      <line x1="50" y1="90" x2="60" y2="100" stroke="#1E293B" stroke-width="4" />
+      <line x1="100" y1="40" x2="110" y2="50" stroke="#1E293B" stroke-width="4" />
+    </g>
+  </defs>
+</svg>

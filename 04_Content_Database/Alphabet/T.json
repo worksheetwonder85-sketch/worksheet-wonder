@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "T",
+    "uppercase":  "T",
+    "lowercase":  "t",
+    "phonicsSound":  "/t/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Tiger",
+                      "Tree",
+                      "Turtle"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Tiger",
+                           "syllables":  2,
+                           "phonics":  "/t/",
+                           "imageId":  "asset-tiger",
+                           "outlineImageId":  "asset-tiger-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "tiger",
+                                            "t",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Tiger starts with the letter T.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Tree",
+                           "syllables":  1,
+                           "phonics":  "/t/",
+                           "imageId":  "asset-tree",
+                           "outlineImageId":  "asset-tree-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "tree",
+                                            "t",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Tree starts with the letter T.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Turtle",
+                           "syllables":  2,
+                           "phonics":  "/t/",
+                           "imageId":  "asset-turtle",
+                           "outlineImageId":  "asset-turtle-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "turtle",
+                                            "t",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Turtle starts with the letter T.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Train",
+                           "syllables":  2,
+                           "phonics":  "/t/",
+                           "imageId":  "asset-train",
+                           "outlineImageId":  "asset-train-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "train",
+                                            "t",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Train starts with the letter T.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Tent",
+                           "syllables":  1,
+                           "phonics":  "/t/",
+                           "imageId":  "asset-tent",
+                           "outlineImageId":  "asset-tent-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "tent",
+                                            "t",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Tent starts with the letter T.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Table",
+                           "syllables":  2,
+                           "phonics":  "/t/",
+                           "imageId":  "asset-table",
+                           "outlineImageId":  "asset-table-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "table",
+                                            "t",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Table starts with the letter T.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Tooth",
+                           "syllables":  2,
+                           "phonics":  "/t/",
+                           "imageId":  "asset-tooth",
+                           "outlineImageId":  "asset-tooth-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "tooth",
+                                            "t",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Tooth starts with the letter T.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Tomato",
+                           "syllables":  2,
+                           "phonics":  "/t/",
+                           "imageId":  "asset-tomato",
+                           "outlineImageId":  "asset-tomato-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "tomato",
+                                            "t",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Tomato starts with the letter T.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Tractor",
+                           "syllables":  2,
+                           "phonics":  "/t/",
+                           "imageId":  "asset-tractor",
+                           "outlineImageId":  "asset-tractor-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "tractor",
+                                            "t",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Tractor starts with the letter T.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Triangle",
+                           "syllables":  2,
+                           "phonics":  "/t/",
+                           "imageId":  "asset-triangle",
+                           "outlineImageId":  "asset-triangle-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "triangle",
+                                            "t",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Triangle starts with the letter T.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Truck",
+                            "syllables":  2,
+                            "phonics":  "/t/",
+                            "imageId":  "asset-truck",
+                            "outlineImageId":  "asset-truck-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "truck",
+                                             "t",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Truck starts with the letter T.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Tulip",
+                            "syllables":  2,
+                            "phonics":  "/t/",
+                            "imageId":  "asset-tulip",
+                            "outlineImageId":  "asset-tulip-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "tulip",
+                                             "t",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Tulip starts with the letter T.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Turkey",
+                            "syllables":  2,
+                            "phonics":  "/t/",
+                            "imageId":  "asset-turkey",
+                            "outlineImageId":  "asset-turkey-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "turkey",
+                                             "t",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Turkey starts with the letter T.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Taxi",
+                            "syllables":  1,
+                            "phonics":  "/t/",
+                            "imageId":  "asset-taxi",
+                            "outlineImageId":  "asset-taxi-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "taxi",
+                                             "t",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Taxi starts with the letter T.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Tea",
+                            "syllables":  1,
+                            "phonics":  "/t/",
+                            "imageId":  "asset-tea",
+                            "outlineImageId":  "asset-tea-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "tea",
+                                             "t",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Tea starts with the letter T.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "T",
+                       "t",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /t/ sound when introducing T.",
+    "parentTips":  "Look for objects starting with T around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /t/ sound in spoken words."
+}

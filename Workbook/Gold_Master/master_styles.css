@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-secondary);
+  color: var(--color-ink);
+  font-size: var(--font-size-body);
+}
+
+/* Header & Footer Typography */
+.header-label {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: var(--font-size-body);
+}
+
+.footer-meta {
+  font-size: var(--font-size-meta);
+  color: var(--color-ink-light);
+}
+
+/* Vocabulary Typography */
+.vocab-word {
+  font-size: var(--font-size-vocab);
+  font-weight: 800;
+  color: var(--color-ink);
+  letter-spacing: 0.5px;
+}
+
+/* Big Hero Styling */
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 60pt;
+  font-weight: 800;
+  color: var(--color-ink);
+}
+
+/* Parent Tip Styling */
+.tip-text {
+  font-weight: 600;
+  color: var(--color-ink);
+  line-height: 1.4;
+}

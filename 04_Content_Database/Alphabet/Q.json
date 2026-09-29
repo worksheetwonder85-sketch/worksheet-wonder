@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "Q",
+    "uppercase":  "Q",
+    "lowercase":  "q",
+    "phonicsSound":  "/kw/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Queen",
+                      "Quilt",
+                      "Quail"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Queen",
+                           "syllables":  2,
+                           "phonics":  "/q/",
+                           "imageId":  "asset-queen",
+                           "outlineImageId":  "asset-queen-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "queen",
+                                            "q",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Queen starts with the letter Q.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Quilt",
+                           "syllables":  2,
+                           "phonics":  "/q/",
+                           "imageId":  "asset-quilt",
+                           "outlineImageId":  "asset-quilt-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "quilt",
+                                            "q",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Quilt starts with the letter Q.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Quail",
+                           "syllables":  2,
+                           "phonics":  "/q/",
+                           "imageId":  "asset-quail",
+                           "outlineImageId":  "asset-quail-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "quail",
+                                            "q",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Quail starts with the letter Q.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Quarter",
+                           "syllables":  2,
+                           "phonics":  "/q/",
+                           "imageId":  "asset-quarter",
+                           "outlineImageId":  "asset-quarter-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "quarter",
+                                            "q",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Quarter starts with the letter Q.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Quartz",
+                           "syllables":  2,
+                           "phonics":  "/q/",
+                           "imageId":  "asset-quartz",
+                           "outlineImageId":  "asset-quartz-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "quartz",
+                                            "q",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Quartz starts with the letter Q.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Quiet",
+                           "syllables":  2,
+                           "phonics":  "/q/",
+                           "imageId":  "asset-quiet",
+                           "outlineImageId":  "asset-quiet-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "quiet",
+                                            "q",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Quiet starts with the letter Q.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Quill",
+                           "syllables":  2,
+                           "phonics":  "/q/",
+                           "imageId":  "asset-quill",
+                           "outlineImageId":  "asset-quill-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "quill",
+                                            "q",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Quill starts with the letter Q.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Quiz",
+                           "syllables":  1,
+                           "phonics":  "/q/",
+                           "imageId":  "asset-quiz",
+                           "outlineImageId":  "asset-quiz-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "quiz",
+                                            "q",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Quiz starts with the letter Q.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Quote",
+                           "syllables":  2,
+                           "phonics":  "/q/",
+                           "imageId":  "asset-quote",
+                           "outlineImageId":  "asset-quote-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "quote",
+                                            "q",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Quote starts with the letter Q.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Queue",
+                           "syllables":  2,
+                           "phonics":  "/q/",
+                           "imageId":  "asset-queue",
+                           "outlineImageId":  "asset-queue-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "queue",
+                                            "q",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Queue starts with the letter Q.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Quark",
+                            "syllables":  2,
+                            "phonics":  "/q/",
+                            "imageId":  "asset-quark",
+                            "outlineImageId":  "asset-quark-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "quark",
+                                             "q",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Quark starts with the letter Q.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Quest",
+                            "syllables":  2,
+                            "phonics":  "/q/",
+                            "imageId":  "asset-quest",
+                            "outlineImageId":  "asset-quest-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "quest",
+                                             "q",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Quest starts with the letter Q.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Quiver",
+                            "syllables":  2,
+                            "phonics":  "/q/",
+                            "imageId":  "asset-quiver",
+                            "outlineImageId":  "asset-quiver-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "quiver",
+                                             "q",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Quiver starts with the letter Q.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Quota",
+                            "syllables":  2,
+                            "phonics":  "/q/",
+                            "imageId":  "asset-quota",
+                            "outlineImageId":  "asset-quota-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "quota",
+                                             "q",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Quota starts with the letter Q.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Quack",
+                            "syllables":  2,
+                            "phonics":  "/q/",
+                            "imageId":  "asset-quack",
+                            "outlineImageId":  "asset-quack-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "quack",
+                                             "q",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Quack starts with the letter Q.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "Q",
+                       "q",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /kw/ sound when introducing Q.",
+    "parentTips":  "Look for objects starting with Q around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /kw/ sound in spoken words."
+}

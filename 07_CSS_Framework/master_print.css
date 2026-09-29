@@ -1,0 +1,33 @@
+/* 
+  Worksheet Wonder - Master Print
+  Role: Media queries enforcing Commercial Publishing requirements.
+  Scope: Global. Prevent UI anomalies during PDF generation or home printing.
+*/
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    background-color: var(--color-bg-page);
+  }
+
+  /* Structural Lockdown */
+  .page-wrapper {
+    width: var(--page-width);
+    height: var(--page-height);
+    page-break-after: always;
+    page-break-inside: avoid;
+    overflow: hidden !important; /* Zero clipping, zero overflow */
+    border: none !important; /* Removes any browser-injected digital borders */
+  }
+
+  /* Utility class to hide web-only UI elements like "Print Now" buttons */
+  .hidden-print {
+    display: none !important;
+  }
+}

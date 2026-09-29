@@ -1,0 +1,65 @@
+﻿{
+    "$schema":  "http://json-schema.org/draft-07/schema#",
+    "$id":  "https://worksheetwonder.com/schemas/illustration.schema.json",
+    "title":  "Illustration Meta Schema",
+    "type":  "object",
+    "required":  [
+                     "id",
+                     "name",
+                     "category",
+                     "keywords",
+                     "usage",
+                     "tags"
+                 ],
+    "properties":  {
+                       "id":  {
+                                  "type":  "string"
+                              },
+                       "name":  {
+                                    "type":  "string"
+                                },
+                       "category":  {
+                                        "type":  "string"
+                                    },
+                       "keywords":  {
+                                        "items":  {
+                                                      "type":  "string"
+                                                  },
+                                        "type":  "array"
+                                    },
+                       "letter":  {
+                                      "type":  "string"
+                                  },
+                       "difficulty":  {
+                                          "type":  "integer"
+                                      },
+                       "recommendedAge":  {
+                                              "items":  {
+                                                            "type":  "integer"
+                                                        },
+                                              "type":  "array"
+                                          },
+                       "usage":  {
+                                     "type":  "object",
+                                     "required":  [
+                                                      "fullColor",
+                                                      "outline"
+                                                  ],
+                                     "properties":  {
+                                                        "fullColor":  {
+                                                                          "type":  "string"
+                                                                      },
+                                                        "outline":  {
+                                                                        "type":  "string"
+                                                                    }
+                                                    }
+                                 },
+                       "tags":  {
+                                    "items":  {
+                                                  "type":  "string"
+                                              },
+                                    "type":  "array"
+                                }
+                   },
+    "additionalProperties":  false
+}

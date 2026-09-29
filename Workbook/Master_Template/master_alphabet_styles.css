@@ -1,0 +1,25 @@
+/* ==========================================================================
+   WORKSHEET WONDER - MASTER ALPHABET STYLESHEET
+   Aggregator Manifest importing variables, components, and print rules
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('./master_variables.css');
+@import url('./master_components.css');
+@import url('./master_print.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: var(--page-width);
+  height: var(--page-height);
+  font-family: var(--font-family-body);
+  color: var(--theme-color-text);
+  background-color: #ffffff;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}

@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "W",
+    "uppercase":  "W",
+    "lowercase":  "w",
+    "phonicsSound":  "/w/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Water",
+                      "Whale",
+                      "Window"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Water",
+                           "syllables":  2,
+                           "phonics":  "/w/",
+                           "imageId":  "asset-water",
+                           "outlineImageId":  "asset-water-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "water",
+                                            "w",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Water starts with the letter W.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Whale",
+                           "syllables":  2,
+                           "phonics":  "/w/",
+                           "imageId":  "asset-whale",
+                           "outlineImageId":  "asset-whale-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "whale",
+                                            "w",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Whale starts with the letter W.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Window",
+                           "syllables":  2,
+                           "phonics":  "/w/",
+                           "imageId":  "asset-window",
+                           "outlineImageId":  "asset-window-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "window",
+                                            "w",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Window starts with the letter W.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Wolf",
+                           "syllables":  1,
+                           "phonics":  "/w/",
+                           "imageId":  "asset-wolf",
+                           "outlineImageId":  "asset-wolf-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "wolf",
+                                            "w",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Wolf starts with the letter W.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Worm",
+                           "syllables":  1,
+                           "phonics":  "/w/",
+                           "imageId":  "asset-worm",
+                           "outlineImageId":  "asset-worm-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "worm",
+                                            "w",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Worm starts with the letter W.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Wagon",
+                           "syllables":  2,
+                           "phonics":  "/w/",
+                           "imageId":  "asset-wagon",
+                           "outlineImageId":  "asset-wagon-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "wagon",
+                                            "w",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Wagon starts with the letter W.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Wall",
+                           "syllables":  1,
+                           "phonics":  "/w/",
+                           "imageId":  "asset-wall",
+                           "outlineImageId":  "asset-wall-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "wall",
+                                            "w",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Wall starts with the letter W.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Watch",
+                           "syllables":  2,
+                           "phonics":  "/w/",
+                           "imageId":  "asset-watch",
+                           "outlineImageId":  "asset-watch-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "watch",
+                                            "w",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Watch starts with the letter W.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Web",
+                           "syllables":  1,
+                           "phonics":  "/w/",
+                           "imageId":  "asset-web",
+                           "outlineImageId":  "asset-web-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "web",
+                                            "w",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Web starts with the letter W.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Wheel",
+                           "syllables":  2,
+                           "phonics":  "/w/",
+                           "imageId":  "asset-wheel",
+                           "outlineImageId":  "asset-wheel-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "wheel",
+                                            "w",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Wheel starts with the letter W.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Wind",
+                            "syllables":  1,
+                            "phonics":  "/w/",
+                            "imageId":  "asset-wind",
+                            "outlineImageId":  "asset-wind-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "wind",
+                                             "w",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Wind starts with the letter W.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Wing",
+                            "syllables":  1,
+                            "phonics":  "/w/",
+                            "imageId":  "asset-wing",
+                            "outlineImageId":  "asset-wing-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "wing",
+                                             "w",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Wing starts with the letter W.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Wood",
+                            "syllables":  1,
+                            "phonics":  "/w/",
+                            "imageId":  "asset-wood",
+                            "outlineImageId":  "asset-wood-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "wood",
+                                             "w",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Wood starts with the letter W.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Wool",
+                            "syllables":  1,
+                            "phonics":  "/w/",
+                            "imageId":  "asset-wool",
+                            "outlineImageId":  "asset-wool-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "wool",
+                                             "w",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Wool starts with the letter W.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Wand",
+                            "syllables":  1,
+                            "phonics":  "/w/",
+                            "imageId":  "asset-wand",
+                            "outlineImageId":  "asset-wand-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "wand",
+                                             "w",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Wand starts with the letter W.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "W",
+                       "w",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /w/ sound when introducing W.",
+    "parentTips":  "Look for objects starting with W around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /w/ sound in spoken words."
+}

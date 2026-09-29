@@ -1,0 +1,26 @@
+﻿{
+    "id":  "asset-bear",
+    "name":  "Bear",
+    "category":  "Animals",
+    "keywords":  [
+                     "bear",
+                     "letter b",
+                     "alphabet"
+                 ],
+    "letter":  "B",
+    "difficulty":  1,
+    "recommendedAge":  [
+                           4,
+                           5,
+                           6
+                       ],
+    "usage":  {
+                  "fullColor":  "Bear.svg",
+                  "outline":  "Bear_outline.svg"
+              },
+    "tags":  [
+                 "bear",
+                 "kindergarten",
+                 "noun"
+             ]
+}

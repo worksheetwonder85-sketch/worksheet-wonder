@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "D",
+    "uppercase":  "D",
+    "lowercase":  "d",
+    "phonicsSound":  "/d/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Dog",
+                      "Duck",
+                      "Dinosaur"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Dog",
+                           "syllables":  1,
+                           "phonics":  "/d/",
+                           "imageId":  "asset-dog",
+                           "outlineImageId":  "asset-dog-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "dog",
+                                            "d",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Dog starts with the letter D.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Duck",
+                           "syllables":  1,
+                           "phonics":  "/d/",
+                           "imageId":  "asset-duck",
+                           "outlineImageId":  "asset-duck-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "duck",
+                                            "d",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Duck starts with the letter D.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Dinosaur",
+                           "syllables":  2,
+                           "phonics":  "/d/",
+                           "imageId":  "asset-dinosaur",
+                           "outlineImageId":  "asset-dinosaur-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "dinosaur",
+                                            "d",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Dinosaur starts with the letter D.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Drum",
+                           "syllables":  1,
+                           "phonics":  "/d/",
+                           "imageId":  "asset-drum",
+                           "outlineImageId":  "asset-drum-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "drum",
+                                            "d",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Drum starts with the letter D.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Doll",
+                           "syllables":  1,
+                           "phonics":  "/d/",
+                           "imageId":  "asset-doll",
+                           "outlineImageId":  "asset-doll-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "doll",
+                                            "d",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Doll starts with the letter D.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Door",
+                           "syllables":  1,
+                           "phonics":  "/d/",
+                           "imageId":  "asset-door",
+                           "outlineImageId":  "asset-door-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "door",
+                                            "d",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Door starts with the letter D.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Desk",
+                           "syllables":  1,
+                           "phonics":  "/d/",
+                           "imageId":  "asset-desk",
+                           "outlineImageId":  "asset-desk-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "desk",
+                                            "d",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Desk starts with the letter D.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Diamond",
+                           "syllables":  2,
+                           "phonics":  "/d/",
+                           "imageId":  "asset-diamond",
+                           "outlineImageId":  "asset-diamond-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "diamond",
+                                            "d",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Diamond starts with the letter D.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Dice",
+                           "syllables":  1,
+                           "phonics":  "/d/",
+                           "imageId":  "asset-dice",
+                           "outlineImageId":  "asset-dice-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "dice",
+                                            "d",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Dice starts with the letter D.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Dolphin",
+                           "syllables":  2,
+                           "phonics":  "/d/",
+                           "imageId":  "asset-dolphin",
+                           "outlineImageId":  "asset-dolphin-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "dolphin",
+                                            "d",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Dolphin starts with the letter D.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Donut",
+                            "syllables":  2,
+                            "phonics":  "/d/",
+                            "imageId":  "asset-donut",
+                            "outlineImageId":  "asset-donut-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "donut",
+                                             "d",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Donut starts with the letter D.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Doctor",
+                            "syllables":  2,
+                            "phonics":  "/d/",
+                            "imageId":  "asset-doctor",
+                            "outlineImageId":  "asset-doctor-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "doctor",
+                                             "d",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Doctor starts with the letter D.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Deer",
+                            "syllables":  1,
+                            "phonics":  "/d/",
+                            "imageId":  "asset-deer",
+                            "outlineImageId":  "asset-deer-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "deer",
+                                             "d",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Deer starts with the letter D.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Dragon",
+                            "syllables":  2,
+                            "phonics":  "/d/",
+                            "imageId":  "asset-dragon",
+                            "outlineImageId":  "asset-dragon-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "dragon",
+                                             "d",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Dragon starts with the letter D.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Dress",
+                            "syllables":  2,
+                            "phonics":  "/d/",
+                            "imageId":  "asset-dress",
+                            "outlineImageId":  "asset-dress-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "dress",
+                                             "d",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Dress starts with the letter D.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "D",
+                       "d",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /d/ sound when introducing D.",
+    "parentTips":  "Look for objects starting with D around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /d/ sound in spoken words."
+}

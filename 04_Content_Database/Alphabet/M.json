@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "M",
+    "uppercase":  "M",
+    "lowercase":  "m",
+    "phonicsSound":  "/m/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Monkey",
+                      "Moon",
+                      "Mouse"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Monkey",
+                           "syllables":  2,
+                           "phonics":  "/m/",
+                           "imageId":  "asset-monkey",
+                           "outlineImageId":  "asset-monkey-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "monkey",
+                                            "m",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Monkey starts with the letter M.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Moon",
+                           "syllables":  1,
+                           "phonics":  "/m/",
+                           "imageId":  "asset-moon",
+                           "outlineImageId":  "asset-moon-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "moon",
+                                            "m",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Moon starts with the letter M.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Mouse",
+                           "syllables":  2,
+                           "phonics":  "/m/",
+                           "imageId":  "asset-mouse",
+                           "outlineImageId":  "asset-mouse-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "mouse",
+                                            "m",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Mouse starts with the letter M.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Milk",
+                           "syllables":  1,
+                           "phonics":  "/m/",
+                           "imageId":  "asset-milk",
+                           "outlineImageId":  "asset-milk-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "milk",
+                                            "m",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Milk starts with the letter M.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Map",
+                           "syllables":  1,
+                           "phonics":  "/m/",
+                           "imageId":  "asset-map",
+                           "outlineImageId":  "asset-map-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "map",
+                                            "m",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Map starts with the letter M.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Man",
+                           "syllables":  1,
+                           "phonics":  "/m/",
+                           "imageId":  "asset-man",
+                           "outlineImageId":  "asset-man-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "man",
+                                            "m",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Man starts with the letter M.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Mask",
+                           "syllables":  1,
+                           "phonics":  "/m/",
+                           "imageId":  "asset-mask",
+                           "outlineImageId":  "asset-mask-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "mask",
+                                            "m",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Mask starts with the letter M.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Meat",
+                           "syllables":  1,
+                           "phonics":  "/m/",
+                           "imageId":  "asset-meat",
+                           "outlineImageId":  "asset-meat-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "meat",
+                                            "m",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Meat starts with the letter M.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Melon",
+                           "syllables":  2,
+                           "phonics":  "/m/",
+                           "imageId":  "asset-melon",
+                           "outlineImageId":  "asset-melon-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "melon",
+                                            "m",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Melon starts with the letter M.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Money",
+                           "syllables":  2,
+                           "phonics":  "/m/",
+                           "imageId":  "asset-money",
+                           "outlineImageId":  "asset-money-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "money",
+                                            "m",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Money starts with the letter M.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Motorcycle",
+                            "syllables":  2,
+                            "phonics":  "/m/",
+                            "imageId":  "asset-motorcycle",
+                            "outlineImageId":  "asset-motorcycle-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "motorcycle",
+                                             "m",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Motorcycle starts with the letter M.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Mountain",
+                            "syllables":  2,
+                            "phonics":  "/m/",
+                            "imageId":  "asset-mountain",
+                            "outlineImageId":  "asset-mountain-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "mountain",
+                                             "m",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Mountain starts with the letter M.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Mushroom",
+                            "syllables":  2,
+                            "phonics":  "/m/",
+                            "imageId":  "asset-mushroom",
+                            "outlineImageId":  "asset-mushroom-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "mushroom",
+                                             "m",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Mushroom starts with the letter M.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Music",
+                            "syllables":  2,
+                            "phonics":  "/m/",
+                            "imageId":  "asset-music",
+                            "outlineImageId":  "asset-music-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "music",
+                                             "m",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Music starts with the letter M.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Muffin",
+                            "syllables":  2,
+                            "phonics":  "/m/",
+                            "imageId":  "asset-muffin",
+                            "outlineImageId":  "asset-muffin-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "muffin",
+                                             "m",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Muffin starts with the letter M.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "M",
+                       "m",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /m/ sound when introducing M.",
+    "parentTips":  "Look for objects starting with M around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /m/ sound in spoken words."
+}

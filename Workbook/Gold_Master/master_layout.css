@@ -1,0 +1,120 @@
+/* GRID ARCHITECTURE */
+/* Binds exactly to the MASTER_GRID.md specifications */
+
+body {
+  width: var(--page-width);
+  height: var(--page-height);
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  width: var(--page-width);
+  height: var(--page-height);
+  padding: var(--page-padding);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-page-bg);
+  overflow: hidden; /* No overflow allowed in Gold Master */
+}
+
+/* Header & Footer Flex */
+header {
+  height: 8mm;
+  margin-bottom: var(--spacing-row-gap);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  height: 7mm;
+  margin-top: var(--spacing-row-gap);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* Main Grid Zone */
+main {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 equal columns (92mm each) */
+  gap: var(--spacing-row-gap) var(--spacing-col-gap);
+}
+
+/* Immutable Section Bounding Boxes */
+.hero {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  height: 40mm;
+}
+
+.finger-trace {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  height: 40mm;
+}
+
+.illustrations {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  height: 30mm;
+}
+
+.vocabulary {
+  grid-column: 1 / 3;
+  grid-row: 3;
+  height: 10mm;
+}
+
+.guided-trace {
+  grid-column: 1 / 3;
+  grid-row: 4;
+  height: 65mm;
+}
+
+.independent-writing {
+  grid-column: 1 / 3;
+  grid-row: 5;
+  height: 38mm;
+}
+
+.coloring {
+  grid-column: 1 / 2;
+  grid-row: 6;
+  height: 42mm;
+}
+
+.parent-tip {
+  grid-column: 2 / 3;
+  grid-row: 6;
+  height: 42mm;
+}
+
+/* Internal Layouts for specific sections */
+.illustrations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vocabulary {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.svg-box {
+  width: 30mm;
+  height: 30mm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word-box {
+  width: 30mm;
+  text-align: center;
+}

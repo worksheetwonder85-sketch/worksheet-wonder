@@ -1,0 +1,15 @@
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+body {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* Ensure no elements can ever bleed off the A4 page boundaries */
+.page-wrapper {
+  overflow: hidden !important;
+  max-height: 297mm;
+}

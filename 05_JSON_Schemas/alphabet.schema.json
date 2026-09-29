@@ -1,0 +1,210 @@
+{
+    "$schema":  "http://json-schema.org/draft-07/schema#",
+    "$id":  "https://worksheetwonder.com/schemas/alphabet.schema.json",
+    "title":  "Alphabet Schema",
+    "type":  "object",
+    "required":  [
+                     "letter",
+                     "uppercase",
+                     "lowercase",
+                     "phonicsSound",
+                     "formationSteps",
+                     "difficulty",
+                     "themeColor",
+                     "heroWords",
+                     "vocabulary",
+                     "backupWords",
+                     "searchTags",
+                     "curriculumReferences",
+                     "teacherTips",
+                     "parentTips",
+                     "fineMotorObjective",
+                     "phonicsObjective",
+                     "tracingRows"
+                 ],
+    "properties":  {
+                       "letter":  {
+                                      "type":  "string"
+                                  },
+                       "uppercase":  {
+                                         "type":  "string"
+                                     },
+                       "lowercase":  {
+                                         "type":  "string"
+                                     },
+                       "phonicsSound":  {
+                                            "type":  "string"
+                                        },
+                       "formationSteps":  {
+                                              "items":  {
+                                                            "type":  "string"
+                                                        },
+                                              "type":  "array"
+                                          },
+                       "difficulty":  {
+                                          "type":  "integer"
+                                      },
+                       "themeColor":  {
+                                          "type":  "string"
+                                      },
+                       "heroWords":  {
+                                         "items":  {
+                                                       "type":  "string"
+                                                   },
+                                         "type":  "array"
+                                     },
+                       "vocabulary":  {
+                                          "items":  {
+                                                        "type":  "object",
+                                                        "required":  [
+                                                                         "word",
+                                                                         "syllables",
+                                                                         "phonics",
+                                                                         "imageId",
+                                                                         "outlineImageId",
+                                                                         "category",
+                                                                         "difficulty",
+                                                                         "keywords",
+                                                                         "sentence",
+                                                                         "emoji"
+                                                                     ],
+                                                        "properties":  {
+                                                                           "word":  {
+                                                                                        "type":  "string"
+                                                                                    },
+                                                                           "syllables":  {
+                                                                                             "type":  "integer"
+                                                                                         },
+                                                                           "phonics":  {
+                                                                                           "type":  "string"
+                                                                                       },
+                                                                           "imageId":  {
+                                                                                           "type":  "string"
+                                                                                       },
+                                                                           "outlineImageId":  {
+                                                                                                  "type":  "string"
+                                                                                              },
+                                                                           "category":  {
+                                                                                            "type":  "string"
+                                                                                        },
+                                                                           "difficulty":  {
+                                                                                              "type":  "integer"
+                                                                                          },
+                                                                           "keywords":  {
+                                                                                            "items":  {
+                                                                                                          "type":  "string"
+                                                                                                      },
+                                                                                            "type":  "array"
+                                                                                        },
+                                                                           "sentence":  {
+                                                                                            "type":  "string"
+                                                                                        },
+                                                                           "emoji":  {
+                                                                                         "type":  "string"
+                                                                                     }
+                                                                       }
+                                                    },
+                                          "type":  "array"
+                                      },
+                       "backupWords":  {
+                                           "items":  {
+                                                         "type":  "object",
+                                                         "required":  [
+                                                                          "word",
+                                                                          "syllables",
+                                                                          "phonics",
+                                                                          "imageId",
+                                                                          "outlineImageId",
+                                                                          "category",
+                                                                          "difficulty",
+                                                                          "keywords",
+                                                                          "sentence",
+                                                                          "emoji"
+                                                                      ],
+                                                         "properties":  {
+                                                                            "word":  {
+                                                                                         "type":  "string"
+                                                                                     },
+                                                                            "syllables":  {
+                                                                                              "type":  "integer"
+                                                                                          },
+                                                                            "phonics":  {
+                                                                                            "type":  "string"
+                                                                                        },
+                                                                            "imageId":  {
+                                                                                            "type":  "string"
+                                                                                        },
+                                                                            "outlineImageId":  {
+                                                                                                   "type":  "string"
+                                                                                               },
+                                                                            "category":  {
+                                                                                             "type":  "string"
+                                                                                         },
+                                                                            "difficulty":  {
+                                                                                               "type":  "integer"
+                                                                                           },
+                                                                            "keywords":  {
+                                                                                             "items":  {
+                                                                                                           "type":  "string"
+                                                                                                       },
+                                                                                             "type":  "array"
+                                                                                         },
+                                                                            "sentence":  {
+                                                                                             "type":  "string"
+                                                                                         },
+                                                                            "emoji":  {
+                                                                                          "type":  "string"
+                                                                                      }
+                                                                        }
+                                                     },
+                                           "type":  "array"
+                                       },
+                       "searchTags":  {
+                                          "items":  {
+                                                        "type":  "string"
+                                                    },
+                                          "type":  "array"
+                                      },
+                       "curriculumReferences":  {
+                                                    "items":  {
+                                                                  "type":  "string"
+                                                              },
+                                                    "type":  "array"
+                                                },
+                       "teacherTips":  {
+                                           "type":  "string"
+                                       },
+                       "parentTips":  {
+                                          "type":  "string"
+                                      },
+                       "fineMotorObjective":  {
+                                                  "type":  "string"
+                                              },
+                       "phonicsObjective":  {
+                                                "type":  "string"
+                                            },
+                       "tracingRows":  {
+                                           "items":  {
+                                                         "properties":  {
+                                                                            "lowercase":  {
+                                                                                              "type":  "string"
+                                                                                          },
+                                                                            "type":  {
+                                                                                         "type":  "string"
+                                                                                     },
+                                                                            "uppercase":  {
+                                                                                              "type":  "string"
+                                                                                          }
+                                                                        },
+                                                         "type":  "object",
+                                                         "required":  [
+                                                                          "uppercase",
+                                                                          "lowercase",
+                                                                          "type"
+                                                                      ]
+                                                     },
+                                           "type":  "array"
+                                       }
+                   },
+    "additionalProperties":  false
+}

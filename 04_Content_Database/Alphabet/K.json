@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "K",
+    "uppercase":  "K",
+    "lowercase":  "k",
+    "phonicsSound":  "/k/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Kite",
+                      "Key",
+                      "Kangaroo"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Kite",
+                           "syllables":  1,
+                           "phonics":  "/k/",
+                           "imageId":  "asset-kite",
+                           "outlineImageId":  "asset-kite-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "kite",
+                                            "k",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Kite starts with the letter K.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Key",
+                           "syllables":  1,
+                           "phonics":  "/k/",
+                           "imageId":  "asset-key",
+                           "outlineImageId":  "asset-key-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "key",
+                                            "k",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Key starts with the letter K.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Kangaroo",
+                           "syllables":  2,
+                           "phonics":  "/k/",
+                           "imageId":  "asset-kangaroo",
+                           "outlineImageId":  "asset-kangaroo-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "kangaroo",
+                                            "k",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Kangaroo starts with the letter K.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "King",
+                           "syllables":  1,
+                           "phonics":  "/k/",
+                           "imageId":  "asset-king",
+                           "outlineImageId":  "asset-king-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "king",
+                                            "k",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "King starts with the letter K.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Koala",
+                           "syllables":  2,
+                           "phonics":  "/k/",
+                           "imageId":  "asset-koala",
+                           "outlineImageId":  "asset-koala-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "koala",
+                                            "k",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Koala starts with the letter K.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Kitten",
+                           "syllables":  2,
+                           "phonics":  "/k/",
+                           "imageId":  "asset-kitten",
+                           "outlineImageId":  "asset-kitten-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "kitten",
+                                            "k",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Kitten starts with the letter K.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Kiwi",
+                           "syllables":  1,
+                           "phonics":  "/k/",
+                           "imageId":  "asset-kiwi",
+                           "outlineImageId":  "asset-kiwi-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "kiwi",
+                                            "k",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Kiwi starts with the letter K.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Knee",
+                           "syllables":  1,
+                           "phonics":  "/k/",
+                           "imageId":  "asset-knee",
+                           "outlineImageId":  "asset-knee-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "knee",
+                                            "k",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Knee starts with the letter K.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Knife",
+                           "syllables":  2,
+                           "phonics":  "/k/",
+                           "imageId":  "asset-knife",
+                           "outlineImageId":  "asset-knife-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "knife",
+                                            "k",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Knife starts with the letter K.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Knight",
+                           "syllables":  2,
+                           "phonics":  "/k/",
+                           "imageId":  "asset-knight",
+                           "outlineImageId":  "asset-knight-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "knight",
+                                            "k",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Knight starts with the letter K.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Kettle",
+                            "syllables":  2,
+                            "phonics":  "/k/",
+                            "imageId":  "asset-kettle",
+                            "outlineImageId":  "asset-kettle-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "kettle",
+                                             "k",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Kettle starts with the letter K.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Keyboard",
+                            "syllables":  2,
+                            "phonics":  "/k/",
+                            "imageId":  "asset-keyboard",
+                            "outlineImageId":  "asset-keyboard-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "keyboard",
+                                             "k",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Keyboard starts with the letter K.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Kayak",
+                            "syllables":  2,
+                            "phonics":  "/k/",
+                            "imageId":  "asset-kayak",
+                            "outlineImageId":  "asset-kayak-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "kayak",
+                                             "k",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Kayak starts with the letter K.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Ketchup",
+                            "syllables":  2,
+                            "phonics":  "/k/",
+                            "imageId":  "asset-ketchup",
+                            "outlineImageId":  "asset-ketchup-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "ketchup",
+                                             "k",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Ketchup starts with the letter K.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Kid",
+                            "syllables":  1,
+                            "phonics":  "/k/",
+                            "imageId":  "asset-kid",
+                            "outlineImageId":  "asset-kid-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "kid",
+                                             "k",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Kid starts with the letter K.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "K",
+                       "k",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /k/ sound when introducing K.",
+    "parentTips":  "Look for objects starting with K around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /k/ sound in spoken words."
+}

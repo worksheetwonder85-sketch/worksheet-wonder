@@ -1,0 +1,26 @@
+﻿{
+    "id":  "asset-banana",
+    "name":  "Banana",
+    "category":  "Food",
+    "keywords":  [
+                     "banana",
+                     "letter b",
+                     "alphabet"
+                 ],
+    "letter":  "B",
+    "difficulty":  1,
+    "recommendedAge":  [
+                           4,
+                           5,
+                           6
+                       ],
+    "usage":  {
+                  "fullColor":  "Banana.svg",
+                  "outline":  "Banana_outline.svg"
+              },
+    "tags":  [
+                 "banana",
+                 "kindergarten",
+                 "noun"
+             ]
+}

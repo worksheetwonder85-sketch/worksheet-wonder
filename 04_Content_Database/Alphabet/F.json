@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "F",
+    "uppercase":  "F",
+    "lowercase":  "f",
+    "phonicsSound":  "/f/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Fish",
+                      "Frog",
+                      "Fox"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Fish",
+                           "syllables":  1,
+                           "phonics":  "/f/",
+                           "imageId":  "asset-fish",
+                           "outlineImageId":  "asset-fish-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "fish",
+                                            "f",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Fish starts with the letter F.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Frog",
+                           "syllables":  1,
+                           "phonics":  "/f/",
+                           "imageId":  "asset-frog",
+                           "outlineImageId":  "asset-frog-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "frog",
+                                            "f",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Frog starts with the letter F.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Fox",
+                           "syllables":  1,
+                           "phonics":  "/f/",
+                           "imageId":  "asset-fox",
+                           "outlineImageId":  "asset-fox-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "fox",
+                                            "f",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Fox starts with the letter F.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Fire",
+                           "syllables":  1,
+                           "phonics":  "/f/",
+                           "imageId":  "asset-fire",
+                           "outlineImageId":  "asset-fire-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "fire",
+                                            "f",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Fire starts with the letter F.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Flower",
+                           "syllables":  2,
+                           "phonics":  "/f/",
+                           "imageId":  "asset-flower",
+                           "outlineImageId":  "asset-flower-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "flower",
+                                            "f",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Flower starts with the letter F.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Flag",
+                           "syllables":  1,
+                           "phonics":  "/f/",
+                           "imageId":  "asset-flag",
+                           "outlineImageId":  "asset-flag-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "flag",
+                                            "f",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Flag starts with the letter F.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Fan",
+                           "syllables":  1,
+                           "phonics":  "/f/",
+                           "imageId":  "asset-fan",
+                           "outlineImageId":  "asset-fan-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "fan",
+                                            "f",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Fan starts with the letter F.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Farm",
+                           "syllables":  1,
+                           "phonics":  "/f/",
+                           "imageId":  "asset-farm",
+                           "outlineImageId":  "asset-farm-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "farm",
+                                            "f",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Farm starts with the letter F.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Feather",
+                           "syllables":  2,
+                           "phonics":  "/f/",
+                           "imageId":  "asset-feather",
+                           "outlineImageId":  "asset-feather-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "feather",
+                                            "f",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Feather starts with the letter F.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Fork",
+                           "syllables":  1,
+                           "phonics":  "/f/",
+                           "imageId":  "asset-fork",
+                           "outlineImageId":  "asset-fork-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "fork",
+                                            "f",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Fork starts with the letter F.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Fairy",
+                            "syllables":  2,
+                            "phonics":  "/f/",
+                            "imageId":  "asset-fairy",
+                            "outlineImageId":  "asset-fairy-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "fairy",
+                                             "f",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Fairy starts with the letter F.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Foot",
+                            "syllables":  1,
+                            "phonics":  "/f/",
+                            "imageId":  "asset-foot",
+                            "outlineImageId":  "asset-foot-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "foot",
+                                             "f",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Foot starts with the letter F.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Fence",
+                            "syllables":  2,
+                            "phonics":  "/f/",
+                            "imageId":  "asset-fence",
+                            "outlineImageId":  "asset-fence-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "fence",
+                                             "f",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Fence starts with the letter F.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Family",
+                            "syllables":  2,
+                            "phonics":  "/f/",
+                            "imageId":  "asset-family",
+                            "outlineImageId":  "asset-family-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "family",
+                                             "f",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Family starts with the letter F.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Five",
+                            "syllables":  1,
+                            "phonics":  "/f/",
+                            "imageId":  "asset-five",
+                            "outlineImageId":  "asset-five-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "five",
+                                             "f",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Five starts with the letter F.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "F",
+                       "f",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /f/ sound when introducing F.",
+    "parentTips":  "Look for objects starting with F around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /f/ sound in spoken words."
+}

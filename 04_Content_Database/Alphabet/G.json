@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "G",
+    "uppercase":  "G",
+    "lowercase":  "g",
+    "phonicsSound":  "/g/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Goat",
+                      "Girl",
+                      "Guitar"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Goat",
+                           "syllables":  1,
+                           "phonics":  "/g/",
+                           "imageId":  "asset-goat",
+                           "outlineImageId":  "asset-goat-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "goat",
+                                            "g",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Goat starts with the letter G.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Girl",
+                           "syllables":  1,
+                           "phonics":  "/g/",
+                           "imageId":  "asset-girl",
+                           "outlineImageId":  "asset-girl-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "girl",
+                                            "g",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Girl starts with the letter G.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Guitar",
+                           "syllables":  2,
+                           "phonics":  "/g/",
+                           "imageId":  "asset-guitar",
+                           "outlineImageId":  "asset-guitar-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "guitar",
+                                            "g",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Guitar starts with the letter G.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Gate",
+                           "syllables":  1,
+                           "phonics":  "/g/",
+                           "imageId":  "asset-gate",
+                           "outlineImageId":  "asset-gate-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "gate",
+                                            "g",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Gate starts with the letter G.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Ghost",
+                           "syllables":  2,
+                           "phonics":  "/g/",
+                           "imageId":  "asset-ghost",
+                           "outlineImageId":  "asset-ghost-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "ghost",
+                                            "g",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ghost starts with the letter G.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Glass",
+                           "syllables":  2,
+                           "phonics":  "/g/",
+                           "imageId":  "asset-glass",
+                           "outlineImageId":  "asset-glass-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "glass",
+                                            "g",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Glass starts with the letter G.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Glove",
+                           "syllables":  2,
+                           "phonics":  "/g/",
+                           "imageId":  "asset-glove",
+                           "outlineImageId":  "asset-glove-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "glove",
+                                            "g",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Glove starts with the letter G.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Gold",
+                           "syllables":  1,
+                           "phonics":  "/g/",
+                           "imageId":  "asset-gold",
+                           "outlineImageId":  "asset-gold-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "gold",
+                                            "g",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Gold starts with the letter G.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Goose",
+                           "syllables":  2,
+                           "phonics":  "/g/",
+                           "imageId":  "asset-goose",
+                           "outlineImageId":  "asset-goose-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "goose",
+                                            "g",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Goose starts with the letter G.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Gorilla",
+                           "syllables":  2,
+                           "phonics":  "/g/",
+                           "imageId":  "asset-gorilla",
+                           "outlineImageId":  "asset-gorilla-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "gorilla",
+                                            "g",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Gorilla starts with the letter G.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Grape",
+                            "syllables":  2,
+                            "phonics":  "/g/",
+                            "imageId":  "asset-grape",
+                            "outlineImageId":  "asset-grape-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "grape",
+                                             "g",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Grape starts with the letter G.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Grass",
+                            "syllables":  2,
+                            "phonics":  "/g/",
+                            "imageId":  "asset-grass",
+                            "outlineImageId":  "asset-grass-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "grass",
+                                             "g",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Grass starts with the letter G.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Gift",
+                            "syllables":  1,
+                            "phonics":  "/g/",
+                            "imageId":  "asset-gift",
+                            "outlineImageId":  "asset-gift-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "gift",
+                                             "g",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Gift starts with the letter G.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Giraffe",
+                            "syllables":  2,
+                            "phonics":  "/g/",
+                            "imageId":  "asset-giraffe",
+                            "outlineImageId":  "asset-giraffe-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "giraffe",
+                                             "g",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Giraffe starts with the letter G.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Glue",
+                            "syllables":  1,
+                            "phonics":  "/g/",
+                            "imageId":  "asset-glue",
+                            "outlineImageId":  "asset-glue-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "glue",
+                                             "g",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Glue starts with the letter G.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "G",
+                       "g",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /g/ sound when introducing G.",
+    "parentTips":  "Look for objects starting with G around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /g/ sound in spoken words."
+}

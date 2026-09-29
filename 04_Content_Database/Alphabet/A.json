@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "A",
+    "uppercase":  "A",
+    "lowercase":  "a",
+    "phonicsSound":  "/a/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Apple",
+                      "Ant",
+                      "Alligator"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Apple",
+                           "syllables":  2,
+                           "phonics":  "/a/",
+                           "imageId":  "asset-apple",
+                           "outlineImageId":  "asset-apple-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "apple",
+                                            "a",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Apple starts with the letter A.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Ant",
+                           "syllables":  1,
+                           "phonics":  "/a/",
+                           "imageId":  "asset-ant",
+                           "outlineImageId":  "asset-ant-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "ant",
+                                            "a",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ant starts with the letter A.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Alligator",
+                           "syllables":  2,
+                           "phonics":  "/a/",
+                           "imageId":  "asset-alligator",
+                           "outlineImageId":  "asset-alligator-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "alligator",
+                                            "a",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Alligator starts with the letter A.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Acorn",
+                           "syllables":  2,
+                           "phonics":  "/a/",
+                           "imageId":  "asset-acorn",
+                           "outlineImageId":  "asset-acorn-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "acorn",
+                                            "a",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Acorn starts with the letter A.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Arrow",
+                           "syllables":  2,
+                           "phonics":  "/a/",
+                           "imageId":  "asset-arrow",
+                           "outlineImageId":  "asset-arrow-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "arrow",
+                                            "a",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Arrow starts with the letter A.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Airplane",
+                           "syllables":  2,
+                           "phonics":  "/a/",
+                           "imageId":  "asset-airplane",
+                           "outlineImageId":  "asset-airplane-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "airplane",
+                                            "a",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Airplane starts with the letter A.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Astronaut",
+                           "syllables":  2,
+                           "phonics":  "/a/",
+                           "imageId":  "asset-astronaut",
+                           "outlineImageId":  "asset-astronaut-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "astronaut",
+                                            "a",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Astronaut starts with the letter A.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Anchor",
+                           "syllables":  2,
+                           "phonics":  "/a/",
+                           "imageId":  "asset-anchor",
+                           "outlineImageId":  "asset-anchor-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "anchor",
+                                            "a",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Anchor starts with the letter A.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Axe",
+                           "syllables":  1,
+                           "phonics":  "/a/",
+                           "imageId":  "asset-axe",
+                           "outlineImageId":  "asset-axe-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "axe",
+                                            "a",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Axe starts with the letter A.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Apricot",
+                           "syllables":  2,
+                           "phonics":  "/a/",
+                           "imageId":  "asset-apricot",
+                           "outlineImageId":  "asset-apricot-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "apricot",
+                                            "a",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Apricot starts with the letter A.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Alpaca",
+                            "syllables":  2,
+                            "phonics":  "/a/",
+                            "imageId":  "asset-alpaca",
+                            "outlineImageId":  "asset-alpaca-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "alpaca",
+                                             "a",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Alpaca starts with the letter A.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Angel",
+                            "syllables":  2,
+                            "phonics":  "/a/",
+                            "imageId":  "asset-angel",
+                            "outlineImageId":  "asset-angel-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "angel",
+                                             "a",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Angel starts with the letter A.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Avocado",
+                            "syllables":  2,
+                            "phonics":  "/a/",
+                            "imageId":  "asset-avocado",
+                            "outlineImageId":  "asset-avocado-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "avocado",
+                                             "a",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Avocado starts with the letter A.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Accordion",
+                            "syllables":  2,
+                            "phonics":  "/a/",
+                            "imageId":  "asset-accordion",
+                            "outlineImageId":  "asset-accordion-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "accordion",
+                                             "a",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Accordion starts with the letter A.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Ambulance",
+                            "syllables":  2,
+                            "phonics":  "/a/",
+                            "imageId":  "asset-ambulance",
+                            "outlineImageId":  "asset-ambulance-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "ambulance",
+                                             "a",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Ambulance starts with the letter A.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "A",
+                       "a",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /a/ sound when introducing A.",
+    "parentTips":  "Look for objects starting with A around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /a/ sound in spoken words."
+}

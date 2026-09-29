@@ -1,0 +1,66 @@
+/* 
+  Worksheet Wonder - Master Variables
+  Role: Single source of truth for all design tokens (Colors, Typography, Dimensions).
+  Scope: Global. Used across all layout, components, and handwriting files.
+*/
+
+:root {
+  /* COLORS - CMYK Safe for Commercial Print */
+  --color-primary: #1E293B;      /* Slate 800 - Primary Ink */
+  --color-secondary: #475569;    /* Slate 600 - Secondary Ink */
+  --color-accent: #3B82F6;       /* Blue 500 - Action / Highlights */
+  --color-accent-alt: #EF4444;   /* Red 500 - Start Dots / Urgency */
+  
+  --color-bg-page: #FFFFFF;      /* Pure White */
+  --color-bg-panel: #FFFFFF;     /* Pure White */
+  --color-bg-scaffold: #F8FAFC;  /* Slate 50 - Visual separation */
+  
+  /* HANDWRITING SPECIFIC COLORS */
+  --color-hw-top: #94A3B8;       /* Slate 400 - Top guideline */
+  --color-hw-mid: #CBD5E1;       /* Slate 300 - Dashed midline */
+  --color-hw-base: #475569;      /* Slate 600 - Solid baseline */
+  
+  /* FONTS */
+  --font-display: 'Fredoka', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+  
+  /* PAGE DIMENSIONS (A4 Portrait) */
+  --page-width: 210mm;
+  --page-height: 297mm;
+  --page-padding: 10mm;
+  
+  /* SPACING SYSTEM (8-point grid equivalent in mm) */
+  --spacing-xs: 2mm;
+  --spacing-sm: 4mm;
+  --spacing-md: 6mm;
+  --spacing-lg: 10mm;
+  --spacing-xl: 15mm;
+  
+  /* COMPONENT HEIGHTS */
+  --height-header: 12mm;
+  --height-footer: 8mm;
+  
+  /* HANDWRITING ENGINE DIMENSIONS */
+  --hw-row-height: 12mm;
+  --hw-row-gap: 3mm;
+  --hw-start-dot-size: 5px;
+  
+  /* ILLUSTRATION & CARD SIZES */
+  --size-illustration-sm: 20mm;
+  --size-illustration-md: 35mm;
+  --size-illustration-lg: 50mm;
+  
+  /* BORDERS & STROKES */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  
+  --stroke-thin: 1.5px;
+  --stroke-base: 2.5px;
+  --stroke-thick: 4px;
+  
+  /* SHADOWS (Flat, 0-blur for print) */
+  --shadow-sm: 2px 2px 0px var(--color-primary);
+  --shadow-md: 4px 4px 0px var(--color-primary);
+}

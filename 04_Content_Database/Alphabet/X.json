@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "X",
+    "uppercase":  "X",
+    "lowercase":  "x",
+    "phonicsSound":  "/ks/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Xylophone",
+                      "X-ray",
+                      "Xenon"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Xylophone",
+                           "syllables":  2,
+                           "phonics":  "/x/",
+                           "imageId":  "asset-xylophone",
+                           "outlineImageId":  "asset-xylophone-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "xylophone",
+                                            "x",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Xylophone starts with the letter X.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "X-ray",
+                           "syllables":  2,
+                           "phonics":  "/x/",
+                           "imageId":  "asset-x-ray",
+                           "outlineImageId":  "asset-x-ray-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "x-ray",
+                                            "x",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "X-ray starts with the letter X.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Xenon",
+                           "syllables":  2,
+                           "phonics":  "/x/",
+                           "imageId":  "asset-xenon",
+                           "outlineImageId":  "asset-xenon-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "xenon",
+                                            "x",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Xenon starts with the letter X.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Xerox",
+                           "syllables":  2,
+                           "phonics":  "/x/",
+                           "imageId":  "asset-xerox",
+                           "outlineImageId":  "asset-xerox-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "xerox",
+                                            "x",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Xerox starts with the letter X.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Xmas",
+                           "syllables":  1,
+                           "phonics":  "/x/",
+                           "imageId":  "asset-xmas",
+                           "outlineImageId":  "asset-xmas-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "xmas",
+                                            "x",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Xmas starts with the letter X.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Xiphias",
+                           "syllables":  2,
+                           "phonics":  "/x/",
+                           "imageId":  "asset-xiphias",
+                           "outlineImageId":  "asset-xiphias-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "xiphias",
+                                            "x",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Xiphias starts with the letter X.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Xylem",
+                           "syllables":  2,
+                           "phonics":  "/x/",
+                           "imageId":  "asset-xylem",
+                           "outlineImageId":  "asset-xylem-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "xylem",
+                                            "x",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Xylem starts with the letter X.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Xenops",
+                           "syllables":  2,
+                           "phonics":  "/x/",
+                           "imageId":  "asset-xenops",
+                           "outlineImageId":  "asset-xenops-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "xenops",
+                                            "x",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Xenops starts with the letter X.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Xanthic",
+                           "syllables":  2,
+                           "phonics":  "/x/",
+                           "imageId":  "asset-xanthic",
+                           "outlineImageId":  "asset-xanthic-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "xanthic",
+                                            "x",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Xanthic starts with the letter X.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Xebec",
+                           "syllables":  2,
+                           "phonics":  "/x/",
+                           "imageId":  "asset-xebec",
+                           "outlineImageId":  "asset-xebec-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "xebec",
+                                            "x",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Xebec starts with the letter X.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Xenial",
+                            "syllables":  2,
+                            "phonics":  "/x/",
+                            "imageId":  "asset-xenial",
+                            "outlineImageId":  "asset-xenial-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "xenial",
+                                             "x",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Xenial starts with the letter X.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Xyst",
+                            "syllables":  1,
+                            "phonics":  "/x/",
+                            "imageId":  "asset-xyst",
+                            "outlineImageId":  "asset-xyst-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "xyst",
+                                             "x",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Xyst starts with the letter X.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Xanthippe",
+                            "syllables":  2,
+                            "phonics":  "/x/",
+                            "imageId":  "asset-xanthippe",
+                            "outlineImageId":  "asset-xanthippe-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "xanthippe",
+                                             "x",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Xanthippe starts with the letter X.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Xenolith",
+                            "syllables":  2,
+                            "phonics":  "/x/",
+                            "imageId":  "asset-xenolith",
+                            "outlineImageId":  "asset-xenolith-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "xenolith",
+                                             "x",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Xenolith starts with the letter X.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Xerophyte",
+                            "syllables":  2,
+                            "phonics":  "/x/",
+                            "imageId":  "asset-xerophyte",
+                            "outlineImageId":  "asset-xerophyte-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "xerophyte",
+                                             "x",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Xerophyte starts with the letter X.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "X",
+                       "x",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /ks/ sound when introducing X.",
+    "parentTips":  "Look for objects starting with X around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /ks/ sound in spoken words."
+}

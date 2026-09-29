@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "H",
+    "uppercase":  "H",
+    "lowercase":  "h",
+    "phonicsSound":  "/h/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Hat",
+                      "House",
+                      "Horse"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Hat",
+                           "syllables":  1,
+                           "phonics":  "/h/",
+                           "imageId":  "asset-hat",
+                           "outlineImageId":  "asset-hat-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "hat",
+                                            "h",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Hat starts with the letter H.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "House",
+                           "syllables":  2,
+                           "phonics":  "/h/",
+                           "imageId":  "asset-house",
+                           "outlineImageId":  "asset-house-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "house",
+                                            "h",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "House starts with the letter H.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Horse",
+                           "syllables":  2,
+                           "phonics":  "/h/",
+                           "imageId":  "asset-horse",
+                           "outlineImageId":  "asset-horse-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "horse",
+                                            "h",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Horse starts with the letter H.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Hand",
+                           "syllables":  1,
+                           "phonics":  "/h/",
+                           "imageId":  "asset-hand",
+                           "outlineImageId":  "asset-hand-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "hand",
+                                            "h",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Hand starts with the letter H.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Heart",
+                           "syllables":  2,
+                           "phonics":  "/h/",
+                           "imageId":  "asset-heart",
+                           "outlineImageId":  "asset-heart-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "heart",
+                                            "h",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Heart starts with the letter H.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Helicopter",
+                           "syllables":  2,
+                           "phonics":  "/h/",
+                           "imageId":  "asset-helicopter",
+                           "outlineImageId":  "asset-helicopter-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "helicopter",
+                                            "h",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Helicopter starts with the letter H.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Hippo",
+                           "syllables":  2,
+                           "phonics":  "/h/",
+                           "imageId":  "asset-hippo",
+                           "outlineImageId":  "asset-hippo-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "hippo",
+                                            "h",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Hippo starts with the letter H.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Honey",
+                           "syllables":  2,
+                           "phonics":  "/h/",
+                           "imageId":  "asset-honey",
+                           "outlineImageId":  "asset-honey-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "honey",
+                                            "h",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Honey starts with the letter H.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Horn",
+                           "syllables":  1,
+                           "phonics":  "/h/",
+                           "imageId":  "asset-horn",
+                           "outlineImageId":  "asset-horn-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "horn",
+                                            "h",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Horn starts with the letter H.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Hose",
+                           "syllables":  1,
+                           "phonics":  "/h/",
+                           "imageId":  "asset-hose",
+                           "outlineImageId":  "asset-hose-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "hose",
+                                            "h",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Hose starts with the letter H.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Hammer",
+                            "syllables":  2,
+                            "phonics":  "/h/",
+                            "imageId":  "asset-hammer",
+                            "outlineImageId":  "asset-hammer-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "hammer",
+                                             "h",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Hammer starts with the letter H.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Hair",
+                            "syllables":  1,
+                            "phonics":  "/h/",
+                            "imageId":  "asset-hair",
+                            "outlineImageId":  "asset-hair-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "hair",
+                                             "h",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Hair starts with the letter H.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Half",
+                            "syllables":  1,
+                            "phonics":  "/h/",
+                            "imageId":  "asset-half",
+                            "outlineImageId":  "asset-half-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "half",
+                                             "h",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Half starts with the letter H.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Halo",
+                            "syllables":  1,
+                            "phonics":  "/h/",
+                            "imageId":  "asset-halo",
+                            "outlineImageId":  "asset-halo-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "halo",
+                                             "h",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Halo starts with the letter H.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Ham",
+                            "syllables":  1,
+                            "phonics":  "/h/",
+                            "imageId":  "asset-ham",
+                            "outlineImageId":  "asset-ham-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "ham",
+                                             "h",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Ham starts with the letter H.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "H",
+                       "h",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /h/ sound when introducing H.",
+    "parentTips":  "Look for objects starting with H around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /h/ sound in spoken words."
+}

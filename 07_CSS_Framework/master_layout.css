@@ -1,0 +1,46 @@
+/* 
+  Worksheet Wonder - Master Layout
+  Role: Defines the immutable A4 page grid, preventing overflow and ensuring consistent layout.
+  Scope: Page wrappers and structural grids.
+*/
+
+/* The Immutable A4 Container */
+.page-wrapper {
+  width: var(--page-width);
+  height: var(--page-height);
+  padding: var(--page-padding);
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: var(--color-bg-page);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden; /* Critical for print safety */
+}
+
+/* Flexible 12-Column Grid System for Internal Structuring */
+/* Example: .col-6 creates a 50/50 split */
+.main-grid {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--spacing-md);
+  align-content: start; /* Prevents rows from stretching vertically */
+}
+
+/* Grid Spans */
+.col-12 { grid-column: span 12; }
+.col-8  { grid-column: span 8; }
+.col-6  { grid-column: span 6; }
+.col-4  { grid-column: span 4; }
+.col-3  { grid-column: span 3; }
+
+/* Responsive Overrides (For digital previewing only) */
+@media screen and (max-width: 800px) {
+  .page-wrapper {
+    /* Retain aspect ratio but scale down for screens */
+    width: 100vw;
+    height: calc(100vw * 1.414);
+    padding: 5vw;
+  }
+}

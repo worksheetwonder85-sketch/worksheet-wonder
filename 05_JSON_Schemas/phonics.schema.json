@@ -1,0 +1,14 @@
+﻿{
+    "$schema":  "http://json-schema.org/draft-07/schema#",
+    "title":  "Phonics Schema",
+    "type":  "object",
+    "required":  [
+                     "sound"
+                 ],
+    "properties":  {
+                       "sound":  {
+                                     "type":  "string"
+                                 }
+                   },
+    "additionalProperties":  false
+}

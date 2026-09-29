@@ -1,0 +1,41 @@
+/* ==========================================================================
+   WORKSHEET WONDER - MASTER VARIABLES
+   Central Design Tokens & Page Dimensions
+   ========================================================================== */
+
+:root {
+  /* Page Geometry - A4 Standard */
+  --page-width: 210mm;
+  --page-height: 297mm;
+  --page-margin-top: 10mm;
+  --page-margin-right: 14mm;
+  --page-margin-bottom: 8mm;
+  --page-margin-left: 14mm;
+
+  /* Typography System */
+  --font-family-heading: 'Baloo 2', cursive, sans-serif;
+  --font-family-body: 'Quicksand', sans-serif;
+
+  /* Dynamic Theme Palette (Overridden per letter via generator) */
+  --theme-color-primary: #5B9BD5;
+  --theme-color-secondary: #3A6FA0;
+  --theme-color-light: #EAF4FB;
+  --theme-color-border: #C8DFF0;
+  --theme-color-subtle: #FAFEFF;
+  --theme-color-text: #3A3A3A;
+  --theme-color-text-muted: #7BAAC4;
+  --theme-color-dash: #AECED8;
+  --theme-color-dash-light: #D4E6EC;
+
+  /* Tracing & Handwriting Line Spacing */
+  --trace-row-height: 16mm;
+  --blank-row-height: 14mm;
+  --baseline-border-width: 2.2px;
+  --midline-dashed-offset: 5.5mm;
+  --topline-border-color: #E8F0F5;
+
+  /* Layout Spacing Tokens */
+  --radius-page-frame: 10px;
+  --radius-section-card: 14px;
+  --radius-badge: 20px;
+}

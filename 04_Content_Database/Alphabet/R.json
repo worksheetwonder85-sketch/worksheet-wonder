@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "R",
+    "uppercase":  "R",
+    "lowercase":  "r",
+    "phonicsSound":  "/r/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Rabbit",
+                      "Ring",
+                      "Robot"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Rabbit",
+                           "syllables":  2,
+                           "phonics":  "/r/",
+                           "imageId":  "asset-rabbit",
+                           "outlineImageId":  "asset-rabbit-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "rabbit",
+                                            "r",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Rabbit starts with the letter R.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Ring",
+                           "syllables":  1,
+                           "phonics":  "/r/",
+                           "imageId":  "asset-ring",
+                           "outlineImageId":  "asset-ring-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "ring",
+                                            "r",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ring starts with the letter R.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Robot",
+                           "syllables":  2,
+                           "phonics":  "/r/",
+                           "imageId":  "asset-robot",
+                           "outlineImageId":  "asset-robot-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "robot",
+                                            "r",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Robot starts with the letter R.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Rain",
+                           "syllables":  1,
+                           "phonics":  "/r/",
+                           "imageId":  "asset-rain",
+                           "outlineImageId":  "asset-rain-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "rain",
+                                            "r",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Rain starts with the letter R.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Rat",
+                           "syllables":  1,
+                           "phonics":  "/r/",
+                           "imageId":  "asset-rat",
+                           "outlineImageId":  "asset-rat-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "rat",
+                                            "r",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Rat starts with the letter R.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Rainbow",
+                           "syllables":  2,
+                           "phonics":  "/r/",
+                           "imageId":  "asset-rainbow",
+                           "outlineImageId":  "asset-rainbow-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "rainbow",
+                                            "r",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Rainbow starts with the letter R.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Rose",
+                           "syllables":  1,
+                           "phonics":  "/r/",
+                           "imageId":  "asset-rose",
+                           "outlineImageId":  "asset-rose-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "rose",
+                                            "r",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Rose starts with the letter R.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Rock",
+                           "syllables":  1,
+                           "phonics":  "/r/",
+                           "imageId":  "asset-rock",
+                           "outlineImageId":  "asset-rock-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "rock",
+                                            "r",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Rock starts with the letter R.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Rocket",
+                           "syllables":  2,
+                           "phonics":  "/r/",
+                           "imageId":  "asset-rocket",
+                           "outlineImageId":  "asset-rocket-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "rocket",
+                                            "r",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Rocket starts with the letter R.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Roof",
+                           "syllables":  1,
+                           "phonics":  "/r/",
+                           "imageId":  "asset-roof",
+                           "outlineImageId":  "asset-roof-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "roof",
+                                            "r",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Roof starts with the letter R.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Rooster",
+                            "syllables":  2,
+                            "phonics":  "/r/",
+                            "imageId":  "asset-rooster",
+                            "outlineImageId":  "asset-rooster-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "rooster",
+                                             "r",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Rooster starts with the letter R.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Rope",
+                            "syllables":  1,
+                            "phonics":  "/r/",
+                            "imageId":  "asset-rope",
+                            "outlineImageId":  "asset-rope-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "rope",
+                                             "r",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Rope starts with the letter R.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Ruler",
+                            "syllables":  2,
+                            "phonics":  "/r/",
+                            "imageId":  "asset-ruler",
+                            "outlineImageId":  "asset-ruler-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "ruler",
+                                             "r",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Ruler starts with the letter R.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Rug",
+                            "syllables":  1,
+                            "phonics":  "/r/",
+                            "imageId":  "asset-rug",
+                            "outlineImageId":  "asset-rug-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "rug",
+                                             "r",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Rug starts with the letter R.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Radio",
+                            "syllables":  2,
+                            "phonics":  "/r/",
+                            "imageId":  "asset-radio",
+                            "outlineImageId":  "asset-radio-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "radio",
+                                             "r",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Radio starts with the letter R.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "R",
+                       "r",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /r/ sound when introducing R.",
+    "parentTips":  "Look for objects starting with R around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /r/ sound in spoken words."
+}

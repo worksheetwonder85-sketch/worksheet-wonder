@@ -1,0 +1,43 @@
+:root {
+  /* Colors */
+  --color-ink: #1E293B;
+  --color-ink-light: #475569;
+  --color-page-bg: #FFFFFF;
+  --color-panel-bg: #FFFFFF;
+  --color-scaffold-bg: #FFFAF0;
+  --color-dashed-line: #CBD5E1;
+  --color-solid-line: #94A3B8;
+  --color-baseline: #475569;
+  --color-accent: #3B82F6;
+  --color-accent-alt: #EF4444;
+  
+  /* Fonts */
+  --font-primary: 'Fredoka', sans-serif;
+  --font-secondary: 'Nunito', sans-serif;
+  
+  /* Typography Scale */
+  --font-size-title: 10pt;
+  --font-size-heading: 14pt;
+  --font-size-vocab: 16pt;
+  --font-size-body: 11pt;
+  --font-size-meta: 8pt;
+  
+  /* Dimensions & Spacing */
+  --page-width: 210mm;
+  --page-height: 297mm;
+  --page-padding: 10mm;
+  
+  --spacing-row-gap: 5mm;
+  --spacing-col-gap: 6mm;
+  
+  /* Handwriting System */
+  --handwriting-row-height: 11mm;
+  --handwriting-row-gap: 2.5mm;
+  
+  /* Borders & Shadows */
+  --border-radius-large: 12px;
+  --border-radius-small: 6px;
+  --border-width: 2.5px;
+  --shadow-offset: 3px;
+  --shadow-color: var(--color-ink);
+}

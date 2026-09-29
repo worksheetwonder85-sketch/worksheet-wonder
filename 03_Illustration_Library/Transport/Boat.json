@@ -1,0 +1,26 @@
+﻿{
+    "id":  "asset-boat",
+    "name":  "Boat",
+    "category":  "Transport",
+    "keywords":  [
+                     "boat",
+                     "letter b",
+                     "alphabet"
+                 ],
+    "letter":  "B",
+    "difficulty":  1,
+    "recommendedAge":  [
+                           4,
+                           5,
+                           6
+                       ],
+    "usage":  {
+                  "fullColor":  "Boat.svg",
+                  "outline":  "Boat_outline.svg"
+              },
+    "tags":  [
+                 "boat",
+                 "kindergarten",
+                 "noun"
+             ]
+}

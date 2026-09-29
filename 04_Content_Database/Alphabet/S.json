@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "S",
+    "uppercase":  "S",
+    "lowercase":  "s",
+    "phonicsSound":  "/s/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Sun",
+                      "Star",
+                      "Snake"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Sun",
+                           "syllables":  1,
+                           "phonics":  "/s/",
+                           "imageId":  "asset-sun",
+                           "outlineImageId":  "asset-sun-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "sun",
+                                            "s",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Sun starts with the letter S.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Star",
+                           "syllables":  1,
+                           "phonics":  "/s/",
+                           "imageId":  "asset-star",
+                           "outlineImageId":  "asset-star-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "star",
+                                            "s",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Star starts with the letter S.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Snake",
+                           "syllables":  2,
+                           "phonics":  "/s/",
+                           "imageId":  "asset-snake",
+                           "outlineImageId":  "asset-snake-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "snake",
+                                            "s",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Snake starts with the letter S.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Sock",
+                           "syllables":  1,
+                           "phonics":  "/s/",
+                           "imageId":  "asset-sock",
+                           "outlineImageId":  "asset-sock-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "sock",
+                                            "s",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Sock starts with the letter S.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Shoe",
+                           "syllables":  1,
+                           "phonics":  "/s/",
+                           "imageId":  "asset-shoe",
+                           "outlineImageId":  "asset-shoe-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "shoe",
+                                            "s",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Shoe starts with the letter S.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Snow",
+                           "syllables":  1,
+                           "phonics":  "/s/",
+                           "imageId":  "asset-snow",
+                           "outlineImageId":  "asset-snow-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "snow",
+                                            "s",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Snow starts with the letter S.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Spoon",
+                           "syllables":  2,
+                           "phonics":  "/s/",
+                           "imageId":  "asset-spoon",
+                           "outlineImageId":  "asset-spoon-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "spoon",
+                                            "s",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Spoon starts with the letter S.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Spider",
+                           "syllables":  2,
+                           "phonics":  "/s/",
+                           "imageId":  "asset-spider",
+                           "outlineImageId":  "asset-spider-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "spider",
+                                            "s",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Spider starts with the letter S.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Squirrel",
+                           "syllables":  2,
+                           "phonics":  "/s/",
+                           "imageId":  "asset-squirrel",
+                           "outlineImageId":  "asset-squirrel-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "squirrel",
+                                            "s",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Squirrel starts with the letter S.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Strawberry",
+                           "syllables":  2,
+                           "phonics":  "/s/",
+                           "imageId":  "asset-strawberry",
+                           "outlineImageId":  "asset-strawberry-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "strawberry",
+                                            "s",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Strawberry starts with the letter S.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Submarine",
+                            "syllables":  2,
+                            "phonics":  "/s/",
+                            "imageId":  "asset-submarine",
+                            "outlineImageId":  "asset-submarine-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "submarine",
+                                             "s",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Submarine starts with the letter S.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Swan",
+                            "syllables":  1,
+                            "phonics":  "/s/",
+                            "imageId":  "asset-swan",
+                            "outlineImageId":  "asset-swan-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "swan",
+                                             "s",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Swan starts with the letter S.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Sword",
+                            "syllables":  2,
+                            "phonics":  "/s/",
+                            "imageId":  "asset-sword",
+                            "outlineImageId":  "asset-sword-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "sword",
+                                             "s",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Sword starts with the letter S.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Sail",
+                            "syllables":  1,
+                            "phonics":  "/s/",
+                            "imageId":  "asset-sail",
+                            "outlineImageId":  "asset-sail-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "sail",
+                                             "s",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Sail starts with the letter S.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Sand",
+                            "syllables":  1,
+                            "phonics":  "/s/",
+                            "imageId":  "asset-sand",
+                            "outlineImageId":  "asset-sand-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "sand",
+                                             "s",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Sand starts with the letter S.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "S",
+                       "s",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /s/ sound when introducing S.",
+    "parentTips":  "Look for objects starting with S around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /s/ sound in spoken words."
+}

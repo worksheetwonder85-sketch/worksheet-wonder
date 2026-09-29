@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "P",
+    "uppercase":  "P",
+    "lowercase":  "p",
+    "phonicsSound":  "/p/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Pig",
+                      "Pen",
+                      "Pizza"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Pig",
+                           "syllables":  1,
+                           "phonics":  "/p/",
+                           "imageId":  "asset-pig",
+                           "outlineImageId":  "asset-pig-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "pig",
+                                            "p",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Pig starts with the letter P.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Pen",
+                           "syllables":  1,
+                           "phonics":  "/p/",
+                           "imageId":  "asset-pen",
+                           "outlineImageId":  "asset-pen-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "pen",
+                                            "p",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Pen starts with the letter P.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Pizza",
+                           "syllables":  2,
+                           "phonics":  "/p/",
+                           "imageId":  "asset-pizza",
+                           "outlineImageId":  "asset-pizza-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "pizza",
+                                            "p",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Pizza starts with the letter P.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Panda",
+                           "syllables":  2,
+                           "phonics":  "/p/",
+                           "imageId":  "asset-panda",
+                           "outlineImageId":  "asset-panda-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "panda",
+                                            "p",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Panda starts with the letter P.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Pear",
+                           "syllables":  1,
+                           "phonics":  "/p/",
+                           "imageId":  "asset-pear",
+                           "outlineImageId":  "asset-pear-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "pear",
+                                            "p",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Pear starts with the letter P.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Pencil",
+                           "syllables":  2,
+                           "phonics":  "/p/",
+                           "imageId":  "asset-pencil",
+                           "outlineImageId":  "asset-pencil-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "pencil",
+                                            "p",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Pencil starts with the letter P.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Piano",
+                           "syllables":  2,
+                           "phonics":  "/p/",
+                           "imageId":  "asset-piano",
+                           "outlineImageId":  "asset-piano-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "piano",
+                                            "p",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Piano starts with the letter P.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Pie",
+                           "syllables":  1,
+                           "phonics":  "/p/",
+                           "imageId":  "asset-pie",
+                           "outlineImageId":  "asset-pie-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "pie",
+                                            "p",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Pie starts with the letter P.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Pineapple",
+                           "syllables":  2,
+                           "phonics":  "/p/",
+                           "imageId":  "asset-pineapple",
+                           "outlineImageId":  "asset-pineapple-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "pineapple",
+                                            "p",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Pineapple starts with the letter P.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Pumpkin",
+                           "syllables":  2,
+                           "phonics":  "/p/",
+                           "imageId":  "asset-pumpkin",
+                           "outlineImageId":  "asset-pumpkin-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "pumpkin",
+                                            "p",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Pumpkin starts with the letter P.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Penguin",
+                            "syllables":  2,
+                            "phonics":  "/p/",
+                            "imageId":  "asset-penguin",
+                            "outlineImageId":  "asset-penguin-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "penguin",
+                                             "p",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Penguin starts with the letter P.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Parrot",
+                            "syllables":  2,
+                            "phonics":  "/p/",
+                            "imageId":  "asset-parrot",
+                            "outlineImageId":  "asset-parrot-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "parrot",
+                                             "p",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Parrot starts with the letter P.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Peach",
+                            "syllables":  2,
+                            "phonics":  "/p/",
+                            "imageId":  "asset-peach",
+                            "outlineImageId":  "asset-peach-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "peach",
+                                             "p",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Peach starts with the letter P.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Peacock",
+                            "syllables":  2,
+                            "phonics":  "/p/",
+                            "imageId":  "asset-peacock",
+                            "outlineImageId":  "asset-peacock-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "peacock",
+                                             "p",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Peacock starts with the letter P.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Pearl",
+                            "syllables":  2,
+                            "phonics":  "/p/",
+                            "imageId":  "asset-pearl",
+                            "outlineImageId":  "asset-pearl-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "pearl",
+                                             "p",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Pearl starts with the letter P.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "P",
+                       "p",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /p/ sound when introducing P.",
+    "parentTips":  "Look for objects starting with P around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /p/ sound in spoken words."
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worksheet Wonder — {{TITLE}}</title>
+  
+  <link rel="stylesheet" href="master_variables.css">
+  <link rel="stylesheet" href="master_layout.css">
+  <link rel="stylesheet" href="master_components.css">
+  <link rel="stylesheet" href="master_styles.css">
+  <link rel="stylesheet" href="master_print.css" media="print">
+</head>
+<body>
+
+  <div class="page-wrapper">
+    
+    <!-- HEADER -->
+    <header>
+      <div class="header-field">
+        <span class="header-label">Name</span>
+        <div class="header-line long"></div>
+      </div>
+      <div class="header-field">
+        <span class="header-label">Date</span>
+        <div class="header-line"></div>
+      </div>
+      <div class="header-field">
+        <span class="header-label">Class</span>
+        <div class="header-line"></div>
+      </div>
+      <div class="header-field">
+        <span class="header-label">Teacher</span>
+        <div class="header-line"></div>
+      </div>
+    </header>
+
+    <!-- MAIN GRID CONTAINER -->
+    <main>
+
+      <!-- 1. BIG HERO LETTER -->
+      <section class="hero panel scaffold">
+        <h2 class="section-heading">Look</h2>
+        <div class="hero-content">
+          <!-- Uppercase and Lowercase Placeholder -->
+          <span>{{UPPERCASE}}{{LOWERCASE}}</span>
+        </div>
+      </section>
+
+      <!-- 4. FINGER TRACE (Grid Order override in CSS puts this at Row 1, Col 2) -->
+      <section class="finger-trace panel">
+        <h2 class="section-heading">Trace</h2>
+        <div class="svg-box" style="width: 100%; height: 100%;">
+          <svg width="100%" height="100%" viewBox="0 0 100 100">
+            <use href="master_illustrations.svg#placeholder-finger-trace"></use>
+            <text x="50" y="55" font-family="var(--font-primary)" font-weight="bold" font-size="14" fill="#1E293B" text-anchor="middle">{{FINGER_TRACE_SVG}}</text>
+          </svg>
+        </div>
+      </section>
+
+      <!-- 2. MEET THE LETTER ILLUSTRATIONS (3 SVGs) -->
+      <section class="illustrations panel">
+        <div class="svg-box">
+          <svg width="100%" height="100%" viewBox="0 0 100 100">
+            <use href="master_illustrations.svg#placeholder-svg"></use>
+            <text x="50" y="55" font-family="var(--font-primary)" font-weight="bold" font-size="14" fill="#1E293B" text-anchor="middle">{{SVG1}}</text>
+          </svg>
+        </div>
+        <div class="svg-box">
+          <svg width="100%" height="100%" viewBox="0 0 100 100">
+            <use href="master_illustrations.svg#placeholder-svg"></use>
+            <text x="50" y="55" font-family="var(--font-primary)" font-weight="bold" font-size="14" fill="#1E293B" text-anchor="middle">{{SVG2}}</text>
+          </svg>
+        </div>
+        <div class="svg-box">
+          <svg width="100%" height="100%" viewBox="0 0 100 100">
+            <use href="master_illustrations.svg#placeholder-svg"></use>
+            <text x="50" y="55" font-family="var(--font-primary)" font-weight="bold" font-size="14" fill="#1E293B" text-anchor="middle">{{SVG3}}</text>
+          </svg>
+        </div>
+      </section>
+
+      <!-- 3. VOCABULARY WORDS -->
+      <section class="vocabulary">
+        <div class="word-box"><span class="vocab-word">{{WORD1}}</span></div>
+        <div class="word-box"><span class="vocab-word">{{WORD2}}</span></div>
+        <div class="word-box"><span class="vocab-word">{{WORD3}}</span></div>
+      </section>
+
+      <!-- 5. GUIDED TRACING -->
+      <section class="guided-trace panel scaffold">
+        <div class="handwriting-grid">
+          <!-- Row 1 -->
+          <div class="hw-row">
+            <div class="hw-top"></div><div class="hw-mid"></div><div class="hw-base"></div>
+            <div class="hw-content"><span>{{UPPERCASE}}</span><span>{{UPPERCASE}}</span><span>{{UPPERCASE}}</span><span>{{UPPERCASE}}</span><span>{{UPPERCASE}}</span><span>{{UPPERCASE}}</span></div>
+          </div>
+          <!-- Row 2 -->
+          <div class="hw-row">
+            <div class="hw-top"></div><div class="hw-mid"></div><div class="hw-base"></div>
+            <div class="hw-content"><span>{{LOWERCASE}}</span><span>{{LOWERCASE}}</span><span>{{LOWERCASE}}</span><span>{{LOWERCASE}}</span><span>{{LOWERCASE}}</span><span>{{LOWERCASE}}</span></div>
+          </div>
+          <!-- Row 3 -->
+          <div class="hw-row">
+            <div class="hw-top"></div><div class="hw-mid"></div><div class="hw-base"></div>
+            <div class="hw-content"><span>{{UPPERCASE}}{{LOWERCASE}}</span><span>{{UPPERCASE}}{{LOWERCASE}}</span><span>{{UPPERCASE}}{{LOWERCASE}}</span></div>
+          </div>
+          <!-- Row 4 -->
+          <div class="hw-row">
+            <div class="hw-top"></div><div class="hw-mid"></div><div class="hw-base"></div>
+            <div class="hw-content"><span>{{WORD1}}</span></div>
+          </div>
+          <!-- Row 5 -->
+          <div class="hw-row">
+            <div class="hw-top"></div><div class="hw-mid"></div><div class="hw-base"></div>
+            <div class="hw-content"><span>{{WORD2}}</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. INDEPENDENT WRITING -->
+      <section class="independent-writing panel">
+        <div class="handwriting-grid">
+          <!-- Row 1 (Blank) -->
+          <div class="hw-row">
+            <div class="hw-top"></div><div class="hw-mid"></div><div class="hw-base"></div>
+            <div class="start-dot" style="top: 20%; left: 5%;"></div>
+          </div>
+          <!-- Row 2 (Blank) -->
+          <div class="hw-row">
+            <div class="hw-top"></div><div class="hw-mid"></div><div class="hw-base"></div>
+            <div class="start-dot" style="top: 20%; left: 5%;"></div>
+          </div>
+          <!-- Row 3 (Blank) -->
+          <div class="hw-row">
+            <div class="hw-top"></div><div class="hw-mid"></div><div class="hw-base"></div>
+            <div class="start-dot" style="top: 20%; left: 5%;"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. COLOURING ACTIVITY -->
+      <section class="coloring panel coloring-box">
+        <svg width="100%" height="100%" viewBox="0 0 150 150">
+          <use href="master_illustrations.svg#placeholder-coloring"></use>
+          <text x="75" y="80" font-family="var(--font-primary)" font-weight="bold" font-size="16" fill="#1E293B" text-anchor="middle">{{COLORING_SVG}}</text>
+        </svg>
+      </section>
+
+      <!-- 8. PARENT TIP -->
+      <section class="parent-tip panel scaffold">
+        <h2 class="section-heading">Parent Tip</h2>
+        <p class="tip-text">{{PARENT_TIP}}</p>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <span class="footer-meta">Page 1</span>
+      <span class="footer-meta" style="font-weight: 700;">{{WORKBOOK_TITLE}}</span>
+      <span class="footer-meta">Version {{VERSION}}</span>
+    </footer>
+
+  </div>
+
+  <!-- Note: In production, the SVG file content should be injected at the top of the body or linked correctly if external use href fails in some print engines -->
+  <script>
+    // Simple script to inject SVG defs for single-file local rendering support
+    fetch('master_illustrations.svg')
+      .then(response => response.text())
+      .then(data => document.body.insertAdjacentHTML('afterbegin', data));
+  </script>
+</body>
+</html>

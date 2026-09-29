@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "U",
+    "uppercase":  "U",
+    "lowercase":  "u",
+    "phonicsSound":  "/u/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Umbrella",
+                      "Unicorn",
+                      "Uniform"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Umbrella",
+                           "syllables":  2,
+                           "phonics":  "/u/",
+                           "imageId":  "asset-umbrella",
+                           "outlineImageId":  "asset-umbrella-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "umbrella",
+                                            "u",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Umbrella starts with the letter U.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Unicorn",
+                           "syllables":  2,
+                           "phonics":  "/u/",
+                           "imageId":  "asset-unicorn",
+                           "outlineImageId":  "asset-unicorn-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "unicorn",
+                                            "u",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Unicorn starts with the letter U.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Uniform",
+                           "syllables":  2,
+                           "phonics":  "/u/",
+                           "imageId":  "asset-uniform",
+                           "outlineImageId":  "asset-uniform-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "uniform",
+                                            "u",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Uniform starts with the letter U.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Urchin",
+                           "syllables":  2,
+                           "phonics":  "/u/",
+                           "imageId":  "asset-urchin",
+                           "outlineImageId":  "asset-urchin-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "urchin",
+                                            "u",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Urchin starts with the letter U.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "UFO",
+                           "syllables":  1,
+                           "phonics":  "/u/",
+                           "imageId":  "asset-ufo",
+                           "outlineImageId":  "asset-ufo-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "ufo",
+                                            "u",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "UFO starts with the letter U.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Ukelele",
+                           "syllables":  2,
+                           "phonics":  "/u/",
+                           "imageId":  "asset-ukelele",
+                           "outlineImageId":  "asset-ukelele-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "ukelele",
+                                            "u",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Ukelele starts with the letter U.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Uncle",
+                           "syllables":  2,
+                           "phonics":  "/u/",
+                           "imageId":  "asset-uncle",
+                           "outlineImageId":  "asset-uncle-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "uncle",
+                                            "u",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Uncle starts with the letter U.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Under",
+                           "syllables":  2,
+                           "phonics":  "/u/",
+                           "imageId":  "asset-under",
+                           "outlineImageId":  "asset-under-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "under",
+                                            "u",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Under starts with the letter U.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Up",
+                           "syllables":  1,
+                           "phonics":  "/u/",
+                           "imageId":  "asset-up",
+                           "outlineImageId":  "asset-up-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "up",
+                                            "u",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Up starts with the letter U.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Urn",
+                           "syllables":  1,
+                           "phonics":  "/u/",
+                           "imageId":  "asset-urn",
+                           "outlineImageId":  "asset-urn-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "urn",
+                                            "u",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Urn starts with the letter U.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Use",
+                            "syllables":  1,
+                            "phonics":  "/u/",
+                            "imageId":  "asset-use",
+                            "outlineImageId":  "asset-use-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "use",
+                                             "u",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Use starts with the letter U.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Usher",
+                            "syllables":  2,
+                            "phonics":  "/u/",
+                            "imageId":  "asset-usher",
+                            "outlineImageId":  "asset-usher-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "usher",
+                                             "u",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Usher starts with the letter U.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Utensil",
+                            "syllables":  2,
+                            "phonics":  "/u/",
+                            "imageId":  "asset-utensil",
+                            "outlineImageId":  "asset-utensil-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "utensil",
+                                             "u",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Utensil starts with the letter U.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Umpire",
+                            "syllables":  2,
+                            "phonics":  "/u/",
+                            "imageId":  "asset-umpire",
+                            "outlineImageId":  "asset-umpire-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "umpire",
+                                             "u",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Umpire starts with the letter U.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Universe",
+                            "syllables":  2,
+                            "phonics":  "/u/",
+                            "imageId":  "asset-universe",
+                            "outlineImageId":  "asset-universe-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "universe",
+                                             "u",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Universe starts with the letter U.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "U",
+                       "u",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /u/ sound when introducing U.",
+    "parentTips":  "Look for objects starting with U around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /u/ sound in spoken words."
+}

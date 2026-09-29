@@ -1,0 +1,82 @@
+/* 
+  Worksheet Wonder - Master Handwriting Engine
+  Role: Strict positioning logic for the 3-line educational guides.
+  Scope: All tracing, writing, and gross-motor stroke elements.
+*/
+
+/* 1. THE GRID SYSTEM */
+.hw-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--hw-row-gap);
+  width: 100%;
+}
+
+.hw-row {
+  position: relative;
+  height: var(--hw-row-height);
+  width: 100%;
+}
+
+/* The Line Vectors */
+.hw-line-top {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  border-top: var(--stroke-thin) solid var(--color-hw-top);
+}
+
+.hw-line-mid {
+  position: absolute;
+  top: 50%; left: 0; right: 0;
+  border-top: var(--stroke-thin) dashed var(--color-hw-mid);
+}
+
+.hw-line-base {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  border-bottom: var(--stroke-base) solid var(--color-hw-base);
+}
+
+/* 2. THE CONTENT (Tracing Letters & Writing Spaces) */
+.hw-content {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end; /* Pins the letters exactly to the solid baseline */
+  padding: 0 var(--spacing-sm);
+  box-sizing: border-box;
+}
+
+/* 3. STROKE ORDER HELPERS */
+.hw-start-dot {
+  position: absolute;
+  width: var(--hw-start-dot-size);
+  height: var(--hw-start-dot-size);
+  border-radius: 50%;
+  background-color: var(--color-accent-alt);
+  transform: translate(-50%, -50%); /* Centers dot precisely on given coordinates */
+}
+
+/* Arrows for stroke direction (requires associated SVG paths in HTML) */
+.hw-arrow {
+  fill: var(--color-primary);
+}
+
+/* 4. GROSS MOTOR FINGER/ROAD TRACE */
+/* Apply these classes to SVG paths inside a Road Trace module */
+.road-trace-track {
+  fill: none;
+  stroke: var(--color-hw-mid);
+  stroke-width: var(--hw-row-height); /* Uses the exact height of a handwriting row as the stroke width */
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.road-trace-dash {
+  fill: none;
+  stroke: var(--color-bg-page);
+  stroke-width: var(--stroke-thin);
+  stroke-dasharray: 4 4;
+  stroke-linecap: round;
+}

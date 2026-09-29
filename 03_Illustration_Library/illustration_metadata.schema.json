@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://worksheetwonder.com/schemas/illustration_metadata.schema.json",
+  "title": "Illustration Metadata Schema",
+  "description": "Enterprise schema for cataloging reusable SVG assets in the Worksheet Wonder publishing engine.",
+  "type": "object",
+  "required": ["id", "name", "category", "keywords", "usage", "tags"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique UUID or slug (e.g., 'animal-bear-brown')",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the asset (e.g., 'Brown Bear')"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Animals", "Objects", "Food", "Nature", "Transport", 
+        "People", "Shapes", "Colouring", "Icons", "Backgrounds"
+      ],
+      "description": "The root directory category."
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Searchable terms for the publishing engine."
+    },
+    "letter": {
+      "type": "string",
+      "maxLength": 1,
+      "description": "The primary alphabet letter this asset represents (e.g., 'B' for Bear). Can be omitted for non-alphabetical items."
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Cognitive recognition difficulty (1 = very obvious, 5 = abstract)."
+    },
+    "recommendedAge": {
+      "type": "array",
+      "items": { "type": "integer" },
+      "description": "Suitable age range (e.g., [4, 5, 6])."
+    },
+    "usage": {
+      "type": "object",
+      "properties": {
+        "fullColor": {
+          "type": "string",
+          "description": "Relative path to the full-color SVG file."
+        },
+        "outline": {
+          "type": "string",
+          "description": "Relative path to the coloring book style outline SVG file."
+        }
+      },
+      "required": ["fullColor", "outline"]
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Curriculum mapping tags (e.g., 'mammal', 'forest', 'cvc-word')."
+    }
+  },
+  "additionalProperties": false
+}

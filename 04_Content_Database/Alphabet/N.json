@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "N",
+    "uppercase":  "N",
+    "lowercase":  "n",
+    "phonicsSound":  "/n/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Nest",
+                      "Net",
+                      "Nut"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Nest",
+                           "syllables":  1,
+                           "phonics":  "/n/",
+                           "imageId":  "asset-nest",
+                           "outlineImageId":  "asset-nest-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "nest",
+                                            "n",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Nest starts with the letter N.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Net",
+                           "syllables":  1,
+                           "phonics":  "/n/",
+                           "imageId":  "asset-net",
+                           "outlineImageId":  "asset-net-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "net",
+                                            "n",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Net starts with the letter N.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Nut",
+                           "syllables":  1,
+                           "phonics":  "/n/",
+                           "imageId":  "asset-nut",
+                           "outlineImageId":  "asset-nut-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "nut",
+                                            "n",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Nut starts with the letter N.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Nail",
+                           "syllables":  1,
+                           "phonics":  "/n/",
+                           "imageId":  "asset-nail",
+                           "outlineImageId":  "asset-nail-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "nail",
+                                            "n",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Nail starts with the letter N.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Nose",
+                           "syllables":  1,
+                           "phonics":  "/n/",
+                           "imageId":  "asset-nose",
+                           "outlineImageId":  "asset-nose-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "nose",
+                                            "n",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Nose starts with the letter N.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Nurse",
+                           "syllables":  2,
+                           "phonics":  "/n/",
+                           "imageId":  "asset-nurse",
+                           "outlineImageId":  "asset-nurse-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "nurse",
+                                            "n",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Nurse starts with the letter N.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Neck",
+                           "syllables":  1,
+                           "phonics":  "/n/",
+                           "imageId":  "asset-neck",
+                           "outlineImageId":  "asset-neck-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "neck",
+                                            "n",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Neck starts with the letter N.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Needle",
+                           "syllables":  2,
+                           "phonics":  "/n/",
+                           "imageId":  "asset-needle",
+                           "outlineImageId":  "asset-needle-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "needle",
+                                            "n",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Needle starts with the letter N.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Night",
+                           "syllables":  2,
+                           "phonics":  "/n/",
+                           "imageId":  "asset-night",
+                           "outlineImageId":  "asset-night-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "night",
+                                            "n",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Night starts with the letter N.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Nine",
+                           "syllables":  1,
+                           "phonics":  "/n/",
+                           "imageId":  "asset-nine",
+                           "outlineImageId":  "asset-nine-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "nine",
+                                            "n",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Nine starts with the letter N.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Ninja",
+                            "syllables":  2,
+                            "phonics":  "/n/",
+                            "imageId":  "asset-ninja",
+                            "outlineImageId":  "asset-ninja-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "ninja",
+                                             "n",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Ninja starts with the letter N.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Note",
+                            "syllables":  1,
+                            "phonics":  "/n/",
+                            "imageId":  "asset-note",
+                            "outlineImageId":  "asset-note-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "note",
+                                             "n",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Note starts with the letter N.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Number",
+                            "syllables":  2,
+                            "phonics":  "/n/",
+                            "imageId":  "asset-number",
+                            "outlineImageId":  "asset-number-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "number",
+                                             "n",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Number starts with the letter N.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Notebook",
+                            "syllables":  2,
+                            "phonics":  "/n/",
+                            "imageId":  "asset-notebook",
+                            "outlineImageId":  "asset-notebook-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "notebook",
+                                             "n",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Notebook starts with the letter N.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Noodle",
+                            "syllables":  2,
+                            "phonics":  "/n/",
+                            "imageId":  "asset-noodle",
+                            "outlineImageId":  "asset-noodle-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "noodle",
+                                             "n",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Noodle starts with the letter N.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "N",
+                       "n",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /n/ sound when introducing N.",
+    "parentTips":  "Look for objects starting with N around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /n/ sound in spoken words."
+}

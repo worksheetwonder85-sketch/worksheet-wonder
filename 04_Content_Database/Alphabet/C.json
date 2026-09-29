@@ -1,0 +1,282 @@
+﻿{
+    "letter":  "C",
+    "uppercase":  "C",
+    "lowercase":  "c",
+    "phonicsSound":  "/k/",
+    "formationSteps":  [
+                           "Start at the top.",
+                           "Draw a line.",
+                           "Finish the shape."
+                       ],
+    "difficulty":  1,
+    "themeColor":  "Blue",
+    "heroWords":  [
+                      "Cat",
+                      "Car",
+                      "Cake"
+                  ],
+    "vocabulary":  [
+                       {
+                           "word":  "Cat",
+                           "syllables":  1,
+                           "phonics":  "/c/",
+                           "imageId":  "asset-cat",
+                           "outlineImageId":  "asset-cat-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "cat",
+                                            "c",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Cat starts with the letter C.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Car",
+                           "syllables":  1,
+                           "phonics":  "/c/",
+                           "imageId":  "asset-car",
+                           "outlineImageId":  "asset-car-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "car",
+                                            "c",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Car starts with the letter C.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Cake",
+                           "syllables":  1,
+                           "phonics":  "/c/",
+                           "imageId":  "asset-cake",
+                           "outlineImageId":  "asset-cake-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "cake",
+                                            "c",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Cake starts with the letter C.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Cow",
+                           "syllables":  1,
+                           "phonics":  "/c/",
+                           "imageId":  "asset-cow",
+                           "outlineImageId":  "asset-cow-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "cow",
+                                            "c",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Cow starts with the letter C.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Camel",
+                           "syllables":  2,
+                           "phonics":  "/c/",
+                           "imageId":  "asset-camel",
+                           "outlineImageId":  "asset-camel-outline",
+                           "category":  "General",
+                           "difficulty":  1,
+                           "keywords":  [
+                                            "camel",
+                                            "c",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Camel starts with the letter C.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Castle",
+                           "syllables":  2,
+                           "phonics":  "/c/",
+                           "imageId":  "asset-castle",
+                           "outlineImageId":  "asset-castle-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "castle",
+                                            "c",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Castle starts with the letter C.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Cloud",
+                           "syllables":  2,
+                           "phonics":  "/c/",
+                           "imageId":  "asset-cloud",
+                           "outlineImageId":  "asset-cloud-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "cloud",
+                                            "c",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Cloud starts with the letter C.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Crown",
+                           "syllables":  2,
+                           "phonics":  "/c/",
+                           "imageId":  "asset-crown",
+                           "outlineImageId":  "asset-crown-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "crown",
+                                            "c",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Crown starts with the letter C.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Cup",
+                           "syllables":  1,
+                           "phonics":  "/c/",
+                           "imageId":  "asset-cup",
+                           "outlineImageId":  "asset-cup-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "cup",
+                                            "c",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Cup starts with the letter C.",
+                           "emoji":  "âœ¨"
+                       },
+                       {
+                           "word":  "Clock",
+                           "syllables":  2,
+                           "phonics":  "/c/",
+                           "imageId":  "asset-clock",
+                           "outlineImageId":  "asset-clock-outline",
+                           "category":  "General",
+                           "difficulty":  2,
+                           "keywords":  [
+                                            "clock",
+                                            "c",
+                                            "alphabet"
+                                        ],
+                           "sentence":  "Clock starts with the letter C.",
+                           "emoji":  "âœ¨"
+                       }
+                   ],
+    "backupWords":  [
+                        {
+                            "word":  "Candy",
+                            "syllables":  2,
+                            "phonics":  "/c/",
+                            "imageId":  "asset-candy",
+                            "outlineImageId":  "asset-candy-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "candy",
+                                             "c",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Candy starts with the letter C.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Caterpillar",
+                            "syllables":  2,
+                            "phonics":  "/c/",
+                            "imageId":  "asset-caterpillar",
+                            "outlineImageId":  "asset-caterpillar-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "caterpillar",
+                                             "c",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Caterpillar starts with the letter C.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Camera",
+                            "syllables":  2,
+                            "phonics":  "/c/",
+                            "imageId":  "asset-camera",
+                            "outlineImageId":  "asset-camera-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "camera",
+                                             "c",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Camera starts with the letter C.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Carrot",
+                            "syllables":  2,
+                            "phonics":  "/c/",
+                            "imageId":  "asset-carrot",
+                            "outlineImageId":  "asset-carrot-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "carrot",
+                                             "c",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Carrot starts with the letter C.",
+                            "emoji":  "âœ¨"
+                        },
+                        {
+                            "word":  "Crab",
+                            "syllables":  1,
+                            "phonics":  "/c/",
+                            "imageId":  "asset-crab",
+                            "outlineImageId":  "asset-crab-outline",
+                            "category":  "General",
+                            "difficulty":  3,
+                            "keywords":  [
+                                             "crab",
+                                             "c",
+                                             "alphabet"
+                                         ],
+                            "sentence":  "Crab starts with the letter C.",
+                            "emoji":  "âœ¨"
+                        }
+                    ],
+    "searchTags":  [
+                       "C",
+                       "c",
+                       "alphabet",
+                       "preschool",
+                       "kindergarten",
+                       "phonics",
+                       "tracing",
+                       "writing",
+                       "letter-recognition",
+                       "early-years"
+                   ],
+    "curriculumReferences":  [
+                                 "EYFS-LIT-1",
+                                 "CCSS.ELA.RF.K.1.D"
+                             ],
+    "teacherTips":  "Emphasize the /k/ sound when introducing C.",
+    "parentTips":  "Look for objects starting with C around your home!",
+    "fineMotorObjective":  "Trace continuous and broken lines with pencil control.",
+    "phonicsObjective":  "Identify the initial /k/ sound in spoken words."
+}
