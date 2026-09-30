@@ -1,0 +1,120 @@
+sheet 1 item 1: c) pyramid
+sheet 1 item 2: b
+sheet 1 item 3: a) cylinder
+sheet 1 item 4: 10
+sheet 1 item 5: a) line
+sheet 1 item 6: c) obtuse angle
+sheet 1 item 7: b) acute angle
+sheet 1 item 8: 36
+sheet 1 item 9: c) triangle
+sheet 1 item 10: 16
+sheet 1 item 11: a) ray
+sheet 1 item 12: a) oval
+sheet 2 item 1: c) right angle
+sheet 2 item 2: c) pyramid
+sheet 2 item 3: c) circle
+sheet 2 item 4: a) triangle
+sheet 2 item 5: 12
+sheet 2 item 6: 28
+sheet 2 item 7: b
+sheet 2 item 8: a) acute angle
+sheet 2 item 9: b) pyramid
+sheet 2 item 10: a) line segment
+sheet 2 item 11: 36
+sheet 2 item 12: a) line segment
+sheet 3 item 1: b
+sheet 3 item 2: c) cylinder
+sheet 3 item 3: b) sphere
+sheet 3 item 4: b) ray
+sheet 3 item 5: c) right angle
+sheet 3 item 6: a) triangle
+sheet 3 item 7: b) right angle
+sheet 3 item 8: b) line
+sheet 3 item 9: 8
+sheet 3 item 10: b) rectangle
+sheet 3 item 11: 28
+sheet 3 item 12: 34
+sheet 4 item 1: a) pentagon
+sheet 4 item 2: a) cube
+sheet 4 item 3: c) right angle
+sheet 4 item 4: 24
+sheet 4 item 5: c) line
+sheet 4 item 6: c
+sheet 4 item 7: b) pyramid
+sheet 4 item 8: c) line segment
+sheet 4 item 9: a) triangle
+sheet 4 item 10: 26
+sheet 4 item 11: 12
+sheet 4 item 12: a) obtuse angle
+sheet 5 item 1: c) cone
+sheet 5 item 2: 15
+sheet 5 item 3: b) right angle
+sheet 5 item 4: c) cylinder
+sheet 5 item 5: 20
+sheet 5 item 6: 20
+sheet 5 item 7: b
+sheet 5 item 8: a) rhombus
+sheet 5 item 9: a) line segment
+sheet 5 item 10: a) square
+sheet 5 item 11: b) obtuse angle
+sheet 5 item 12: b) ray
+sheet 6 item 1: a
+sheet 6 item 2: 4
+sheet 6 item 3: 28
+sheet 6 item 4: c) ray
+sheet 6 item 5: 30
+sheet 6 item 6: a) acute angle
+sheet 6 item 7: c) cylinder
+sheet 6 item 8: a) rhombus
+sheet 6 item 9: c) cube
+sheet 6 item 10: b) ray
+sheet 6 item 11: b) acute angle
+sheet 6 item 12: a) triangle
+sheet 7 item 1: a) obtuse angle
+sheet 7 item 2: a) right angle
+sheet 7 item 3: b) ray
+sheet 7 item 4: 30
+sheet 7 item 5: b) cylinder
+sheet 7 item 6: a
+sheet 7 item 7: c) pentagon
+sheet 7 item 8: 16
+sheet 7 item 9: 28
+sheet 7 item 10: a) cube
+sheet 7 item 11: b) rectangle
+sheet 7 item 12: a) line
+sheet 8 item 1: 16
+sheet 8 item 2: b) pentagon
+sheet 8 item 3: b) line segment
+sheet 8 item 4: c) pyramid
+sheet 8 item 5: b) circle
+sheet 8 item 6: b) cube
+sheet 8 item 7: c
+sheet 8 item 8: b) line
+sheet 8 item 9: 28
+sheet 8 item 10: a) right angle
+sheet 8 item 11: a) obtuse angle
+sheet 8 item 12: 20
+sheet 9 item 1: c) rhombus
+sheet 9 item 2: c) hexagon
+sheet 9 item 3: a
+sheet 9 item 4: 24
+sheet 9 item 5: 15
+sheet 9 item 6: b) ray
+sheet 9 item 7: 32
+sheet 9 item 8: c) obtuse angle
+sheet 9 item 9: a) cylinder
+sheet 9 item 10: c) acute angle
+sheet 9 item 11: b) pyramid
+sheet 9 item 12: b) line
+sheet 10 item 1: a
+sheet 10 item 2: b) acute angle
+sheet 10 item 3: a) line
+sheet 10 item 4: c) sphere
+sheet 10 item 5: 28
+sheet 10 item 6: c) ray
+sheet 10 item 7: 13
+sheet 10 item 8: c) oval
+sheet 10 item 9: a) obtuse angle
+sheet 10 item 10: 16
+sheet 10 item 11: c) sphere
+sheet 10 item 12: a) rhombus

@@ -1,0 +1,14 @@
+﻿<!--
+  Asset ID:        WW-ICON-star-sparkle.svg
+  Title:           star sparkle
+  Category:        stars
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            star, sparkle, shine, magic
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M32 6s3 18 18 18c-15 0-18 3-18 18 0-15-3-18-18-18 15 0 18-3 18-18z"/>
+</svg>

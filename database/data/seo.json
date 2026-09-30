@@ -1,0 +1,12 @@
+﻿{
+    "canonical_base":  "https://worksheetwonder.com/",
+    "site_name":  "Worksheet Wonder",
+    "default_title":  "Worksheet Wonder | Printable Worksheets for Kids (Preschool to Grade 5)",
+    "default_description":  "Explore thousands of original printable worksheets, educational workbooks, flashcards, coloring pages, and lesson plans for Preschool, Kindergarten, and Primary School kids.",
+    "open_graph":  {
+                       "site_name":  "Worksheet Wonder",
+                       "type":  "website",
+                       "image":  "assets/images/logo.png"
+                   },
+    "keywords":  "Worksheets, Kids Worksheets, Preschool Worksheets, Kindergarten Worksheets, Printable Worksheets, Learning Activities, Grade 1 to 5 Math, English Grammar, Science Worksheets"
+}

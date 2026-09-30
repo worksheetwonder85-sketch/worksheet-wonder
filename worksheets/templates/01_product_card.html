@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Worksheet Wonder â€” Product Card Template</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@400;700&display=swap');
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+      font-family: 'Nunito', sans-serif;
+    }
+    .product-card {
+      width: 300px;
+      height: 420px;
+      background: #ffffff;
+      border: 2px solid #333333;
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 4px 4px 0px #333333;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .product-card:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 6px 6px 0px #333333;
+    }
+    .preview-container {
+      height: 200px;
+      background: #fafafa;
+      border-bottom: 2px solid #333333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #ffffff;
+      border: 1.5px solid #333333;
+      border-radius: 6px;
+      padding: 3px 8px;
+      font-family: 'Fredoka', sans-serif;
+      font-size: 8pt;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .content-area {
+      padding: 15px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .product-title {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 14pt;
+      margin: 0 0 5px 0;
+      color: #333333;
+      line-height: 1.2;
+    }
+    .product-desc {
+      font-size: 9.5pt;
+      color: #777777;
+      margin: 0;
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .price-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .price {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 16pt;
+      color: #333333;
+    }
+    .view-btn {
+      background: #333333;
+      color: #ffffff;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-family: 'Fredoka', sans-serif;
+      font-size: 9pt;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div class="product-card">
+    <div class="preview-container">
+      <div class="badge">Preschool</div>
+      <!-- Placeholder Cover Icon -->
+      <svg width="80" height="100" viewBox="0 0 80 100" fill="none" stroke="#333333" stroke-width="2">
+        <rect x="2" y="2" width="76" height="96" rx="4" />
+        <line x1="12" y1="20" x2="68" y2="20" stroke-width="3" />
+        <line x1="20" y1="40" x2="60" y2="40" />
+        <line x1="20" y1="50" x2="60" y2="50" />
+        <circle cx="40" cy="74" r="10" />
+      </svg>
+    </div>
+    <div class="content-area">
+      <div>
+        <h3 class="product-title">{{PRODUCT_TITLE}}</h3>
+        <p class="product-desc">{{PRODUCT_DESCRIPTION}}</p>
+      </div>
+      <div class="price-row">
+        <span class="price">${{PRICE}}</span>
+        <button class="view-btn">View Pack</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

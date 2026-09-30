@@ -1,0 +1,746 @@
+/* ╔══════════════════════════════════════════════════════════════════════════╗
+   ║  WORKSHEET WONDER — MASTER TEMPLATE STYLESHEET                         ║
+   ║  Version: 2.0                                                          ║
+   ║                                                                        ║
+   ║  Requires: design-tokens.css (loaded before this file)                 ║
+   ║  Scope:    Printable A4 worksheets only — does NOT affect website CSS  ║
+   ╚══════════════════════════════════════════════════════════════════════════╝ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap');
+
+/* ══════════════════════════════════════════════════════════════════════════
+   PRINT SETUP
+   ══════════════════════════════════════════════════════════════════════════ */
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+@media print {
+  html, body { background: #fff !important; }
+  .ww-shadow-screen { box-shadow: none !important; }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+html {
+  width: var(--ww-page-w);
+  background: #e8e8e8;         /* Gray surround when previewing on screen */
+}
+
+body {
+  width: var(--ww-page-w);
+  min-height: var(--ww-page-h);
+  font-family: var(--ww-font-body);
+  color: var(--ww-color-text);
+  background: var(--ww-color-surface);
+  line-height: 1.45;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   PAGE SHELL
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-page {
+  width: var(--ww-page-w);
+  height: var(--ww-page-h);
+  padding: var(--ww-margin-top) var(--ww-margin-right) var(--ww-margin-bottom) var(--ww-margin-left);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--ww-color-surface);
+}
+
+/* ── Decorative Double Border Frame ──────────────────────────────────── */
+.ww-border-outer {
+  position: absolute;
+  top: var(--ww-border-outer);
+  left: var(--ww-border-outer);
+  right: var(--ww-border-outer);
+  bottom: var(--ww-border-outer);
+  border: var(--ww-border-thick) solid var(--ww-color-ink);
+  border-radius: var(--ww-radius-page);
+  pointer-events: none;
+  z-index: 90;
+}
+
+.ww-border-inner {
+  position: absolute;
+  top: var(--ww-border-inner);
+  left: var(--ww-border-inner);
+  right: var(--ww-border-inner);
+  bottom: var(--ww-border-inner);
+  border: var(--ww-border-thin) dashed var(--ww-color-hint);
+  border-radius: calc(var(--ww-radius-page) - 3px);
+  pointer-events: none;
+  z-index: 90;
+}
+
+/* ── Corner Stars ────────────────────────────────────────────────────── */
+.ww-corner {
+  position: absolute;
+  z-index: 91;
+  width: 4.5mm;
+  height: 4.5mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+.ww-corner svg { width: 100%; height: 100%; }
+.ww-corner--tl { top: 5.2mm;    left: 5.2mm;   }
+.ww-corner--tr { top: 5.2mm;    right: 5.2mm;  }
+.ww-corner--bl { bottom: 5.2mm; left: 5.2mm;   }
+.ww-corner--br { bottom: 5.2mm; right: 5.2mm;  }
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   WATERMARK
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(var(--ww-watermark-angle));
+  font-family: var(--ww-font-display);
+  font-size: var(--ww-watermark-size);
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-watermark-color);
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  letter-spacing: 4px;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   RAINBOW STRIPE
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-rainbow-stripe {
+  height: var(--ww-stripe-h);
+  background: var(--ww-rainbow-gradient);
+  border-radius: var(--ww-radius-pill);
+  margin-bottom: var(--ww-space-3);
+  position: relative;
+  z-index: 10;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   HEADER COMPONENT
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--ww-space-2);
+  position: relative;
+  z-index: 10;
+}
+
+/* Logo + Brand Name cluster */
+.ww-header__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--ww-space-2);
+}
+
+.ww-header__logo {
+  width: 9mm;
+  height: 9mm;
+  flex-shrink: 0;
+}
+
+.ww-header__name {
+  font-family: var(--ww-font-display);
+  font-size: var(--ww-fs-brand);
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-color-ink);
+  letter-spacing: 0.3px;
+}
+
+/* Right-hand metadata badges */
+.ww-header__meta {
+  display: flex;
+  gap: var(--ww-space-2);
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.ww-badge {
+  font-family: var(--ww-font-display);
+  font-size: var(--ww-fs-label);
+  font-weight: var(--ww-fw-bold);
+  padding: 1px 7px;
+  border: var(--ww-border-medium) solid var(--ww-color-ink);
+  border-radius: var(--ww-radius-pill);
+  color: var(--ww-color-ink);
+  white-space: nowrap;
+  line-height: 1.8;
+}
+
+.ww-badge--grade    { background: #FFF9C4; }  /* soft yellow  */
+.ww-badge--subject  { background: #E3F2FD; }  /* soft blue    */
+.ww-badge--age      { background: #E8F5E9; }  /* soft green   */
+.ww-badge--code     { background: #F3E5F5; }  /* soft purple  */
+.ww-badge--diff     { background: #FFF3E0; }  /* soft orange  */
+.ww-badge--filled   { background: var(--ww-color-ink); color: #fff; }
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   TITLE BAR
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: var(--ww-space-3);
+  padding-bottom: var(--ww-space-2);
+  border-bottom: var(--ww-border-thick) solid var(--ww-color-ink);
+  position: relative;
+  z-index: 10;
+}
+
+.ww-title {
+  font-family: var(--ww-font-display);
+  font-size: var(--ww-fs-title);
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-color-ink);
+  line-height: 1.1;
+  margin: 0;
+}
+
+/* Student info fields */
+.ww-info-fields {
+  display: flex;
+  gap: var(--ww-space-6);
+}
+
+.ww-field {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--ww-space-1);
+  min-width: 30mm;
+}
+
+.ww-field__label {
+  font-family: var(--ww-font-display);
+  font-size: var(--ww-fs-body);
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-color-ink);
+  white-space: nowrap;
+}
+
+.ww-field__line {
+  flex-grow: 1;
+  border-bottom: var(--ww-border-medium) solid var(--ww-color-hint);
+  min-width: 22mm;
+  height: 5mm;
+}
+
+/* Dedicated Teacher field */
+.ww-field--teacher .ww-field__line {
+  min-width: 18mm;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   BODY GRID SYSTEM
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--ww-space-3);
+  position: relative;
+  z-index: 10;
+}
+
+/* Two-column variant */
+.ww-body--2col {
+  flex-direction: row;
+  gap: var(--ww-space-4);
+}
+
+.ww-body--2col > .ww-col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--ww-space-3);
+}
+
+/* Three-column variant (rare) */
+.ww-body--3col {
+  flex-direction: row;
+  gap: var(--ww-space-3);
+}
+
+.ww-body--3col > .ww-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--ww-space-3);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   ACTIVITY SECTION (The Core Reusable Card)
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-activity {
+  background: var(--ww-color-surface);
+  border: var(--ww-border-thick) solid var(--ww-color-ink);
+  border-radius: var(--ww-radius-card);
+  padding: var(--ww-space-3) var(--ww-space-4);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: var(--ww-shadow-card);
+}
+
+/* Grow to fill available space */
+.ww-activity--grow { flex: 1; }
+
+/* ── Activity Header ─────────────────────────────────────────────────── */
+.ww-activity__head {
+  display: flex;
+  align-items: center;
+  gap: var(--ww-space-2);
+  padding-bottom: var(--ww-space-2);
+  margin-bottom: var(--ww-space-2);
+  border-bottom: var(--ww-border-thin) dashed var(--ww-color-line);
+}
+
+/* Numbered circle badge */
+.ww-activity__num {
+  width: 6mm;
+  height: 6mm;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--ww-radius-circle);
+  border: var(--ww-border-medium) solid var(--ww-color-ink);
+  font-family: var(--ww-font-display);
+  font-size: 9pt;
+  font-weight: var(--ww-fw-black);
+  color: var(--ww-color-ink);
+  /* Default accent — override with data-accent="N" on the element */
+  background: var(--ww-rainbow-yellow);
+}
+
+/* Accent variants — applied via class */
+.ww-activity__num--1 { background: var(--ww-accent-1); color: #fff; }
+.ww-activity__num--2 { background: var(--ww-accent-2); }
+.ww-activity__num--3 { background: var(--ww-accent-3); }
+.ww-activity__num--4 { background: var(--ww-accent-4); color: #fff; }
+.ww-activity__num--5 { background: var(--ww-accent-5); color: #fff; }
+.ww-activity__num--6 { background: var(--ww-accent-6); color: #fff; }
+.ww-activity__num--7 { background: var(--ww-accent-7); color: #fff; }
+.ww-activity__num--8 { background: var(--ww-accent-8); color: #fff; }
+
+/* Activity type icon */
+.ww-activity__icon {
+  width: 5mm;
+  height: 5mm;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ww-activity__icon svg { width: 100%; height: 100%; }
+
+/* Activity title */
+.ww-activity__title {
+  font-family: var(--ww-font-display);
+  font-size: var(--ww-fs-section);
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-color-ink);
+  flex: 1;
+}
+
+/* ── Activity Body ───────────────────────────────────────────────────── */
+.ww-activity__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Instruction text inside a body */
+.ww-instruction {
+  font-family: var(--ww-font-body);
+  font-size: var(--ww-fs-body);
+  font-weight: var(--ww-fw-medium);
+  color: var(--ww-color-text);
+  margin-bottom: var(--ww-space-2);
+  line-height: 1.5;
+}
+
+/* Star bullet before instructions */
+.ww-instruction::before {
+  content: '★ ';
+  color: var(--ww-rainbow-yellow);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   TRACING GRID
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-trace-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ww-space-2);
+}
+
+.ww-trace-row {
+  display: flex;
+  gap: var(--ww-space-2);
+}
+
+.ww-trace-cell {
+  width: var(--ww-trace-cell-size);
+  height: var(--ww-trace-cell-size);
+  border: var(--ww-border-thin) dashed var(--ww-color-hint);
+  border-radius: var(--ww-radius-cell);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ww-color-surface);
+  overflow: hidden;
+}
+
+/* First cell = solid guide letter */
+.ww-trace-cell--guide {
+  border: var(--ww-border-medium) solid var(--ww-color-ink);
+  background: var(--ww-color-highlight);
+}
+
+.ww-trace-cell svg {
+  width: 90%;
+  height: 90%;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   CIRCLE-THE-LETTER GRID
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-bubble-row {
+  display: flex;
+  gap: var(--ww-space-2);
+  flex-wrap: wrap;
+}
+
+.ww-bubble {
+  width: 9mm;
+  height: 9mm;
+  border: var(--ww-border-medium) solid var(--ww-color-ink);
+  border-radius: var(--ww-radius-circle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--ww-font-display);
+  font-size: 12pt;
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-color-ink);
+  background: var(--ww-color-surface);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   MATCH-THE-PICTURE LAYOUT
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-match {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ww-match__col {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--ww-space-2);
+}
+
+.ww-match__item {
+  display: flex;
+  align-items: center;
+  gap: var(--ww-space-2);
+  padding: var(--ww-space-1) var(--ww-space-2);
+  border: var(--ww-border-thin) solid var(--ww-color-line);
+  border-radius: var(--ww-radius-cell);
+  min-height: 11mm;
+}
+
+.ww-match__pic {
+  width: 9mm;
+  height: 9mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ww-match__pic img,
+.ww-match__pic svg { max-width: 100%; max-height: 100%; }
+
+.ww-match__dot {
+  width: 3mm;
+  height: 3mm;
+  background: var(--ww-color-ink);
+  border-radius: var(--ww-radius-circle);
+  flex-shrink: 0;
+}
+
+.ww-match__word {
+  font-family: var(--ww-font-display);
+  font-size: var(--ww-fs-body);
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-color-ink);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   COLOR-THE-PICTURE BOXES
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-color-row {
+  display: flex;
+  gap: var(--ww-space-3);
+}
+
+.ww-color-box {
+  flex: 1;
+  border: var(--ww-border-medium) solid var(--ww-color-ink);
+  border-radius: var(--ww-radius-card);
+  padding: var(--ww-space-2);
+  text-align: center;
+  background: var(--ww-color-surface);
+}
+
+.ww-color-box__art {
+  height: 18mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--ww-space-1);
+}
+.ww-color-box__art img,
+.ww-color-box__art svg { max-height: 100%; max-width: 100%; }
+
+.ww-color-box__label {
+  font-family: var(--ww-font-display);
+  font-size: var(--ww-fs-label);
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-color-ink);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   ILLUSTRATION / PICTURE GRID
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-pic-grid {
+  display: grid;
+  gap: var(--ww-space-2);
+}
+
+.ww-pic-grid--3col { grid-template-columns: repeat(3, 1fr); }
+.ww-pic-grid--4col { grid-template-columns: repeat(4, 1fr); }
+.ww-pic-grid--2col { grid-template-columns: repeat(2, 1fr); }
+
+.ww-pic-item {
+  border: var(--ww-border-thin) solid var(--ww-color-ink);
+  border-radius: var(--ww-radius-cell);
+  padding: var(--ww-space-2);
+  text-align: center;
+  background: var(--ww-color-surface);
+}
+
+.ww-pic-item__art {
+  height: 14mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--ww-space-1);
+}
+.ww-pic-item__art img,
+.ww-pic-item__art svg { max-height: 100%; max-width: 100%; }
+
+.ww-pic-item__label {
+  font-family: var(--ww-font-body);
+  font-size: var(--ww-fs-label);
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-color-muted);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   TRACE-THE-WORD BOXES
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-word-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--ww-space-2);
+}
+
+.ww-word-box {
+  border: var(--ww-border-thin) solid var(--ww-color-line);
+  border-radius: var(--ww-radius-cell);
+  padding: var(--ww-space-2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--ww-color-surface);
+}
+
+.ww-word-box svg {
+  width: 100%;
+  height: 28px;
+}
+
+.ww-word-box__label {
+  font-family: var(--ww-font-body);
+  font-size: var(--ww-fs-micro);
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-color-muted);
+  margin-top: var(--ww-space-1);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   WRITING LINES
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-write-lines {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ww-space-4);
+}
+
+.ww-write-line {
+  height: 10mm;
+  border-bottom: var(--ww-border-medium) solid var(--ww-color-ink);
+  position: relative;
+}
+
+/* Midline (dashed) */
+.ww-write-line::before {
+  content: '';
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  border-bottom: var(--ww-border-thin) dashed var(--ww-color-hint);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   DRAWING BOX
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-draw-box {
+  border: var(--ww-border-medium) dashed var(--ww-color-hint);
+  border-radius: var(--ww-radius-card);
+  min-height: 20mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ww-color-surface);
+}
+
+.ww-draw-box__prompt {
+  font-family: var(--ww-font-body);
+  font-size: var(--ww-fs-body);
+  font-weight: var(--ww-fw-medium);
+  color: var(--ww-color-hint);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   CUT-AND-PASTE STRIP
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-cut-strip {
+  border: var(--ww-border-medium) dashed var(--ww-color-muted);
+  border-radius: var(--ww-radius-cell);
+  padding: var(--ww-space-2) var(--ww-space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--ww-space-3);
+  background: var(--ww-color-highlight);
+  position: relative;
+}
+
+.ww-cut-strip__scissors {
+  position: absolute;
+  left: -3mm;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5mm;
+  height: 5mm;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   FOOTER COMPONENT
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--ww-space-2);
+  margin-top: auto;
+  border-top: var(--ww-border-medium) solid var(--ww-color-ink);
+  position: relative;
+  z-index: 10;
+}
+
+.ww-footer__left,
+.ww-footer__center,
+.ww-footer__right {
+  font-family: var(--ww-font-body);
+  font-size: var(--ww-fs-micro);
+  font-weight: var(--ww-fw-bold);
+  color: var(--ww-color-muted);
+}
+
+.ww-footer__center {
+  color: var(--ww-rainbow-blue);
+}
+
+.ww-footer__right {
+  display: flex;
+  align-items: center;
+  gap: var(--ww-space-2);
+}
+
+/* QR Code Placeholder */
+.ww-qr-placeholder {
+  width: 10mm;
+  height: 10mm;
+  border: var(--ww-border-thin) solid var(--ww-color-line);
+  border-radius: var(--ww-radius-cell);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ww-color-surface);
+}
+
+.ww-qr-placeholder svg { width: 80%; height: 80%; }
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   UTILITY CLASSES
+   ══════════════════════════════════════════════════════════════════════════ */
+.ww-flex     { display: flex; }
+.ww-flex-col { flex-direction: column; }
+.ww-gap-1    { gap: var(--ww-space-1); }
+.ww-gap-2    { gap: var(--ww-space-2); }
+.ww-gap-3    { gap: var(--ww-space-3); }
+.ww-gap-4    { gap: var(--ww-space-4); }
+.ww-grow     { flex: 1; }
+.ww-center   { align-items: center; justify-content: center; }
+.ww-between  { justify-content: space-between; }
+.ww-wrap     { flex-wrap: wrap; }
+.ww-text-center { text-align: center; }

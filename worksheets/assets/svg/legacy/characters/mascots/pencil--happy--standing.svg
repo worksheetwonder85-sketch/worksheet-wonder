@@ -1,0 +1,28 @@
+﻿<!--
+  Asset ID:        WW-CHR-pencil--happy--standing.svg
+  Title:           pencil  happy  standing
+  Category:        mascots
+  Creator:         Senior Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            pencil, mascot, happy, standing
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Body (Pencil Shape) -->
+  <path d="M24 10h16v32l-8 12-8-12V10z" id="body"/>
+  <!-- Eraser & Metal Band -->
+  <path d="M24 10c0-4 4-6 8-6s8 2 8 6H24z" id="eraser"/>
+  <line x1="24" y1="16" x2="40" y2="16" id="band-top"/>
+  <line x1="24" y1="20" x2="40" y2="20" id="band-bottom"/>
+  <!-- Lead Tip -->
+  <polygon points="32 54 28 48 36 48" fill="#333333" id="lead"/>
+  <!-- Face: Happy Expression -->
+  <circle cx="28" cy="30" r="1.5" fill="#333"/>
+  <circle cx="36" cy="30" r="1.5" fill="#333"/>
+  <path d="M29 36c1.5 2 4.5 2 6 0"/>
+  <!-- Arms & Legs -->
+  <path d="M24 32c-4 0-6-2-8-4M40 32c4 0 6-2 8-4" id="arms"/>
+  <path d="M28 50v8h-3M36 50v8h3" id="legs"/>
+</svg>

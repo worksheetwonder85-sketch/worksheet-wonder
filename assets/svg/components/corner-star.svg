@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <!-- 4-point sparkle star used in page corners -->
+  <path d="M 20 4 Q 22 17, 36 20 Q 22 23, 20 36 Q 18 23, 4 20 Q 18 17, 20 4 Z"
+        fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="20" cy="20" r="2" fill="#1A1A2E"/>
+</svg>

@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Worksheet Wonder â€” Answer Key Template</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@400;700&display=swap');
+    @page { size: A4 portrait; margin: 0; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0;
+      width: 210mm; height: 297mm;
+      font-family: 'Nunito', sans-serif;
+      color: #333333; background: #ffffff;
+      -webkit-print-color-adjust: exact;
+    }
+    .key-container {
+      width: 210mm; height: 297mm;
+      padding: 15mm 12mm;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .page-borders {
+      position: absolute;
+      top: 0; left: 0;
+      width: 210mm; height: 297mm;
+      pointer-events: none;
+    }
+    .outer-border { fill: none; stroke: #333333; stroke-width: 0.8mm; }
+    .inner-border { fill: none; stroke: #333333; stroke-width: 0.4mm; }
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 0.3mm solid #333333;
+      padding-bottom: 2mm;
+    }
+    .brand-title {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 12pt;
+      font-weight: 600;
+    }
+    .key-badge {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 7.5pt;
+      border: 0.3mm solid #333333;
+      border-radius: 2mm;
+      padding: 0.5mm 2mm;
+      text-transform: uppercase;
+      background: #fafafa;
+    }
+    .content-area {
+      flex-grow: 1;
+      margin: 5mm 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .key-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5mm;
+      margin-top: 5mm;
+    }
+    .key-item {
+      border: 0.3mm solid #333333;
+      border-radius: 3mm;
+      padding: 4mm;
+      background: #fafafa;
+      min-height: 50mm;
+    }
+    .item-title {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 11pt;
+      font-weight: 600;
+      margin: 0 0 2mm 0;
+      border-bottom: 0.2mm solid #dddddd;
+      padding-bottom: 1mm;
+    }
+    .solutions-list {
+      font-size: 9.5pt;
+      line-height: 1.5;
+    }
+    .footer-bar {
+      border-top: 0.3mm solid #333333;
+      padding-top: 2mm;
+      display: flex;
+      justify-content: space-between;
+      font-size: 7.5pt;
+      color: #666666;
+    }
+  </style>
+</head>
+<body>
+  <svg class="page-borders" viewBox="0 0 210 297" preserveAspectRatio="none">
+    <rect x="4" y="4" width="202" height="289" rx="8" ry="8" class="outer-border" />
+    <rect x="8" y="8" width="194" height="281" rx="6" ry="6" class="inner-border" />
+  </svg>
+  <div class="key-container">
+    <div class="header-bar">
+      <span class="brand-title">Worksheet Wonder â€” Answer Keys</span>
+      <span class="key-badge">Solutions Reference</span>
+    </div>
+    <div class="content-area">
+      <h2 style="font-family: 'Fredoka', sans-serif; font-size: 18pt; margin: 0 0 2mm 0; text-align: center;">Answers & Explanations</h2>
+      <div class="key-grid">
+        <div class="key-item">
+          <h3 class="item-title">Worksheet {{WS_1_CODE}}</h3>
+          <div class="solutions-list">{{WS_1_ANSWERS}}</div>
+        </div>
+        <div class="key-item">
+          <h3 class="item-title">Worksheet {{WS_2_CODE}}</h3>
+          <div class="solutions-list">{{WS_2_ANSWERS}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>Â© 2026 Worksheet Wonder. All Rights Reserved.</span>
+      <span style="font-weight: bold;">{{BUNDLE_CODE}} â€” ANSWER KEY | Page {{PAGE_NUMBER}}</span>
+    </div>
+  </div>
+</body>
+</html>

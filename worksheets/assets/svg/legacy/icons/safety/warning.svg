@@ -1,0 +1,16 @@
+﻿<!--
+  Asset ID:        WW-ICON-warning.svg
+  Title:           warning
+  Category:        safety
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            warning, alert, danger, sign
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="32 8 58 54 6 54"/>
+  <line x1="32" y1="24" x2="32" y2="38" stroke-width="3"/>
+  <circle cx="32" cy="46" r="2" fill="#333"/>
+</svg>

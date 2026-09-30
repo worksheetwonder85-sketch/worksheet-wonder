@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letter D Worksheet – My First Alphabet Workbook | Worksheet Wonder</title>
+  <meta name="description" content="Free printable Letter D worksheet for kindergarten. Trace and write letter D with Dog, Duck, and Drum.">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A4 portrait; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { width:210mm; min-height:297mm; font-family:'Nunito',sans-serif; color:#2C3E50; background:#FFFDF9; -webkit-print-color-adjust:exact; color-adjust:exact; }
+    .print-btn { position:fixed; top:12px; right:12px; background:#4CAF50; color:white; border:none; padding:10px 20px; border-radius:10px; font-family:'Nunito',sans-serif; font-size:14px; font-weight:800; cursor:pointer; z-index:999; box-shadow:0 4px 12px rgba(76,175,80,0.4); }
+    @media print { .print-btn { display:none; } }
+    .page { width:210mm; min-height:297mm; padding:13mm 12mm 11mm 12mm; display:flex; flex-direction:column; gap:2.5mm; position:relative; }
+    .page::before { content:''; position:absolute; top:5mm; left:5mm; right:5mm; bottom:5mm; border:0.8mm solid #2C3E50; pointer-events:none; }
+    .page::after { content:''; position:absolute; top:7mm; left:7mm; right:7mm; bottom:7mm; border:0.35mm dashed #aaa; pointer-events:none; }
+    .header { display:flex; justify-content:space-between; align-items:center; border-bottom:3px solid #2C3E50; padding-bottom:2mm; }
+    .brand { font-family:'Fredoka',sans-serif; font-size:16pt; font-weight:700; color:#FF7043; }
+    .badge { font-family:'Fredoka',sans-serif; font-size:8pt; font-weight:600; border:2px solid #2C3E50; border-radius:6px; padding:1px 9px; box-shadow:2px 2px 0 #2C3E50; background:#FFE082; }
+    .badge-free { background:#C8E6C9; }
+    .user-bar { display:flex; gap:5mm; font-family:'Fredoka',sans-serif; font-size:9.5pt; }
+    .user-field { display:flex; align-items:flex-end; flex:1; }
+    .user-label { white-space:nowrap; margin-right:1.5mm; color:#555; }
+    .user-line { flex:1; border-bottom:2px solid #2C3E50; height:5mm; }
+    .title-row { text-align:center; font-family:'Fredoka',sans-serif; font-size:20pt; font-weight:700; background:linear-gradient(90deg,#E8F5E9,#F1F8E9,#E8F5E9); border-radius:10px; padding:1.5mm 0; }
+    .letter-color { color:#388E3C; }
+    .activities { display:grid; grid-template-columns:1fr 1fr; gap:3mm; flex:1; }
+    .panel { border:2.5px solid #2C3E50; border-radius:13px; padding:2.5mm 3mm; background:#fff; box-shadow:3px 3px 0 #2C3E50; display:flex; flex-direction:column; gap:1.5mm; }
+    .panel-title { font-family:'Fredoka',sans-serif; font-size:10pt; font-weight:700; border-bottom:2px solid #2C3E50; padding-bottom:1mm; }
+    .panel-instr { font-size:7.5pt; color:#546E7A; font-style:italic; }
+    .panel-body { flex:1; display:flex; flex-direction:column; justify-content:center; }
+    .big-letter { font-family:'Fredoka',sans-serif; font-size:62pt; font-weight:700; color:#388E3C; line-height:1; }
+    .vocab-row { display:flex; gap:2mm; justify-content:space-around; }
+    .vocab-item { display:flex; flex-direction:column; align-items:center; gap:0.5mm; }
+    .vocab-word { font-family:'Fredoka',sans-serif; font-size:8.5pt; font-weight:700; }
+    .vocab-svg { width:22mm; height:18mm; }
+    .trace-ltr { font-family:'Fredoka',sans-serif; font-size:32pt; font-weight:700; color:transparent; -webkit-text-stroke:2px rgba(44,62,80,0.25); }
+    .trace-model { font-family:'Fredoka',sans-serif; font-size:32pt; font-weight:700; color:#388E3C; border:2px solid #388E3C; border-radius:6px; padding:0 2mm; line-height:1.1; }
+    .letter-grid { display:grid; grid-template-columns:repeat(6,1fr); gap:1.5mm; }
+    .lg-cell { border:1.5px solid #BDC3C7; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Fredoka',sans-serif; font-size:10.5pt; background:#FAFAFA; aspect-ratio:1; }
+    .pic-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2mm; }
+    .pic-box { border:1.5px solid #BDC3C7; border-radius:8px; padding:1.5mm; display:flex; flex-direction:column; align-items:center; gap:0.5mm; background:#FAFAFA; }
+    .pic-label { font-size:7pt; font-weight:700; font-family:'Fredoka',sans-serif; }
+    .pic-svg { width:100%; height:14mm; }
+    .circle-me { border:2px dashed #90A4AE; border-radius:50%; padding:1mm; }
+    .find-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:1mm; }
+    .find-cell { aspect-ratio:1; border:1px solid #CFD8DC; border-radius:4px; display:flex; align-items:center; justify-content:center; font-family:'Fredoka',sans-serif; font-size:11pt; background:#FAFAFA; }
+    .write-lines { display:flex; flex-direction:column; gap:1.5mm; }
+    .write-line { height:10mm; border-bottom:2px solid #2C3E50; position:relative; background:#F1F8E9; border-radius:0 0 4px 4px; }
+    .write-line::after { content:''; position:absolute; top:50%; left:0; right:0; border-top:1px dashed #BDC3C7; }
+    .write-model { position:absolute; left:2mm; top:50%; transform:translateY(-50%); font-family:'Fredoka',sans-serif; font-size:18pt; font-weight:700; color:rgba(56,142,60,0.3); }
+    .reward-box { flex:1; background:linear-gradient(135deg,#E8F5E9,#F1F8E9,#FFF9C4); border:2.5px solid #2C3E50; border-radius:13px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2mm; padding:3mm; box-shadow:3px 3px 0 #2C3E50; text-align:center; }
+    .reward-title { font-family:'Fredoka',sans-serif; font-size:13pt; font-weight:700; color:#FF7043; }
+    .sticker-row { display:flex; gap:2.5mm; margin-top:1mm; }
+    .sticker-box { width:12mm; height:12mm; border:2px dashed #BDC3C7; border-radius:50%; background:#fff; display:flex; align-items:center; justify-content:center; font-size:12pt; }
+    .footer { border-top:2px solid #2C3E50; padding-top:2mm; display:flex; justify-content:space-between; align-items:center; font-size:7.5pt; color:#777; }
+    .footer-brand { font-family:'Fredoka',sans-serif; color:#FF7043; font-weight:700; font-size:8.5pt; }
+  </style>
+</head>
+<body>
+<button class="print-btn" onclick="window.print()">🖨️ Print Worksheet</button>
+<div class="page">
+  <div class="header">
+    <div class="brand">✦ Worksheet Wonder</div>
+    <div style="display:flex;gap:2mm;">
+      <span class="badge">Kindergarten</span>
+      <span class="badge">Age 4–6</span>
+      <span class="badge badge-free">FREE</span>
+    </div>
+  </div>
+  <div class="user-bar">
+    <div class="user-field"><span class="user-label">Name:</span><div class="user-line"></div></div>
+    <div class="user-field"><span class="user-label">Date:</span><div class="user-line"></div></div>
+    <div class="user-field"><span class="user-label">Teacher:</span><div class="user-line"></div></div>
+  </div>
+  <div class="title-row">⭐ My First Alphabet Workbook &nbsp;·&nbsp; <span class="letter-color">Letter D</span> ⭐</div>
+  <div class="activities">
+
+    <!-- ACT 1: Meet Letter D -->
+    <div class="panel" style="background:#F1F8E9;">
+      <div class="panel-title">🌟 1. Meet the Letter D</div>
+      <div class="panel-instr">This is the letter D. Say it out loud!</div>
+      <div class="panel-body">
+        <div style="display:flex;align-items:center;justify-content:center;gap:4mm;margin-bottom:2mm;">
+          <span class="big-letter">D</span>
+          <div style="display:flex;flex-direction:column;align-items:center;">
+            <span style="font-family:'Fredoka',sans-serif;font-size:40pt;font-weight:700;color:#66BB6A;">d</span>
+            <span style="font-size:7.5pt;color:#888;font-style:italic;">uppercase · lowercase</span>
+          </div>
+        </div>
+        <div class="vocab-row">
+          <div class="vocab-item">
+            <!-- Dog SVG -->
+            <svg class="vocab-svg" viewBox="0 0 80 65" fill="none">
+              <circle cx="40" cy="36" r="19" fill="#A1887F"/>
+              <ellipse cx="25" cy="27" rx="7" ry="12" fill="#795548"/>
+              <ellipse cx="55" cy="27" rx="7" ry="12" fill="#795548"/>
+              <circle cx="34" cy="34" r="3.5" fill="#3E2723"/>
+              <circle cx="46" cy="34" r="3.5" fill="#3E2723"/>
+              <circle cx="34.8" cy="33" r="1.2" fill="white"/>
+              <circle cx="46.8" cy="33" r="1.2" fill="white"/>
+              <ellipse cx="40" cy="44" rx="9" ry="6" fill="#D7CCC8"/>
+              <circle cx="40" cy="43" r="3" fill="#EF9A9A"/>
+              <ellipse cx="40" cy="48" rx="3" ry="3.5" fill="#EF5350" opacity="0.8"/>
+              <path d="M33 50 Q40 54 47 50" stroke="#795548" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+              <path d="M23 35 Q30 33 34 34" stroke="#666" stroke-width="0.8" stroke-linecap="round" fill="none"/>
+              <path d="M46 34 Q50 33 57 35" stroke="#666" stroke-width="0.8" stroke-linecap="round" fill="none"/>
+            </svg>
+            <span class="vocab-word">Dog</span>
+          </div>
+          <div class="vocab-item">
+            <!-- Duck SVG -->
+            <svg class="vocab-svg" viewBox="0 0 80 65" fill="none">
+              <ellipse cx="42" cy="44" rx="22" ry="15" fill="#FDD835"/>
+              <circle cx="28" cy="30" r="14" fill="#FDD835"/>
+              <path d="M15 30 Q8 27 5 32 Q8 37 15 34Z" fill="#FF8F00"/>
+              <circle cx="24" cy="26" r="3" fill="#212121"/>
+              <circle cx="24.8" cy="25.2" r="1" fill="white"/>
+              <ellipse cx="55" cy="38" rx="8" ry="6" fill="#FFCC02" transform="rotate(30 55 38)"/>
+              <path d="M38 56 L34 63" stroke="#FF8F00" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M46 57 L42 64" stroke="#FF8F00" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+            <span class="vocab-word">Duck</span>
+          </div>
+          <div class="vocab-item">
+            <!-- Drum SVG -->
+            <svg class="vocab-svg" viewBox="0 0 80 65" fill="none">
+              <ellipse cx="40" cy="20" rx="22" ry="8" fill="#FFCDD2"/>
+              <rect x="18" y="20" width="44" height="30" fill="#EF5350"/>
+              <ellipse cx="40" cy="50" rx="22" ry="8" fill="#E53935"/>
+              <path d="M18 20 L18 50" stroke="#B71C1C" stroke-width="1.5"/>
+              <path d="M62 20 L62 50" stroke="#B71C1C" stroke-width="1.5"/>
+              <path d="M18 30 Q40 26 62 30" stroke="#B71C1C" stroke-width="1" fill="none"/>
+              <path d="M18 40 Q40 36 62 40" stroke="#B71C1C" stroke-width="1" fill="none"/>
+              <line x1="32" y1="8" x2="26" y2="24" stroke="#795548" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="32" cy="8" r="4" fill="#795548"/>
+              <line x1="48" y1="8" x2="54" y2="24" stroke="#795548" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="48" cy="8" r="4" fill="#795548"/>
+            </svg>
+            <span class="vocab-word">Drum</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 2: Trace Uppercase D -->
+    <div class="panel">
+      <div class="panel-title">✏️ 2. Trace Uppercase D</div>
+      <div class="panel-instr">Trace each letter. Start at the dot ●</div>
+      <div class="panel-body">
+        <div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-model">D</span>
+            <span style="font-size:10pt;color:#999;">→</span>
+            <span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;">
+            <span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span><span class="trace-ltr">D</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 3: Trace Lowercase d -->
+    <div class="panel">
+      <div class="panel-title">✏️ 3. Trace Lowercase d</div>
+      <div class="panel-instr">Trace each letter. Start at the dot ●</div>
+      <div class="panel-body">
+        <div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-model" style="color:#66BB6A;border-color:#66BB6A;">d</span>
+            <span style="font-size:10pt;color:#999;">→</span>
+            <span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;">
+            <span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span><span class="trace-ltr">d</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 4: Circle the Letter D -->
+    <div class="panel">
+      <div class="panel-title">⭕ 4. Circle All the D's</div>
+      <div class="panel-instr">Circle every D and d you can find!</div>
+      <div class="panel-body">
+        <div class="letter-grid">
+          <div class="lg-cell">B</div><div class="lg-cell">D</div><div class="lg-cell">O</div><div class="lg-cell">d</div><div class="lg-cell">G</div><div class="lg-cell">D</div>
+          <div class="lg-cell">d</div><div class="lg-cell">P</div><div class="lg-cell">D</div><div class="lg-cell">B</div><div class="lg-cell">d</div><div class="lg-cell">O</div>
+          <div class="lg-cell">G</div><div class="lg-cell">d</div><div class="lg-cell">P</div><div class="lg-cell">D</div><div class="lg-cell">B</div><div class="lg-cell">d</div>
+          <div class="lg-cell">D</div><div class="lg-cell">O</div><div class="lg-cell">d</div><div class="lg-cell">G</div><div class="lg-cell">D</div><div class="lg-cell">P</div>
+          <div class="lg-cell">B</div><div class="lg-cell">D</div><div class="lg-cell">O</div><div class="lg-cell">d</div><div class="lg-cell">G</div><div class="lg-cell">D</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 5: Beginning Sounds -->
+    <div class="panel">
+      <div class="panel-title">🔊 5. Beginning Sounds</div>
+      <div class="panel-instr">Circle the pictures that start with D!</div>
+      <div class="panel-body">
+        <div class="pic-grid">
+          <div class="pic-box circle-me">
+            <svg class="pic-svg" viewBox="0 0 60 45"><circle cx="30" cy="25" r="14" fill="#A1887F"/><ellipse cx="20" cy="17" rx="5" ry="9" fill="#795548"/><ellipse cx="40" cy="17" rx="5" ry="9" fill="#795548"/><circle cx="25.5" cy="24" r="2.5" fill="#3E2723"/><circle cx="34.5" cy="24" r="2.5" fill="#3E2723"/><ellipse cx="30" cy="31" rx="6.5" ry="4.5" fill="#D7CCC8"/><circle cx="30" cy="30" r="2" fill="#EF9A9A"/></svg>
+            <span class="pic-label">Dog</span>
+          </div>
+          <div class="pic-box circle-me">
+            <svg class="pic-svg" viewBox="0 0 60 45"><ellipse cx="32" cy="34" rx="17" ry="11" fill="#FDD835"/><circle cx="20" cy="22" r="10" fill="#FDD835"/><path d="M11 22 Q6 19 4 24 Q7 28 11 25Z" fill="#FF8F00"/><circle cx="17" cy="19" r="2.5" fill="#212121"/><circle cx="17.7" cy="18.3" r="0.8" fill="white"/></svg>
+            <span class="pic-label">Duck</span>
+          </div>
+          <div class="pic-box circle-me">
+            <svg class="pic-svg" viewBox="0 0 60 45"><ellipse cx="30" cy="15" rx="17" ry="6" fill="#FFCDD2"/><rect x="13" y="15" width="34" height="22" fill="#EF5350"/><ellipse cx="30" cy="37" rx="17" ry="6" fill="#E53935"/><line x1="24" y1="6" x2="20" y2="18" stroke="#795548" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="6" r="3" fill="#795548"/><line x1="36" y1="6" x2="40" y2="18" stroke="#795548" stroke-width="2" stroke-linecap="round"/><circle cx="36" cy="6" r="3" fill="#795548"/></svg>
+            <span class="pic-label">Drum</span>
+          </div>
+          <div class="pic-box">
+            <svg class="pic-svg" viewBox="0 0 60 45"><circle cx="30" cy="25" r="14" fill="#FF8F00"/><polygon points="20,15 13,5 24,13" fill="#FF8F00"/><polygon points="40,15 47,5 36,13" fill="#FF8F00"/><circle cx="26" cy="24" r="2.5" fill="#333"/><circle cx="34" cy="24" r="2.5" fill="#333"/></svg>
+            <span class="pic-label">Cat</span>
+          </div>
+          <div class="pic-box">
+            <svg class="pic-svg" viewBox="0 0 60 45"><circle cx="30" cy="24" r="14" fill="#8D6E63"/><circle cx="22" cy="14" r="6" fill="#795548"/><circle cx="38" cy="14" r="6" fill="#795548"/><ellipse cx="30" cy="30" rx="7" ry="5" fill="#D7CCC8"/><circle cx="26" cy="23" r="2.5" fill="#3E2723"/><circle cx="34" cy="23" r="2.5" fill="#3E2723"/></svg>
+            <span class="pic-label">Bear</span>
+          </div>
+          <div class="pic-box">
+            <svg class="pic-svg" viewBox="0 0 60 45"><circle cx="30" cy="24" r="14" fill="#1565C0"/><path d="M30 10 Q40 18 40 24 Q40 30 30 38 Q20 30 20 24 Q20 18 30 10Z" fill="#EF5350"/></svg>
+            <span class="pic-label">Ball</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 6: Find Letter D -->
+    <div class="panel">
+      <div class="panel-title">🔍 6. Find Letter D</div>
+      <div class="panel-instr">Circle all the hidden D's in the grid!</div>
+      <div class="panel-body">
+        <div class="find-grid">
+          <div class="find-cell">A</div><div class="find-cell">D</div><div class="find-cell">C</div><div class="find-cell">E</div><div class="find-cell">F</div>
+          <div class="find-cell">G</div><div class="find-cell">H</div><div class="find-cell">D</div><div class="find-cell">A</div><div class="find-cell">B</div>
+          <div class="find-cell">C</div><div class="find-cell">E</div><div class="find-cell">F</div><div class="find-cell">D</div><div class="find-cell">G</div>
+          <div class="find-cell">H</div><div class="find-cell">D</div><div class="find-cell">A</div><div class="find-cell">B</div><div class="find-cell">C</div>
+          <div class="find-cell">E</div><div class="find-cell">F</div><div class="find-cell">G</div><div class="find-cell">H</div><div class="find-cell">D</div>
+        </div>
+        <div style="font-size:7.5pt;color:#888;margin-top:1.5mm;text-align:center;">Find 5 D's ✓ ✓ ✓ ✓ ✓</div>
+      </div>
+    </div>
+
+    <!-- ACT 7: Write -->
+    <div class="panel">
+      <div class="panel-title">📝 7. Write the Letter</div>
+      <div class="panel-instr">Write D and d on your own! Fill the lines.</div>
+      <div class="panel-body">
+        <div style="display:flex;gap:3mm;align-items:center;margin-bottom:2mm;">
+          <span style="font-family:'Fredoka',sans-serif;font-size:14pt;font-weight:700;color:#388E3C;">D d</span>
+          <span style="font-size:7.5pt;color:#888;">← Copy these!</span>
+        </div>
+        <div class="write-lines">
+          <div class="write-line"><span class="write-model">D d D d D</span></div>
+          <div class="write-line"></div>
+          <div class="write-line"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 8: Reward -->
+    <div class="reward-box">
+      <div style="font-size:24pt;">🐶</div>
+      <div class="reward-title">Dazzling Work!</div>
+      <div style="font-family:'Fredoka',sans-serif;font-size:10pt;color:#FF7043;font-weight:700;">You know Letter D!</div>
+      <div style="font-size:8pt;color:#555;">Stick your reward sticker here:</div>
+      <div class="sticker-row">
+        <div class="sticker-box">⭐</div>
+        <div class="sticker-box"></div>
+        <div class="sticker-box"></div>
+      </div>
+      <div style="font-size:7pt;color:#999;margin-top:0.5mm;">D is for Dog 🐶 · Duck 🦆 · Drum 🥁</div>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="footer-brand">✦ worksheetwonder.com</div>
+    <div>My First Alphabet Workbook &nbsp;·&nbsp; Letter D &nbsp;·&nbsp; Page 1 of 1</div>
+    <div>⭐⭐⭐</div>
+  </div>
+</div>
+</body>
+</html>

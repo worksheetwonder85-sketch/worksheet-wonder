@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Dog Face Outline -->
+  <path d="M 25 35 C 25 25, 75 25, 75 35 C 75 45, 80 60, 70 75 C 60 85, 40 85, 30 75 C 20 60, 25 45, 25 35 Z" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Floppy Ears -->
+  <path d="M 27 30 C 12 30, 10 60, 22 65" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 73 30 C 88 30, 90 60, 78 65" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="40" cy="48" r="4" fill="#000000"/>
+  <circle cx="60" cy="48" r="4" fill="#000000"/>
+  <!-- Big Nose (rounded triangle) -->
+  <path d="M 45 58 C 45 55, 55 55, 55 58 C 55 62, 45 62, 45 58 Z" fill="#000000" stroke="#000000" stroke-width="2"/>
+  <!-- Tongue/Mouth lines -->
+  <path d="M 50 61 Q 45 66, 40 64 M 50 61 Q 55 66, 60 64" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+</svg>

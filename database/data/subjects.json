@@ -1,0 +1,128 @@
+﻿[
+    {
+        "icon":  "bi-journal-text",
+        "description":  "Comprehensive language arts, comprehension, and literacy.",
+        "name":  "English",
+        "id":  1,
+        "slug":  "english"
+    },
+    {
+        "icon":  "bi-calculator",
+        "description":  "Numbers, counting, arithmetic, geometry, and problem solving.",
+        "name":  "Mathematics",
+        "id":  2,
+        "slug":  "maths"
+    },
+    {
+        "icon":  "bi-lightbulb",
+        "description":  "Natural phenomena, living things, earth, space, and energy.",
+        "name":  "Science",
+        "id":  3,
+        "slug":  "science"
+    },
+    {
+        "icon":  "bi-globe",
+        "description":  "Communities, maps, history, and social awareness.",
+        "name":  "Social Studies",
+        "id":  4,
+        "slug":  "social-studies"
+    },
+    {
+        "icon":  "bi-tree",
+        "description":  "Environmental studies, nature, family, and surroundings.",
+        "name":  "EVS",
+        "id":  5,
+        "slug":  "evs"
+    },
+    {
+        "icon":  "bi-controller",
+        "description":  "Interactive learning puzzles, mazes, and fun brain games.",
+        "name":  "Activities",
+        "id":  6,
+        "slug":  "activities"
+    },
+    {
+        "icon":  "bi-pencil-square",
+        "description":  "Creative writing, paragraph construction, story building, and journals.",
+        "name":  "Writing",
+        "id":  7,
+        "slug":  "writing"
+    },
+    {
+        "icon":  "bi-laptop",
+        "description":  "Computer hardware, digital literacy, internet safety, and coding.",
+        "name":  "Computer",
+        "id":  8,
+        "slug":  "computer"
+    },
+    {
+        "icon":  "bi-compass",
+        "description":  "World facts, countries, flags, animals, and geography.",
+        "name":  "General Knowledge",
+        "id":  9,
+        "slug":  "gk"
+    },
+    {
+        "icon":  "bi-palette",
+        "description":  "Coloring, tracing, cut \u0026 paste, origami, and paper crafts.",
+        "name":  "Art \u0026 Craft",
+        "id":  10,
+        "slug":  "art-craft"
+    },
+    {
+        "icon":  "bi-soundwave",
+        "description":  "Letter sounds, CVC words, blends, and digraphs.",
+        "name":  "Phonics",
+        "id":  11,
+        "slug":  "phonics"
+    },
+    {
+        "icon":  "bi-book",
+        "description":  "Sight words, story reading, and reading comprehension.",
+        "name":  "Reading",
+        "id":  12,
+        "slug":  "reading"
+    },
+    {
+        "icon":  "bi-chat-left-quote",
+        "description":  "Parts of speech, punctuation, syntax, and sentence structure.",
+        "name":  "Grammar",
+        "id":  13,
+        "slug":  "grammar"
+    },
+    {
+        "icon":  "bi-fonts",
+        "description":  "Word building, synonyms, antonyms, and word families.",
+        "name":  "Vocabulary",
+        "id":  14,
+        "slug":  "vocabulary"
+    },
+    {
+        "icon":  "bi-pen",
+        "description":  "Print handwriting, cursive practice, and letter tracing.",
+        "name":  "Handwriting",
+        "id":  15,
+        "slug":  "handwriting"
+    },
+    {
+        "icon":  "bi-gear-wide-connected",
+        "description":  "Science, Technology, Engineering, Art, and Math projects.",
+        "name":  "STEAM Activities",
+        "id":  16,
+        "slug":  "steam"
+    },
+    {
+        "icon":  "bi-gift",
+        "description":  "Seasonal activity packs, festival crafts, and holiday fun.",
+        "name":  "Holiday Activities",
+        "id":  17,
+        "slug":  "holiday-activities"
+    },
+    {
+        "icon":  "bi-clipboard-check",
+        "description":  "Diagnostic tests, unit reviews, and practice evaluation sheets.",
+        "name":  "Assessments",
+        "id":  18,
+        "slug":  "assessments"
+    }
+]

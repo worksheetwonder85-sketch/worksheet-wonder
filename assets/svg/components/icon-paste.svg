@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <!-- Glue bottle icon — Paste activity -->
+  <rect x="12" y="16" width="16" height="18" rx="3" fill="none" stroke="#1A1A2E" stroke-width="2.5"/>
+  <!-- Bottle neck -->
+  <rect x="16" y="10" width="8" height="8" rx="2" fill="none" stroke="#1A1A2E" stroke-width="2.5"/>
+  <!-- Cap -->
+  <rect x="14" y="6" width="12" height="5" rx="2.5" fill="none" stroke="#1A1A2E" stroke-width="2.5"/>
+  <!-- Glue drip -->
+  <path d="M 20 34 Q 20 38, 20 38" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

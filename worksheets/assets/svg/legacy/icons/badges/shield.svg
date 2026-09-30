@@ -1,0 +1,14 @@
+﻿<!--
+  Asset ID:        WW-ICON-shield.svg
+  Title:           shield
+  Category:        badges
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            shield, protection, award, symbol
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 8l20-4 20 4v20c0 14-12 24-20 28-8-4-20-14-20-28V8z"/>
+</svg>

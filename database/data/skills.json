@@ -1,0 +1,62 @@
+﻿[
+    {
+        "category":  "Physical",
+        "name":  "Fine Motor Control",
+        "id":  1,
+        "description":  "Pencil grip, line accuracy, and scissor control."
+    },
+    {
+        "category":  "Cognitive",
+        "name":  "Number Sense",
+        "id":  2,
+        "description":  "Understanding numerical quantities, order, and relations."
+    },
+    {
+        "category":  "Language",
+        "name":  "Phonemic Awareness",
+        "id":  3,
+        "description":  "Recognizing sounds, rhymes, blends, and speech segments."
+    },
+    {
+        "category":  "Language",
+        "name":  "Reading Fluency",
+        "id":  4,
+        "description":  "Decoding words quickly and comprehending passage meaning."
+    },
+    {
+        "category":  "Mathematics",
+        "name":  "Arithmetic Mastery",
+        "id":  5,
+        "description":  "Addition, subtraction, multiplication, and division fluency."
+    },
+    {
+        "category":  "Logic",
+        "name":  "Spatial Reasoning",
+        "id":  6,
+        "description":  "Geometry, orientation, symmetry, and visual mapping."
+    },
+    {
+        "category":  "Science",
+        "name":  "Scientific Inquiry",
+        "id":  7,
+        "description":  "Observation, hypothesis testing, data recording, and deduction."
+    },
+    {
+        "category":  "Technology",
+        "name":  "Digital Literacy",
+        "id":  8,
+        "description":  "Hardware recognition, typing, and safe online navigation."
+    },
+    {
+        "category":  "Social",
+        "name":  "Cultural Awareness",
+        "id":  9,
+        "description":  "Understanding geography, history, and community roles."
+    },
+    {
+        "category":  "Art",
+        "name":  "Creative Expression",
+        "id":  10,
+        "description":  "Color combination, craft assembly, and descriptive writing."
+    }
+]

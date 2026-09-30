@@ -1,0 +1,18 @@
+﻿<!--
+  Asset ID:        WW-ICON-flower.svg
+  Title:           flower
+  Category:        nature
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            flower, petals, plant, spring
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="32" cy="32" r="8"/>
+  <circle cx="32" cy="14" r="10"/>
+  <circle cx="32" cy="50" r="10"/>
+  <circle cx="14" cy="32" r="10"/>
+  <circle cx="50" cy="32" r="10"/>
+</svg>

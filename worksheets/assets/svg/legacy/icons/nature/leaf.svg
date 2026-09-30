@@ -1,0 +1,15 @@
+﻿<!--
+  Asset ID:        WW-ICON-leaf.svg
+  Title:           leaf
+  Category:        nature
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            leaf, plant, green, tree
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6 58c16-16 48-32 48-48-16 16-32 48-48 48z"/>
+  <line x1="6" y1="58" x2="38" y2="26"/>
+</svg>

@@ -77,7 +77,7 @@
 
             <div class="col-lg-12 text-center">
 
-                🎉 Download FREE Printable Worksheets Every Week!
+                New free printable worksheets added every week
 
             </div>
 
@@ -103,7 +103,7 @@
          class="navbar-logo">
 
     <span class="brand-text ms-2">
-        Worksheet Wonder
+        Worksheet <span class="brand-2">Wonder</span>
     </span>
 
 </a>
@@ -125,6 +125,43 @@ id="mainMenu">
 <li class="nav-item">
 <a class="nav-link active"
 href="index.html">Home</a>
+</li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"
+href="#"
+id="gradesDropdown"
+role="button"
+data-bs-toggle="dropdown"
+aria-expanded="false">Grades</a>
+<ul class="dropdown-menu shadow-sm" aria-labelledby="gradesDropdown">
+<li><a class="dropdown-item" href="preschool.html">Preschool</a></li>
+<li><a class="dropdown-item" href="kindergarten.html">Kindergarten</a></li>
+<li><a class="dropdown-item" href="grade1.html">Grade 1</a></li>
+<li><a class="dropdown-item" href="grade2.html">Grade 2</a></li>
+<li><a class="dropdown-item" href="grade3.html">Grade 3</a></li>
+<li><a class="dropdown-item" href="grade4.html">Grade 4</a></li>
+<li><a class="dropdown-item" href="grade5.html">Grade 5</a></li>
+<li><a class="dropdown-item" href="grade6.html">Grade 6</a></li>
+</ul>
+</li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"
+href="#"
+id="subjectsDropdown"
+role="button"
+data-bs-toggle="dropdown"
+aria-expanded="false">Subjects</a>
+<ul class="dropdown-menu shadow-sm" aria-labelledby="subjectsDropdown">
+<li><a class="dropdown-item" href="subject-maths.html">Mathematics</a></li>
+<li><a class="dropdown-item" href="subject-english.html">English</a></li>
+<li><a class="dropdown-item" href="subject-science.html">Science</a></li>
+<li><a class="dropdown-item" href="subject-evs.html">EVS</a></li>
+<li><a class="dropdown-item" href="subject-computer.html">Computer</a></li>
+<li><a class="dropdown-item" href="subject-gk.html">General Knowledge</a></li>
+<li><a class="dropdown-item" href="subject-art-craft.html">Art & Craft</a></li>
+</ul>
 </li>
 
 <li class="nav-item">
@@ -174,6 +211,28 @@ Login
 
 </nav>
 
+<!-- WW-SUBJECT-TABS -->
+<div class="ww-subject-tabs">
+<div class="container">
+<nav class="ww-tabs-scroll" aria-label="Subjects">
+<a href="subject-maths.html" class="ww-tab" style="--tab:#2B7CD3">Mathematics</a>
+<a href="subject-english.html" class="ww-tab" style="--tab:#35A853">English</a>
+<a href="subject-science.html" class="ww-tab" style="--tab:#209E8C">Science</a>
+<a href="subject-evs.html" class="ww-tab" style="--tab:#7C8A3A">EVS</a>
+<a href="subject-computer.html" class="ww-tab" style="--tab:#7C5CBF">Computer</a>
+<a href="subject-gk.html" class="ww-tab" style="--tab:#F26A21">General Knowledge</a>
+<a href="subject-art-craft.html" class="ww-tab" style="--tab:#D6538B">Art &amp; Craft</a>
+</nav>
+</div>
+</div>
+<script>
+(function(){var p=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+var els=document.querySelectorAll('.ww-tab');
+for(var i=0;i<els.length;i++){if(els[i].getAttribute('href').toLowerCase()===p){els[i].classList.add('active');break;}}
+})();
+</script>
+
+
 <!-- ===========================
      Hero Section
 ============================ -->
@@ -181,70 +240,117 @@ Login
      HERO SECTION
 =========================== -->
 
-<section class="hero-section">
+<!-- ===========================
+     HERO SECTION (K5 style)
+=========================== -->
+
+<section class="k5-hero">
+
+<div class="container text-center">
+
+<div class="k5-eyebrow">Free Printable Worksheets &bull; Preschool &ndash; Grade 6</div>
+
+<h1>
+FREE WORKSHEETS
+</h1>
+
+<p class="k5-sub">
+Reading, math and more for Preschool to Grade 6
+</p>
+
+<form class="k5-search input-group mx-auto mt-4" action="worksheets.html" method="get">
+
+<input type="text"
+       name="q"
+       class="form-control"
+       placeholder="Search worksheets..."
+       aria-label="Search worksheets">
+
+<button class="btn" type="submit">
+
+<i class="bi bi-search"></i>
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<!-- ===========================
+     CATEGORY STRIP (K5 style)
+=========================== -->
+
+<section class="py-5">
 
 <div class="container">
 
-<div class="row align-items-center">
+<div class="row g-4">
 
-<div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
+<div class="col-lg-4">
 
-<span class="hero-tag">
-🌈 Fun Learning Starts Here
-</span>
+<div class="k5-cat-card peach text-center">
 
-<h1 class="hero-title">
+<img src="assets/images/categories/alphabet.png"
+     class="img-fluid mb-3"
+     alt="Worksheets">
 
-Printable Worksheets
+<h3>Worksheets</h3>
 
-for Curious Kids
-
-</h1>
-
-<p class="hero-text">
-
-Discover thousands of beautifully designed printable worksheets for Preschool, Kindergarten and Primary School learners.
-
+<p class="text-muted">
+Thousands of free printable worksheets by grade and topic.
 </p>
 
-<div class="mt-4">
-
-<a href="worksheets.html"
-class="btn btn-rainbow btn-lg">
-
-Browse Worksheets
-
-</a>
-
-<a href="freebies.html"
-class="btn btn-outline-primary btn-lg ms-3">
-
-Free Downloads
-
+<a href="worksheets.html" class="k5-pill orange">
+BROWSE
 </a>
 
 </div>
 
-<div class="hero-rating mt-5">
+</div>
 
-⭐⭐⭐⭐⭐
+<div class="col-lg-4">
 
-<span>
+<div class="k5-cat-card mint text-center">
 
-Trusted by Parents & Teachers
+<img src="assets/images/bundles/math.png"
+     class="img-fluid mb-3"
+     alt="Bundles">
 
-</span>
+<h3>Bundles</h3>
+
+<p class="text-muted">
+Curated printable collections at pocket-friendly prices.
+</p>
+
+<a href="shop.html" class="k5-pill green">
+SHOP
+</a>
 
 </div>
 
 </div>
 
-<div class="col-lg-6 text-center mt-5 mt-lg-0" data-aos="fade-left">
+<div class="col-lg-4">
 
-<img
-src="assets/images/logo.png"
-class="img-fluid hero-image"
-alt="Worksheet Wonder">
+<div class="k5-cat-card sky text-center">
+
+<img src="assets/images/freebies/free-download.png"
+     class="img-fluid mb-3"
+     alt="Freebies">
+
+<h3>Freebies</h3>
+
+<p class="text-muted">
+New free downloads every week. No sign-up needed.
+</p>
+
+<a href="freebies.html" class="k5-pill teal">
+DOWNLOAD
+</a>
+
+</div>
 
 </div>
 
@@ -253,6 +359,7 @@ alt="Worksheet Wonder">
 </div>
 
 </section>
+
 <!-- ==========================================
      Statistics
 =========================================== -->
@@ -1202,7 +1309,7 @@ a lot of preparation time."
                             Simple and engaging activities that make learning letters exciting.
                         </p>
 
-                        <a href="blog-single.html"
+                        <a href="blog-single.html?id=a1"
                            class="btn btn-outline-primary">
 
                             Read More
@@ -1239,7 +1346,7 @@ a lot of preparation time."
                             Help children learn numbers through play-based learning.
                         </p>
 
-                        <a href="blog-single.html"
+                        <a href="blog-single.html?id=a3"
                            class="btn btn-outline-success">
 
                             Read More
@@ -1276,7 +1383,7 @@ a lot of preparation time."
                             Practical tips to improve reading confidence in young learners.
                         </p>
 
-                        <a href="blog-single.html"
+                        <a href="blog-single.html?id=a4"
                            class="btn btn-outline-warning">
 
                             Read More
@@ -1539,31 +1646,31 @@ a lot of preparation time."
                 <ul class="footer-links">
 
                     <li>
-                        <a href="worksheets/preschool.html">
+                        <a href="preschool.html">
                             Preschool
                         </a>
                     </li>
 
                     <li>
-                        <a href="worksheets/kindergarten.html">
+                        <a href="kindergarten.html">
                             Kindergarten
                         </a>
                     </li>
 
                     <li>
-                        <a href="worksheets/grade1.html">
+                        <a href="grade1.html">
                             Grade 1
                         </a>
                     </li>
 
                     <li>
-                        <a href="worksheets/grade2.html">
+                        <a href="grade2.html">
                             Grade 2
                         </a>
                     </li>
 
                     <li>
-                        <a href="worksheets/grade3.html">
+                        <a href="grade3.html">
                             Grade 3
                         </a>
                     </li>
@@ -1581,11 +1688,11 @@ a lot of preparation time."
 
         <li><a href="faq.html">FAQ</a></li>
 
-        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
 
-        <li><a href="javascript:void(0)">Terms & Conditions</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
 
-        <li><a href="javascript:void(0)">Refund Policy</a></li>
+        <li><a href="refund.html">Refund Policy</a></li>
 
         <li><a href="contact.html">Help Center</a></li>
 
@@ -1718,6 +1825,7 @@ AOS.init({
      Custom JavaScript
 =========================================== -->
 
-<script src="assets/js/script.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/database.js"></script>
 </body>
 </html>

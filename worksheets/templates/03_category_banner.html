@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Worksheet Wonder â€” Category Banner Template</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@400;700&display=swap');
+    body {
+      margin: 0;
+      padding: 40px;
+      background-color: #f5f5f5;
+    }
+    .category-banner {
+      width: 1200px;
+      height: 300px;
+      background: #ffffff;
+      border: 3px solid #333333;
+      border-radius: 16px;
+      box-shadow: 8px 8px 0px #333333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 60px;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+    }
+    .banner-content {
+      max-width: 600px;
+      z-index: 10;
+    }
+    .category-title {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 36pt;
+      margin: 0 0 10px 0;
+      color: #333333;
+    }
+    .category-desc {
+      font-family: 'Nunito', sans-serif;
+      font-size: 14pt;
+      color: #666666;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .graphic-pane {
+      width: 400px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .decoration-star {
+      position: absolute;
+      stroke: #333333;
+      fill: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="category-banner">
+    <div class="banner-content">
+      <h1 class="category-title">{{CATEGORY_TITLE}}</h1>
+      <p class="category-desc">{{CATEGORY_DESCRIPTION}}</p>
+    </div>
+    <div class="graphic-pane">
+      <!-- Star Illustration Cluster -->
+      <svg width="240" height="240" viewBox="0 0 240 240" fill="none" stroke="#333333" stroke-width="3">
+        <polygon points="120 20 128 90 200 100 135 140 145 210 120 170 95 210 105 140 40 100 112 90" stroke-linejoin="round" />
+        <path d="M180 40s2 8 8 8c-6 0-8 2-8 8 0-6-2-8-8-8 6 0 8-2 8-8z" />
+        <path d="M60 180s1 4 4 4c-3 0-4 1-4 4 0-3-1-4-4-4 3 0 4-1 4-4z" />
+      </svg>
+    </div>
+  </div>
+</body>
+</html>

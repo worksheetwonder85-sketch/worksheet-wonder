@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worksheet Wonder — Kindergarten Master Template</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito:wght@400;600;700&display=swap');
+
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      width: 210mm;
+      height: 297mm;
+      font-family: 'Nunito', sans-serif;
+      color: #333333;
+      background-color: #ffffff;
+      -webkit-print-color-adjust: exact;
+    }
+
+    /* Print margins: 15mm top/bottom, 12mm sides */
+    .page-container {
+      position: relative;
+      width: 210mm;
+      height: 297mm;
+      padding: 15mm 12mm;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    /* Dual Border System */
+    .page-borders {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 210mm;
+      height: 297mm;
+      pointer-events: none;
+      z-index: 100;
+    }
+
+    .outer-border {
+      fill: none;
+      stroke: #333333;
+      stroke-width: 0.8mm;
+    }
+
+    .inner-border {
+      fill: none;
+      stroke: #333333;
+      stroke-width: 0.4mm;
+    }
+
+    /* Header Styling */
+    .header-section {
+      width: 100%;
+      margin-bottom: 4mm;
+      display: flex;
+      flex-direction: column;
+      gap: 2.5mm;
+    }
+
+    .brand-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 0.3mm dashed #cccccc;
+      padding-bottom: 1.5mm;
+    }
+
+    .brand-logo-container {
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+    }
+
+    .brand-logo-text {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 15pt;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .meta-badges {
+      display: flex;
+      gap: 2mm;
+    }
+
+    .badge {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 8pt;
+      font-weight: 600;
+      border: 0.3mm solid #333333;
+      border-radius: 3mm;
+      padding: 0.8mm 2.5mm;
+      background-color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    .badge.difficulty {
+      background-color: #f0f0f0;
+    }
+
+    .user-info-bar {
+      display: flex;
+      gap: 5mm;
+      width: 100%;
+    }
+
+    .info-field {
+      display: flex;
+      align-items: flex-end;
+      flex-grow: 1;
+      font-size: 11pt;
+      font-weight: 600;
+    }
+
+    .info-label {
+      font-family: 'Fredoka', sans-serif;
+      margin-right: 1.5mm;
+    }
+
+    /* Double line guidelines for KG writing standards */
+    .info-line-wrapper {
+      flex-grow: 1;
+      position: relative;
+      height: 5.5mm;
+      margin-bottom: 0.5mm;
+    }
+
+    .info-line-top {
+      position: absolute;
+      bottom: 2.2mm;
+      left: 0;
+      right: 0;
+      border-bottom: 0.2mm dotted #aaaaaa;
+    }
+
+    .info-line-base {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border-bottom: 0.4mm solid #666666;
+    }
+
+    /* Title Block */
+    .title-block {
+      text-align: center;
+      margin-top: 1mm;
+      margin-bottom: 3mm;
+    }
+
+    .worksheet-title {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 22pt;
+      font-weight: 600;
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    /* Objective & Instructions */
+    .scaffold-block {
+      border: 0.4mm solid #333333;
+      border-radius: 3.5mm;
+      padding: 2.5mm 3.5mm;
+      margin-bottom: 4mm;
+      background-color: #fafafa;
+    }
+
+    .objective-box {
+      font-size: 9pt;
+      font-style: italic;
+      color: #555555;
+      margin-bottom: 1.5mm;
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+    }
+
+    .instructions-box {
+      font-size: 12pt;
+      font-weight: 700;
+      display: flex;
+      align-items: flex-start;
+      gap: 2.5mm;
+      line-height: 1.35;
+    }
+
+    .instruction-icon {
+      width: 6.5mm;
+      height: 6.5mm;
+      flex-shrink: 0;
+    }
+
+    /* Activity Area Placeholder (Grayscale & tactile designs) */
+    .activity-area {
+      flex-grow: 1;
+      border: 0.4mm dashed #cccccc;
+      border-radius: 4mm;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 8mm;
+      margin-bottom: 4mm;
+      background-color: #fcfcfc;
+    }
+
+    .placeholder-heading {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 16pt;
+      font-weight: 600;
+      margin-bottom: 3mm;
+      color: #888888;
+      text-align: center;
+    }
+
+    .placeholder-text {
+      font-size: 11pt;
+      color: #aaaaaa;
+      text-align: center;
+      max-width: 140mm;
+      line-height: 1.5;
+    }
+
+    /* Footer Section */
+    .footer-section {
+      width: 100%;
+      border-top: 0.3mm dashed #cccccc;
+      padding-top: 2.5mm;
+      display: flex;
+      flex-direction: column;
+      gap: 2.5mm;
+    }
+
+    .notes-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3.5mm;
+      font-size: 8pt;
+      color: #555555;
+    }
+
+    .notes-box {
+      border: 0.3mm solid #dddddd;
+      border-radius: 2mm;
+      padding: 1.5mm 2.5mm;
+      background-color: #fafafa;
+    }
+
+    .notes-title {
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 600;
+      margin-bottom: 1px;
+      text-transform: uppercase;
+      font-size: 7.5pt;
+    }
+
+    .footer-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 7.5pt;
+      color: #666666;
+    }
+
+    .qr-placeholder-container {
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+    }
+
+    .qr-box {
+      width: 9mm;
+      height: 9mm;
+      border: 0.3mm solid #333333;
+      padding: 0.5mm;
+    }
+
+    .rating-container {
+      display: flex;
+      align-items: center;
+      gap: 1mm;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Dual Borders -->
+  <svg class="page-borders" viewBox="0 0 210 297" preserveAspectRatio="none">
+    <!-- Outer Border: 4mm inset -->
+    <rect x="4" y="4" width="202" height="289" rx="8" ry="8" class="outer-border" />
+    <!-- Inner Border: 8mm inset -->
+    <rect x="8" y="8" width="194" height="281" rx="6" ry="6" class="inner-border" />
+  </svg>
+
+  <div class="page-container">
+    
+    <!-- HEADER -->
+    <div class="header-section">
+      <div class="brand-bar">
+        <div class="brand-logo-container">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <span class="brand-logo-text">Worksheet Wonder</span>
+        </div>
+        <div class="meta-badges">
+          <div class="badge grade">Kindergarten</div>
+          <div class="badge subject">Phonics</div>
+          <div class="badge difficulty">Developing</div>
+        </div>
+      </div>
+      
+      <!-- Name/Date Fields with guidelines -->
+      <div class="user-info-bar">
+        <div class="info-field" style="flex-grow: 2;">
+          <span class="info-label">Name:</span>
+          <div class="info-line-wrapper">
+            <div class="info-line-top"></div>
+            <div class="info-line-base"></div>
+          </div>
+        </div>
+        <div class="info-field" style="flex-grow: 1;">
+          <span class="info-label">Date:</span>
+          <div class="info-line-wrapper">
+            <div class="info-line-top"></div>
+            <div class="info-line-base"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TITLE BLOCK -->
+    <div class="title-block">
+      <h1 class="worksheet-title">Short 'a' Sound Matching</h1>
+    </div>
+
+    <!-- INSTRUCTIONS / OBJECTIVE -->
+    <div class="scaffold-block">
+      <div class="objective-box">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        <span>Learning Objective: {{LEARNING_OBJECTIVE}}</span>
+      </div>
+      <div class="instructions-box">
+        <!-- Instruction Icon (Crayon) -->
+        <svg class="instruction-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+        </svg>
+        <span>{{INSTRUCTIONS}}</span>
+      </div>
+    </div>
+
+    <!-- ACTIVITY PLACEHOLDER -->
+    <div class="activity-area">
+      <div class="placeholder-heading">Kindergarten Activity Area</div>
+      <div class="placeholder-text">
+        Insert tracing grids, matching lines, number frames, or short words here. Kindergarten activities continue to use simple, clean vector art, and clearly structured workspaces with guidelines.
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer-section">
+      <!-- Notes -->
+      <div class="notes-grid">
+        <div class="notes-box">
+          <div class="notes-title">Teacher Notes</div>
+          <div>{{TEACHER_NOTES}}</div>
+        </div>
+        <div class="notes-box">
+          <div class="notes-title">Parent Companion Guide</div>
+          <div>{{PARENT_NOTES}}</div>
+        </div>
+      </div>
+
+      <!-- Footer Bar -->
+      <div class="footer-bar">
+        <div class="qr-placeholder-container">
+          <div class="qr-box">
+            <svg width="100%" height="100%" viewBox="0 0 10 10">
+              <rect x="0" y="0" width="3" height="3" fill="#333" />
+              <rect x="7" y="0" width="3" height="3" fill="#333" />
+              <rect x="0" y="7" width="3" height="3" fill="#333" />
+              <rect x="4" y="4" width="2" height="2" fill="#333" />
+              <rect x="8" y="8" width="1" height="1" fill="#333" />
+              <rect x="5" y="7" width="1" height="1" fill="#333" />
+            </svg>
+          </div>
+          <span>Scan for support & solutions</span>
+        </div>
+        <div>
+          <span>© 2026 Worksheet Wonder. All Rights Reserved.</span>
+        </div>
+        <div class="rating-container">
+          <span>Self-Rating:</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#cccccc" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#cccccc" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#cccccc" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+        </div>
+        <div>
+          <span style="font-weight: bold;">{{BUNDLE_CODE}} — {{WORKSHEET_CODE}} | Page {{PAGE_NUMBER}}</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

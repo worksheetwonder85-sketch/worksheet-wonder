@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "grade_id": 1,
+    "subject_id": 1,
+    "name": "Alphabet",
+    "slug": "k-alphabet",
+    "description": "Learn letters, handwriting strokes, and upper/lowercase matches."
+  },
+  {
+    "id": 2,
+    "grade_id": 1,
+    "subject_id": 1,
+    "name": "Phonics",
+    "slug": "k-phonics",
+    "description": "Short vowels, beginning sounds, and initial phoneme identification."
+  },
+  {
+    "id": 3,
+    "grade_id": 1,
+    "subject_id": 2,
+    "name": "Numbers",
+    "slug": "k-numbers",
+    "description": "Count up to 20, identify numbers, and basic quantitative skills."
+  },
+  {
+    "id": 4,
+    "grade_id": 1,
+    "subject_id": 2,
+    "name": "Shapes",
+    "slug": "k-shapes",
+    "description": "Recognize basic 2D and 3D shapes: circles, squares, spheres."
+  },
+  {
+    "id": 5,
+    "grade_id": 1,
+    "subject_id": 6,
+    "name": "Colors",
+    "slug": "k-colors",
+    "description": "Identify primary and secondary colors and color associations."
+  },
+  {
+    "id": 6,
+    "grade_id": 1,
+    "subject_id": 6,
+    "name": "Matching Activities",
+    "slug": "k-matching-activities",
+    "description": "Connect related terms, objects, shapes, and words."
+  },
+  {
+    "id": 7,
+    "grade_id": 1,
+    "subject_id": 6,
+    "name": "Tracing",
+    "slug": "k-tracing",
+    "description": "Line tracing, pattern tracing, and pencil motor control."
+  },
+  {
+    "id": 8,
+    "grade_id": 1,
+    "subject_id": 6,
+    "name": "Coloring",
+    "slug": "k-coloring",
+    "description": "Educational coloring pages focusing on vocabulary and motor skills."
+  },
+  {
+    "id": 9,
+    "grade_id": 1,
+    "subject_id": 6,
+    "name": "Fine Motor Skills",
+    "slug": "k-fine-motor-skills",
+    "description": "Scissor skills, paper folding, and hands-on control."
+  },
+  {
+    "id": 10,
+    "grade_id": 2,
+    "subject_id": 1,
+    "name": "English Grammar",
+    "slug": "g1-english-grammar",
+    "description": "Nouns, verbs, basic punctuation, and simple sentence structures."
+  },
+  {
+    "id": 11,
+    "grade_id": 2,
+    "subject_id": 1,
+    "name": "Reading",
+    "slug": "g1-reading",
+    "description": "Sight words, simple readers, and sentence comprehension."
+  },
+  {
+    "id": 12,
+    "grade_id": 2,
+    "subject_id": 1,
+    "name": "Vocabulary",
+    "slug": "g1-vocabulary",
+    "description": "Word families, opposites, and elementary word groupings."
+  },
+  {
+    "id": 13,
+    "grade_id": 2,
+    "subject_id": 2,
+    "name": "Maths Addition",
+    "slug": "g1-maths-addition",
+    "description": "Single-digit and double-digit addition (without regrouping)."
+  },
+  {
+    "id": 14,
+    "grade_id": 2,
+    "subject_id": 2,
+    "name": "Maths Subtraction",
+    "slug": "g1-maths-subtraction",
+    "description": "Single-digit and double-digit subtraction subtraction worksheets."
+  },
+  {
+    "id": 15,
+    "grade_id": 2,
+    "subject_id": 2,
+    "name": "Shapes",
+    "slug": "g1-shapes",
+    "description": "Simple geometric properties and identifying shapes in the environment."
+  },
+  {
+    "id": 16,
+    "grade_id": 2,
+    "subject_id": 2,
+    "name": "Patterns",
+    "slug": "g1-patterns",
+    "description": "Pattern recognition, completion, and sorting activities."
+  },
+  {
+    "id": 17,
+    "grade_id": 2,
+    "subject_id": 5,
+    "name": "EVS",
+    "slug": "g1-evs",
+    "description": "Plants, animals, weather, and my family / community."
+  },
+  {
+    "id": 18,
+    "grade_id": 3,
+    "subject_id": 1,
+    "name": "Grammar",
+    "slug": "g2-grammar",
+    "description": "Pronouns, adverbs, articles, and plural rules."
+  },
+  {
+    "id": 19,
+    "grade_id": 3,
+    "subject_id": 1,
+    "name": "Comprehension",
+    "slug": "g2-comprehension",
+    "description": "Short stories and answering direct questions based on text."
+  },
+  {
+    "id": 20,
+    "grade_id": 3,
+    "subject_id": 2,
+    "name": "Multiplication",
+    "slug": "g2-multiplication",
+    "description": "Introduction to grouping, skip counting, and multiplication tables."
+  },
+  {
+    "id": 21,
+    "grade_id": 3,
+    "subject_id": 2,
+    "name": "Division",
+    "slug": "g2-division",
+    "description": "Sharing models, equal groups, and inverse operations."
+  },
+  {
+    "id": 22,
+    "grade_id": 3,
+    "subject_id": 3,
+    "name": "Science",
+    "slug": "g2-science",
+    "description": "Living things, habitats, states of matter, and basic body systems."
+  },
+  {
+    "id": 23,
+    "grade_id": 3,
+    "subject_id": 5,
+    "name": "EVS",
+    "slug": "g2-evs",
+    "description": "Resource conservation, safety rules, and local environment."
+  },
+  {
+    "id": 24,
+    "grade_id": 4,
+    "subject_id": 2,
+    "name": "Advanced Maths",
+    "slug": "g3-advanced-maths",
+    "description": "Regrouping addition/subtraction, 3-digit multiplication, and word problems."
+  },
+  {
+    "id": 25,
+    "grade_id": 4,
+    "subject_id": 1,
+    "name": "English Writing",
+    "slug": "g3-english-writing",
+    "description": "Paragraph building, descriptive sentences, and simple journals."
+  },
+  {
+    "id": 26,
+    "grade_id": 4,
+    "subject_id": 3,
+    "name": "Science",
+    "slug": "g3-science",
+    "description": "Forces, water cycle, simple machines, and animal classification."
+  },
+  {
+    "id": 27,
+    "grade_id": 4,
+    "subject_id": 4,
+    "name": "Social Studies",
+    "slug": "g3-social-studies",
+    "description": "Community services, state history, map reading, and geography basics."
+  },
+  {
+    "id": 28,
+    "grade_id": 5,
+    "subject_id": 2,
+    "name": "Fractions",
+    "slug": "g4-fractions",
+    "description": "Adding/subtracting fractions, equivalent fractions, and visual models."
+  },
+  {
+    "id": 29,
+    "grade_id": 5,
+    "subject_id": 2,
+    "name": "Decimals",
+    "slug": "g4-decimals",
+    "description": "Reading, writing, comparing, and basic operations with decimals."
+  },
+  {
+    "id": 30,
+    "grade_id": 5,
+    "subject_id": 1,
+    "name": "Grammar",
+    "slug": "g4-grammar",
+    "description": "Conjunctions, prepositions, tense consistency, and idioms."
+  },
+  {
+    "id": 31,
+    "grade_id": 5,
+    "subject_id": 3,
+    "name": "Science Experiments",
+    "slug": "g4-science-experiments",
+    "description": "Scientific method worksheets, variables, hypotheses, and reports."
+  },
+  {
+    "id": 32,
+    "grade_id": 6,
+    "subject_id": 2,
+    "name": "Advanced Maths",
+    "slug": "g5-advanced-maths",
+    "description": "Long division, volume calculations, decimals multiplication, and coordinate grids."
+  },
+  {
+    "id": 33,
+    "grade_id": 6,
+    "subject_id": 1,
+    "name": "Grammar",
+    "slug": "g5-grammar",
+    "description": "Active/passive voice, direct/indirect speech, and sentence variation."
+  },
+  {
+    "id": 34,
+    "grade_id": 6,
+    "subject_id": 7,
+    "name": "Creative Writing",
+    "slug": "g5-creative-writing",
+    "description": "Narrative essays, prompt-based writing, and poetry elements."
+  },
+  {
+    "id": 35,
+    "grade_id": 6,
+    "subject_id": 3,
+    "name": "Science",
+    "slug": "g5-science",
+    "description": "Solar system, ecosystems, cell structures, and energy forms."
+  },
+  {
+    "id": 36,
+    "grade_id": 7,
+    "subject_id": 2,
+    "name": "Mathematics",
+    "slug": "g6-mathematics",
+    "description": "Ratios, expressions, algebraic equations, statistics, and integers."
+  },
+  {
+    "id": 37,
+    "grade_id": 7,
+    "subject_id": 3,
+    "name": "Science",
+    "slug": "g6-science",
+    "description": "Plate tectonics, human body organs, chemical changes, and weather patterns."
+  },
+  {
+    "id": 38,
+    "grade_id": 7,
+    "subject_id": 1,
+    "name": "English",
+    "slug": "g6-english",
+    "description": "Argumentative writing, literary devices, and advanced grammar syntax."
+  },
+  {
+    "id": 39,
+    "grade_id": 7,
+    "subject_id": 4,
+    "name": "Social Studies",
+    "slug": "g6-social-studies",
+    "description": "Ancient civilizations, global geography, world resources, and civics."
+  }
+]

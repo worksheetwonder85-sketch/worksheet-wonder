@@ -1,0 +1,16 @@
+﻿<!--
+  Asset ID:        WW-ICON-milk.svg
+  Title:           milk
+  Category:        food
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            milk, carton, drink, calcium
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="14" y="24" width="36" height="34" rx="2" ry="2"/>
+  <polygon points="14 24 32 8 50 24"/>
+  <line x1="14" y1="24" x2="50" y2="24"/>
+</svg>

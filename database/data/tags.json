@@ -1,0 +1,62 @@
+﻿[
+    {
+        "name":  "Free Printable",
+        "id":  1,
+        "slug":  "free-printable"
+    },
+    {
+        "name":  "Premium Pack",
+        "id":  2,
+        "slug":  "premium-pack"
+    },
+    {
+        "name":  "Bestseller",
+        "id":  3,
+        "slug":  "bestseller"
+    },
+    {
+        "name":  "Fine Motor",
+        "id":  4,
+        "slug":  "fine-motor"
+    },
+    {
+        "name":  "Phonics",
+        "id":  5,
+        "slug":  "phonics"
+    },
+    {
+        "name":  "Math Skills",
+        "id":  6,
+        "slug":  "math-skills"
+    },
+    {
+        "name":  "STEM/STEAM",
+        "id":  7,
+        "slug":  "stem-steam"
+    },
+    {
+        "name":  "Classroom Poster",
+        "id":  8,
+        "slug":  "classroom-poster"
+    },
+    {
+        "name":  "Certificate",
+        "id":  9,
+        "slug":  "certificate"
+    },
+    {
+        "name":  "Holiday Pack",
+        "id":  10,
+        "slug":  "holiday-pack"
+    },
+    {
+        "name":  "Interactive PDF",
+        "id":  11,
+        "slug":  "interactive-pdf"
+    },
+    {
+        "name":  "Answer Key Included",
+        "id":  12,
+        "slug":  "answer-key-included"
+    }
+]

@@ -1,0 +1,17 @@
+﻿<!--
+  Asset ID:        WW-ICON-board.svg
+  Title:           board
+  Category:        school
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            board, blackboard, teaching, classroom
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="6" y="10" width="52" height="32" rx="2" ry="2"/>
+  <line x1="16" y1="42" x2="10" y2="56"/>
+  <line x1="48" y1="42" x2="54" y2="56"/>
+  <line x1="26" y1="42" x2="38" y2="42"/>
+</svg>

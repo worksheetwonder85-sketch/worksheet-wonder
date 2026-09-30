@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Worksheet Wonder â€” Certificate Template</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@400;700&display=swap');
+    @page { size: A4 landscape; margin: 0; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0;
+      width: 297mm; height: 210mm;
+      font-family: 'Nunito', sans-serif;
+      color: #333333; background: #ffffff;
+      -webkit-print-color-adjust: exact;
+    }
+    .cert-container {
+      width: 297mm; height: 210mm;
+      padding: 20mm;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+    }
+    .page-borders {
+      position: absolute;
+      top: 0; left: 0;
+      width: 297mm; height: 210mm;
+      pointer-events: none;
+    }
+    .outer-border { fill: none; stroke: #333333; stroke-width: 1.0mm; }
+    .inner-border { fill: none; stroke: #333333; stroke-width: 0.5mm; }
+    .header-text {
+      text-align: center;
+      margin-top: 10mm;
+    }
+    .cert-logo {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 16pt;
+      margin-bottom: 2mm;
+    }
+    .cert-title {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 32pt;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+    .cert-body {
+      text-align: center;
+      max-width: 220mm;
+      margin: 10mm 0;
+    }
+    .p-cert {
+      font-size: 16pt;
+      margin: 0 0 5mm 0;
+    }
+    .name-line {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 28pt;
+      font-weight: 600;
+      border-bottom: 0.8mm solid #333333;
+      width: 180mm;
+      margin: 5mm auto;
+      text-align: center;
+      padding-bottom: 2mm;
+    }
+    .award-details {
+      font-size: 13pt;
+      color: #666666;
+    }
+    .sign-row {
+      display: flex;
+      justify-content: space-between;
+      width: 220mm;
+      margin-bottom: 10mm;
+    }
+    .sign-field {
+      width: 80mm;
+      text-align: center;
+      font-size: 11pt;
+    }
+    .sign-line {
+      border-bottom: 0.5mm solid #333333;
+      height: 10mm;
+      margin-bottom: 2mm;
+    }
+    .sign-label {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+  <svg class="page-borders" viewBox="0 0 297 210" preserveAspectRatio="none">
+    <rect x="5" y="5" width="287" height="200" rx="10" ry="10" class="outer-border" />
+    <rect x="10" y="10" width="277" height="190" rx="8" ry="8" class="inner-border" />
+  </svg>
+  <div class="cert-container">
+    <div class="header-text">
+      <div class="cert-logo">â˜… Worksheet Wonder â˜…</div>
+      <h1 class="cert-title">Certificate of Completion</h1>
+    </div>
+    <div class="cert-body">
+      <p class="p-cert">This certifies that</p>
+      <div class="name-line">{{STUDENT_NAME}}</div>
+      <p class="award-details">has successfully completed the {{BUNDLE_TITLE}} activity workbook pack!</p>
+    </div>
+    <div class="sign-row">
+      <div class="sign-field">
+        <div class="sign-line"></div>
+        <span class="sign-label">Teacher / Parent Signature</span>
+      </div>
+      <div class="sign-field">
+        <div class="sign-line"></div>
+        <span class="sign-label">Date</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

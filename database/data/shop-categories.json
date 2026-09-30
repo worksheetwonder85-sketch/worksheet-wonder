@@ -1,0 +1,56 @@
+﻿[
+    {
+        "description":  "Curated collections of targeted topic worksheets.",
+        "name":  "Worksheet Bundles",
+        "id":  1,
+        "slug":  "worksheet-bundles"
+    },
+    {
+        "description":  "Complete curriculum packages for specific grade levels.",
+        "name":  "Grade Bundles",
+        "id":  2,
+        "slug":  "grade-bundles"
+    },
+    {
+        "description":  "Full subject mastery packs (Math, English, Science, etc.).",
+        "name":  "Subject Bundles",
+        "id":  3,
+        "slug":  "subject-bundles"
+    },
+    {
+        "description":  "Festive and seasonal fun learning activity packs.",
+        "name":  "Holiday Bundles",
+        "id":  4,
+        "slug":  "holiday-bundles"
+    },
+    {
+        "description":  "Printable workbook PDFs packed with puzzles and games.",
+        "name":  "Activity Books",
+        "id":  5,
+        "slug":  "activity-books"
+    },
+    {
+        "description":  "Theme-based educational coloring books.",
+        "name":  "Coloring Books",
+        "id":  6,
+        "slug":  "coloring-books"
+    },
+    {
+        "description":  "Printable flashcard decks for quick practice.",
+        "name":  "Flashcards",
+        "id":  7,
+        "slug":  "flashcards-shop"
+    },
+    {
+        "description":  "Lesson plan guides, posters, and classroom kits.",
+        "name":  "Teacher Resources",
+        "id":  8,
+        "slug":  "teacher-resources-shop"
+    },
+    {
+        "description":  "Instant high-resolution printable PDF packages.",
+        "name":  "Digital Downloads",
+        "id":  9,
+        "slug":  "digital-downloads"
+    }
+]

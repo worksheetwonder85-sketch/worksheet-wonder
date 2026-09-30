@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letter D Answer Key â€“ My First Alphabet Workbook | Worksheet Wonder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A4 portrait; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { width:210mm; min-height:297mm; font-family:'Nunito',sans-serif; color:#2C3E50; background:#FFFDF9; -webkit-print-color-adjust:exact; color-adjust:exact; }
+    .print-btn { position:fixed; top:12px; right:12px; background:#C62828; color:white; border:none; padding:10px 20px; border-radius:10px; font-family:'Nunito',sans-serif; font-size:14px; font-weight:800; cursor:pointer; z-index:999; }
+    @media print { .print-btn { display:none; } }
+    .answer-banner { background:#C62828; color:white; text-align:center; padding:6px; font-family:'Fredoka',sans-serif; font-size:11pt; font-weight:700; }
+    .page { width:210mm; min-height:297mm; padding:13mm 12mm 11mm 12mm; display:flex; flex-direction:column; gap:2.5mm; position:relative; }
+    .page::before { content:''; position:absolute; top:5mm; left:5mm; right:5mm; bottom:5mm; border:0.8mm solid #2C3E50; pointer-events:none; }
+    .page::after { content:''; position:absolute; top:7mm; left:7mm; right:7mm; bottom:7mm; border:0.35mm dashed #aaa; pointer-events:none; }
+    .header { display:flex; justify-content:space-between; align-items:center; border-bottom:3px solid #2C3E50; padding-bottom:2mm; }
+    .brand { font-family:'Fredoka',sans-serif; font-size:16pt; font-weight:700; color:#FF7043; }
+    .badge { font-family:'Fredoka',sans-serif; font-size:8pt; font-weight:600; border:2px solid #2C3E50; border-radius:6px; padding:1px 9px; box-shadow:2px 2px 0 #2C3E50; background:#FFE082; }
+    .badge-key { background:#FFCDD2; color:#C62828; border-color:#C62828; }
+    .user-bar { display:flex; gap:5mm; font-family:'Fredoka',sans-serif; font-size:9.5pt; }
+    .user-field { display:flex; align-items:flex-end; flex:1; }
+    .user-label { white-space:nowrap; margin-right:1.5mm; color:#555; }
+    .user-line { flex:1; border-bottom:2px solid #2C3E50; height:5mm; }
+    .title-row { text-align:center; font-family:'Fredoka',sans-serif; font-size:20pt; font-weight:700; background:linear-gradient(90deg,#FFEBEE,#FFCDD2,#FFEBEE); border-radius:10px; padding:1.5mm 0; }
+    .activities { display:grid; grid-template-columns:1fr 1fr; gap:3mm; flex:1; }
+    .panel { border:2.5px solid #2C3E50; border-radius:13px; padding:2.5mm 3mm; background:#fff; box-shadow:3px 3px 0 #2C3E50; display:flex; flex-direction:column; gap:1.5mm; }
+    .panel-title { font-family:'Fredoka',sans-serif; font-size:10pt; font-weight:700; border-bottom:2px solid #2C3E50; padding-bottom:1mm; }
+    .panel-instr { font-size:7.5pt; color:#546E7A; font-style:italic; }
+    .panel-body { flex:1; display:flex; flex-direction:column; justify-content:center; }
+    .trace-ltr { font-family:'Fredoka',sans-serif; font-size:32pt; font-weight:700; color:rgba(229,57,53,0.35); -webkit-text-stroke:1px rgba(229,57,53,0.5); }
+    .trace-model { font-family:'Fredoka',sans-serif; font-size:32pt; font-weight:700; color:#1B5E20; border:2px solid #E65100; border-radius:6px; padding:0 2mm; line-height:1.1; }
+    .letter-grid { display:grid; grid-template-columns:repeat(6,1fr); gap:1.5mm; }
+    .lg-cell { border:1.5px solid #BDC3C7; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Fredoka',sans-serif; font-size:10.5pt; background:#FAFAFA; aspect-ratio:1; }
+    .lg-cell.correct { border:3px solid #E53935; background:#FFEBEE; color:#C62828; font-weight:700; }
+    .pic-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2mm; }
+    .pic-box { border:1.5px solid #BDC3C7; border-radius:8px; padding:1.5mm; display:flex; flex-direction:column; align-items:center; gap:0.5mm; background:#FAFAFA; }
+    .pic-box.correct { border:3px solid #4CAF50; background:#E8F5E9; position:relative; }
+    .pic-box.correct::after { content:'âœ“'; position:absolute; top:-8px; right:-4px; background:#4CAF50; color:white; width:18px; height:18px; border-radius:50%; font-size:10pt; font-weight:700; display:flex; align-items:center; justify-content:center; }
+    .pic-label { font-size:7pt; font-weight:700; font-family:'Fredoka',sans-serif; }
+    .pic-svg { width:100%; height:14mm; }
+    .find-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:1mm; }
+    .find-cell { aspect-ratio:1; border:1px solid #CFD8DC; border-radius:4px; display:flex; align-items:center; justify-content:center; font-family:'Fredoka',sans-serif; font-size:11pt; background:#FAFAFA; }
+    .find-cell.correct { border:3px solid #E53935; border-radius:50%; background:#FFEBEE; color:#C62828; font-weight:700; }
+    .write-lines { display:flex; flex-direction:column; gap:1.5mm; }
+    .write-line { height:10mm; border-bottom:2px solid #2C3E50; position:relative; background:#FFF8E1; border-radius:0 0 4px 4px; }
+    .write-line::after { content:''; position:absolute; top:50%; left:0; right:0; border-top:1px dashed #BDC3C7; }
+    .write-answer { position:absolute; left:2mm; top:50%; transform:translateY(-50%); font-family:'Fredoka',sans-serif; font-size:18pt; font-weight:700; color:rgba(198,40,40,0.5); letter-spacing:4mm; }
+    .reward-box { flex:1; background:linear-gradient(135deg,#FFEBEE,#FFF8E1,#E8F5E9); border:2.5px solid #2C3E50; border-radius:13px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2mm; padding:3mm; box-shadow:3px 3px 0 #2C3E50; text-align:center; }
+    .sticker-row { display:flex; gap:2.5mm; margin-top:1mm; }
+    .sticker-box { width:12mm; height:12mm; border:2px solid #4CAF50; border-radius:50%; background:#E8F5E9; display:flex; align-items:center; justify-content:center; font-size:12pt; }
+    .footer { border-top:2px solid #2C3E50; padding-top:2mm; display:flex; justify-content:space-between; align-items:center; font-size:7.5pt; color:#777; }
+    .footer-brand { font-family:'Fredoka',sans-serif; color:#FF7043; font-weight:700; font-size:8.5pt; }
+  </style>
+</head>
+<body>
+<div class="answer-banner">ðŸ”‘ ANSWER KEY â€“ For Teacher / Parent Use Only Â· Do Not Distribute to Students</div>
+<button class="print-btn" onclick="window.print()">ðŸ–¨ï¸ Print Answer Key</button>
+<div class="page">
+  <div class="header">
+    <div class="brand">âœ¦ Worksheet Wonder</div>
+    <div style="display:flex;gap:2mm;"><span class="badge">Kindergarten</span><span class="badge badge-key">ðŸ”‘ ANSWER KEY</span></div>
+  </div>
+  <div class="user-bar">
+    <div class="user-field"><span class="user-label">Name:</span><div class="user-line"></div></div>
+    <div class="user-field"><span class="user-label">Date:</span><div class="user-line"></div></div>
+    <div class="user-field"><span class="user-label">Teacher:</span><div class="user-line"></div></div>
+  </div>
+  <div class="title-row">ðŸ”‘ ANSWER KEY Â· <span style="color:#C62828;">Letter D</span> Â· My First Alphabet Workbook</div>
+  <div class="activities">
+
+    <div class="panel" style="background:#FFF8E1;">
+      <div class="panel-title">ðŸŒŸ 1. Meet the Letter B</div>
+      <div class="panel-instr">Reference: B b with vocabulary Ball, Bear, Bee</div>
+      <div class="panel-body">
+        <div style="display:flex;align-items:center;justify-content:center;gap:6mm;margin-bottom:3mm;">
+          <span style="font-family:'Fredoka',sans-serif;font-size:62pt;font-weight:700;color:#1B5E20;line-height:1;">B</span>
+          <span style="font-family:'Fredoka',sans-serif;font-size:40pt;font-weight:700;color:#66BB6A;">d</span>
+        </div>
+        <div style="text-align:center;font-family:'Fredoka',sans-serif;font-size:9pt;color:#C62828;font-weight:700;">D is for Dog 🐶 · Duck 🦆 · Drum 🥁 ðŸ</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">âœï¸ 2. Trace Uppercase B</div>
+      <div class="panel-instr" style="color:#C62828;">Expected: Child traces over dotted B's</div>
+      <div class="panel-body">
+        <div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-model">B</span><span style="font-size:10pt;color:#999;">â†’</span>
+            <span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;">
+            <span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span><span class="trace-ltr">B</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">âœï¸ 3. Trace Lowercase b</div>
+      <div class="panel-instr" style="color:#C62828;">Expected: Child traces over dotted b's</div>
+      <div class="panel-body">
+        <div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-model" style="color:#FFB74D;border-color:#66BB6A;">d</span><span style="font-size:10pt;color:#999;">â†’</span>
+            <span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;">
+            <span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span><span class="trace-ltr">b</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">â­• 4. Circle All the B's</div>
+      <div class="panel-instr" style="color:#C62828;">Red circles = all B/b cells</div>
+      <div class="panel-body">
+        <div class="letter-grid">
+          <div class="lg-cell">A</div><div class="lg-cell correct">D</div><div class="lg-cell">C</div><div class="lg-cell correct">D</div><div class="lg-cell">D</div><div class="lg-cell correct">D</div>
+          <div class="lg-cell correct">D</div><div class="lg-cell">E</div><div class="lg-cell correct">D</div><div class="lg-cell">F</div><div class="lg-cell correct">D</div><div class="lg-cell">G</div>
+          <div class="lg-cell">H</div><div class="lg-cell correct">D</div><div class="lg-cell">A</div><div class="lg-cell correct">D</div><div class="lg-cell">C</div><div class="lg-cell correct">D</div>
+          <div class="lg-cell correct">D</div><div class="lg-cell">D</div><div class="lg-cell correct">D</div><div class="lg-cell">E</div><div class="lg-cell correct">D</div><div class="lg-cell">F</div>
+          <div class="lg-cell">G</div><div class="lg-cell correct">D</div><div class="lg-cell">H</div><div class="lg-cell correct">D</div><div class="lg-cell">A</div><div class="lg-cell correct">D</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">ðŸ”Š 5. Beginning Sounds</div>
+      <div class="panel-instr" style="color:#C62828;">Green âœ“ = starts with B Â· Grey = does NOT</div>
+      <div class="panel-body">
+        <div class="pic-grid">
+          <div class="pic-box correct"><div class="pic-svg" style="display:flex;align-items:center;justify-content:center;font-size:24pt;">ðŸ€</div><span class="pic-label" style="color:#2E7D32;">âœ“ Ball</span></div>
+          <div class="pic-box correct"><div class="pic-svg" style="display:flex;align-items:center;justify-content:center;font-size:24pt;">ðŸ»</div><span class="pic-label" style="color:#2E7D32;">âœ“ Bear</span></div>
+          <div class="pic-box correct"><div class="pic-svg" style="display:flex;align-items:center;justify-content:center;font-size:24pt;">ðŸ</div><span class="pic-label" style="color:#2E7D32;">âœ“ Bee</span></div>
+          <div class="pic-box"><div class="pic-svg" style="display:flex;align-items:center;justify-content:center;font-size:24pt;">ðŸŠ</div><span class="pic-label" style="color:#999;">âœ— Alligator</span></div>
+          <div class="pic-box"><div class="pic-svg" style="display:flex;align-items:center;justify-content:center;font-size:24pt;">ðŸ±</div><span class="pic-label" style="color:#999;">âœ— Cat</span></div>
+          <div class="pic-box"><div class="pic-svg" style="display:flex;align-items:center;justify-content:center;font-size:24pt;">ðŸŽ</div><span class="pic-label" style="color:#999;">âœ— Apple</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">ðŸ” 6. Find Letter B</div>
+      <div class="panel-instr" style="color:#C62828;">Red circles = the 5 hidden B's</div>
+      <div class="panel-body">
+        <div class="find-grid">
+          <div class="find-cell">A</div><div class="find-cell correct">D</div><div class="find-cell">C</div><div class="find-cell">D</div><div class="find-cell">E</div>
+          <div class="find-cell">F</div><div class="find-cell">G</div><div class="find-cell correct">D</div><div class="find-cell">H</div><div class="find-cell">A</div>
+          <div class="find-cell">C</div><div class="find-cell">D</div><div class="find-cell">E</div><div class="find-cell correct">D</div><div class="find-cell">F</div>
+          <div class="find-cell">G</div><div class="find-cell correct">D</div><div class="find-cell">H</div><div class="find-cell">A</div><div class="find-cell">C</div>
+          <div class="find-cell">D</div><div class="find-cell">E</div><div class="find-cell">F</div><div class="find-cell">G</div><div class="find-cell correct">D</div>
+        </div>
+        <div style="font-size:7.5pt;color:#C62828;margin-top:1.5mm;text-align:center;font-weight:700;">âœ“ All 5 B's found!</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">ðŸ“ 7. Write the Letter</div>
+      <div class="panel-instr" style="color:#C62828;">Expected: B and b written independently</div>
+      <div class="panel-body">
+        <div style="display:flex;gap:3mm;align-items:center;margin-bottom:2mm;">
+          <span style="font-family:'Fredoka',sans-serif;font-size:14pt;font-weight:700;color:#388E3C;">D d</span>
+          <span style="font-size:7.5pt;color:#C62828;font-weight:700;">â† Model letters</span>
+        </div>
+        <div class="write-lines">
+          <div class="write-line"><span class="write-answer">D d D d D</span></div>
+          <div class="write-line"><span class="write-answer">D d D d D</span></div>
+          <div class="write-line"><span class="write-answer">D d D d D</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reward-box">
+      <div style="font-size:24pt;">ðŸ»</div>
+      <div style="font-family:'Fredoka',sans-serif;font-size:13pt;font-weight:700;color:#FF7043;">Dazzling Work!</div>
+      <div style="font-family:'Fredoka',sans-serif;font-size:10pt;color:#FF7043;font-weight:700;">You know Letter D!</div>
+      <div class="sticker-row">
+        <div class="sticker-box">â­</div><div class="sticker-box">â­</div><div class="sticker-box">â­</div>
+      </div>
+      <div style="font-size:7.5pt;color:#C62828;font-weight:700;margin-top:1mm;">ANSWER KEY â€“ Score: __ / 30 letters circled correctly</div>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="footer-brand">âœ¦ worksheetwonder.com</div>
+    <div>Answer Key Â· Letter D · Teacher/Parent Copy Only</div>
+    <div style="color:#C62828;font-weight:700;">ðŸ”‘ KEY</div>
+  </div>
+</div>
+</body>
+</html>
+

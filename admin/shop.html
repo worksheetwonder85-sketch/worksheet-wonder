@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Manager | Worksheet Wonder CMS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-lg-2 admin-sidebar p-3 d-flex flex-column">
+                <div class="d-flex align-items-center mb-4 px-2">
+                    <img src="../assets/images/logo.png" style="height: 36px;" alt="Logo" onerror="this.style.display='none';">
+                    <h5 class="fw-bold ms-2 mb-0 text-white">Worksheet CMS</h5>
+                </div>
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li><a href="dashboard.html" class="nav-link"><i class="bi bi-speedometer2 me-2"></i> Dashboard</a></li>
+                    <li><a href="worksheets.html" class="nav-link"><i class="bi bi-file-earmark-pdf me-2"></i> Worksheets</a></li>
+                    <li><a href="grades.html" class="nav-link"><i class="bi bi-mortarboard me-2"></i> Grades</a></li>
+                    <li><a href="subjects.html" class="nav-link"><i class="bi bi-journal-bookmark me-2"></i> Subjects</a></li>
+                    <li><a href="topics.html" class="nav-link"><i class="bi bi-diagram-2 me-2"></i> Topics</a></li>
+                    <li><a href="subtopics.html" class="nav-link"><i class="bi bi-diagram-3 me-2"></i> Subtopics</a></li>
+                    <li><a href="collections.html" class="nav-link"><i class="bi bi-collection me-2"></i> Collections</a></li>
+                    <li><a href="shop.html" class="nav-link active"><i class="bi bi-bag-check me-2"></i> Shop & Bundles</a></li>
+                    <li><a href="blog.html" class="nav-link"><i class="bi bi-newspaper me-2"></i> Blog Articles</a></li>
+                    <li><a href="seo.html" class="nav-link"><i class="bi bi-search me-2"></i> SEO Settings</a></li>
+                    <li><a href="settings.html" class="nav-link"><i class="bi bi-gear me-2"></i> Settings</a></li>
+                </ul>
+                <hr class="text-secondary">
+                <div class="px-2"><a href="../index.html" class="btn btn-outline-light btn-sm w-100"><i class="bi bi-box-arrow-up-right me-1"></i> Public Website</a></div>
+            </div>
+            <div class="col-md-9 col-lg-10 p-4">
+                <div class="d-flex justify-content-between align-items-center mb-4 pb-3 border-bottom">
+                    <div>
+                        <h3 class="fw-bold mb-1">Shop & Product Bundles Manager</h3>
+                        <p class="text-muted small mb-0">Manage workbook bundles, prices, discounts, and shop categories.</p>
+                    </div>
+                    <button class="btn btn-primary" onclick="alert('Shop manager ready for backend connection!')"><i class="bi bi-plus-lg me-1"></i> Add Product</button>
+                </div>
+                <div class="card border-0 shadow-sm p-4 rounded">
+                    <h5 class="fw-bold mb-3">Products & Bundles</h5>
+                    <p class="text-muted small">Products are loaded from <code>products.json</code> and <code>bundles.json</code>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

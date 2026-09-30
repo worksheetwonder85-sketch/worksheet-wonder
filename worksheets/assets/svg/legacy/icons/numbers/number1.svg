@@ -1,0 +1,15 @@
+﻿<!--
+  Asset ID:        WW-ICON-number1.svg
+  Title:           number1
+  Category:        numbers
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            number, one, math, count
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M24 18l8-6v40"/>
+  <line x1="20" y1="52" x2="44" y2="52"/>
+</svg>

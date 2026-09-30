@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worksheet Wonder — Uppercase Letter B Practice</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap');
+
+    /* ==================================================
+       REUSABLE DESIGN SYSTEM (CSS VARIABLES)
+       ================================================== */
+    :root {
+      /* Colors */
+      --brand-rainbow-1: #FF7043;
+      --brand-rainbow-2: #FFCA28;
+      --brand-rainbow-3: #66BB6A;
+      --brand-rainbow-4: #42A5F5;
+      --brand-rainbow-5: #AB47BC;
+      
+      --text-dark: #2C3E50;
+      --text-light: #95A5A6;
+      --border-color: #2C3E50;
+      --bg-canvas: #FFFDF9;
+      --bg-white: #FFFFFF;
+      --watermark-color: rgba(44, 62, 80, 0.07);
+
+      --font-display: 'Fredoka', sans-serif;
+      --font-body: 'Nunito', sans-serif;
+
+      --page-width: 210mm;
+      --page-height: 297mm;
+      --margin-top: 10mm;
+      --margin-bottom: 10mm;
+      --margin-left: 12mm;
+      --margin-right: 12mm;
+
+      --border-thick: 3px;
+      --border-thin: 1.5px;
+      --radius-large: 16px;
+      --radius-small: 8px;
+    }
+
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-print-color-adjust: exact;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      width: var(--page-width);
+      height: var(--page-height);
+      font-family: var(--font-body);
+      color: var(--text-dark);
+      background-color: var(--bg-white);
+    }
+
+    .page-container {
+      width: var(--page-width);
+      height: var(--page-height);
+      padding: var(--margin-top) var(--margin-right) var(--margin-bottom) var(--margin-left);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: var(--bg-canvas);
+    }
+
+    .page-border {
+      position: absolute;
+      top: 4mm;
+      left: 4mm;
+      right: 4mm;
+      bottom: 4mm;
+      border: var(--border-thin) solid var(--border-color);
+      border-radius: calc(var(--radius-large) + 4px);
+      pointer-events: none;
+      z-index: 99;
+    }
+
+    .page-border-inner {
+      position: absolute;
+      top: 5.5mm;
+      left: 5.5mm;
+      right: 5.5mm;
+      bottom: 5.5mm;
+      border: var(--border-thick) solid var(--border-color);
+      border-radius: var(--radius-large);
+      pointer-events: none;
+      z-index: 99;
+    }
+
+    .worksheet-watermark {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-45deg);
+      font-family: var(--font-display);
+      font-size: 80pt;
+      font-weight: 700;
+      color: var(--watermark-color);
+      white-space: nowrap;
+      pointer-events: none;
+      z-index: 0;
+      user-select: none;
+    }
+
+    .worksheet-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: var(--border-thick) solid var(--border-color);
+      padding-bottom: 2mm;
+      margin-bottom: 2mm;
+      z-index: 10;
+    }
+
+    .brand-logo-container {
+      display: flex;
+      align-items: center;
+      gap: 3mm;
+    }
+
+    .brand-logo {
+      height: 12mm;
+      width: auto;
+    }
+
+    .brand-name {
+      font-family: var(--font-display);
+      font-size: 18pt;
+      font-weight: 700;
+      color: var(--brand-rainbow-1);
+      letter-spacing: 0.5px;
+    }
+
+    .meta-badges {
+      display: flex;
+      gap: 2mm;
+    }
+
+    .badge {
+      font-family: var(--font-display);
+      font-size: 8pt;
+      font-weight: 600;
+      padding: 1.5px 8px;
+      border-radius: var(--radius-small);
+      border: var(--border-thin) solid var(--border-color);
+      color: var(--text-dark);
+      background-color: var(--bg-white);
+    }
+
+    .badge-grade { background-color: #FFF9C4; }
+    .badge-subject { background-color: #E3F2FD; }
+    .badge-topic { background-color: #E8F5E9; }
+
+    .worksheet-title-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3.5mm;
+      z-index: 10;
+    }
+
+    .worksheet-title {
+      font-family: var(--font-display);
+      font-size: 20pt;
+      font-weight: 700;
+      margin: 0;
+      color: var(--text-dark);
+    }
+
+    .student-info-row {
+      display: flex;
+      gap: 4mm;
+      width: 55%;
+    }
+
+    .info-field {
+      display: flex;
+      align-items: flex-end;
+      flex-grow: 1;
+      font-size: 10pt;
+      font-weight: 700;
+      color: var(--text-dark);
+    }
+
+    .info-field .line {
+      flex-grow: 1;
+      border-bottom: var(--border-thin) dashed var(--text-light);
+      margin-left: 2mm;
+      height: 4mm;
+    }
+
+    .worksheet-body-grid {
+      display: flex;
+      justify-content: space-between;
+      flex-grow: 1;
+      gap: 4mm;
+      z-index: 10;
+      height: 242mm;
+    }
+
+    .column-left, .column-right {
+      width: 49%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 3mm;
+    }
+
+    .activity-section {
+      background-color: var(--bg-white);
+      border: var(--border-thick) solid var(--border-color);
+      border-radius: var(--radius-large);
+      padding: 3mm 4mm;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 0 rgba(44, 62, 80, 0.1);
+      position: relative;
+    }
+
+    .activity-title {
+      font-family: var(--font-display);
+      font-size: 11pt;
+      font-weight: 700;
+      margin: 0 0 2mm 0;
+      display: flex;
+      align-items: center;
+      gap: 2mm;
+      color: var(--text-dark);
+      border-bottom: var(--border-thin) dashed #E5E7EB;
+      padding-bottom: 1.5mm;
+    }
+
+    .activity-num {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 5.5mm;
+      height: 5.5mm;
+      background-color: var(--brand-rainbow-4);
+      color: var(--text-dark);
+      border: var(--border-thin) solid var(--border-color);
+      border-radius: 50%;
+      font-size: 8.5pt;
+      font-weight: 700;
+    }
+
+    .activity-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /* 1. Learn the Letter */
+    .learn-letter-row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 2mm;
+    }
+    .guide-letter-box {
+      border: var(--border-thin) solid var(--border-color);
+      border-radius: var(--radius-small);
+      padding: 1.5mm;
+      background-color: var(--bg-canvas);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .learn-examples {
+      font-size: 9.5pt;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+    .learn-examples span {
+      display: block;
+      color: var(--brand-rainbow-1);
+      font-size: 12pt;
+    }
+
+    /* 2. Trace the Letter */
+    .trace-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5mm;
+    }
+    .trace-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 1.5mm;
+    }
+    .trace-cell {
+      flex-grow: 1;
+      width: 8mm;
+      height: 8mm;
+      border: var(--border-thin) dashed var(--text-light);
+      border-radius: var(--radius-small);
+      background-color: var(--bg-white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .trace-cell:first-child {
+      border-style: solid;
+      border-color: var(--border-color);
+      background-color: #F9F9F9;
+    }
+    .trace-cell svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* 3. Circle the Letter */
+    .circle-grid {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1.5mm;
+      padding: 1mm 0;
+    }
+    .circle-bubble {
+      width: 7.5mm;
+      height: 7.5mm;
+      border: var(--border-thin) solid var(--border-color);
+      border-radius: 50%;
+      font-family: var(--font-display);
+      font-size: 11pt;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--bg-white);
+      cursor: pointer;
+      user-select: none;
+      box-shadow: 0 2px 0 rgba(44,62,80,0.1);
+    }
+
+    /* 4. Match the Picture */
+    .match-container {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      padding: 1mm 0;
+    }
+    .match-left-column, .match-right-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 2mm;
+      width: 45%;
+    }
+    .match-item-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 10.5mm;
+      border: var(--border-thin) solid #E5E7EB;
+      border-radius: var(--radius-small);
+      padding: 0 2mm;
+    }
+    .match-pic {
+      height: 9mm;
+      width: 9mm;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .match-dot {
+      width: 2mm;
+      height: 2mm;
+      background-color: var(--text-dark);
+      border-radius: 50%;
+    }
+    .match-word {
+      font-family: var(--font-display);
+      font-size: 10pt;
+      font-weight: 700;
+    }
+
+    /* 5. Color the Pictures */
+    .color-pictures-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 2mm;
+      padding: 1mm 0;
+    }
+    .color-box {
+      width: 31%;
+      border: var(--border-thin) solid var(--border-color);
+      border-radius: var(--radius-small);
+      padding: 2mm;
+      text-align: center;
+      background-color: var(--bg-white);
+    }
+    .color-box-art {
+      height: 14mm;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1mm;
+    }
+    .color-box-art svg {
+      max-height: 100%;
+      max-width: 100%;
+    }
+    .color-box-label {
+      font-size: 8pt;
+      font-weight: 700;
+    }
+
+    /* 6. Beginning Sound */
+    .sound-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5mm;
+    }
+    .sound-item {
+      border: var(--border-thin) solid var(--border-color);
+      border-radius: var(--radius-small);
+      padding: 1.5mm;
+      text-align: center;
+      background-color: var(--bg-white);
+      position: relative;
+    }
+    .sound-art {
+      height: 12mm;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1mm;
+    }
+    .sound-art svg {
+      max-height: 100%;
+      max-width: 100%;
+    }
+    .sound-label {
+      font-size: 7.5pt;
+      font-weight: 700;
+      color: var(--text-light);
+    }
+
+    /* 7. Trace the Word */
+    .trace-word-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2mm;
+    }
+    .trace-word-box {
+      border: var(--border-thin) solid #E5E7EB;
+      border-radius: var(--radius-small);
+      padding: 1.5mm;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: var(--bg-white);
+    }
+    .trace-word-box svg {
+      width: 100%;
+      height: 28px;
+    }
+    .trace-word-label {
+      font-size: 7pt;
+      font-weight: 700;
+      color: var(--text-light);
+      margin-top: 1mm;
+    }
+
+    /* 8. Let's Draw */
+    .challenge-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 3mm;
+      align-items: center;
+      height: 17.5mm;
+    }
+    .challenge-preview {
+      width: 30%;
+      height: 100%;
+      border: var(--border-thin) solid var(--border-color);
+      border-radius: var(--radius-small);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--bg-canvas);
+    }
+    .challenge-preview svg {
+      max-height: 80%;
+      max-width: 80%;
+    }
+    .challenge-draw-space {
+      width: 68%;
+      height: 100%;
+      border: var(--border-thin) dashed var(--text-light);
+      border-radius: var(--radius-small);
+      background-color: var(--bg-white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 8pt;
+      color: var(--text-light);
+      font-weight: 600;
+    }
+
+    .worksheet-footer {
+      display: flex;
+      justify-content: space-between;
+      font-size: 7.5pt;
+      font-weight: 700;
+      color: var(--text-light);
+      border-top: var(--border-thin) solid var(--border-color);
+      padding-top: 2mm;
+      margin-top: 2mm;
+      z-index: 10;
+    }
+
+    .footer-center {
+      color: var(--brand-rainbow-4);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-border"></div>
+  <div class="page-border-inner"></div>
+
+  <div class="page-container">
+
+    <div class="worksheet-watermark">Worksheet Wonder</div>
+
+    <!-- HEADER -->
+    <header class="worksheet-header">
+      <div class="brand-logo-container">
+        <svg class="brand-logo" viewBox="0 0 100 100" height="40" width="40">
+          <circle cx="50" cy="50" r="40" fill="none" stroke="#FF7043" stroke-width="8"/>
+          <path d="M 30 50 Q 50 20, 70 50 Q 50 80, 30 50 Z" fill="none" stroke="#42A5F5" stroke-width="6"/>
+          <circle cx="50" cy="50" r="10" fill="#66BB6A"/>
+        </svg>
+        <span class="brand-name">Worksheet Wonder</span>
+      </div>
+      <div class="meta-badges">
+        <span class="badge badge-grade">Kindergarten</span>
+        <span class="badge badge-subject">English</span>
+        <span class="badge badge-topic">Alphabet Practice</span>
+      </div>
+    </header>
+
+    <!-- TITLE + STUDENT INFO -->
+    <div class="worksheet-title-container">
+      <h1 class="worksheet-title">Uppercase Letter B</h1>
+      <div class="student-info-row">
+        <div class="info-field"><span>Name:</span><div class="line"></div></div>
+        <div class="info-field"><span>Date:</span><div class="line"></div></div>
+      </div>
+    </div>
+
+    <!-- 2-COLUMN BODY -->
+    <div class="worksheet-body-grid">
+
+      <!-- ====== LEFT COLUMN ====== -->
+      <div class="column-left">
+
+        <!-- Activity 1: Learn the Letter -->
+        <div class="activity-section">
+          <h2 class="activity-title"><span class="activity-num">1</span> Learn the Letter</h2>
+          <div class="activity-content">
+            <div class="learn-letter-row">
+              <div class="guide-letter-box">
+                <svg viewBox="0 0 100 100" width="65" height="65">
+                  <defs>
+                    <marker id="arr-b" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                      <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#FF7043"/>
+                    </marker>
+                  </defs>
+                  <!-- Letter B — soft pink fill -->
+                  <text x="50" y="85" font-family="'Fredoka', sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="#F8BBD9" stroke="#2c3e50" stroke-width="3">B</text>
+                  <!-- Stroke 1: vertical stem -->
+                  <path d="M 28 14 L 28 83" fill="none" stroke="#FF7043" stroke-width="2.5" stroke-dasharray="3,3" marker-end="url(#arr-b)"/>
+                  <text x="16" y="28" fill="#FF7043" font-family="'Fredoka', sans-serif" font-size="11" font-weight="700">1</text>
+                  <!-- Stroke 2: two bumps -->
+                  <path d="M 28 14 Q 72 14 72 48 Q 72 83 28 83" fill="none" stroke="#FF7043" stroke-width="2.5" stroke-dasharray="3,3" marker-end="url(#arr-b)"/>
+                  <text x="70" y="52" fill="#FF7043" font-family="'Fredoka', sans-serif" font-size="11" font-weight="700">2</text>
+                </svg>
+              </div>
+              <div class="learn-examples">
+                B is for...
+                <span>Ball</span>
+                <span>Bird</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity 2: Trace the Letter -->
+        <div class="activity-section">
+          <h2 class="activity-title"><span class="activity-num">2</span> Trace the Letter</h2>
+          <div class="activity-content">
+            <div class="trace-grid">
+              <!-- Row 1 -->
+              <div class="trace-row">
+                <div class="trace-cell">
+                  <svg viewBox="0 0 40 40">
+                    <path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#42A5F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              </div>
+              <!-- Row 2 -->
+              <div class="trace-row">
+                <div class="trace-cell">
+                  <svg viewBox="0 0 40 40">
+                    <path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#42A5F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              </div>
+              <!-- Row 3 -->
+              <div class="trace-row">
+                <div class="trace-cell">
+                  <svg viewBox="0 0 40 40">
+                    <path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#42A5F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="trace-cell"><svg viewBox="0 0 40 40"><path d="M 10 6 L 10 34 M 10 6 Q 28 6 28 20 Q 28 34 10 34" fill="none" stroke="#7F8C8D" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity 3: Circle the Letter -->
+        <div class="activity-section">
+          <h2 class="activity-title"><span class="activity-num">3</span> Circle the Letter B</h2>
+          <div class="activity-content">
+            <div class="circle-grid">
+              <span class="circle-bubble">B</span>
+              <span class="circle-bubble">D</span>
+              <span class="circle-bubble">P</span>
+              <span class="circle-bubble">B</span>
+              <span class="circle-bubble">R</span>
+              <span class="circle-bubble">B</span>
+              <span class="circle-bubble">A</span>
+              <span class="circle-bubble">E</span>
+              <span class="circle-bubble">B</span>
+              <span class="circle-bubble">F</span>
+              <span class="circle-bubble">H</span>
+              <span class="circle-bubble">B</span>
+              <span class="circle-bubble">K</span>
+              <span class="circle-bubble">L</span>
+              <span class="circle-bubble">B</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity 6: Beginning Sound /B/ -->
+        <div class="activity-section">
+          <h2 class="activity-title"><span class="activity-num">6</span> Colour pictures that begin with /B/</h2>
+          <div class="activity-content">
+            <div class="sound-grid">
+
+              <!-- Ball (B) -->
+              <div class="sound-item">
+                <div class="sound-art">
+                  <svg viewBox="0 0 50 50" width="36" height="36">
+                    <circle cx="25" cy="25" r="19" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <path d="M 8 18 Q 25 26 42 18" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M 8 32 Q 25 24 42 32" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M 25 6 Q 18 25 25 44" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M 25 6 Q 32 25 25 44" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div class="sound-label">ball</div>
+              </div>
+
+              <!-- Book (B) -->
+              <div class="sound-item">
+                <div class="sound-art">
+                  <svg viewBox="0 0 50 50" width="36" height="36">
+                    <rect x="8" y="8" width="34" height="34" rx="3" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <line x1="25" y1="8" x2="25" y2="42" stroke="#2C3E50" stroke-width="2"/>
+                    <line x1="12" y1="17" x2="22" y2="17" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="12" y1="23" x2="22" y2="23" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="12" y1="29" x2="22" y2="29" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="28" y1="17" x2="38" y2="17" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="28" y1="23" x2="38" y2="23" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="28" y1="29" x2="38" y2="29" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div class="sound-label">book</div>
+              </div>
+
+              <!-- Bus (B) -->
+              <div class="sound-item">
+                <div class="sound-art">
+                  <svg viewBox="0 0 50 50" width="36" height="36">
+                    <rect x="4" y="12" width="42" height="24" rx="4" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <rect x="8" y="16" width="9" height="9" rx="2" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                    <rect x="21" y="16" width="9" height="9" rx="2" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                    <rect x="34" y="16" width="9" height="9" rx="2" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                    <circle cx="12" cy="38" r="4" fill="none" stroke="#2C3E50" stroke-width="2"/>
+                    <circle cx="38" cy="38" r="4" fill="none" stroke="#2C3E50" stroke-width="2"/>
+                    <line x1="4" y1="28" x2="46" y2="28" stroke="#2C3E50" stroke-width="1.5"/>
+                  </svg>
+                </div>
+                <div class="sound-label">bus</div>
+              </div>
+
+              <!-- Bee (B) -->
+              <div class="sound-item">
+                <div class="sound-art">
+                  <svg viewBox="0 0 50 50" width="36" height="36">
+                    <ellipse cx="25" cy="34" rx="9" ry="12" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <line x1="16" y1="30" x2="34" y2="30" stroke="#2C3E50" stroke-width="2"/>
+                    <line x1="16" y1="36" x2="34" y2="36" stroke="#2C3E50" stroke-width="2"/>
+                    <circle cx="25" cy="18" r="7" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <line x1="22" y1="12" x2="18" y2="6" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="18" cy="6" r="1.5" fill="#2C3E50"/>
+                    <line x1="28" y1="12" x2="32" y2="6" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="32" cy="6" r="1.5" fill="#2C3E50"/>
+                    <ellipse cx="14" cy="28" rx="6" ry="3" fill="none" stroke="#2C3E50" stroke-width="1.5" transform="rotate(-20,14,28)"/>
+                    <ellipse cx="36" cy="28" rx="6" ry="3" fill="none" stroke="#2C3E50" stroke-width="1.5" transform="rotate(20,36,28)"/>
+                  </svg>
+                </div>
+                <div class="sound-label">bee</div>
+              </div>
+
+              <!-- Apple (not B) -->
+              <div class="sound-item">
+                <div class="sound-art">
+                  <svg viewBox="0 0 50 50" width="36" height="36">
+                    <path d="M 13 23 Q 12 14 25 14 Q 38 14 37 23 Q 40 37 25 42 Q 10 37 13 23 Z" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <path d="M 21 14 Q 25 10 29 14" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                    <line x1="25" y1="10" x2="25" y2="14" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M 25 6 Q 31 4 33 9 Q 29 10 25 10 Z" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                  </svg>
+                </div>
+                <div class="sound-label">apple</div>
+              </div>
+
+              <!-- Cat (not B) -->
+              <div class="sound-item">
+                <div class="sound-art">
+                  <svg viewBox="0 0 50 50" width="36" height="36">
+                    <polygon points="13,15 8,5 18,10" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linejoin="round"/>
+                    <polygon points="37,15 32,10 42,5" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linejoin="round"/>
+                    <ellipse cx="25" cy="22" rx="15" ry="13" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <ellipse cx="19" cy="20" rx="2.5" ry="3" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                    <ellipse cx="31" cy="20" rx="2.5" ry="3" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                    <polygon points="25,25 22,28 28,28" fill="none" stroke="#2C3E50" stroke-width="1.5" stroke-linejoin="round"/>
+                    <line x1="7" y1="26" x2="20" y2="27" stroke="#2C3E50" stroke-width="1" stroke-linecap="round"/>
+                    <line x1="7" y1="29" x2="20" y2="29" stroke="#2C3E50" stroke-width="1" stroke-linecap="round"/>
+                    <line x1="30" y1="27" x2="43" y2="26" stroke="#2C3E50" stroke-width="1" stroke-linecap="round"/>
+                    <line x1="30" y1="29" x2="43" y2="29" stroke="#2C3E50" stroke-width="1" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div class="sound-label">cat</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ====== RIGHT COLUMN ====== -->
+      <div class="column-right">
+
+        <!-- Activity 4: Match the Picture -->
+        <div class="activity-section">
+          <h2 class="activity-title"><span class="activity-num">4</span> Match the Picture</h2>
+          <div class="activity-content">
+            <div class="match-container">
+              <!-- Pictures column -->
+              <div class="match-left-column">
+                <!-- Ball -->
+                <div class="match-item-row">
+                  <div class="match-pic">
+                    <svg viewBox="0 0 40 40" width="32" height="32">
+                      <circle cx="20" cy="20" r="15" fill="none" stroke="#2C3E50" stroke-width="2"/>
+                      <path d="M 7 15 Q 20 21 33 15" fill="none" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                      <path d="M 7 25 Q 20 19 33 25" fill="none" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                      <path d="M 20 5 Q 14 20 20 35" fill="none" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                      <path d="M 20 5 Q 26 20 20 35" fill="none" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                  <div class="match-dot"></div>
+                </div>
+                <!-- Bird -->
+                <div class="match-item-row">
+                  <div class="match-pic">
+                    <svg viewBox="0 0 40 40" width="32" height="32">
+                      <ellipse cx="18" cy="26" rx="10" ry="7" fill="none" stroke="#2C3E50" stroke-width="2"/>
+                      <circle cx="28" cy="16" r="6" fill="none" stroke="#2C3E50" stroke-width="2"/>
+                      <path d="M 33 15 L 38 13 L 33 17 Z" fill="none" stroke="#2C3E50" stroke-width="1.5" stroke-linejoin="round"/>
+                      <circle cx="30" cy="14" r="1" fill="#2C3E50"/>
+                      <path d="M 11 24 Q 6 17 9 12 Q 13 18 18 18" fill="none" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                      <path d="M 8 28 L 3 24 M 8 28 L 2 28 M 8 28 L 3 32" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                      <line x1="14" y1="33" x2="11" y2="38" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                      <line x1="20" y1="33" x2="17" y2="38" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                  <div class="match-dot"></div>
+                </div>
+                <!-- Banana -->
+                <div class="match-item-row">
+                  <div class="match-pic">
+                    <svg viewBox="0 0 40 40" width="32" height="32">
+                      <path d="M 8 34 Q 6 12 20 7 Q 32 5 34 16 Q 26 11 18 14 Q 10 20 12 34 Z" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linejoin="round"/>
+                      <line x1="20" y1="7" x2="22" y2="3" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                  <div class="match-dot"></div>
+                </div>
+                <!-- Butterfly -->
+                <div class="match-item-row">
+                  <div class="match-pic">
+                    <svg viewBox="0 0 40 40" width="32" height="32">
+                      <ellipse cx="20" cy="20" rx="2" ry="9" fill="none" stroke="#2C3E50" stroke-width="2"/>
+                      <line x1="18" y1="12" x2="14" y2="7" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                      <circle cx="14" cy="7" r="1" fill="#2C3E50"/>
+                      <line x1="22" y1="12" x2="26" y2="7" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+                      <circle cx="26" cy="7" r="1" fill="#2C3E50"/>
+                      <path d="M 18 13 Q 4 7 5 18 Q 6 24 18 21 Z" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                      <path d="M 22 13 Q 36 7 35 18 Q 34 24 22 21 Z" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                      <path d="M 18 21 Q 6 22 7 31 Q 13 35 20 27 Z" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                      <path d="M 22 21 Q 34 22 33 31 Q 27 35 20 27 Z" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                    </svg>
+                  </div>
+                  <div class="match-dot"></div>
+                </div>
+              </div>
+
+              <!-- Words column (scrambled) -->
+              <div class="match-right-column">
+                <div class="match-item-row">
+                  <div class="match-dot"></div>
+                  <div class="match-word">Banana</div>
+                </div>
+                <div class="match-item-row">
+                  <div class="match-dot"></div>
+                  <div class="match-word">Butterfly</div>
+                </div>
+                <div class="match-item-row">
+                  <div class="match-dot"></div>
+                  <div class="match-word">Ball</div>
+                </div>
+                <div class="match-item-row">
+                  <div class="match-dot"></div>
+                  <div class="match-word">Bird</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity 5: Colour the Pictures -->
+        <div class="activity-section">
+          <h2 class="activity-title"><span class="activity-num">5</span> Colour the Pictures</h2>
+          <div class="activity-content">
+            <div class="color-pictures-row">
+              <!-- Ball -->
+              <div class="color-box">
+                <div class="color-box-art">
+                  <svg viewBox="0 0 60 60" width="46" height="46">
+                    <circle cx="30" cy="30" r="22" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <path d="M 10 22 Q 30 30 50 22" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M 10 38 Q 30 30 50 38" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M 30 8 Q 22 30 30 52" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M 30 8 Q 38 30 30 52" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div class="color-box-label">Ball</div>
+              </div>
+              <!-- Bird -->
+              <div class="color-box">
+                <div class="color-box-art">
+                  <svg viewBox="0 0 60 60" width="46" height="46">
+                    <ellipse cx="24" cy="38" rx="14" ry="10" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <circle cx="40" cy="24" r="9" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <path d="M 48 23 L 55 20 L 48 26 Z" fill="none" stroke="#2C3E50" stroke-width="1.5" stroke-linejoin="round"/>
+                    <circle cx="43" cy="21" r="1.5" fill="#2C3E50"/>
+                    <path d="M 16 33 Q 8 22 12 15 Q 18 25 24 25" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M 10 40 L 3 35 M 10 40 L 3 40 M 10 40 L 3 45" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="20" y1="48" x2="16" y2="55" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="28" y1="48" x2="24" y2="55" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div class="color-box-label">Bird</div>
+              </div>
+              <!-- Banana -->
+              <div class="color-box">
+                <div class="color-box-art">
+                  <svg viewBox="0 0 60 60" width="46" height="46">
+                    <path d="M 12 52 Q 8 22 26 12 Q 44 8 48 24 Q 38 16 26 20 Q 14 28 18 52 Z" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linejoin="round"/>
+                    <line x1="26" y1="12" x2="28" y2="6" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div class="color-box-label">Banana</div>
+              </div>
+            </div>
+            <!-- Butterfly centred below -->
+            <div style="display:flex; justify-content:center; margin-top:2mm;">
+              <div class="color-box" style="width:44%;">
+                <div class="color-box-art" style="height:16mm;">
+                  <svg viewBox="0 0 70 55" width="64" height="48">
+                    <ellipse cx="35" cy="28" rx="3" ry="12" fill="none" stroke="#2C3E50" stroke-width="2.5"/>
+                    <line x1="32" y1="17" x2="26" y2="8" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="26" cy="8" r="2" fill="#2C3E50"/>
+                    <line x1="38" y1="17" x2="44" y2="8" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="44" cy="8" r="2" fill="#2C3E50"/>
+                    <path d="M 32 19 Q 8 7 8 22 Q 8 33 32 28 Z" fill="none" stroke="#2C3E50" stroke-width="2"/>
+                    <path d="M 38 19 Q 62 7 62 22 Q 62 33 38 28 Z" fill="none" stroke="#2C3E50" stroke-width="2"/>
+                    <path d="M 32 28 Q 9 28 11 41 Q 18 50 34 38 Z" fill="none" stroke="#2C3E50" stroke-width="2"/>
+                    <path d="M 38 28 Q 61 28 59 41 Q 52 50 36 38 Z" fill="none" stroke="#2C3E50" stroke-width="2"/>
+                    <circle cx="20" cy="22" r="4" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                    <circle cx="50" cy="22" r="4" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                    <circle cx="21" cy="37" r="3" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                    <circle cx="49" cy="37" r="3" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+                  </svg>
+                </div>
+                <div class="color-box-label">Butterfly</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity 7: Trace the Word -->
+        <div class="activity-section">
+          <h2 class="activity-title"><span class="activity-num">7</span> Trace the Word</h2>
+          <div class="activity-content">
+            <div class="trace-word-grid">
+              <div class="trace-word-box">
+                <svg height="30" width="100%">
+                  <text x="50%" y="22" font-family="'Fredoka', sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="none" stroke="#7F8C8D" stroke-width="1.5" stroke-dasharray="2,2" letter-spacing="1">Ball</text>
+                </svg>
+                <div class="trace-word-label">ball</div>
+              </div>
+              <div class="trace-word-box">
+                <svg height="30" width="100%">
+                  <text x="50%" y="22" font-family="'Fredoka', sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="none" stroke="#7F8C8D" stroke-width="1.5" stroke-dasharray="2,2" letter-spacing="1">Bird</text>
+                </svg>
+                <div class="trace-word-label">bird</div>
+              </div>
+              <div class="trace-word-box">
+                <svg height="30" width="100%">
+                  <text x="50%" y="22" font-family="'Fredoka', sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="none" stroke="#7F8C8D" stroke-width="1.5" stroke-dasharray="2,2" letter-spacing="1">Bee</text>
+                </svg>
+                <div class="trace-word-label">bee</div>
+              </div>
+              <div class="trace-word-box">
+                <svg height="30" width="100%">
+                  <text x="50%" y="22" font-family="'Fredoka', sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="none" stroke="#7F8C8D" stroke-width="1.5" stroke-dasharray="2,2" letter-spacing="0.5">Banana</text>
+                </svg>
+                <div class="trace-word-label">banana</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity 8: Let's Draw -->
+        <div class="activity-section">
+          <h2 class="activity-title"><span class="activity-num">8</span> Let's Draw! Draw something that starts with B</h2>
+          <div class="activity-content">
+            <div class="challenge-container">
+              <div class="challenge-preview">
+                <svg viewBox="0 0 50 60" width="36" height="44">
+                  <text x="25" y="52" font-family="'Fredoka', sans-serif" font-size="52" font-weight="bold" text-anchor="middle" fill="#F8BBD9" stroke="#2C3E50" stroke-width="2.5">B</text>
+                </svg>
+              </div>
+              <div class="challenge-draw-space">
+                Draw here!
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="worksheet-footer">
+      <span>© Worksheet Wonder</span>
+      <span class="footer-center">www.worksheetwonder.com</span>
+      <span>KG-ENG-ALPHABET-002</span>
+    </footer>
+
+  </div>
+
+</body>
+</html>

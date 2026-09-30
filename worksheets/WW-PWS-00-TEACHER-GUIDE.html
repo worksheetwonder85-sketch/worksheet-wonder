@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Worksheet Wonder – Teacher Guide | Pre-Writing Skills: Tracing Lines</title>
+  <meta name="description" content="Teacher Guide for the Worksheet Wonder Pre-Writing Skills Tracing Lines bundle. Includes learning objectives, differentiation tips, and pacing guidance." />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      width: 210mm;
+      background: #fff;
+      font-family: 'Nunito', sans-serif;
+      color: #111;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      padding: 14mm 16mm 14mm 16mm;
+      background: #fff;
+      position: relative;
+    }
+
+    @media print {
+      html, body { width: 210mm; }
+      .page { page-break-after: always; min-height: 297mm; }
+      @page { size: A4 portrait; margin: 0; }
+    }
+
+    /* ── Header ── */
+    .page-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      border-bottom: 3px solid #111;
+      padding-bottom: 5mm;
+      margin-bottom: 6mm;
+    }
+    .header-brand {
+      font-family: 'Fredoka One', cursive;
+      font-size: 15pt;
+      color: #111;
+      line-height: 1;
+    }
+    .header-series {
+      font-size: 8pt;
+      font-weight: 700;
+      color: #666;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+    .header-badge {
+      background: #111;
+      color: #fff;
+      font-family: 'Fredoka One', cursive;
+      font-size: 10pt;
+      padding: 3px 14px;
+      border-radius: 20px;
+      letter-spacing: 1px;
+    }
+
+    /* ── Section title ── */
+    .section-banner {
+      background: #111;
+      color: #fff;
+      font-family: 'Fredoka One', cursive;
+      font-size: 16pt;
+      padding: 5mm 7mm;
+      border-radius: 10px;
+      margin-bottom: 5mm;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* ── Info box ── */
+    .info-box {
+      border: 2.5px solid #111;
+      border-radius: 10px;
+      padding: 4mm 5mm;
+      margin-bottom: 5mm;
+    }
+    .info-box-title {
+      font-family: 'Fredoka One', cursive;
+      font-size: 11pt;
+      color: #111;
+      margin-bottom: 3mm;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .info-box p {
+      font-size: 9pt;
+      line-height: 1.65;
+      color: #222;
+      margin-bottom: 2mm;
+    }
+    .info-box p:last-child { margin-bottom: 0; }
+
+    /* ── Two column grid ── */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5mm;
+      margin-bottom: 5mm;
+    }
+
+    /* ── Outcomes list ── */
+    .outcome-list {
+      list-style: none;
+      padding: 0;
+    }
+    .outcome-list li {
+      font-size: 9pt;
+      line-height: 1.55;
+      padding: 1.5mm 0 1.5mm 6mm;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: flex-start;
+      gap: 5px;
+    }
+    .outcome-list li:last-child { border-bottom: none; }
+    .outcome-list .check {
+      font-size: 10pt;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    /* ── Phase table ── */
+    .phase-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 8.5pt;
+    }
+    .phase-table thead tr {
+      background: #111;
+      color: #fff;
+    }
+    .phase-table th {
+      padding: 3mm 4mm;
+      text-align: left;
+      font-family: 'Fredoka One', cursive;
+      font-size: 9pt;
+      font-weight: 400;
+    }
+    .phase-table td {
+      padding: 2.5mm 4mm;
+      border-bottom: 1px solid #ddd;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    .phase-table tr:last-child td { border-bottom: none; }
+    .phase-table tr:nth-child(even) td { background: #f7f7f7; }
+
+    /* ── Tip box ── */
+    .tip-box {
+      border: 2px dashed #555;
+      border-radius: 10px;
+      padding: 4mm 5mm;
+      margin-bottom: 5mm;
+      background: #fafafa;
+    }
+    .tip-box-title {
+      font-family: 'Fredoka One', cursive;
+      font-size: 10pt;
+      color: #111;
+      margin-bottom: 2mm;
+    }
+    .tip-box ul {
+      list-style: none;
+      padding: 0;
+    }
+    .tip-box ul li {
+      font-size: 8.5pt;
+      line-height: 1.6;
+      padding: 1mm 0;
+      padding-left: 5mm;
+      position: relative;
+    }
+    .tip-box ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: #555;
+    }
+
+    /* ── Pencil grip guide SVG panel ── */
+    .grip-panel {
+      border: 2.5px solid #111;
+      border-radius: 10px;
+      padding: 3mm 4mm;
+      margin-bottom: 5mm;
+    }
+    .grip-panel-title {
+      font-family: 'Fredoka One', cursive;
+      font-size: 10pt;
+      color: #111;
+      margin-bottom: 2mm;
+    }
+    .grip-steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3mm;
+    }
+    .grip-step {
+      text-align: center;
+    }
+    .grip-step-num {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #111;
+      border-radius: 50%;
+      font-size: 8pt;
+      font-weight: 900;
+      line-height: 15px;
+      margin-bottom: 2mm;
+    }
+    .grip-step-label {
+      font-size: 7.5pt;
+      font-weight: 700;
+      color: #333;
+      line-height: 1.4;
+    }
+
+    /* ── Differentiation table ── */
+    .diff-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 8.5pt;
+    }
+    .diff-table th {
+      padding: 2.5mm 3mm;
+      background: #111;
+      color: #fff;
+      font-family: 'Fredoka One', cursive;
+      font-size: 9pt;
+      font-weight: 400;
+      text-align: left;
+    }
+    .diff-table td {
+      padding: 2mm 3mm;
+      border: 1px solid #ccc;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+
+    /* ── Assessment tracker ── */
+    .tracker {
+      border: 2.5px solid #111;
+      border-radius: 10px;
+      padding: 4mm 5mm;
+      margin-bottom: 5mm;
+    }
+    .tracker-title {
+      font-family: 'Fredoka One', cursive;
+      font-size: 10pt;
+      margin-bottom: 2mm;
+    }
+    .tracker-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 1.5mm;
+      font-size: 8pt;
+    }
+    .tracker-grid .th {
+      font-weight: 800;
+      border-bottom: 2px solid #111;
+      padding-bottom: 1mm;
+    }
+    .tracker-grid .tc {
+      border-bottom: 1px solid #ddd;
+      padding: 1mm 0;
+    }
+    .tracker-grid .box {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border: 1.5px solid #555;
+      border-radius: 2px;
+      vertical-align: middle;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      margin-top: 6mm;
+      border-top: 2px solid #ddd;
+      padding-top: 3mm;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer span {
+      font-size: 7.5pt;
+      color: #666;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════ PAGE 1 ═══════════════════ -->
+<div class="page">
+
+  <!-- Header -->
+  <div class="page-header">
+    <div>
+      <div class="header-brand">Worksheet Wonder</div>
+      <div class="header-series">Pre-Writing Skills Series · Book 1</div>
+    </div>
+    <div class="header-badge">Teacher Guide</div>
+  </div>
+
+  <!-- Banner -->
+  <div class="section-banner">
+    📋 Teacher Guide — Tracing Straight &amp; Curved Lines
+  </div>
+
+  <!-- Overview -->
+  <div class="info-box">
+    <div class="info-box-title">📌 Bundle Overview</div>
+    <p>This bundle contains <strong>25 progressive pre-writing worksheets</strong> designed for preschool children aged 3–5. Each worksheet targets a specific tracing skill — from simple horizontal strokes to complex curved paths — building the fine motor foundation children need before learning to form letters and numbers.</p>
+    <p>The worksheets are organised into three difficulty phases: <strong>Easy (⭐)</strong>, <strong>Medium (⭐⭐)</strong>, and <strong>Hard (⭐⭐⭐)</strong>. Use them in sequence for best results, or select individual sheets to target specific skills.</p>
+  </div>
+
+  <!-- Two column: Learning Outcomes + Grade Info -->
+  <div class="two-col">
+
+    <div class="info-box" style="margin-bottom:0">
+      <div class="info-box-title">🎯 Learning Outcomes</div>
+      <ul class="outcome-list">
+        <li><span class="check">✔</span> Develops correct pencil grip and pressure control</li>
+        <li><span class="check">✔</span> Builds fine motor strength and hand-eye coordination</li>
+        <li><span class="check">✔</span> Practises left-to-right &amp; top-to-bottom directionality</li>
+        <li><span class="check">✔</span> Distinguishes between straight and curved lines</li>
+        <li><span class="check">✔</span> Completes multi-step tasks (attention &amp; persistence)</li>
+        <li><span class="check">✔</span> Builds confidence for letter and number formation</li>
+        <li><span class="check">✔</span> Develops early spatial reasoning skills</li>
+      </ul>
+    </div>
+
+    <div class="info-box" style="margin-bottom:0">
+      <div class="info-box-title">📚 Bundle Specifications</div>
+      <ul class="outcome-list">
+        <li><span class="check">📅</span> <strong>Age range:</strong> 3–5 years</li>
+        <li><span class="check">🏫</span> <strong>Level:</strong> Preschool / Pre-K</li>
+        <li><span class="check">📄</span> <strong>Format:</strong> A4 Portrait, B&amp;W</li>
+        <li><span class="check">🖨️</span> <strong>Print:</strong> Laser &amp; inkjet compatible</li>
+        <li><span class="check">📋</span> <strong>Worksheets:</strong> 25 unique activities</li>
+        <li><span class="check">🎚️</span> <strong>Difficulty:</strong> Easy → Medium → Hard</li>
+        <li><span class="check">⏱️</span> <strong>Time per sheet:</strong> 5–15 minutes</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Phase table -->
+  <div class="info-box">
+    <div class="info-box-title">📈 Difficulty Progression at a Glance</div>
+    <table class="phase-table">
+      <thead>
+        <tr>
+          <th>Phase</th>
+          <th>Level</th>
+          <th>Worksheets</th>
+          <th>Skills Covered</th>
+          <th>Approx. Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Phase 1</strong></td>
+          <td>⭐ Easy</td>
+          <td>1 – 5</td>
+          <td>Horizontal, vertical, diagonal, and rain lines</td>
+          <td>3–4 years</td>
+        </tr>
+        <tr>
+          <td><strong>Phase 2</strong></td>
+          <td>⭐⭐ Medium</td>
+          <td>6 – 13</td>
+          <td>Zigzag, waves, arches, S-curves, rainbows, loops, stairs</td>
+          <td>4–5 years</td>
+        </tr>
+        <tr>
+          <td><strong>Phase 3</strong></td>
+          <td>⭐⭐⭐ Hard</td>
+          <td>14 – 25</td>
+          <td>Spirals, complex curves, themed scenes, mixed review</td>
+          <td>4.5–5+ years</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <span>Worksheet Wonder</span>
+    <span>www.worksheetwonder.com</span>
+    <span>Teacher Guide · Page 1 of 2</span>
+  </div>
+
+</div><!-- end page 1 -->
+
+
+<!-- ═══════════════════ PAGE 2 ═══════════════════ -->
+<div class="page">
+
+  <!-- Header -->
+  <div class="page-header">
+    <div>
+      <div class="header-brand">Worksheet Wonder</div>
+      <div class="header-series">Pre-Writing Skills Series · Book 1</div>
+    </div>
+    <div class="header-badge">Teacher Guide</div>
+  </div>
+
+  <!-- Correct pencil grip -->
+  <div class="grip-panel">
+    <div class="grip-panel-title">✏️ Teaching Correct Pencil Grip — 3-Step Checklist</div>
+    <div class="grip-steps">
+      <div class="grip-step">
+        <div class="grip-step-num">1</div>
+        <svg viewBox="0 0 80 80" width="70" height="70" xmlns="http://www.w3.org/2000/svg">
+          <!-- Hand outline holding pencil -->
+          <ellipse cx="40" cy="55" rx="22" ry="18" fill="#f5f5f5" stroke="#222" stroke-width="2"/>
+          <rect x="32" y="8" width="14" height="50" rx="4" fill="#f0f0f0" stroke="#222" stroke-width="2"/>
+          <polygon points="32,55 46,55 39,70" fill="#f5deb3" stroke="#222" stroke-width="2"/>
+          <!-- Thumb -->
+          <ellipse cx="29" cy="40" rx="8" ry="6" fill="#f5f5f5" stroke="#222" stroke-width="1.5" transform="rotate(-20,29,40)"/>
+          <!-- Index finger -->
+          <ellipse cx="51" cy="38" rx="7" ry="5" fill="#f5f5f5" stroke="#222" stroke-width="1.5" transform="rotate(15,51,38)"/>
+          <text x="50%" y="78" text-anchor="middle" font-family="Nunito,sans-serif" font-size="7" font-weight="700" fill="#333">Pinch near tip</text>
+        </svg>
+        <div class="grip-step-label">Hold pencil 2–3 cm<br/>from the tip using<br/>thumb &amp; index finger</div>
+      </div>
+      <div class="grip-step">
+        <div class="grip-step-num">2</div>
+        <svg viewBox="0 0 80 80" width="70" height="70" xmlns="http://www.w3.org/2000/svg">
+          <!-- Wrist resting on table line -->
+          <line x1="5" y1="65" x2="75" y2="65" stroke="#bbb" stroke-width="2"/>
+          <!-- Hand shape resting -->
+          <ellipse cx="40" cy="55" rx="28" ry="14" fill="#f5f5f5" stroke="#222" stroke-width="2"/>
+          <ellipse cx="40" cy="55" rx="20" ry="9" fill="#f0f0f0" stroke="#222" stroke-width="1"/>
+          <!-- Arrow showing rest -->
+          <line x1="40" y1="48" x2="40" y2="63" stroke="#555" stroke-width="2" marker-end="url(#arr)"/>
+          <defs><marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#555"/></marker></defs>
+          <text x="50%" y="78" text-anchor="middle" font-family="Nunito,sans-serif" font-size="7" font-weight="700" fill="#333">Rest wrist</text>
+        </svg>
+        <div class="grip-step-label">Rest the side of the<br/>hand lightly on<br/>the paper</div>
+      </div>
+      <div class="grip-step">
+        <div class="grip-step-num">3</div>
+        <svg viewBox="0 0 80 80" width="70" height="70" xmlns="http://www.w3.org/2000/svg">
+          <!-- Relaxed curve indicator -->
+          <path d="M15,65 Q40,30 65,65" fill="none" stroke="#555" stroke-width="3" stroke-dasharray="5 3" stroke-linecap="round"/>
+          <circle cx="15" cy="65" r="4" fill="#222"/>
+          <circle cx="65" cy="65" r="4" fill="#222"/>
+          <!-- Smiley -->
+          <circle cx="40" cy="30" r="14" fill="#f5f5f5" stroke="#222" stroke-width="2"/>
+          <circle cx="36" cy="27" r="1.5" fill="#222"/>
+          <circle cx="44" cy="27" r="1.5" fill="#222"/>
+          <path d="M35,33 Q40,38 45,33" fill="none" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+          <text x="50%" y="78" text-anchor="middle" font-family="Nunito,sans-serif" font-size="7" font-weight="700" fill="#333">Relax &amp; smile!</text>
+        </svg>
+        <div class="grip-step-label">Keep arm relaxed.<br/>No white knuckles —<br/>light pressure only!</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Differentiation -->
+  <div class="info-box">
+    <div class="info-box-title">🎚️ Differentiation Strategies</div>
+    <table class="diff-table">
+      <thead>
+        <tr>
+          <th>Learner Profile</th>
+          <th>Suggested Approach</th>
+          <th>Recommended Sheets</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Emerging (needs support)</strong></td>
+          <td>Use hand-over-hand assistance; work in short 5-minute bursts; allow thicker crayons or markers</td>
+          <td>WS 1–5 only, repeated as needed</td>
+        </tr>
+        <tr>
+          <td><strong>Developing (on track)</strong></td>
+          <td>Follow the full sequence in order; pair with verbal encouragement; time each sheet to build stamina</td>
+          <td>WS 1–25 in order</td>
+        </tr>
+        <tr>
+          <td><strong>Extending (advanced)</strong></td>
+          <td>Skip Phase 1; ask child to trace without lifting the pencil; introduce timing challenges</td>
+          <td>Start at WS 6; extend with free drawing</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Classroom tips -->
+  <div class="tip-box">
+    <div class="tip-box-title">💡 Classroom Implementation Tips</div>
+    <ul>
+      <li>Laminate selected sheets and use dry-erase markers for repeated practice without printing extras.</li>
+      <li>Display the <em>Pencil Grip Poster</em> (page above) at every table during tracing sessions.</li>
+      <li>Play soft instrumental music during tracing time — it helps children stay calm and focused.</li>
+      <li>Use a table easel or slant board for children who struggle with flat-surface wrist control.</li>
+      <li>Send Worksheets 1–5 home first as a warm-up for parents unfamiliar with pre-writing activities.</li>
+      <li>Encourage verbal narration: "I'm driving the train along the track!" — makes the task playful.</li>
+      <li>Celebrate completion with a sticker or stamp — positive reinforcement boosts motivation.</li>
+      <li>Pair worksheets with gross-motor versions (e.g., trace a zigzag on the floor with masking tape).</li>
+    </ul>
+  </div>
+
+  <!-- Recommended pacing -->
+  <div class="two-col">
+    <div class="info-box" style="margin-bottom:0">
+      <div class="info-box-title">🗓️ Suggested Pacing</div>
+      <ul class="outcome-list">
+        <li><span class="check">📅</span> <strong>Daily:</strong> 1 worksheet per session (10–15 min)</li>
+        <li><span class="check">📅</span> <strong>Weekly:</strong> 3–5 worksheets per week</li>
+        <li><span class="check">📅</span> <strong>Bundle:</strong> 5–8 weeks to complete all 25</li>
+        <li><span class="check">💡</span> Repeat any sheet if a child needs more practice</li>
+        <li><span class="check">💡</span> Do not rush through phases — mastery matters</li>
+      </ul>
+    </div>
+    <div class="info-box" style="margin-bottom:0">
+      <div class="info-box-title">🔗 Curriculum Links</div>
+      <ul class="outcome-list">
+        <li><span class="check">📌</span> NAEYC: Fine Motor Development Domain</li>
+        <li><span class="check">📌</span> EYFS (UK): Physical Development — Fine Motor</li>
+        <li><span class="check">📌</span> Common Core: Foundational Skills Readiness</li>
+        <li><span class="check">📌</span> Head Start: School Readiness Framework</li>
+        <li><span class="check">📌</span> OT Practice: Pre-handwriting skills progression</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <span>Worksheet Wonder</span>
+    <span>www.worksheetwonder.com</span>
+    <span>Teacher Guide · Page 2 of 2</span>
+  </div>
+
+</div><!-- end page 2 -->
+
+</body>
+</html>

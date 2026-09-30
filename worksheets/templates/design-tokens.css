@@ -1,0 +1,169 @@
+/* ╔══════════════════════════════════════════════════════════════════════════╗
+   ║  WORKSHEET WONDER — DESIGN TOKENS                                      ║
+   ║  Version: 2.0                                                          ║
+   ║  The single source of truth for all visual properties.                  ║
+   ║  Import this file FIRST in every worksheet.                             ║
+   ╚══════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+
+  /* ─────────────────────────────────────────────
+     1.  BRAND RAINBOW PALETTE
+     ─────────────────────────────────────────────
+     Seven signature colors.  Used in the header
+     stripe, activity number badges, and accent
+     decorations.  Ordered ROYGBIV.                */
+
+  --ww-rainbow-red:      #EF5350;   /* Warm Red         */
+  --ww-rainbow-orange:   #FF9800;   /* Bright Orange    */
+  --ww-rainbow-yellow:   #FFCA28;   /* Sunflower Gold   */
+  --ww-rainbow-green:    #66BB6A;   /* Fresh Green      */
+  --ww-rainbow-blue:     #42A5F5;   /* Sky Blue         */
+  --ww-rainbow-indigo:   #5C6BC0;   /* Deep Indigo      */
+  --ww-rainbow-violet:   #AB47BC;   /* Soft Violet      */
+
+  /* Full rainbow gradient — used for the header stripe */
+  --ww-rainbow-gradient: linear-gradient(
+    90deg,
+    var(--ww-rainbow-red)    0%,
+    var(--ww-rainbow-orange) 16%,
+    var(--ww-rainbow-yellow) 33%,
+    var(--ww-rainbow-green)  50%,
+    var(--ww-rainbow-blue)   66%,
+    var(--ww-rainbow-indigo) 83%,
+    var(--ww-rainbow-violet) 100%
+  );
+
+
+  /* ─────────────────────────────────────────────
+     2.  SEMANTIC COLORS
+     ───────────────────────────────────────────── */
+
+  --ww-color-ink:        #1A1A2E;   /* Deepest text — headers, borders       */
+  --ww-color-text:       #2D3436;   /* Body text — instructions              */
+  --ww-color-muted:      #8395A7;   /* Secondary labels                      */
+  --ww-color-hint:       #B2BEC3;   /* Dotted guides, placeholders           */
+  --ww-color-line:       #DFE6E9;   /* Internal dividers, dashed rules       */
+  --ww-color-canvas:     #FAFAF8;   /* Page background — warm off-white      */
+  --ww-color-surface:    #FFFFFF;   /* Card / activity-box fill              */
+  --ww-color-highlight:  #FFF8E1;   /* Soft yellow highlight zone            */
+
+  /* Activity badge accent ring  (cycles per section) */
+  --ww-accent-1: var(--ww-rainbow-red);
+  --ww-accent-2: var(--ww-rainbow-orange);
+  --ww-accent-3: var(--ww-rainbow-yellow);
+  --ww-accent-4: var(--ww-rainbow-green);
+  --ww-accent-5: var(--ww-rainbow-blue);
+  --ww-accent-6: var(--ww-rainbow-indigo);
+  --ww-accent-7: var(--ww-rainbow-violet);
+  --ww-accent-8: var(--ww-rainbow-red);
+
+
+  /* ─────────────────────────────────────────────
+     3.  TYPOGRAPHY
+     ───────────────────────────────────────────── */
+
+  /* Display / Heading — rounded, friendly, premium feel */
+  --ww-font-display:     'Fredoka', 'Arial Rounded MT Bold', sans-serif;
+
+  /* Body / Instruction text — highly legible at small sizes */
+  --ww-font-body:        'Nunito', 'Segoe UI', sans-serif;
+
+  /* Tracing / Handwriting guide — rendered via SVG stroke paths */
+  --ww-font-trace:       'Fredoka', sans-serif;
+
+  /* Font Sizes — print-optimised point sizes */
+  --ww-fs-brand:         13pt;      /* Brand name in header                  */
+  --ww-fs-title:         22pt;      /* Worksheet title                       */
+  --ww-fs-section:       10.5pt;    /* Activity section heading              */
+  --ww-fs-body:          9pt;       /* Instructions / body text              */
+  --ww-fs-label:         7.5pt;     /* Tiny labels, badges, captions         */
+  --ww-fs-micro:         6.5pt;     /* Meta info, footer, watermark fine     */
+  --ww-fs-trace-letter:  36pt;      /* Large tracing letter inside grid      */
+
+  /* Font Weights */
+  --ww-fw-regular:       400;
+  --ww-fw-medium:        600;
+  --ww-fw-bold:          700;
+  --ww-fw-black:         800;
+
+
+  /* ─────────────────────────────────────────────
+     4.  PAGE GEOMETRY (A4 Portrait)
+     ───────────────────────────────────────────── */
+
+  --ww-page-w:           210mm;
+  --ww-page-h:           297mm;
+
+  /* Safe-print margins — fits HP / Canon / Epson defaults */
+  --ww-margin-top:       10mm;
+  --ww-margin-bottom:    8mm;
+  --ww-margin-left:      12mm;
+  --ww-margin-right:     12mm;
+
+  /* Decorative border insets */
+  --ww-border-outer:     4mm;       /* Outer solid border inset              */
+  --ww-border-inner:     6.5mm;     /* Inner dashed border inset             */
+
+
+  /* ─────────────────────────────────────────────
+     5.  SPACING SCALE (4mm base grid)
+     ───────────────────────────────────────────── */
+
+  --ww-space-1:          1mm;
+  --ww-space-2:          2mm;
+  --ww-space-3:          3mm;
+  --ww-space-4:          4mm;       /* Base unit                             */
+  --ww-space-5:          5mm;
+  --ww-space-6:          6mm;
+  --ww-space-8:          8mm;
+  --ww-space-10:         10mm;
+  --ww-space-12:         12mm;
+  --ww-space-16:         16mm;
+
+
+  /* ─────────────────────────────────────────────
+     6.  BORDERS & RADII
+     ───────────────────────────────────────────── */
+
+  --ww-border-thick:     2.5px;     /* Page frame, activity cards            */
+  --ww-border-medium:    1.8px;     /* Inner card dividers                   */
+  --ww-border-thin:      1px;       /* Fine lines, dashes                    */
+
+  --ww-radius-page:      14px;      /* Outer page frame                      */
+  --ww-radius-card:      12px;      /* Activity section cards                */
+  --ww-radius-pill:      20px;      /* Pill badges                           */
+  --ww-radius-cell:      6px;       /* Tracing cells, small boxes            */
+  --ww-radius-circle:    50%;       /* Number badges, dots                   */
+
+
+  /* ─────────────────────────────────────────────
+     7.  EFFECTS
+     ───────────────────────────────────────────── */
+
+  /* Subtle card lift — visible on screen, invisible in print */
+  --ww-shadow-card:      0 3px 0 rgba(26, 26, 46, 0.08);
+
+  /* Watermark */
+  --ww-watermark-color:  rgba(26, 26, 46, 0.045);
+  --ww-watermark-size:   72pt;
+  --ww-watermark-angle:  -32deg;
+
+
+  /* ─────────────────────────────────────────────
+     8.  TRACING GUIDES
+     ───────────────────────────────────────────── */
+
+  --ww-trace-solid:      var(--ww-color-ink);
+  --ww-trace-dotted:     var(--ww-color-hint);
+  --ww-trace-dash:       2.5, 2.5;  /* SVG stroke-dasharray                 */
+  --ww-trace-stroke-w:   2px;       /* SVG stroke-width for letters         */
+  --ww-trace-cell-size:  12mm;      /* Single letter tracing cell            */
+
+
+  /* ─────────────────────────────────────────────
+     9.  RAINBOW STRIPE HEIGHT
+     ───────────────────────────────────────────── */
+
+  --ww-stripe-h:         3.5mm;     /* Signature header rainbow bar          */
+}

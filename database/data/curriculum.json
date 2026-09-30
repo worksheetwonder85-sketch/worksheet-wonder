@@ -1,0 +1,171 @@
+[
+  {
+    "grade_id": 0,
+    "grade_name": "Preschool",
+    "age_range": "3-4 years",
+    "subjects": [
+      {
+        "name": "Fine Motor Skills",
+        "topics": ["Line Tracing", "Shape Tracing", "Scissor Practice", "Coloring Inside Lines"],
+        "planned_worksheets": 45
+      },
+      {
+        "name": "Phonics & Alphabet",
+        "topics": ["Alphabet Letter Tracing", "Initial Letter Sounds", "Uppercase & Lowercase Matching"],
+        "planned_worksheets": 52
+      },
+      {
+        "name": "Early Maths",
+        "topics": ["Counting 1-10", "Number Tracing", "Big vs Small", "Basic Shape Sorting"],
+        "planned_worksheets": 50
+      },
+      {
+        "name": "Art & Craft",
+        "topics": ["Color Recognition", "Pattern Completion", "Fingerprint Crafts"],
+        "planned_worksheets": 30
+      }
+    ]
+  },
+  {
+    "grade_id": 1,
+    "grade_name": "Kindergarten",
+    "age_range": "4-6 years",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "topics": ["Number Recognition & Counting 1-20", "Single Digit Addition", "Single Digit Subtraction", "2D & 3D Shapes", "Patterns & Ordering"],
+        "planned_worksheets": 80
+      },
+      {
+        "name": "English & Phonics",
+        "topics": ["CVC Word Blends", "Sight Words Level 1", "Rhyming Words", "Simple Sentence Reading"],
+        "planned_worksheets": 75
+      },
+      {
+        "name": "EVS & Science",
+        "topics": ["My Body Parts", "Five Senses", "Plants & Living Things", "Weather & Seasons"],
+        "planned_worksheets": 60
+      },
+      {
+        "name": "Logical Reasoning",
+        "topics": ["Matching & Sorting", "Shadow Matching", "Odd One Out", "Sequencing Cards"],
+        "planned_worksheets": 40
+      }
+    ]
+  },
+  {
+    "grade_id": 2,
+    "grade_name": "Grade 1",
+    "age_range": "6-7 years",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "topics": ["Numbers up to 100", "Two-Digit Addition (No Regrouping)", "Two-Digit Subtraction", "Place Value (Tens & Ones)", "Clock & Time (Hours)"],
+        "planned_worksheets": 90
+      },
+      {
+        "name": "English & Grammar",
+        "topics": ["Nouns & Pronouns", "Verbs & Action Words", "Capitalization & Punctuation", "Reading Comprehension Passages"],
+        "planned_worksheets": 85
+      },
+      {
+        "name": "Science & Environment",
+        "topics": ["Animal Habitats", "Food Chains", "States of Matter (Water/Ice/Steam)", "Solar System Intro"],
+        "planned_worksheets": 70
+      },
+      {
+        "name": "Computer Skills",
+        "topics": ["Parts of Computer", "Keyboard & Mouse Basics", "Safe Internet Habits"],
+        "planned_worksheets": 35
+      }
+    ]
+  },
+  {
+    "grade_id": 3,
+    "grade_name": "Grade 2",
+    "age_range": "7-8 years",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "topics": ["Addition & Subtraction with Regrouping", "Multiplication Tables (2, 5, 10)", "Fractions Intro (1/2, 1/4)", "Money & Coins", "Measurement (cm, m)"],
+        "planned_worksheets": 100
+      },
+      {
+        "name": "English & Writing",
+        "topics": ["Adjectives & Adverbs", "Conjunctions & Prepositions", "Paragraph Writing", "Vocabulary Builders"],
+        "planned_worksheets": 90
+      },
+      {
+        "name": "Science",
+        "topics": ["Human Skeletal System", "Plant Life Cycles", "Earth & Weather Patterns", "Simple Machines"],
+        "planned_worksheets": 75
+      }
+    ]
+  },
+  {
+    "grade_id": 4,
+    "grade_name": "Grade 3",
+    "age_range": "8-9 years",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "topics": ["3-Digit & 4-Digit Numbers", "Multiplication up to 12x12", "Basic Division", "Equivalent Fractions", "Perimeter & Area"],
+        "planned_worksheets": 110
+      },
+      {
+        "name": "English",
+        "topics": ["Subject-Verb Agreement", "Synonyms & Antonyms", "Creative Story Writing", "Comprehension & Inference"],
+        "planned_worksheets": 95
+      },
+      {
+        "name": "Science & Social Studies",
+        "topics": ["Forces & Motion", "Ecosystems", "World Geography & Maps", "Solar System & Planets"],
+        "planned_worksheets": 80
+      }
+    ]
+  },
+  {
+    "grade_id": 5,
+    "grade_name": "Grade 4",
+    "age_range": "9-10 years",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "topics": ["Long Multiplication & Division", "Decimals & Percentages", "Angles & Geometry", "Data Handling & Bar Graphs"],
+        "planned_worksheets": 120
+      },
+      {
+        "name": "English",
+        "topics": ["Direct & Indirect Speech", "Essay Writing", "Prefixes & Suffixes", "Advanced Comprehension"],
+        "planned_worksheets": 100
+      },
+      {
+        "name": "Science & STEAM",
+        "topics": ["Electricity & Circuits", "Digestive System", "Energy Transformations", "STEM Building Challenges"],
+        "planned_worksheets": 85
+      }
+    ]
+  },
+  {
+    "grade_id": 6,
+    "grade_name": "Grade 5",
+    "age_range": "10-11 years",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "topics": ["Fractions Operations (+, -, x, /)", "Algebraic Expressions Intro", "Volume & Surface Area", "Ratios & Rates"],
+        "planned_worksheets": 130
+      },
+      {
+        "name": "English",
+        "topics": ["Complex Sentences", "Persuasive Writing", "Poetry Analysis", "Etymology & Root Words"],
+        "planned_worksheets": 110
+      },
+      {
+        "name": "Science & Computer",
+        "topics": ["Cell Structure Intro", "Chemical vs Physical Changes", "Algorithms & Scratch Coding Intro"],
+        "planned_worksheets": 90
+      }
+    ]
+  }
+]

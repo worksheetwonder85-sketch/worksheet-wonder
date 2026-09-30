@@ -31,7 +31,7 @@
         <div class="container">
             <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
                 <img src="assets/images/logo.png" alt="Worksheet Wonder Logo" class="navbar-logo">
-                <span class="brand-text ms-2">Worksheet Wonder</span>
+                <span class="brand-text ms-2">Worksheet <span class="brand-2">Wonder</span></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,6 +55,28 @@
             </div>
         </div>
     </nav>
+
+<!-- WW-SUBJECT-TABS -->
+<div class="ww-subject-tabs">
+<div class="container">
+<nav class="ww-tabs-scroll" aria-label="Subjects">
+<a href="subject-maths.html" class="ww-tab" style="--tab:#2B7CD3">Mathematics</a>
+<a href="subject-english.html" class="ww-tab" style="--tab:#35A853">English</a>
+<a href="subject-science.html" class="ww-tab" style="--tab:#209E8C">Science</a>
+<a href="subject-evs.html" class="ww-tab" style="--tab:#7C8A3A">EVS</a>
+<a href="subject-computer.html" class="ww-tab" style="--tab:#7C5CBF">Computer</a>
+<a href="subject-gk.html" class="ww-tab" style="--tab:#F26A21">General Knowledge</a>
+<a href="subject-art-craft.html" class="ww-tab" style="--tab:#D6538B">Art &amp; Craft</a>
+</nav>
+</div>
+</div>
+<script>
+(function(){var p=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+var els=document.querySelectorAll('.ww-tab');
+for(var i=0;i<els.length;i++){if(els[i].getAttribute('href').toLowerCase()===p){els[i].classList.add('active');break;}}
+})();
+</script>
+
 
     <!-- =========================
          BREADCRUMB
@@ -94,60 +116,14 @@
                                             <th scope="col" class="py-3 text-end px-4">Subtotal</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <!-- Item 1 -->
-                                        <tr class="border-bottom">
-                                            <td class="p-4">
-                                                <div class="d-flex align-items-center">
-                                                    <img src="assets/images/bundles/alphabet.jpg" alt="Alphabet Bundle" onerror="this.src='assets/images/logo.png';" class="rounded" style="width: 80px; height: 80px; object-fit: cover;">
-                                                    <div class="ms-3">
-                                                        <h6 class="fw-bold mb-1">Alphabet Tracing Bundle</h6>
-                                                        <small class="text-muted">Digital PDF</small>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>₹199</td>
-                                            <td class="text-center">
-                                                <div class="d-inline-flex border rounded bg-white">
-                                                    <button class="btn btn-sm btn-light border-0"><i class="bi bi-dash"></i></button>
-                                                    <input type="text" class="form-control form-control-sm border-0 text-center fw-bold bg-white" value="1" style="width: 40px;" readonly>
-                                                    <button class="btn btn-sm btn-light border-0"><i class="bi bi-plus"></i></button>
-                                                </div>
-                                                <br>
-                                                <a href="#" class="text-danger small text-decoration-none mt-1 d-inline-block"><i class="bi bi-trash"></i> Remove</a>
-                                            </td>
-                                            <td class="text-end fw-bold px-4 text-primary">₹199</td>
-                                        </tr>
-                                        <!-- Item 2 -->
-                                        <tr>
-                                            <td class="p-4">
-                                                <div class="d-flex align-items-center">
-                                                    <img src="assets/images/bundles/math.jpg" alt="Math Bundle" onerror="this.src='assets/images/logo.png';" class="rounded" style="width: 80px; height: 80px; object-fit: cover;">
-                                                    <div class="ms-3">
-                                                        <h6 class="fw-bold mb-1">Math Addition Pack</h6>
-                                                        <small class="text-muted">Digital PDF</small>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>₹249</td>
-                                            <td class="text-center">
-                                                <div class="d-inline-flex border rounded bg-white">
-                                                    <button class="btn btn-sm btn-light border-0"><i class="bi bi-dash"></i></button>
-                                                    <input type="text" class="form-control form-control-sm border-0 text-center fw-bold bg-white" value="1" style="width: 40px;" readonly>
-                                                    <button class="btn btn-sm btn-light border-0"><i class="bi bi-plus"></i></button>
-                                                </div>
-                                                <br>
-                                                <a href="#" class="text-danger small text-decoration-none mt-1 d-inline-block"><i class="bi bi-trash"></i> Remove</a>
-                                            </td>
-                                            <td class="text-end fw-bold px-4 text-primary">₹249</td>
-                                        </tr>
+                                    <tbody id="cart-tbody">
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                         <div class="card-footer bg-white border-top p-4 d-flex justify-content-between align-items-center">
                             <a href="shop.html" class="btn btn-outline-secondary"><i class="bi bi-arrow-left me-1"></i> Continue Shopping</a>
-                            <button class="btn btn-outline-danger btn-sm"><i class="bi bi-x-circle me-1"></i> Clear Cart</button>
+                            <button class="btn btn-outline-danger btn-sm" id="cart-clear"><i class="bi bi-x-circle me-1"></i> Clear Cart</button>
                         </div>
                     </div>
                 </div>
@@ -159,11 +135,11 @@
                         
                         <div class="d-flex justify-content-between mb-3">
                             <span class="text-muted">Subtotal</span>
-                            <span class="fw-bold">₹448</span>
+                            <span class="fw-bold" id="cart-subtotal">$0.00</span>
                         </div>
                         <div class="d-flex justify-content-between mb-3">
                             <span class="text-muted">Tax (18% GST)</span>
-                            <span class="fw-bold">₹80.64</span>
+                            <span class="fw-bold" id="cart-tax">$0.00</span>
                         </div>
                         <div class="d-flex justify-content-between mb-4 border-bottom pb-3">
                             <span class="text-muted">Delivery</span>
@@ -172,7 +148,7 @@
                         
                         <div class="d-flex justify-content-between mb-4 align-items-center">
                             <span class="h5 fw-bold mb-0">Total</span>
-                            <span class="h3 fw-bold text-primary mb-0">₹528.64</span>
+                            <span class="h3 fw-bold text-primary mb-0" id="cart-total">$0.00</span>
                         </div>
                         
                         <div class="input-group mb-4">
@@ -300,5 +276,6 @@
     <!-- Bootstrap & Custom JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

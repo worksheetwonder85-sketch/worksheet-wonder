@@ -1,0 +1,17 @@
+﻿<!--
+  Asset ID:        WW-ICON-pencil.svg
+  Title:           pencil
+  Category:        supplies
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            pencil, write, draw, tool
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6 58h10L58 16 48 6 6 48v10z"/>
+  <path d="M41 13l10 10"/>
+  <path d="M6 48l10 10"/>
+  <path d="M14 50l-8 8 8-8z"/>
+</svg>

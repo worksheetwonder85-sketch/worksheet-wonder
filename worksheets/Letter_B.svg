@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <defs>
+    <!-- Gradients for Ball -->
+    <linearGradient id="ball-red-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#EE5253"/>
+    </linearGradient>
+    <linearGradient id="ball-blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#48DBFB"/>
+      <stop offset="100%" stop-color="#0ABDE3"/>
+    </linearGradient>
+    <linearGradient id="ball-yellow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FECB2E"/>
+      <stop offset="100%" stop-color="#FFA801"/>
+    </linearGradient>
+    <linearGradient id="ball-green-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1DD1A1"/>
+      <stop offset="100%" stop-color="#10AC84"/>
+    </linearGradient>
+    <radialGradient id="ball-gloss" cx="35%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="shadow-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2C3E50" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#2C3E50" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gradients for Bear -->
+    <linearGradient id="bear-fur-main" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A0693B"/>
+      <stop offset="100%" stop-color="#845229"/>
+    </linearGradient>
+    <linearGradient id="bear-fur-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F2D3B4"/>
+      <stop offset="100%" stop-color="#E2B78D"/>
+    </linearGradient>
+    <linearGradient id="bear-ear-inner" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7A8B8"/>
+      <stop offset="100%" stop-color="#E88295"/>
+    </linearGradient>
+
+    <!-- Gradients for Butterfly -->
+    <linearGradient id="bf-wing-top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9F43"/>
+      <stop offset="50%" stop-color="#FF5252"/>
+      <stop offset="100%" stop-color="#C56CF0"/>
+    </linearGradient>
+    <linearGradient id="bf-wing-bot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#54A0FF"/>
+      <stop offset="100%" stop-color="#00D2D3"/>
+    </linearGradient>
+
+    <!-- Arrow Marker for Stroke Direction -->
+    <marker id="stroke-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#E74C3C"/>
+    </marker>
+  </defs>
+
+  <!-- ==========================================
+       BALL SYMBOL (Beach Ball)
+       ========================================== -->
+  <g id="svg-ball-art">
+    <!-- Soft shadow -->
+    <ellipse cx="50" cy="86" rx="36" ry="8" fill="url(#shadow-grad)"/>
+    <!-- Outer sphere outline clip -->
+    <g>
+      <circle cx="50" cy="46" r="38" fill="#FFFFFF" stroke="#2C3E50" stroke-width="2.5"/>
+      <!-- Panel 1 Red -->
+      <path d="M50 8 A38 38 0 0 0 16 32 C30 38 42 62 50 84 Z" fill="url(#ball-red-grad)"/>
+      <!-- Panel 2 Yellow -->
+      <path d="M50 8 C42 62 30 38 16 32 A38 38 0 0 0 24 68 C38 64 48 76 50 84 Z" fill="url(#ball-yellow-grad)"/>
+      <!-- Panel 3 Blue -->
+      <path d="M50 8 C48 76 38 64 24 68 A38 38 0 0 0 60 82 C56 70 52 42 50 8 Z" fill="url(#ball-blue-grad)"/>
+      <!-- Panel 4 Green -->
+      <path d="M50 8 C52 42 56 70 60 82 A38 38 0 0 0 84 46 C68 40 58 20 50 8 Z" fill="url(#ball-green-grad)"/>
+      <!-- Panel 5 Orange -->
+      <path d="M50 8 C58 20 68 40 84 46 A38 38 0 0 0 72 20 C64 16 56 10 50 8 Z" fill="url(#ball-red-grad)" opacity="0.85"/>
+      <!-- Seam lines -->
+      <path d="M50 8 C35 30 30 60 50 84" fill="none" stroke="#2C3E50" stroke-width="2"/>
+      <path d="M50 8 C65 30 70 60 50 84" fill="none" stroke="#2C3E50" stroke-width="2"/>
+      <path d="M16 32 C35 48 65 48 84 46" fill="none" stroke="#2C3E50" stroke-width="2"/>
+      <!-- Top cap -->
+      <circle cx="50" cy="11" r="5" fill="#FFFFFF" stroke="#2C3E50" stroke-width="1.8"/>
+      <!-- Gloss Highlight -->
+      <circle cx="50" cy="46" r="38" fill="url(#ball-gloss)"/>
+      <ellipse cx="36" cy="26" rx="9" ry="5" fill="#FFFFFF" opacity="0.6" transform="rotate(-30 36 26)"/>
+    </g>
+  </g>
+
+  <!-- ==========================================
+       BEAR SYMBOL
+       ========================================== -->
+  <g id="svg-bear-art">
+    <!-- Bear Shadow -->
+    <ellipse cx="50" cy="88" rx="32" ry="7" fill="url(#shadow-grad)"/>
+    <!-- Left Ear -->
+    <circle cx="25" cy="22" r="12" fill="url(#bear-fur-main)" stroke="#2C3E50" stroke-width="2.2"/>
+    <circle cx="25" cy="22" r="6.5" fill="url(#bear-ear-inner)"/>
+    <!-- Right Ear -->
+    <circle cx="75" cy="22" r="12" fill="url(#bear-fur-main)" stroke="#2C3E50" stroke-width="2.2"/>
+    <circle cx="75" cy="22" r="6.5" fill="url(#bear-ear-inner)"/>
+    <!-- Body -->
+    <ellipse cx="50" cy="70" rx="24" ry="18" fill="url(#bear-fur-main)" stroke="#2C3E50" stroke-width="2.2"/>
+    <!-- Belly Patch -->
+    <ellipse cx="50" cy="72" rx="14" ry="11" fill="url(#bear-fur-light)"/>
+    <!-- Head -->
+    <ellipse cx="50" cy="42" rx="28" ry="24" fill="url(#bear-fur-main)" stroke="#2C3E50" stroke-width="2.2"/>
+    <!-- Muzzle / Snout -->
+    <ellipse cx="50" cy="49" rx="14" ry="10" fill="url(#bear-fur-light)" stroke="#2C3E50" stroke-width="1.8"/>
+    <!-- Nose -->
+    <path d="M44 44 C44 41 56 41 56 44 C56 48 44 48 44 44 Z" fill="#2C3E50"/>
+    <ellipse cx="48" cy="43.5" rx="2" ry="1" fill="#FFFFFF" opacity="0.6"/>
+    <!-- Mouth -->
+    <path d="M50 47 V51 M45 51 Q50 55 55 51" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <circle cx="37" cy="38" r="4" fill="#2C3E50"/>
+    <circle cx="38.5" cy="36.5" r="1.5" fill="#FFFFFF"/>
+    <circle cx="63" cy="38" r="4" fill="#2C3E50"/>
+    <circle cx="64.5" cy="36.5" r="1.5" fill="#FFFFFF"/>
+    <!-- Cheeks -->
+    <ellipse cx="30" cy="45" rx="4.5" ry="3" fill="#F7A8B8" opacity="0.5"/>
+    <ellipse cx="70" cy="45" rx="4.5" ry="3" fill="#F7A8B8" opacity="0.5"/>
+    <!-- Paws -->
+    <ellipse cx="28" cy="74" rx="7" ry="5" fill="url(#bear-fur-main)" stroke="#2C3E50" stroke-width="1.8"/>
+    <ellipse cx="72" cy="74" rx="7" ry="5" fill="url(#bear-fur-main)" stroke="#2C3E50" stroke-width="1.8"/>
+    <circle cx="28" cy="74" r="3" fill="url(#bear-fur-light)"/>
+    <circle cx="72" cy="74" r="3" fill="url(#bear-fur-light)"/>
+  </g>
+
+  <!-- ==========================================
+       BUTTERFLY SYMBOL
+       ========================================== -->
+  <g id="svg-butterfly-art">
+    <!-- Left Top Wing -->
+    <path d="M46 38 C35 15 10 10 8 30 C6 44 32 52 46 44 Z" fill="url(#bf-wing-top)" stroke="#2C3E50" stroke-width="2"/>
+    <!-- Left Top Wing Decorative Spots -->
+    <circle cx="22" cy="26" r="6" fill="#FFF" opacity="0.8"/>
+    <circle cx="22" cy="26" r="3" fill="#FF5252"/>
+    <circle cx="15" cy="36" r="3" fill="#FFF" opacity="0.8"/>
+
+    <!-- Right Top Wing -->
+    <path d="M54 38 C65 15 90 10 92 30 C94 44 68 52 54 44 Z" fill="url(#bf-wing-top)" stroke="#2C3E50" stroke-width="2"/>
+    <!-- Right Top Wing Spots -->
+    <circle cx="78" cy="26" r="6" fill="#FFF" opacity="0.8"/>
+    <circle cx="78" cy="26" r="3" fill="#FF5252"/>
+    <circle cx="85" cy="36" r="3" fill="#FFF" opacity="0.8"/>
+
+    <!-- Left Bottom Wing -->
+    <path d="M47 46 C32 50 14 62 24 78 C34 90 48 65 49 52 Z" fill="url(#bf-wing-bot)" stroke="#2C3E50" stroke-width="2"/>
+    <circle cx="32" cy="68" r="4" fill="#FECB2E"/>
+
+    <!-- Right Bottom Wing -->
+    <path d="M53 46 C68 50 86 62 76 78 C66 90 52 65 51 52 Z" fill="url(#bf-wing-bot)" stroke="#2C3E50" stroke-width="2"/>
+    <circle cx="68" cy="68" r="4" fill="#FECB2E"/>
+
+    <!-- Body -->
+    <ellipse cx="50" cy="48" rx="4.5" ry="20" fill="#2C3E50"/>
+    <line x1="46" y1="36" x2="54" y2="36" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+    <line x1="46" y1="42" x2="54" y2="42" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+    <line x1="46" y1="48" x2="54" y2="48" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+
+    <!-- Head -->
+    <circle cx="50" cy="26" r="5.5" fill="#2C3E50"/>
+    <circle cx="48" cy="25" r="1.2" fill="#FFFFFF"/>
+    <circle cx="52" cy="25" r="1.2" fill="#FFFFFF"/>
+
+    <!-- Antennae -->
+    <path d="M48 22 Q42 12 36 10" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="35" cy="10" r="2.5" fill="#FF5252"/>
+
+    <path d="M52 22 Q58 12 64 10" fill="none" stroke="#2C3E50" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="65" cy="10" r="2.5" fill="#FF5252"/>
+  </g>
+
+  <!-- ==========================================
+       HERO STROKE FORMATION UPPERCASE B
+       ========================================== -->
+  <g id="svg-hero-stroke-b">
+    <!-- Handwriting Guidelines Background -->
+    <!-- Top Line -->
+    <line x1="10" y1="20" x2="190" y2="20" stroke="#4A90E2" stroke-width="1.8"/>
+    <text x="192" y="23" font-family="'Nunito', sans-serif" font-size="9" fill="#7BAAC4" font-weight="700">Top</text>
+
+    <!-- Mid Line (Dashed) -->
+    <line x1="10" y1="65" x2="190" y2="65" stroke="#A0C4DF" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="192" y="68" font-family="'Nunito', sans-serif" font-size="9" fill="#7BAAC4" font-weight="700">Mid</text>
+
+    <!-- Baseline -->
+    <line x1="10" y1="110" x2="190" y2="110" stroke="#2C3E50" stroke-width="2.5"/>
+    <text x="192" y="113" font-family="'Nunito', sans-serif" font-size="9" fill="#2C3E50" font-weight="800">Base</text>
+
+    <!-- Letter B Main Path Outline -->
+    <g transform="translate(45, 0)">
+      <!-- Stroke 1 Guide Line (Vertical) -->
+      <path d="M30 20 V110" fill="none" stroke="#D0E1F9" stroke-width="14" stroke-linecap="round"/>
+      <path d="M30 20 V110" fill="none" stroke="#4A90E2" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#stroke-arrow)"/>
+
+      <!-- Stroke 2 Guide Line (Top Loop) -->
+      <path d="M30 20 H65 C85 20 85 65 65 65 H30" fill="none" stroke="#D0E1F9" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M30 20 H65 C85 20 85 65 65 65 H30" fill="none" stroke="#FF8A65" stroke-width="3" stroke-dasharray="6 5"/>
+
+      <!-- Stroke 3 Guide Line (Bottom Loop) -->
+      <path d="M30 65 H70 C92 65 92 110 68 110 H30" fill="none" stroke="#D0E1F9" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M30 65 H70 C92 65 92 110 68 110 H30" fill="none" stroke="#26A69A" stroke-width="3" stroke-dasharray="6 5"/>
+
+      <!-- Stroke 1 Start Dot & Label -->
+      <circle cx="30" cy="20" r="7" fill="#E74C3C"/>
+      <text x="30" y="24" font-family="'Fredoka', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+
+      <!-- Stroke 2 Start Dot & Label -->
+      <circle cx="45" cy="20" r="7" fill="#FF8A65"/>
+      <text x="45" y="24" font-family="'Fredoka', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+
+      <!-- Stroke 3 Start Dot & Label -->
+      <circle cx="45" cy="65" r="7" fill="#26A69A"/>
+      <text x="45" y="69" font-family="'Fredoka', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+    </g>
+  </g>
+</svg>

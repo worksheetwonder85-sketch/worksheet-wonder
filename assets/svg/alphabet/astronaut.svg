@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Helmet Outer Circle -->
+  <circle cx="50" cy="50" r="35" fill="none" stroke="#000000" stroke-width="4"/>
+  <!-- Visor Inner Rounded Rectangle -->
+  <rect x="25" y="30" width="50" height="35" rx="15" fill="none" stroke="#000000" stroke-width="4"/>
+  <!-- Visor Reflection Curve -->
+  <path d="M 35 38 Q 50 33, 65 38" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+  <!-- Helmet Side Dials -->
+  <circle cx="12" cy="50" r="4" fill="none" stroke="#000000" stroke-width="3"/>
+  <circle cx="88" cy="50" r="4" fill="none" stroke="#000000" stroke-width="3"/>
+  <!-- Helmet Collar -->
+  <path d="M 30 84 C 40 92, 60 92, 70 84" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+  <!-- Little Flag/Star badge in Visor corner -->
+  <path d="M 62 55 L 64 50 L 69 50 L 65 53 L 67 58 L 62 55" fill="none" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

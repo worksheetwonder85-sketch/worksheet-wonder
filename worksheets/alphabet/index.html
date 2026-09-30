@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Alphabet Workbook – Free Printable A–Z Worksheets | Worksheet Wonder</title>
+  <meta name="description" content="Download free printable alphabet worksheets for kindergarten. Practice tracing, writing, and letter recognition for every letter A to Z. Perfect for age 4–6.">
+  <meta name="keywords" content="free printable alphabet worksheets, kindergarten letter worksheets, tracing worksheets, letter recognition activities">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --ww-orange: #FF7043;
+      --ww-red: #FF5252;
+      --ww-dark: #1E2832;
+      --ww-card-shadow: 4px 4px 0 #2C3E50;
+      --font-display: 'Fredoka', sans-serif;
+      --font-body: 'Nunito', sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: var(--font-body); background: #FFFDF9; color: #2C3E50; }
+
+    /* Navbar */
+    .ww-nav {
+      background: white;
+      border-bottom: 3px solid #2C3E50;
+      padding: 12px 0;
+      position: sticky; top: 0; z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .ww-nav .nav-brand {
+      font-family: var(--font-display);
+      font-size: 1.6rem; font-weight: 700;
+      color: var(--ww-orange); text-decoration: none;
+    }
+    .ww-nav .nav-brand:hover { color: var(--ww-red); }
+    .ww-nav .nav-link {
+      font-family: var(--font-display); font-size: 1rem; font-weight: 600;
+      color: #2C3E50; border-radius: 8px; padding: 6px 14px;
+      transition: background 0.2s;
+    }
+    .ww-nav .nav-link:hover { background: #FFF3E0; color: var(--ww-orange); }
+
+    /* Breadcrumb */
+    .breadcrumb-section {
+      background: white; border-bottom: 1px solid #e0e0e0; padding: 10px 0;
+    }
+    .breadcrumb-item { font-size: 0.85rem; }
+    .breadcrumb-item a { color: var(--ww-orange); text-decoration: none; font-weight: 600; }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, #FF5252 0%, #FF9800 30%, #FFEB3B 55%, #4CAF50 75%, #2196F3 90%, #9C27B0 100%);
+      padding: 64px 0 72px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 100%);
+    }
+    .hero-content { position: relative; z-index: 1; }
+    .hero h1 {
+      font-family: var(--font-display); font-size: 3rem; font-weight: 700;
+      color: white; text-shadow: 3px 3px 0 rgba(0,0,0,0.2);
+      margin-bottom: 12px;
+    }
+    .hero p {
+      font-size: 1.2rem; color: rgba(255,255,255,0.92);
+      max-width: 600px; margin: 0 auto 20px;
+    }
+    .hero-badges { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .hero-badge {
+      background: white; color: #2C3E50;
+      font-family: var(--font-display); font-size: 0.9rem; font-weight: 700;
+      padding: 6px 18px; border-radius: 50px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    /* Progress banner */
+    .progress-banner {
+      background: #2C3E50; color: white;
+      text-align: center; padding: 12px;
+      font-family: var(--font-display); font-size: 1rem; font-weight: 600;
+    }
+    .progress-banner span { color: #FFE082; }
+
+    /* Letter Grid */
+    .section-title {
+      font-family: var(--font-display); font-size: 1.8rem; font-weight: 700;
+      color: #2C3E50; margin-bottom: 8px;
+    }
+    .section-sub { font-size: 0.95rem; color: #666; margin-bottom: 32px; }
+
+    .letter-card {
+      border: 3px solid #2C3E50;
+      border-radius: 16px;
+      background: white;
+      box-shadow: var(--ww-card-shadow);
+      padding: 20px 16px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+      position: relative;
+      height: 100%;
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+    }
+    .letter-card.active:hover {
+      transform: translateY(-4px);
+      box-shadow: 6px 8px 0 #2C3E50;
+    }
+    .letter-card.coming-soon {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .letter-display {
+      font-family: var(--font-display); font-size: 3.5rem; font-weight: 700;
+      line-height: 1;
+    }
+    .letter-card .vocab-list {
+      font-size: 0.75rem; color: #666; line-height: 1.8;
+      font-family: var(--font-display); font-weight: 600;
+    }
+    .letter-card .btn-download {
+      background: var(--ww-dark); color: white;
+      border: 2px solid #2C3E50;
+      font-family: var(--font-display); font-size: 0.85rem; font-weight: 700;
+      padding: 6px 16px; border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s;
+      margin-top: auto;
+      box-shadow: 2px 2px 0 #555;
+    }
+    .letter-card .btn-download:hover { background: #374151; }
+    .letter-card .btn-key {
+      font-family: var(--font-display); font-size: 0.75rem; font-weight: 600;
+      color: #888; text-decoration: underline;
+    }
+    .coming-soon-badge {
+      position: absolute; top: -10px; right: -10px;
+      background: #9E9E9E; color: white;
+      font-family: var(--font-display); font-size: 0.65rem; font-weight: 700;
+      padding: 3px 10px; border-radius: 20px;
+      border: 2px solid white; text-transform: uppercase; letter-spacing: 0.5px;
+    }
+
+    /* Feature cards */
+    .feature-card {
+      border: 2.5px solid #2C3E50; border-radius: 14px; background: white;
+      box-shadow: var(--ww-card-shadow); padding: 28px 24px;
+    }
+    .feature-icon { font-size: 2.5rem; margin-bottom: 12px; }
+    .feature-title { font-family: var(--font-display); font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+
+    /* CTA section */
+    .cta-section {
+      background: linear-gradient(135deg, #FFF9C4, #FCE4EC);
+      border: 3px solid #2C3E50;
+      border-radius: 20px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 6px 6px 0 #2C3E50;
+    }
+    .cta-title { font-family: var(--font-display); font-size: 1.8rem; font-weight: 700; margin-bottom: 12px; }
+    .btn-cta {
+      background: var(--ww-orange); color: white;
+      font-family: var(--font-display); font-size: 1rem; font-weight: 700;
+      padding: 12px 32px; border-radius: 12px; text-decoration: none;
+      border: 2.5px solid #2C3E50; box-shadow: var(--ww-card-shadow);
+      display: inline-block; transition: transform 0.2s;
+    }
+    .btn-cta:hover { transform: translateY(-2px); color: white; }
+
+    /* Footer */
+    .ww-footer {
+      background: #1E2832; color: #aaa;
+      padding: 40px 0 24px;
+      font-family: var(--font-body);
+    }
+    .ww-footer .footer-brand {
+      font-family: var(--font-display); font-size: 1.4rem;
+      color: var(--ww-orange); font-weight: 700;
+    }
+    .ww-footer a { color: #aaa; text-decoration: none; }
+    .ww-footer a:hover { color: var(--ww-orange); }
+    .ww-footer .footer-divider { border-color: #333; margin: 24px 0; }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="ww-nav">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a href="../../index.html" class="nav-brand">✦ Worksheet Wonder</a>
+    <div class="d-flex gap-2 flex-wrap">
+      <a href="../../index.html" class="nav-link">Home</a>
+      <a href="../../worksheets.html" class="nav-link">Worksheets</a>
+      <a href="../../shop.html" class="nav-link">Shop</a>
+      <a href="../../blog.html" class="nav-link">Blog</a>
+    </div>
+  </div>
+</nav>
+
+<!-- BREADCRUMB -->
+<section class="breadcrumb-section">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="../../worksheets.html">Worksheets</a></li>
+        <li class="breadcrumb-item active">My First Alphabet Workbook</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-content">
+    <h1>📚 My First Alphabet Workbook</h1>
+    <p>Complete A–Z printable worksheets for kindergarten. Trace, write, and discover every letter of the alphabet!</p>
+    <div class="hero-badges">
+      <span class="hero-badge">🎓 Kindergarten · Age 4–6</span>
+      <span class="hero-badge">🖨️ Print at Home</span>
+      <span class="hero-badge">✅ Answer Key Included</span>
+      <span class="hero-badge">🆓 100% Free</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRESS BANNER -->
+<div class="progress-banner">
+  📖 <span>5 Letters Available Now</span> · Letters A, B, C, D, E · <span>F–Z Coming Soon!</span>
+</div>
+
+<!-- MAIN CONTENT -->
+<main class="container py-5">
+
+  <!-- Letter Grid Title -->
+  <div class="text-center mb-4">
+    <h2 class="section-title">Choose a Letter to Download</h2>
+    <p class="section-sub">Each worksheet includes 8 activities: Tracing, Writing, Beginning Sounds, Letter Search & more!</p>
+  </div>
+
+  <!-- LETTERS A-E (Active) -->
+  <div class="row g-3 mb-4">
+
+    <!-- A -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+      <div class="letter-card active" style="border-color:#FF5252;">
+        <div class="letter-display" style="color:#FF5252;">A</div>
+        <div class="vocab-list">🍎 Apple<br>🐜 Ant<br>🐊 Alligator</div>
+        <a href="letter-a-worksheet.html" class="btn-download" id="download-a" style="background:#FF5252;border-color:#FF5252;">⬇ Worksheet</a>
+        <a href="letter-a-answer-key.html" class="btn-key" id="key-a">Answer Key</a>
+      </div>
+    </div>
+
+    <!-- B -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+      <div class="letter-card active" style="border-color:#FF9800;">
+        <div class="letter-display" style="color:#FF9800;">B</div>
+        <div class="vocab-list">🏀 Ball<br>🐻 Bear<br>🐝 Bee</div>
+        <a href="letter-b-worksheet.html" class="btn-download" id="download-b" style="background:#E65100;border-color:#E65100;">⬇ Worksheet</a>
+        <a href="letter-b-answer-key.html" class="btn-key" id="key-b">Answer Key</a>
+      </div>
+    </div>
+
+    <!-- C -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+      <div class="letter-card active" style="border-color:#F9A825;">
+        <div class="letter-display" style="color:#F9A825;">C</div>
+        <div class="vocab-list">🐱 Cat<br>🐄 Cow<br>🖍️ Crayon</div>
+        <a href="letter-c-worksheet.html" class="btn-download" id="download-c" style="background:#F57F17;border-color:#F57F17;">⬇ Worksheet</a>
+        <a href="letter-c-answer-key.html" class="btn-key" id="key-c">Answer Key</a>
+      </div>
+    </div>
+
+    <!-- D -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+      <div class="letter-card active" style="border-color:#388E3C;">
+        <div class="letter-display" style="color:#388E3C;">D</div>
+        <div class="vocab-list">🐶 Dog<br>🦆 Duck<br>🥁 Drum</div>
+        <a href="letter-d-worksheet.html" class="btn-download" id="download-d" style="background:#1B5E20;border-color:#1B5E20;">⬇ Worksheet</a>
+        <a href="letter-d-answer-key.html" class="btn-key" id="key-d">Answer Key</a>
+      </div>
+    </div>
+
+    <!-- E -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+      <div class="letter-card active" style="border-color:#1565C0;">
+        <div class="letter-display" style="color:#1565C0;">E</div>
+        <div class="vocab-list">🐘 Elephant<br>🥚 Egg<br>🦅 Eagle</div>
+        <a href="letter-e-worksheet.html" class="btn-download" id="download-e" style="background:#0D47A1;border-color:#0D47A1;">⬇ Worksheet</a>
+        <a href="letter-e-answer-key.html" class="btn-key" id="key-e">Answer Key</a>
+      </div>
+    </div>
+
+    <!-- F-Z (Coming Soon) - generate remaining 21 letters -->
+    <script>
+      const upcomingLetters = ['F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+      const grid = document.currentScript.parentElement;
+      upcomingLetters.forEach(letter => {
+        const col = document.createElement('div');
+        col.className = 'col-6 col-sm-4 col-md-3 col-lg-2';
+        col.innerHTML = `
+          <div class="letter-card coming-soon" style="border-color:#9E9E9E;">
+            <span class="coming-soon-badge">Soon</span>
+            <div class="letter-display" style="color:#9E9E9E;">${letter}</div>
+            <div class="vocab-list" style="color:#bbb;">Coming<br>soon…</div>
+            <span style="font-family:'Fredoka',sans-serif;font-size:0.75rem;color:#bbb;margin-top:auto;">🔔 Notify Me</span>
+          </div>`;
+        grid.appendChild(col);
+      });
+    </script>
+
+  </div><!-- end letter row -->
+
+  <hr class="my-5" style="border-color:#e0e0e0;border-width:2px;">
+
+  <!-- FEATURES SECTION -->
+  <div class="text-center mb-4">
+    <h2 class="section-title">Why Teachers Love Our Worksheets</h2>
+    <p class="section-sub">Designed by educators. Built for little learners.</p>
+  </div>
+  <div class="row g-4 mb-5">
+    <div class="col-md-4">
+      <div class="feature-card text-center">
+        <div class="feature-icon">✏️</div>
+        <div class="feature-title">8 Activities Per Sheet</div>
+        <p class="text-muted" style="font-size:0.9rem;">Every worksheet includes tracing, writing, beginning sounds, letter hunt, and more — all on one A4 page.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card text-center">
+        <div class="feature-icon">🖨️</div>
+        <div class="feature-title">Print at Home – Free!</div>
+        <p class="text-muted" style="font-size:0.9rem;">Download and print instantly. Designed for A4 and US Letter paper. No account needed, no subscription required.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card text-center">
+        <div class="feature-icon">✅</div>
+        <div class="feature-title">Answer Key Included</div>
+        <p class="text-muted" style="font-size:0.9rem;">Every worksheet comes with a separate answer key for teachers and parents, clearly marking all correct answers.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card text-center">
+        <div class="feature-icon">🎨</div>
+        <div class="feature-title">Colourful & Engaging</div>
+        <p class="text-muted" style="font-size:0.9rem;">Bright, cheerful designs with original illustrations keep young learners engaged and excited to practise.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card text-center">
+        <div class="feature-icon">🏫</div>
+        <div class="feature-title">Classroom Ready</div>
+        <p class="text-muted" style="font-size:0.9rem;">Curriculum-aligned with EYFS and Common Core Kindergarten ELA standards. Perfect for individual or group use.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card text-center">
+        <div class="feature-icon">📖</div>
+        <div class="feature-title">Parent & Teacher Guides</div>
+        <p class="text-muted" style="font-size:0.9rem;">Access detailed parent and teacher guides explaining each activity and how to get the most out of every worksheet.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- GUIDES ROW -->
+  <div class="row g-4 mb-5">
+    <div class="col-md-6">
+      <div class="feature-card d-flex align-items-center gap-3">
+        <div style="font-size:2.5rem;">👨‍👩‍👧</div>
+        <div>
+          <div class="feature-title">Parent Guide</div>
+          <p class="text-muted mb-2" style="font-size:0.88rem;">Tips, daily schedules, and encouragement for using the workbook at home.</p>
+          <a href="parent-guide.html" style="font-family:var(--font-display);font-size:0.85rem;color:var(--ww-orange);font-weight:700;text-decoration:none;">Read Parent Guide →</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="feature-card d-flex align-items-center gap-3">
+        <div style="font-size:2.5rem;">👩‍🏫</div>
+        <div>
+          <div class="feature-title">Teacher Guide</div>
+          <p class="text-muted mb-2" style="font-size:0.88rem;">Lesson plans, differentiation strategies, and assessment rubrics for every letter.</p>
+          <a href="teacher-guide.html" style="font-family:var(--font-display);font-size:0.85rem;color:var(--ww-orange);font-weight:700;text-decoration:none;">Read Teacher Guide →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <div class="cta-title">🎉 Ready to Start Learning?</div>
+    <p class="text-muted mb-3">Download your first free worksheet right now — Letter A is waiting!</p>
+    <a href="letter-a-worksheet.html" class="btn-cta me-2" id="cta-download-a">⬇ Download Letter A – Free</a>
+    <a href="../../shop.html" class="btn-cta" style="background:white;color:#2C3E50;" id="cta-shop">Browse All Packs →</a>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="ww-footer mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="footer-brand mb-2">✦ Worksheet Wonder</div>
+        <p style="font-size:0.85rem;">Free printable educational worksheets for preschool through Grade 5. Created with love for little learners everywhere.</p>
+      </div>
+      <div class="col-md-2 mb-4">
+        <div style="font-family:var(--font-display);font-weight:700;color:white;margin-bottom:12px;">Worksheets</div>
+        <div class="d-flex flex-column gap-1">
+          <a href="../../worksheets.html">All Worksheets</a>
+          <a href="index.html">Alphabet</a>
+          <a href="../../worksheets.html">Math</a>
+          <a href="../../worksheets.html">Phonics</a>
+        </div>
+      </div>
+      <div class="col-md-2 mb-4">
+        <div style="font-family:var(--font-display);font-weight:700;color:white;margin-bottom:12px;">Resources</div>
+        <div class="d-flex flex-column gap-1">
+          <a href="parent-guide.html">Parent Guide</a>
+          <a href="teacher-guide.html">Teacher Guide</a>
+          <a href="../../blog.html">Blog</a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div style="font-family:var(--font-display);font-weight:700;color:white;margin-bottom:12px;">🔔 Get Notified</div>
+        <p style="font-size:0.85rem;">New letters added weekly. Enter your email to be notified!</p>
+        <div class="d-flex gap-2 mt-2">
+          <input type="email" class="form-control form-control-sm" placeholder="you@email.com" style="max-width:200px;">
+          <button class="btn btn-sm" style="background:var(--ww-orange);color:white;font-family:var(--font-display);font-weight:700;">Notify Me</button>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <div class="text-center" style="font-size:0.8rem;">
+      © 2025 Worksheet Wonder · Free Printable Educational Resources · <a href="../../index.html">worksheetwonder.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

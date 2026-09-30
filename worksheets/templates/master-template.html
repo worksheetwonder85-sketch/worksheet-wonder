@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worksheet Wonder — Master Template Preview</title>
+  <meta name="description" content="Master worksheet template for Worksheet Wonder. This file demonstrates every reusable component in the design system.">
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       DESIGN SYSTEM IMPORTS
+       ═══════════════════════════════════════════════════════════════ -->
+  <link rel="stylesheet" href="design-tokens.css">
+  <link rel="stylesheet" href="master-template.css">
+</head>
+
+<body>
+<div class="ww-page">
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       DECORATIVE FRAME
+       ═══════════════════════════════════════════════════════════════ -->
+  <div class="ww-border-outer"></div>
+  <div class="ww-border-inner"></div>
+
+  <!-- Corner sparkle stars (inline SVG for zero-dependency printing) -->
+  <div class="ww-corner ww-corner--tl">
+    <svg viewBox="0 0 40 40"><path d="M 20 4 Q 22 17, 36 20 Q 22 23, 20 36 Q 18 23, 4 20 Q 18 17, 20 4 Z" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/><circle cx="20" cy="20" r="2" fill="#1A1A2E"/></svg>
+  </div>
+  <div class="ww-corner ww-corner--tr">
+    <svg viewBox="0 0 40 40"><path d="M 20 4 Q 22 17, 36 20 Q 22 23, 20 36 Q 18 23, 4 20 Q 18 17, 20 4 Z" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/><circle cx="20" cy="20" r="2" fill="#1A1A2E"/></svg>
+  </div>
+  <div class="ww-corner ww-corner--bl">
+    <svg viewBox="0 0 40 40"><path d="M 20 4 Q 22 17, 36 20 Q 22 23, 20 36 Q 18 23, 4 20 Q 18 17, 20 4 Z" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/><circle cx="20" cy="20" r="2" fill="#1A1A2E"/></svg>
+  </div>
+  <div class="ww-corner ww-corner--br">
+    <svg viewBox="0 0 40 40"><path d="M 20 4 Q 22 17, 36 20 Q 22 23, 20 36 Q 18 23, 4 20 Q 18 17, 20 4 Z" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/><circle cx="20" cy="20" r="2" fill="#1A1A2E"/></svg>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       WATERMARK COMPONENT
+       ═══════════════════════════════════════════════════════════════ -->
+  <div class="ww-watermark">Worksheet Wonder</div>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       RAINBOW STRIPE COMPONENT
+       ═══════════════════════════════════════════════════════════════ -->
+  <div class="ww-rainbow-stripe"></div>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       HEADER COMPONENT
+       ═══════════════════════════════════════════════════════════════ -->
+  <header class="ww-header">
+    <div class="ww-header__brand">
+      <!-- Inline Logo (self-contained for printing) -->
+      <svg class="ww-header__logo" viewBox="0 0 200 200">
+        <path d="M 40 155 L 75 55 L 100 130" fill="none" stroke="#1A1A2E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M 100 130 L 125 55 L 160 155" fill="none" stroke="#1A1A2E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+        <polygon points="70,65 75,45 80,65" fill="#FFCA28" stroke="#1A1A2E" stroke-width="4" stroke-linejoin="round"/>
+        <polygon points="120,65 125,45 130,65" fill="#42A5F5" stroke="#1A1A2E" stroke-width="4" stroke-linejoin="round"/>
+        <g transform="translate(100,100)">
+          <path d="M 0 -18 Q 3 -3, 18 0 Q 3 3, 0 18 Q -3 3, -18 0 Q -3 -3, 0 -18 Z" fill="#EF5350" stroke="#1A1A2E" stroke-width="3"/>
+          <circle cx="16" cy="-16" r="3" fill="#FFCA28"/><circle cx="-16" cy="-16" r="2.5" fill="#66BB6A"/>
+          <circle cx="16" cy="16" r="2" fill="#AB47BC"/><circle cx="-16" cy="16" r="2.5" fill="#42A5F5"/>
+        </g>
+        <path d="M 50 60 Q 100 20, 150 60" fill="none" stroke="url(#lr)" stroke-width="6" stroke-linecap="round"/>
+        <defs><linearGradient id="lr" x1="0%" x2="100%"><stop offset="0%" stop-color="#EF5350"/><stop offset="16%" stop-color="#FF9800"/><stop offset="33%" stop-color="#FFCA28"/><stop offset="50%" stop-color="#66BB6A"/><stop offset="66%" stop-color="#42A5F5"/><stop offset="83%" stop-color="#5C6BC0"/><stop offset="100%" stop-color="#AB47BC"/></linearGradient></defs>
+      </svg>
+      <span class="ww-header__name">Worksheet Wonder</span>
+    </div>
+
+    <div class="ww-header__meta">
+      <!-- TEMPLATE VARIABLE: grade -->
+      <span class="ww-badge ww-badge--grade">Kindergarten</span>
+      <!-- TEMPLATE VARIABLE: subject -->
+      <span class="ww-badge ww-badge--subject">English</span>
+      <!-- TEMPLATE VARIABLE: age -->
+      <span class="ww-badge ww-badge--age">Ages 4–6</span>
+      <!-- TEMPLATE VARIABLE: code -->
+      <span class="ww-badge ww-badge--code">KG-ENG-XXX-000</span>
+      <!-- TEMPLATE VARIABLE: difficulty -->
+      <span class="ww-badge ww-badge--diff">Easy</span>
+    </div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       TITLE BAR COMPONENT
+       ═══════════════════════════════════════════════════════════════ -->
+  <div class="ww-title-bar">
+    <!-- TEMPLATE VARIABLE: title -->
+    <h1 class="ww-title">Worksheet Title Here</h1>
+
+    <div class="ww-info-fields">
+      <div class="ww-field">
+        <span class="ww-field__label">Name:</span>
+        <div class="ww-field__line"></div>
+      </div>
+      <div class="ww-field">
+        <span class="ww-field__label">Date:</span>
+        <div class="ww-field__line"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       BODY (Two-Column Layout Demo)
+       ═══════════════════════════════════════════════════════════════ -->
+  <div class="ww-body ww-body--2col">
+
+    <!-- ─────────── LEFT COLUMN ─────────── -->
+    <div class="ww-col">
+
+      <!-- ACTIVITY: Trace -->
+      <div class="ww-activity">
+        <div class="ww-activity__head">
+          <span class="ww-activity__num ww-activity__num--1">1</span>
+          <span class="ww-activity__icon">
+            <svg viewBox="0 0 40 40"><path d="M 8 32 L 28 12 L 32 16 L 12 36 Z" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/><path d="M 28 12 L 32 8 L 36 12 L 32 16" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/><path d="M 8 32 L 5 37 L 12 36" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="ww-activity__title">Trace the Letter</span>
+        </div>
+        <div class="ww-activity__body">
+          <p class="ww-instruction">Trace each letter carefully. Start at the dot.</p>
+          <div class="ww-trace-grid">
+            <div class="ww-trace-row">
+              <div class="ww-trace-cell ww-trace-cell--guide">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#1A1A2E" stroke-width="2">A</text></svg>
+              </div>
+              <div class="ww-trace-cell">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="2" stroke-dasharray="2.5,2.5">A</text></svg>
+              </div>
+              <div class="ww-trace-cell">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="2" stroke-dasharray="2.5,2.5">A</text></svg>
+              </div>
+              <div class="ww-trace-cell">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="2" stroke-dasharray="2.5,2.5">A</text></svg>
+              </div>
+              <div class="ww-trace-cell">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="2" stroke-dasharray="2.5,2.5">A</text></svg>
+              </div>
+              <div class="ww-trace-cell">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#DFE6E9" stroke-width="2" stroke-dasharray="2.5,2.5">A</text></svg>
+              </div>
+            </div>
+            <div class="ww-trace-row">
+              <div class="ww-trace-cell ww-trace-cell--guide">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#1A1A2E" stroke-width="2">A</text></svg>
+              </div>
+              <div class="ww-trace-cell">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="2" stroke-dasharray="2.5,2.5">A</text></svg>
+              </div>
+              <div class="ww-trace-cell">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="2" stroke-dasharray="2.5,2.5">A</text></svg>
+              </div>
+              <div class="ww-trace-cell">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="2" stroke-dasharray="2.5,2.5">A</text></svg>
+              </div>
+              <div class="ww-trace-cell">
+                <svg viewBox="0 0 50 50"><text x="25" y="40" font-family="'Fredoka',sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="2" stroke-dasharray="2.5,2.5">A</text></svg>
+              </div>
+              <div class="ww-trace-cell"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACTIVITY: Circle -->
+      <div class="ww-activity">
+        <div class="ww-activity__head">
+          <span class="ww-activity__num ww-activity__num--2">2</span>
+          <span class="ww-activity__icon">
+            <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="13" fill="none" stroke="#1A1A2E" stroke-width="2.5"/><path d="M 13 20 L 18 25 L 28 14" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="ww-activity__title">Circle the Letter</span>
+        </div>
+        <div class="ww-activity__body">
+          <p class="ww-instruction">Find every A and circle it.</p>
+          <div class="ww-bubble-row">
+            <span class="ww-bubble">A</span>
+            <span class="ww-bubble">B</span>
+            <span class="ww-bubble">C</span>
+            <span class="ww-bubble">A</span>
+            <span class="ww-bubble">D</span>
+            <span class="ww-bubble">A</span>
+            <span class="ww-bubble">E</span>
+            <span class="ww-bubble">F</span>
+            <span class="ww-bubble">A</span>
+            <span class="ww-bubble">G</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACTIVITY: Find the Sound -->
+      <div class="ww-activity ww-activity--grow">
+        <div class="ww-activity__head">
+          <span class="ww-activity__num ww-activity__num--3">3</span>
+          <span class="ww-activity__icon">
+            <svg viewBox="0 0 40 40"><circle cx="17" cy="17" r="10" fill="none" stroke="#1A1A2E" stroke-width="2.5"/><line x1="25" y1="25" x2="35" y2="35" stroke="#1A1A2E" stroke-width="3" stroke-linecap="round"/></svg>
+          </span>
+          <span class="ww-activity__title">Find the Sound</span>
+        </div>
+        <div class="ww-activity__body">
+          <p class="ww-instruction">Color the pictures that begin with the letter A.</p>
+          <div class="ww-pic-grid ww-pic-grid--3col">
+            <div class="ww-pic-item">
+              <div class="ww-pic-item__art">
+                <!-- Placeholder — replace with actual SVG -->
+                <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+              </div>
+              <div class="ww-pic-item__label">apple</div>
+            </div>
+            <div class="ww-pic-item">
+              <div class="ww-pic-item__art">
+                <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+              </div>
+              <div class="ww-pic-item__label">ball</div>
+            </div>
+            <div class="ww-pic-item">
+              <div class="ww-pic-item__art">
+                <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+              </div>
+              <div class="ww-pic-item__label">ant</div>
+            </div>
+            <div class="ww-pic-item">
+              <div class="ww-pic-item__art">
+                <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+              </div>
+              <div class="ww-pic-item__label">cat</div>
+            </div>
+            <div class="ww-pic-item">
+              <div class="ww-pic-item__art">
+                <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+              </div>
+              <div class="ww-pic-item__label">arrow</div>
+            </div>
+            <div class="ww-pic-item">
+              <div class="ww-pic-item__art">
+                <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+              </div>
+              <div class="ww-pic-item__label">dog</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ─────────── RIGHT COLUMN ─────────── -->
+    <div class="ww-col">
+
+      <!-- ACTIVITY: Match -->
+      <div class="ww-activity">
+        <div class="ww-activity__head">
+          <span class="ww-activity__num ww-activity__num--4">4</span>
+          <span class="ww-activity__icon">
+            <svg viewBox="0 0 40 40"><line x1="6" y1="12" x2="16" y2="12" stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round"/><line x1="6" y1="28" x2="16" y2="28" stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round"/><line x1="24" y1="12" x2="34" y2="12" stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round"/><line x1="24" y1="28" x2="34" y2="28" stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round"/><path d="M 16 12 C 22 12, 18 28, 24 28" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round"/><path d="M 16 28 C 22 28, 18 12, 24 12" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </span>
+          <span class="ww-activity__title">Match the Picture</span>
+        </div>
+        <div class="ww-activity__body">
+          <p class="ww-instruction">Draw a line from each picture to its name.</p>
+          <div class="ww-match">
+            <div class="ww-match__col">
+              <div class="ww-match__item">
+                <div class="ww-match__pic">
+                  <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="18" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+                </div>
+                <div class="ww-match__dot"></div>
+              </div>
+              <div class="ww-match__item">
+                <div class="ww-match__pic">
+                  <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="18" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+                </div>
+                <div class="ww-match__dot"></div>
+              </div>
+              <div class="ww-match__item">
+                <div class="ww-match__pic">
+                  <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="18" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+                </div>
+                <div class="ww-match__dot"></div>
+              </div>
+              <div class="ww-match__item">
+                <div class="ww-match__pic">
+                  <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="18" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+                </div>
+                <div class="ww-match__dot"></div>
+              </div>
+            </div>
+            <div class="ww-match__col">
+              <div class="ww-match__item">
+                <div class="ww-match__dot"></div>
+                <span class="ww-match__word">Word A</span>
+              </div>
+              <div class="ww-match__item">
+                <div class="ww-match__dot"></div>
+                <span class="ww-match__word">Word B</span>
+              </div>
+              <div class="ww-match__item">
+                <div class="ww-match__dot"></div>
+                <span class="ww-match__word">Word C</span>
+              </div>
+              <div class="ww-match__item">
+                <div class="ww-match__dot"></div>
+                <span class="ww-match__word">Word D</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACTIVITY: Color -->
+      <div class="ww-activity">
+        <div class="ww-activity__head">
+          <span class="ww-activity__num ww-activity__num--5">5</span>
+          <span class="ww-activity__icon">
+            <svg viewBox="0 0 40 40"><path d="M 20 6 C 8 6, 2 18, 8 28 C 12 34, 22 36, 28 32 C 30 30, 28 28, 26 28 C 22 28, 22 24, 26 22 C 30 20, 34 16, 32 10 C 30 6, 24 6, 20 6 Z" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/><circle cx="14" cy="16" r="2.5" fill="#1A1A2E"/><circle cx="22" cy="12" r="2.5" fill="#1A1A2E"/><circle cx="12" cy="24" r="2.5" fill="#1A1A2E"/></svg>
+          </span>
+          <span class="ww-activity__title">Color the Pictures</span>
+        </div>
+        <div class="ww-activity__body">
+          <div class="ww-color-row">
+            <div class="ww-color-box">
+              <div class="ww-color-box__art">
+                <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+              </div>
+              <span class="ww-color-box__label">Picture 1</span>
+            </div>
+            <div class="ww-color-box">
+              <div class="ww-color-box__art">
+                <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+              </div>
+              <span class="ww-color-box__label">Picture 2</span>
+            </div>
+            <div class="ww-color-box">
+              <div class="ww-color-box__art">
+                <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20" fill="none" stroke="#1A1A2E" stroke-width="3" stroke-dasharray="4,3"/></svg>
+              </div>
+              <span class="ww-color-box__label">Picture 3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACTIVITY: Trace the Word -->
+      <div class="ww-activity">
+        <div class="ww-activity__head">
+          <span class="ww-activity__num ww-activity__num--6">6</span>
+          <span class="ww-activity__icon">
+            <svg viewBox="0 0 40 40"><path d="M 12 30 C 14 24, 20 14, 22 10 C 24 6, 20 4, 18 8 C 16 12, 14 22, 14 26" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round"/><rect x="5" y="28" width="30" height="8" rx="2" fill="none" stroke="#1A1A2E" stroke-width="2.5"/><line x1="9" y1="31" x2="20" y2="31" stroke="#1A1A2E" stroke-width="1.5" stroke-linecap="round"/><line x1="9" y1="34" x2="16" y2="34" stroke="#1A1A2E" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+          <span class="ww-activity__title">Trace the Word</span>
+        </div>
+        <div class="ww-activity__body">
+          <div class="ww-word-grid">
+            <div class="ww-word-box">
+              <svg height="30" width="100%"><text x="50%" y="24" font-family="'Fredoka',sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="1.5" stroke-dasharray="2,2" letter-spacing="1">Word</text></svg>
+              <span class="ww-word-box__label">word</span>
+            </div>
+            <div class="ww-word-box">
+              <svg height="30" width="100%"><text x="50%" y="24" font-family="'Fredoka',sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="1.5" stroke-dasharray="2,2" letter-spacing="1">Word</text></svg>
+              <span class="ww-word-box__label">word</span>
+            </div>
+            <div class="ww-word-box">
+              <svg height="30" width="100%"><text x="50%" y="24" font-family="'Fredoka',sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="1.5" stroke-dasharray="2,2" letter-spacing="1">Word</text></svg>
+              <span class="ww-word-box__label">word</span>
+            </div>
+            <div class="ww-word-box">
+              <svg height="30" width="100%"><text x="50%" y="24" font-family="'Fredoka',sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="none" stroke="#B2BEC3" stroke-width="1.5" stroke-dasharray="2,2" letter-spacing="1">Word</text></svg>
+              <span class="ww-word-box__label">word</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACTIVITY: Draw / Fun Challenge -->
+      <div class="ww-activity ww-activity--grow">
+        <div class="ww-activity__head">
+          <span class="ww-activity__num ww-activity__num--7">7</span>
+          <span class="ww-activity__icon">
+            <svg viewBox="0 0 40 40"><path d="M 10 34 L 8 14 L 20 6 L 32 14 L 30 34 Z" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/><path d="M 16 14 L 20 6 L 24 14" fill="none" stroke="#1A1A2E" stroke-width="2" stroke-linejoin="round"/><rect x="12" y="18" width="16" height="8" rx="2" fill="none" stroke="#1A1A2E" stroke-width="2"/></svg>
+          </span>
+          <span class="ww-activity__title">Fun Challenge</span>
+        </div>
+        <div class="ww-activity__body">
+          <p class="ww-instruction">Draw something wonderful!</p>
+          <div class="ww-draw-box ww-grow">
+            <span class="ww-draw-box__prompt">Draw here ✏️</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       FOOTER COMPONENT
+       ═══════════════════════════════════════════════════════════════ -->
+  <footer class="ww-footer">
+    <span class="ww-footer__left">© Worksheet Wonder</span>
+    <span class="ww-footer__center">www.worksheetwonder.com</span>
+    <div class="ww-footer__right">
+      <span>Page 1</span>
+      <!-- QR Code Placeholder -->
+      <div class="ww-qr-placeholder">
+        <svg viewBox="0 0 40 40">
+          <rect x="4" y="4" width="12" height="12" rx="2" fill="none" stroke="#1A1A2E" stroke-width="2"/>
+          <rect x="24" y="4" width="12" height="12" rx="2" fill="none" stroke="#1A1A2E" stroke-width="2"/>
+          <rect x="4" y="24" width="12" height="12" rx="2" fill="none" stroke="#1A1A2E" stroke-width="2"/>
+          <rect x="8" y="8" width="4" height="4" fill="#1A1A2E"/>
+          <rect x="28" y="8" width="4" height="4" fill="#1A1A2E"/>
+          <rect x="8" y="28" width="4" height="4" fill="#1A1A2E"/>
+          <rect x="24" y="24" width="4" height="4" fill="#1A1A2E"/>
+          <rect x="30" y="30" width="4" height="4" fill="#1A1A2E"/>
+          <rect x="24" y="30" width="4" height="4" fill="#1A1A2E"/>
+        </svg>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,538 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worksheet Wonder â€” Brand Vision Showcase</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&family=Outfit:wght@500;600;700;800&display=swap');
+
+    :root {
+      --color-brand-primary: #FF7043; /* Warm energetic orange */
+      --color-brand-secondary: #26A69A; /* Fresh teal */
+      --color-brand-accent: #AB47BC; /* Playful purple */
+      --color-brand-yellow: #FFCA28; /* Sun yellow */
+      --color-brand-blue: #42A5F5; /* Clear blue */
+      --color-dark: #2C3E50;
+      --color-light: #F9FBE7;
+      --font-display: 'Outfit', sans-serif;
+      --font-header: 'Fredoka', sans-serif;
+      --font-body: 'Nunito', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      transition: all 0.25s ease;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-body);
+      color: var(--color-dark);
+      background: linear-gradient(135deg, #FFFDE7 0%, #FFF9C4 100%);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Top Hero Header */
+    .hero-banner {
+      background: rgba(255, 255, 255, 0.9);
+      border: 4px solid var(--color-dark);
+      border-radius: 24px;
+      padding: 40px;
+      box-shadow: 10px 10px 0px var(--color-dark);
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .hero-content {
+      max-width: 700px;
+    }
+
+    .hero-tag {
+      font-family: var(--font-header);
+      font-size: 11pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--color-brand-primary);
+      background: #FFE0B2;
+      padding: 6px 14px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: 38pt;
+      font-weight: 800;
+      line-height: 1.1;
+      margin: 0 0 15px 0;
+    }
+
+    .hero-desc {
+      font-size: 14pt;
+      color: #555555;
+      margin: 0 0 25px 0;
+    }
+
+    /* Navigation Grid */
+    .showcase-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 3px solid var(--color-dark);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 6px 6px 0px var(--color-dark);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 10px 10px 0px var(--color-dark);
+    }
+
+    .card-title {
+      font-family: var(--font-header);
+      font-size: 18pt;
+      margin: 0 0 15px 0;
+      color: var(--color-dark);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Color Swatch Display */
+    .color-swatch-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .color-swatch-card {
+      border: 2px solid var(--color-dark);
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      background: #ffffff;
+    }
+
+    .color-swatch-bar {
+      height: 50px;
+    }
+
+    .color-swatch-label {
+      font-family: var(--font-header);
+      font-size: 8pt;
+      font-weight: 700;
+      padding: 6px 2px;
+    }
+
+    /* Mascot Presentation */
+    .mascot-showcase {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 10px 0;
+    }
+
+    /* Stickers & Achievements */
+    .sticker-flex {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .reward-sticker {
+      width: 70px;
+      height: 70px;
+      border: 2px solid var(--color-dark);
+      border-radius: 50%;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 2px 2px 0px var(--color-dark);
+    }
+
+    /* Section Cards Details */
+    .comp-box {
+      border: 2px solid var(--color-dark);
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 12px;
+      background: #ffffff;
+    }
+
+    .comp-box.learning-objective {
+      border-left: 6px solid var(--color-brand-primary);
+    }
+
+    .comp-box.fun-fact {
+      border-left: 6px solid var(--color-brand-yellow);
+      background: #FFFDE7;
+    }
+
+    .comp-box.parent-tip {
+      border-left: 6px solid var(--color-brand-accent);
+      background: #F3E5F5;
+    }
+
+    .comp-box.teacher-note {
+      border-left: 6px solid var(--color-brand-secondary);
+      background: #E0F2F1;
+    }
+
+    .comp-title {
+      font-family: var(--font-header);
+      font-weight: 700;
+      font-size: 11pt;
+      margin: 0 0 5px 0;
+    }
+
+    .comp-body {
+      font-size: 9.5pt;
+      line-height: 1.4;
+    }
+
+    /* Large Interactive Mockup Panel */
+    .mockup-panel {
+      grid-column: span 3;
+      background: #ffffff;
+      border: 4px solid var(--color-dark);
+      border-radius: 24px;
+      padding: 40px;
+      box-shadow: 8px 8px 0px var(--color-dark);
+    }
+
+    .mockup-split {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+    }
+
+    .mockup-desc-side {
+      flex: 1;
+    }
+
+    .mockup-preview-side {
+      flex: 1.2;
+      background: #F5F5F5;
+      border: 3px solid var(--color-dark);
+      border-radius: 16px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Mockup worksheet page preview style */
+    .page-preview-box {
+      width: 420px;
+      height: 594px; /* A4 aspect ratio scale */
+      background: #ffffff;
+      border: 3.5px solid var(--color-dark);
+      border-radius: 12px;
+      padding: 25px 20px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    }
+
+    .page-preview-box::after {
+      content: "";
+      position: absolute;
+      top: 5px; left: 5px; right: 5px; bottom: 5px;
+      border: 1.5px solid var(--color-dark);
+      border-radius: 8px;
+      pointer-events: none;
+    }
+
+    .preview-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid var(--color-dark);
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+
+    .preview-badge-row {
+      display: flex;
+      gap: 6px;
+    }
+
+    .preview-badge {
+      font-family: var(--font-header);
+      font-size: 6pt;
+      font-weight: 700;
+      border: 1.5px solid var(--color-dark);
+      border-radius: 4px;
+      padding: 2px 6px;
+      text-transform: uppercase;
+    }
+
+    .preview-title {
+      font-family: var(--font-header);
+      font-size: 16pt;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .preview-activity-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      flex-grow: 1;
+      margin-bottom: 15px;
+    }
+
+    .preview-activity-card {
+      border: 2px solid var(--color-dark);
+      border-radius: 8px;
+      padding: 10px;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 100px;
+    }
+
+    .preview-activity-label {
+      font-family: var(--font-header);
+      font-size: 8pt;
+      font-weight: 600;
+      margin-top: 5px;
+    }
+
+    .preview-footer {
+      border-top: 2px dashed #dddddd;
+      padding-top: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 6.5pt;
+      color: #888888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Hero Banner Header -->
+    <div class="hero-banner">
+      <div class="hero-content">
+        <span class="hero-tag">Official Brand Showcase</span>
+        <h1 class="hero-title">Worksheet Wonder</h1>
+        <p class="hero-desc">
+          A world-class visual identity package designed for children's learning. Blending modern Montessori principles with rich, engaging illustration style elements.
+        </p>
+      </div>
+      <div>
+        <!-- Main Mascot SVG (Wonder the Star Mascot in full color) -->
+        <svg width="150" height="150" viewBox="0 0 100 100">
+          <!-- Main Star Shape (Gradient Orange/Yellow) -->
+          <defs>
+            <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#FFD54F" />
+              <stop offset="100%" stop-color="#FF7043" />
+            </linearGradient>
+          </defs>
+          <polygon points="50 5 62 38 95 38 68 58 78 95 50 72 22 95 32 58 5 38 38 38" fill="url(#starGrad)" stroke="#2C3E50" stroke-width="3" stroke-linejoin="round" />
+          <!-- Animated Face eyes -->
+          <circle cx="43" cy="50" r="3.5" fill="#2C3E50" />
+          <circle cx="57" cy="50" r="3.5" fill="#2C3E50" />
+          <circle cx="45" cy="48" r="1" fill="#fff" />
+          <circle cx="59" cy="48" r="1" fill="#fff" />
+          <!-- Smiling mouth -->
+          <path d="M44 58c2 3.5 8 3.5 10 0" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" fill="none" />
+          <!-- Rosy Cheeks -->
+          <circle cx="38" cy="54" r="3" fill="#E57373" opacity="0.6" />
+          <circle cx="62" cy="54" r="3" fill="#E57373" opacity="0.6" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- Showcase Grid -->
+    <div class="showcase-grid">
+      
+      <!-- Card 1: Mascot "Wonder" -->
+      <div class="card">
+        <h3 class="card-title">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Mascot: Wonder
+        </h3>
+        <div class="mascot-showcase">
+          <p style="font-size: 10pt; color: #666666; margin: 0 0 10px 0;">
+            A friendly, curious star companion representing educational success, creativity, and the wonder of learning.
+          </p>
+          <div style="background: #FFFDE7; border-radius: 12px; padding: 15px; width: 100%; border: 2px solid var(--color-dark); text-align: center;">
+            <strong style="font-family: var(--font-header); font-size: 11pt; color: var(--color-brand-primary);">Interactive Action!</strong>
+            <div style="font-size: 9.5pt; color: #555555; margin-top: 5px;">Hover over Wonder to see him shine!</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Color Palette -->
+      <div class="card">
+        <h3 class="card-title">Color Palette</h3>
+        <div class="color-swatch-list">
+          <div class="color-swatch-card">
+            <div class="color-swatch-bar" style="background-color: var(--color-brand-primary);"></div>
+            <div class="color-swatch-label">Primary</div>
+          </div>
+          <div class="color-swatch-card">
+            <div class="color-swatch-bar" style="background-color: var(--color-brand-secondary);"></div>
+            <div class="color-swatch-label">Teal</div>
+          </div>
+          <div class="color-swatch-card">
+            <div class="color-swatch-bar" style="background-color: var(--color-brand-accent);"></div>
+            <div class="color-swatch-label">Purple</div>
+          </div>
+          <div class="color-swatch-card">
+            <div class="color-swatch-bar" style="background-color: var(--color-brand-yellow);"></div>
+            <div class="color-swatch-label">Yellow</div>
+          </div>
+          <div class="color-swatch-card">
+            <div class="color-swatch-bar" style="background-color: var(--color-brand-blue);"></div>
+            <div class="color-swatch-label">Blue</div>
+          </div>
+          <div class="color-swatch-card">
+            <div class="color-swatch-bar" style="background-color: var(--color-dark);"></div>
+            <div class="color-swatch-label">Charcoal</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Badges & Rewards -->
+      <div class="card">
+        <h3 class="card-title">Rewards & Badges</h3>
+        <div class="sticker-flex">
+          <div class="reward-sticker">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFCA28"/>
+            </svg>
+          </div>
+          <div class="reward-sticker">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="#26A69A"/>
+            </svg>
+          </div>
+          <div class="reward-sticker">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" fill="#FF7043"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4: Learning Sections -->
+      <div class="card" style="grid-column: span 3;">
+        <h3 class="card-title">Brand Context Cards</h3>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+          <div>
+            <div class="comp-box learning-objective">
+              <div class="comp-title">Learning Objective</div>
+              <div class="comp-body">Identify vertical and curved lines to construct lowercase letter forms.</div>
+            </div>
+            <div class="comp-box fun-fact">
+              <div class="comp-title">Fun Fact</div>
+              <div class="comp-body">Did you know? Alligators have 80 teeth that regrow when they wear out!</div>
+            </div>
+          </div>
+          <div>
+            <div class="comp-box parent-tip">
+              <div class="comp-title">Parent Learning Tip</div>
+              <div class="comp-body">Trace the Letter A pattern in the air with your index finger before writing.</div>
+            </div>
+            <div class="comp-box teacher-note">
+              <div class="comp-title">Teacher Lesson Notes</div>
+              <div class="comp-body">Encourage phonic reinforcement of the /Ã¦/ short vowel sound during tracing.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5: Interactive Premium Letter A Mockup -->
+      <div class="mockup-panel">
+        <div class="mockup-split">
+          <div class="mockup-desc-side">
+            <h2 style="font-family: var(--font-header); font-size: 24pt; margin: 0 0 15px 0;">Premium Letter A Page Mockup</h2>
+            <p style="font-size: 11pt; color: #555555; margin-bottom: 20px;">
+              Visual representation of our premier print layout, illustrating double guidelines, graphic clusters, trace guides, letter hunt bubbles, and self-assessment checks.
+            </p>
+            <div style="background: var(--color-light); border: 2px solid var(--color-dark); border-radius: 12px; padding: 20px;">
+              <h4 style="font-family: var(--font-header); margin: 0 0 8px 0;">Premium Standards:</h4>
+              <ul style="font-size: 9.5pt; margin: 0; padding-left: 20px; line-height: 1.6;">
+                <li>Safe print inset boundary box margins.</li>
+                <li>Highly legible letter writing tracking directions.</li>
+                <li>Zero cluttered graphics or distracting fills.</li>
+                <li>Interactive, easy-to-use learning check stars.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mockup-preview-side">
+            <!-- Printable Page Mockup Container -->
+            <div class="page-preview-box">
+              <div class="preview-header">
+                <div style="font-family: var(--font-header); font-size: 8pt; font-weight: 700;">â˜… Worksheet Wonder</div>
+                <div class="preview-badge-row">
+                  <div class="preview-badge" style="background-color: #E0F2F1;">Preschool</div>
+                  <div class="preview-badge" style="background-color: #FFF3E0;">Phonics</div>
+                </div>
+              </div>
+              <h2 class="preview-title">Amazing Letter A</h2>
+              <div class="preview-activity-grid">
+                <div class="preview-activity-card">
+                  <span class="preview-activity-label">1. Trace Letter</span>
+                  <svg width="45" height="45" viewBox="0 0 64 64" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round">
+                    <path d="M32 10L12 54M32 10L52 54M20 38h24" stroke-dasharray="3 3"/>
+                  </svg>
+                </div>
+                <div class="preview-activity-card">
+                  <span class="preview-activity-label">2. Sounds</span>
+                  <!-- Small Apple SVG -->
+                  <svg width="35" height="35" viewBox="0 0 64 64" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round">
+                    <path d="M32 50c-6 0-16-4-16-18s10-18 16-18 16 4 16 18-10 18-16 18z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="preview-footer">
+                <span>Â© 2026 Worksheet Wonder</span>
+                <span style="font-weight: bold;">WW-PHN-01 | Page 1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

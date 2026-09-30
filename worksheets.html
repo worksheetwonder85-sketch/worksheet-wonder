@@ -40,7 +40,7 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.c
          class="navbar-logo">
 
     <span class="brand-text ms-2">
-        Worksheet Wonder
+        Worksheet <span class="brand-2">Wonder</span>
     </span>
 
 </a>
@@ -63,6 +63,25 @@ id="mainMenu">
 <li class="nav-item">
 <a class="nav-link"
 href="index.html">Home</a>
+</li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"
+href="#"
+id="gradesDropdown"
+role="button"
+data-bs-toggle="dropdown"
+aria-expanded="false">Grades</a>
+<ul class="dropdown-menu shadow-sm" aria-labelledby="gradesDropdown">
+<li><a class="dropdown-item" href="preschool.html">Preschool</a></li>
+<li><a class="dropdown-item" href="kindergarten.html">Kindergarten</a></li>
+<li><a class="dropdown-item" href="grade1.html">Grade 1</a></li>
+<li><a class="dropdown-item" href="grade2.html">Grade 2</a></li>
+<li><a class="dropdown-item" href="grade3.html">Grade 3</a></li>
+<li><a class="dropdown-item" href="grade4.html">Grade 4</a></li>
+<li><a class="dropdown-item" href="grade5.html">Grade 5</a></li>
+<li><a class="dropdown-item" href="grade6.html">Grade 6</a></li>
+</ul>
 </li>
 
 <li class="nav-item">
@@ -112,6 +131,28 @@ Login
 
 </nav>
 
+<!-- WW-SUBJECT-TABS -->
+<div class="ww-subject-tabs">
+<div class="container">
+<nav class="ww-tabs-scroll" aria-label="Subjects">
+<a href="subject-maths.html" class="ww-tab" style="--tab:#2B7CD3">Mathematics</a>
+<a href="subject-english.html" class="ww-tab" style="--tab:#35A853">English</a>
+<a href="subject-science.html" class="ww-tab" style="--tab:#209E8C">Science</a>
+<a href="subject-evs.html" class="ww-tab" style="--tab:#7C8A3A">EVS</a>
+<a href="subject-computer.html" class="ww-tab" style="--tab:#7C5CBF">Computer</a>
+<a href="subject-gk.html" class="ww-tab" style="--tab:#F26A21">General Knowledge</a>
+<a href="subject-art-craft.html" class="ww-tab" style="--tab:#D6538B">Art &amp; Craft</a>
+</nav>
+</div>
+</div>
+<script>
+(function(){var p=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+var els=document.querySelectorAll('.ww-tab');
+for(var i=0;i<els.length;i++){if(els[i].getAttribute('href').toLowerCase()===p){els[i].classList.add('active');break;}}
+})();
+</script>
+
+
 <!-- =========================
      HERO
 ========================== -->
@@ -137,7 +178,7 @@ designed for preschool, kindergarten and primary school children.
 
 </p>
 
-<a href="#categories"
+<a href="categories.html"
 class="btn btn-rainbow btn-lg">
 
 Browse Categories
@@ -170,76 +211,121 @@ SEARCH
 ========================== -->
 
 <section class="py-4 bg-light">
-
-<div class="container">
-
-<div class="row g-3">
-
-<div class="col-lg-6">
-
-<input
-
-type="text"
-
-class="form-control form-control-lg"
-
-placeholder="Search worksheets...">
-
-</div>
-
-<div class="col-lg-3">
-
-<select class="form-select form-select-lg">
-
-<option>All Grades</option>
-
-<option>Preschool</option>
-
-<option>Kindergarten</option>
-
-<option>Grade 1</option>
-
-<option>Grade 2</option>
-
-<option>Grade 3</option>
-
-<option>Grade 4</option>
-
-<option>Grade 5</option>
-
-</select>
-
-</div>
-
-<div class="col-lg-3">
-
-<select class="form-select form-select-lg">
-
-<option>All Subjects</option>
-
-<option>Alphabet</option>
-
-<option>Math</option>
-
-<option>English</option>
-
-<option>Science</option>
-
-<option>Shapes</option>
-
-<option>Colors</option>
-
-<option>Tracing</option>
-
-</select>
-
-</div>
-
-</div>
-
-</div>
-
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-lg-6">
+                <input type="text" id="search-input" class="form-control form-control-lg" placeholder="Search worksheets...">
+            </div>
+            <div class="col-lg-3">
+                <select id="grade-filter" class="form-select form-select-lg">
+                    <option>All Grades</option>
+                    <option>Kindergarten</option>
+                    <option>Grade 1</option>
+                    <option>Grade 2</option>
+                    <option>Grade 3</option>
+                    <option>Grade 4</option>
+                    <option>Grade 5</option>
+                    <option>Grade 6</option>
+                    <option>Grade 6</option>
+                </select>
+            </div>
+            <div class="col-lg-3">
+                <select id="subject-filter" class="form-select form-select-lg">
+                    <option>All Subjects</option>
+                    <option>Alphabet</option>
+                    <option>Maths</option>
+                    <option>English</option>
+                    <option>Science</option>
+                    <option>Social Studies</option>
+                    <option>EVS</option>
+                    <option>Creative Writing</option>
+                    <option>Activities</option>
+                </select>
+            </div>
+        </div>
+    </div>
 </section>
+
+<!-- =========================
+     DYNAMIC WORKSHEETS LIBRARY
+========================== -->
+<section id="dynamic-worksheets" class="py-5 bg-white border-bottom">
+    <div class="container">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-lg-3 mb-4">
+                <div class="k5-sidebar">
+                    <div class="k5-sidebar-header">Browse Worksheets</div>
+                    <a class="k5-topic" href="worksheets.html?topic=Alphabet">Alphabet</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Letter+Activities">Letter Activities</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Numbers">Numbers</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Counting">Counting</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Phonics">Phonics</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Sight+Words">Sight Words</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Addition">Addition</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Subtraction">Subtraction</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Shapes">Shapes</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Grammar">Grammar</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Writing">Writing</a>
+                    <a class="k5-topic" href="worksheets.html?topic=Coloring">Coloring</a>
+                    <div class="k5-sidebar-header mt-4">Browse by Grade</div>
+                    <a class="k5-topic" href="worksheets.html?grade=preschool">Preschool</a>
+                    <a class="k5-topic" href="worksheets.html?grade=kindergarten">Kindergarten</a>
+                    <a class="k5-topic" href="worksheets.html?grade=grade1">Grade 1</a>
+                    <a class="k5-topic" href="worksheets.html?grade=grade2">Grade 2</a>
+                    <a class="k5-topic" href="worksheets.html?grade=grade3">Grade 3</a>
+                    <a class="k5-topic" href="worksheets.html?grade=grade4">Grade 4</a>
+                    <a class="k5-topic" href="worksheets.html?grade=grade5">Grade 5</a>
+                    <a class="k5-topic" href="worksheets.html?grade=grade6">Grade 6</a>
+                </div>
+                <div class="k5-promo mt-4">
+                    <h6 class="fw-bold">New here?</h6>
+                    <p class="small text-muted mb-2">Grab free printable packs every week. No sign-up needed.</p>
+                    <a href="freebies.html" class="btn btn-success btn-sm">Free Downloads</a>
+                </div>
+            </div>
+            <!-- Listing -->
+            <div class="col-lg-9">
+                <div class="k5-breadcrumb"><a href="index.html">Home</a> &gt; Worksheets</div>
+                <h1 class="k5-h1" id="results-title">All Worksheets</h1>
+                <p class="k5-subhead" id="results-count"></p>
+
+                <!-- Loading Indicator -->
+                <div id="worksheets-loading" class="text-center py-5">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-2 text-muted">Loading worksheets library...</p>
+                </div>
+
+                <!-- Error Message -->
+                <div id="worksheets-error" class="alert alert-danger d-none text-center" role="alert">
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i> Failed to connect to the database. Please try reloading the page.
+                </div>
+
+                <!-- Worksheets list (K5-style rows) -->
+                <div class="row d-none" id="worksheets-grid">
+                    <!-- JavaScript renders rows here -->
+                </div>
+
+                <!-- Load more -->
+                <div class="text-center my-4">
+                    <button id="load-more-btn" class="btn btn-primary btn-lg px-5" style="display:none;">Load more worksheets</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+(function () {
+    var m = /[?&]topic=([^&]*)/.exec(location.search);
+    if (!m) return;
+    var t = decodeURIComponent(m[1].replace(/\+/g, ' ')).toLowerCase();
+    document.querySelectorAll('.k5-topic').forEach(function (a) {
+        if (a.textContent.trim().toLowerCase() === t) a.classList.add('active');
+    });
+})();
+</script>
 
 
 <!-- =========================
@@ -652,3 +738,115 @@ Download PDF
 </div>
 
 </section>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer-section py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Brand Info -->
+                <div class="col-lg-3">
+                    <div class="footer-brand d-flex align-items-center mb-3">
+                        <img src="assets/images/logo.png" alt="Worksheet Wonder Logo" class="footer-logo" style="max-height: 40px;">
+                        <span class="brand-text ms-2 fw-bold text-rainbow">Worksheet <span class="brand-2">Wonder</span></span>
+                    </div>
+                    <p class="text-muted small">
+                        Premium educational worksheets, printables, and classroom resources designed for parents, teachers, and homeschoolers.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest" class="text-white me-2"><i class="bi bi-pinterest"></i></a>
+                        <a href="#" aria-label="YouTube" class="text-white"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-lg-2">
+                    <h5 class="footer-heading text-rainbow mb-3">Quick Links</h5>
+                    <ul class="footer-links list-unstyled text-muted small">
+                        <li class="mb-2"><a href="index.html" class="text-reset text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-reset text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="worksheets.html" class="text-reset text-decoration-none">Worksheets</a></li>
+                        <li class="mb-2"><a href="shop.html" class="text-reset text-decoration-none">Shop</a></li>
+                        <li class="mb-2"><a href="blog.html" class="text-reset text-decoration-none">Blog</a></li>
+                        <li><a href="contact.html" class="text-reset text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Categories -->
+                <div class="col-lg-2">
+                    <h5 class="footer-heading text-rainbow mb-3">Popular Grades</h5>
+                    <ul class="footer-links list-unstyled text-muted small">
+                        <li class="mb-2"><a href="worksheets.html?grade=preschool" class="text-reset text-decoration-none">Preschool</a></li>
+                        <li class="mb-2"><a href="worksheets.html?grade=kindergarten" class="text-reset text-decoration-none">Kindergarten</a></li>
+                        <li class="mb-2"><a href="worksheets.html?grade=grade-1" class="text-reset text-decoration-none">Grade 1</a></li>
+                        <li class="mb-2"><a href="worksheets.html?grade=grade-2" class="text-reset text-decoration-none">Grade 2</a></li>
+                        <li><a href="worksheets.html?grade=grade-3" class="text-reset text-decoration-none">Grade 3</a></li>
+                    </ul>
+                </div>
+                <!-- Support -->
+                <div class="col-lg-2">
+                    <h5 class="footer-heading text-rainbow mb-3">Support</h5>
+                    <ul class="list-unstyled footer-links text-muted small">
+                        <li class="mb-2"><a href="faq.html" class="text-reset text-decoration-none">FAQ</a></li>
+                        <li class="mb-2"><a href="privacy.html" class="text-reset text-decoration-none">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="terms.html" class="text-reset text-decoration-none">Terms & Conditions</a></li>
+                        <li class="mb-2"><a href="refund.html" class="text-reset text-decoration-none">Refund Policy</a></li>
+                        <li><a href="contact.html" class="text-reset text-decoration-none">Help Center</a></li>
+                    </ul>
+                </div>
+                <!-- Contact -->
+                <div class="col-lg-3">
+                    <h5 class="footer-heading text-rainbow mb-3">Contact</h5>
+                    <ul class="footer-contact list-unstyled text-muted small">
+                        <li class="mb-2"><i class="bi bi-envelope-fill me-2"></i>hello@worksheetwonder.com</li>
+                        <li class="mb-2"><i class="bi bi-telephone-fill me-2"></i>+91 98765 43210</li>
+                        <li><i class="bi bi-geo-alt-fill me-2"></i>Chennai, Tamil Nadu, India</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========================
+         COPYRIGHT
+    ========================== -->
+    <section class="copyright-section py-3 bg-dark text-white border-top border-secondary">
+        <div class="container">
+            <div class="row align-items-center small">
+                <div class="col-md-6 text-center text-md-start text-muted">
+                    © 2026 Worksheet Wonder. All Rights Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+                    <a href="privacy.html" class="text-muted text-decoration-none">Privacy Policy</a> | 
+                    <a href="terms.html" class="text-muted text-decoration-none">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         BACK TO TOP
+    ========================== -->
+    <button id="backToTop" class="back-to-top" title="Back to Top" aria-label="Back to Top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900,
+            once: true
+        });
+    </script>
+    
+    <!-- Database Helper & Custom JavaScript -->
+    <script src="assets/js/database.js"></script>
+    <script src="assets/js/worksheets-data.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worksheet Wonder — Flagship Letter A Worksheet</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito:wght@400;600;700;800&display=swap');
+
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      width: 210mm;
+      height: 297mm;
+      font-family: 'Nunito', sans-serif;
+      color: #333333;
+      background-color: #ffffff;
+      -webkit-print-color-adjust: exact;
+    }
+
+    /* Print margins: 15mm top/bottom, 12mm sides */
+    .page-container {
+      position: relative;
+      width: 210mm;
+      height: 297mm;
+      padding: 15mm 12mm;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    /* Dual Border System */
+    .page-borders {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 210mm;
+      height: 297mm;
+      pointer-events: none;
+      z-index: 100;
+    }
+
+    .outer-border {
+      fill: none;
+      stroke: #333333;
+      stroke-width: 0.8mm;
+    }
+
+    .inner-border {
+      fill: none;
+      stroke: #333333;
+      stroke-width: 0.4mm;
+    }
+
+    /* Header Styling */
+    .header-section {
+      width: 100%;
+      margin-bottom: 3mm;
+      display: flex;
+      flex-direction: column;
+      gap: 2mm;
+    }
+
+    .brand-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 0.3mm dashed #cccccc;
+      padding-bottom: 1.5mm;
+    }
+
+    .brand-logo-container {
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+    }
+
+    .brand-logo-text {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 14pt;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .meta-badges {
+      display: flex;
+      gap: 1.5mm;
+    }
+
+    .badge {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 8pt;
+      font-weight: 600;
+      border: 0.3mm solid #333333;
+      border-radius: 3mm;
+      padding: 0.8mm 2.5mm;
+      background-color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    .badge.difficulty {
+      background-color: #f0f0f0;
+    }
+
+    .user-info-bar {
+      display: flex;
+      gap: 5mm;
+      width: 100%;
+    }
+
+    .info-field {
+      display: flex;
+      align-items: flex-end;
+      flex-grow: 1;
+      font-size: 11pt;
+      font-weight: 600;
+    }
+
+    .info-label {
+      font-family: 'Fredoka', sans-serif;
+      margin-right: 1.5mm;
+    }
+
+    /* Double line guidelines for Preschool writing standards */
+    .info-line-wrapper {
+      flex-grow: 1;
+      position: relative;
+      height: 5.5mm;
+      margin-bottom: 0.5mm;
+    }
+
+    .info-line-top {
+      position: absolute;
+      bottom: 2.2mm;
+      left: 0;
+      right: 0;
+      border-bottom: 0.2mm dotted #aaaaaa;
+    }
+
+    .info-line-base {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border-bottom: 0.4mm solid #333333;
+    }
+
+    /* Title Block */
+    .title-block {
+      text-align: center;
+      margin-top: 1mm;
+      margin-bottom: 2.5mm;
+    }
+
+    .worksheet-title {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 24pt;
+      font-weight: 600;
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    /* Objective & Instructions */
+    .scaffold-block {
+      border: 0.4mm solid #333333;
+      border-radius: 3.5mm;
+      padding: 2.5mm 3.5mm;
+      margin-bottom: 4mm;
+      background-color: #fafafa;
+    }
+
+    .objective-box {
+      font-size: 9pt;
+      font-style: italic;
+      color: #555555;
+      margin-bottom: 1.5mm;
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+    }
+
+    .instructions-box {
+      font-size: 12pt;
+      font-weight: 700;
+      display: flex;
+      align-items: flex-start;
+      gap: 2.5mm;
+      line-height: 1.35;
+    }
+
+    .instruction-icon {
+      width: 6.5mm;
+      height: 6.5mm;
+      flex-shrink: 0;
+    }
+
+    /* Main Activity Columns */
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5mm;
+      flex-grow: 1;
+      margin-bottom: 4mm;
+    }
+
+    .grid-column {
+      display: flex;
+      flex-direction: column;
+      gap: 4mm;
+    }
+
+    /* Core Activity Panels */
+    .panel {
+      border: 0.4mm solid #333333;
+      border-radius: 4mm;
+      padding: 4mm;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .panel-title {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 11pt;
+      font-weight: 600;
+      margin: 0 0 3mm 0;
+      border-bottom: 0.3mm solid #eeeeee;
+      padding-bottom: 1.5mm;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Tracing Box Layout */
+    .tracing-box {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-grow: 1;
+      padding: 2mm 0;
+    }
+
+    .trace-char-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Vocabulary & Sounds Box */
+    .vocab-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3mm;
+      flex-grow: 1;
+    }
+
+    .vocab-item {
+      border: 0.3mm solid #dddddd;
+      border-radius: 3mm;
+      padding: 2mm;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .vocab-label {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 12pt;
+      font-weight: 600;
+      margin-top: 1mm;
+    }
+
+    /* Find & Circle Letters Grid */
+    .find-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 3mm;
+      padding: 2mm;
+    }
+
+    .letter-bubble {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 16pt;
+      font-weight: 600;
+      border: 0.4mm solid #333333;
+      border-radius: 50%;
+      width: 10mm;
+      height: 10mm;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      background: #ffffff;
+      cursor: pointer;
+    }
+
+    /* Fine Motor Path */
+    .path-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4mm 0;
+      position: relative;
+    }
+
+    /* Footer / Companion Section */
+    .footer-section {
+      width: 100%;
+      border-top: 0.3mm dashed #cccccc;
+      padding-top: 3mm;
+      display: flex;
+      flex-direction: column;
+      gap: 3mm;
+    }
+
+    .fun-fact-bubble {
+      background-color: #fafafa;
+      border: 0.3mm solid #333333;
+      border-radius: 3mm;
+      padding: 2.5mm 4mm;
+      font-size: 9pt;
+      display: flex;
+      align-items: center;
+      gap: 3mm;
+    }
+
+    .fun-fact-title {
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 8pt;
+      color: #333333;
+    }
+
+    .notes-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4mm;
+      font-size: 8.5pt;
+      color: #555555;
+    }
+
+    .notes-box {
+      border: 0.3mm solid #dddddd;
+      border-radius: 2mm;
+      padding: 2mm 3mm;
+      background-color: #fafafa;
+    }
+
+    .notes-title {
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 600;
+      margin-bottom: 1mm;
+      text-transform: uppercase;
+      font-size: 7.5pt;
+    }
+
+    .footer-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 8pt;
+      color: #666666;
+    }
+
+    .qr-placeholder-container {
+      display: flex;
+      align-items: center;
+      gap: 2mm;
+    }
+
+    .qr-box {
+      width: 10mm;
+      height: 10mm;
+      border: 0.3mm solid #333333;
+      padding: 0.5mm;
+    }
+
+    .rating-container {
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Dual Borders -->
+  <svg class="page-borders" viewBox="0 0 210 297" preserveAspectRatio="none">
+    <!-- Outer Border: 4mm inset -->
+    <rect x="4" y="4" width="202" height="289" rx="8" ry="8" class="outer-border" />
+    <!-- Inner Border: 8mm inset -->
+    <rect x="8" y="8" width="194" height="281" rx="6" ry="6" class="inner-border" />
+  </svg>
+
+  <div class="page-container">
+    
+    <!-- HEADER -->
+    <div class="header-section">
+      <div class="brand-bar">
+        <div class="brand-logo-container">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <span class="brand-logo-text">Worksheet Wonder</span>
+        </div>
+        <div class="meta-badges">
+          <div class="badge grade">Preschool (Ages 3-5)</div>
+          <div class="badge subject">Phonics & Letters</div>
+          <div class="badge difficulty">Foundation</div>
+        </div>
+      </div>
+      
+      <!-- Name/Date Fields with guidelines -->
+      <div class="user-info-bar">
+        <div class="info-field" style="flex-grow: 2;">
+          <span class="info-label">Name:</span>
+          <div class="info-line-wrapper">
+            <div class="info-line-top"></div>
+            <div class="info-line-base"></div>
+          </div>
+        </div>
+        <div class="info-field" style="flex-grow: 1;">
+          <span class="info-label">Date:</span>
+          <div class="info-line-wrapper">
+            <div class="info-line-top"></div>
+            <div class="info-line-base"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TITLE BLOCK -->
+    <div class="title-block">
+      <h1 class="worksheet-title">Amazing Letter A</h1>
+    </div>
+
+    <!-- INSTRUCTIONS / OBJECTIVE -->
+    <div class="scaffold-block">
+      <div class="objective-box">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        <span>Learning Objective: Read, trace, and identify uppercase and lowercase letter A.</span>
+      </div>
+      <div class="instructions-box">
+        <svg class="instruction-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 20h9"></path>
+          <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+        </svg>
+        <span>Trace the letters, circle the bubbles, and help the ant reach the apple!</span>
+      </div>
+    </div>
+
+    <!-- MAIN ACTIVITY COLUMNS -->
+    <div class="main-grid">
+      
+      <!-- LEFT COLUMN -->
+      <div class="grid-column">
+        
+        <!-- Panel 1: Letter Tracing -->
+        <div class="panel" style="flex-grow: 1.2;">
+          <h3 class="panel-title">1. Trace Letter A & a</h3>
+          <div class="tracing-box">
+            <!-- Uppercase Tracing Diagram -->
+            <div class="trace-char-wrapper">
+              <svg width="70" height="90" viewBox="0 0 70 90" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round">
+                <!-- Dotted Guideline -->
+                <path d="M35 10L10 80M35 10L60 80M20 50h30" stroke-dasharray="3 3" />
+                <!-- Number Indicators / Arrows -->
+                <text x="30" y="8" font-family="Fredoka" font-size="8" fill="#333" font-weight="bold">1</text>
+                <path d="M32 12l-3-1 2-3" fill="#333" stroke-width="1"/>
+                <text x="45" y="46" font-family="Fredoka" font-size="8" fill="#333" font-weight="bold">3</text>
+                <path d="M22 50l3 2-1-4" fill="#333" stroke-width="1"/>
+              </svg>
+              <div style="font-family: 'Fredoka', sans-serif; font-size: 10pt; color: #888888; margin-top: 1mm;">Uppercase A</div>
+            </div>
+            <!-- Lowercase Tracing Diagram -->
+            <div class="trace-char-wrapper">
+              <svg width="70" height="90" viewBox="0 0 70 90" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round">
+                <!-- Dotted Guideline -->
+                <circle cx="35" cy="55" r="20" stroke-dasharray="3 3" />
+                <path d="M55 35v40" stroke-dasharray="3 3" />
+                <!-- Number Indicators / Arrows -->
+                <text x="35" y="32" font-family="Fredoka" font-size="8" fill="#333" font-weight="bold">1</text>
+                <path d="M55 45l-3-3v5" fill="#333" stroke-width="1"/>
+              </svg>
+              <div style="font-family: 'Fredoka', sans-serif; font-size: 10pt; color: #888888; margin-top: 1mm;">Lowercase a</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2: Beginning Sound Pictures -->
+        <div class="panel" style="flex-grow: 1;">
+          <h3 class="panel-title">2. Beginning Sounds</h3>
+          <div class="vocab-box">
+            <div class="vocab-item">
+              <!-- Inline SVG Apple -->
+              <svg width="55" height="55" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round">
+                <path d="M32 50c-6 0-16-4-16-18s10-18 16-18 16 4 16 18-10 18-16 18z" />
+                <path d="M32 14c2-4 6-6 10-4" />
+                <path d="M32 14v-6" />
+              </svg>
+              <span class="vocab-label">apple</span>
+            </div>
+            <div class="vocab-item">
+              <!-- Inline SVG Ant -->
+              <svg width="55" height="55" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round">
+                <circle cx="20" cy="32" r="5" />
+                <circle cx="32" cy="32" r="6" />
+                <circle cx="46" cy="32" r="8" />
+                <!-- Legs -->
+                <path d="M32 38c-2 6-6 8-8 10M32 38c2 6 6 8 8 10M46 40c2 6 4 8 8 10" />
+                <!-- Antennae -->
+                <path d="M16 29c-2-4-6-6-8-6" />
+              </svg>
+              <span class="vocab-label">ant</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="grid-column">
+        
+        <!-- Panel 3: Find the Letter Bubble -->
+        <div class="panel" style="flex-grow: 1.2;">
+          <h3 class="panel-title">3. Bubble Letter Hunt</h3>
+          <div class="find-grid">
+            <div class="letter-bubble">A</div>
+            <div class="letter-bubble">b</div>
+            <div class="letter-bubble">c</div>
+            <div class="letter-bubble">a</div>
+            <div class="letter-bubble">d</div>
+            <div class="letter-bubble">A</div>
+            <div class="letter-bubble">o</div>
+            <div class="letter-bubble">a</div>
+            <div class="letter-bubble">e</div>
+            <div class="letter-bubble">A</div>
+            <div class="letter-bubble">f</div>
+            <div class="letter-bubble">a</div>
+          </div>
+        </div>
+
+        <!-- Panel 4: Fine Motor Tracing Path -->
+        <div class="panel" style="flex-grow: 1;">
+          <h3 class="panel-title">4. Help Ant Find Apple</h3>
+          <div class="path-container">
+            <!-- Small Ant Vector -->
+            <svg width="24" height="24" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2.5">
+              <circle cx="20" cy="32" r="6"/>
+              <circle cx="32" cy="32" r="6"/>
+              <circle cx="46" cy="32" r="8"/>
+            </svg>
+            <!-- Wavy Dotted Path -->
+            <svg width="140" height="40" viewBox="0 0 140 40" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round">
+              <path d="M10 20c30-20 60 20 90 0t30 0" stroke-dasharray="4 6" />
+            </svg>
+            <!-- Small Apple Vector -->
+            <svg width="24" height="24" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2.5">
+              <path d="M32 50c-6 0-16-4-16-18s10-18 16-18 16 4 16 18-10 18-16 18z"/>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER / COMPANION SECTION -->
+    <div class="footer-section">
+      <!-- Fun Fact Bubble -->
+      <div class="fun-fact-bubble">
+        <span class="fun-fact-title">Fun Fact:</span>
+        <span>Ants are super strong! They can carry things that are 20 times heavier than themselves!</span>
+      </div>
+
+      <!-- Notes Grid -->
+      <div class="notes-grid">
+        <div class="notes-box">
+          <div class="notes-title">Teacher Companion Notes</div>
+          <div>Encourage kids to finger-trace the arrow lines first, reciting the /æ/ short vowel sound aloud.</div>
+        </div>
+        <div class="notes-box">
+          <div class="notes-title">Parent Learning Companion</div>
+          <div>Point out the objects in the kitchen or garden that begin with the letter A sound (e.g. apple, ant).</div>
+        </div>
+      </div>
+
+      <!-- Footer Bar -->
+      <div class="footer-bar">
+        <div class="qr-placeholder-container">
+          <div class="qr-box">
+            <!-- Simulated QR code pattern -->
+            <svg width="100%" height="100%" viewBox="0 0 10 10">
+              <rect x="0" y="0" width="3" height="3" fill="#333" />
+              <rect x="7" y="0" width="3" height="3" fill="#333" />
+              <rect x="0" y="7" width="3" height="3" fill="#333" />
+              <rect x="4" y="4" width="2" height="2" fill="#333" />
+              <rect x="8" y="8" width="1" height="1" fill="#333" />
+              <rect x="5" y="7" width="1" height="1" fill="#333" />
+            </svg>
+          </div>
+          <span>Scan for audio sounds & video help</span>
+        </div>
+        <div>
+          <span>© 2026 Worksheet Wonder. All Rights Reserved.</span>
+        </div>
+        <div class="rating-container">
+          <span>Self-Rating:</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#cccccc" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#cccccc" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#cccccc" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+        </div>
+        <div>
+          <span style="font-weight: bold;">WW-PSC-PHN-01-WS-01 | Page 1</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

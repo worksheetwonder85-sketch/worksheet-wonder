@@ -1,0 +1,16 @@
+﻿<!--
+  Asset ID:        WW-ICON-tree.svg
+  Title:           tree
+  Category:        nature
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            tree, forest, plant, wood
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="28" y="44" width="8" height="16"/>
+  <path d="M12 44c0-10 8-18 20-18s20 8 20 18z"/>
+  <path d="M18 30c0-8 6-14 14-14s14 6 14 14z"/>
+</svg>

@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Worksheet Wonder â€” Teacher Guide Template</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@400;700&display=swap');
+    @page { size: A4 portrait; margin: 0; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0;
+      width: 210mm; height: 297mm;
+      font-family: 'Nunito', sans-serif;
+      color: #333333; background: #ffffff;
+      -webkit-print-color-adjust: exact;
+    }
+    .guide-container {
+      width: 210mm; height: 297mm;
+      padding: 15mm 12mm;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .page-borders {
+      position: absolute;
+      top: 0; left: 0;
+      width: 210mm; height: 297mm;
+      pointer-events: none;
+    }
+    .outer-border { fill: none; stroke: #333333; stroke-width: 0.8mm; }
+    .inner-border { fill: none; stroke: #333333; stroke-width: 0.4mm; }
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 0.3mm solid #333333;
+      padding-bottom: 2mm;
+    }
+    .brand-title {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 12pt;
+      font-weight: 600;
+    }
+    .guide-badge {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 7.5pt;
+      border: 0.3mm solid #333333;
+      border-radius: 2mm;
+      padding: 0.5mm 2mm;
+      text-transform: uppercase;
+    }
+    .content-area {
+      flex-grow: 1;
+      margin: 5mm 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4mm;
+    }
+    .section-title {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 16pt;
+      margin: 0 0 2mm 0;
+      border-bottom: 0.2mm solid #dddddd;
+      padding-bottom: 1mm;
+    }
+    .teaching-notes {
+      font-size: 10pt;
+      line-height: 1.5;
+    }
+    .diff-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2mm;
+    }
+    .diff-table th, .diff-table td {
+      border: 0.3mm solid #333333;
+      padding: 2mm 3mm;
+      font-size: 9pt;
+      text-align: left;
+    }
+    .diff-table th {
+      background: #fafafa;
+      font-family: 'Fredoka', sans-serif;
+    }
+    .footer-bar {
+      border-top: 0.3mm solid #333333;
+      padding-top: 2mm;
+      display: flex;
+      justify-content: space-between;
+      font-size: 7.5pt;
+      color: #666666;
+    }
+  </style>
+</head>
+<body>
+  <svg class="page-borders" viewBox="0 0 210 297" preserveAspectRatio="none">
+    <rect x="4" y="4" width="202" height="289" rx="8" ry="8" class="outer-border" />
+    <rect x="8" y="8" width="194" height="281" rx="6" ry="6" class="inner-border" />
+  </svg>
+  <div class="guide-container">
+    <div class="header-bar">
+      <span class="brand-title">Worksheet Wonder â€” Teacher Guide</span>
+      <span class="guide-badge">Educational Resource</span>
+    </div>
+    <div class="content-area">
+      <div>
+        <h2 class="section-title">Lesson Overview: {{LESSON_TOPIC}}</h2>
+        <div class="teaching-notes">{{TEACHING_NOTES}}</div>
+      </div>
+      <div>
+        <h2 class="section-title">Instructional Guidelines</h2>
+        <div class="teaching-notes">{{INSTRUCTIONAL_STEPS}}</div>
+      </div>
+      <div>
+        <h2 class="section-title">Differentiation Strategies</h2>
+        <table class="diff-table">
+          <thead>
+            <tr>
+              <th style="width: 30%;">Level</th>
+              <th>Support & Extension Tasks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Below Level</strong></td>
+              <td>{{DIFF_BELOW}}</td>
+            </tr>
+            <tr>
+              <td><strong>On Level</strong></td>
+              <td>{{DIFF_ON}}</td>
+            </tr>
+            <tr>
+              <td><strong>Above Level</strong></td>
+              <td>{{DIFF_ABOVE}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>Â© 2026 Worksheet Wonder. All Rights Reserved.</span>
+      <span style="font-weight: bold;">{{BUNDLE_CODE}} â€” TEACHER GUIDE | Page {{PAGE_NUMBER}}</span>
+    </div>
+  </div>
+</body>
+</html>

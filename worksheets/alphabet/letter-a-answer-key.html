@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letter A Answer Key – My First Alphabet Workbook | Worksheet Wonder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A4 portrait; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { width:210mm; min-height:297mm; font-family:'Nunito',sans-serif; color:#2C3E50; background:#FFFDF9; -webkit-print-color-adjust:exact; color-adjust:exact; }
+    .print-btn { position:fixed; top:12px; right:12px; background:#C62828; color:white; border:none; padding:10px 20px; border-radius:10px; font-family:'Nunito',sans-serif; font-size:14px; font-weight:800; cursor:pointer; z-index:999; }
+    @media print { .print-btn { display:none; } }
+    .answer-banner { background:#C62828; color:white; text-align:center; padding:6px; font-family:'Fredoka',sans-serif; font-size:11pt; font-weight:700; letter-spacing:1px; }
+    .page { width:210mm; min-height:297mm; padding:13mm 12mm 11mm 12mm; display:flex; flex-direction:column; gap:2.5mm; position:relative; }
+    .page::before { content:''; position:absolute; top:5mm; left:5mm; right:5mm; bottom:5mm; border:0.8mm solid #2C3E50; pointer-events:none; }
+    .page::after { content:''; position:absolute; top:7mm; left:7mm; right:7mm; bottom:7mm; border:0.35mm dashed #aaa; pointer-events:none; }
+    .header { display:flex; justify-content:space-between; align-items:center; border-bottom:3px solid #2C3E50; padding-bottom:2mm; }
+    .brand { font-family:'Fredoka',sans-serif; font-size:16pt; font-weight:700; color:#FF7043; }
+    .badge { font-family:'Fredoka',sans-serif; font-size:8pt; font-weight:600; border:2px solid #2C3E50; border-radius:6px; padding:1px 9px; box-shadow:2px 2px 0 #2C3E50; background:#FFE082; }
+    .badge-key { background:#FFCDD2; color:#C62828; border-color:#C62828; }
+    .user-bar { display:flex; gap:5mm; font-family:'Fredoka',sans-serif; font-size:9.5pt; }
+    .user-field { display:flex; align-items:flex-end; flex:1; }
+    .user-label { white-space:nowrap; margin-right:1.5mm; color:#555; }
+    .user-line { flex:1; border-bottom:2px solid #2C3E50; height:5mm; }
+    .title-row { text-align:center; font-family:'Fredoka',sans-serif; font-size:20pt; font-weight:700; background:linear-gradient(90deg,#FFEBEE,#FFCDD2,#FFEBEE); border-radius:10px; padding:1.5mm 0; }
+    .activities { display:grid; grid-template-columns:1fr 1fr; gap:3mm; flex:1; }
+    .panel { border:2.5px solid #2C3E50; border-radius:13px; padding:2.5mm 3mm; background:#fff; box-shadow:3px 3px 0 #2C3E50; display:flex; flex-direction:column; gap:1.5mm; }
+    .panel-title { font-family:'Fredoka',sans-serif; font-size:10pt; font-weight:700; border-bottom:2px solid #2C3E50; padding-bottom:1mm; }
+    .panel-instr { font-size:7.5pt; color:#546E7A; font-style:italic; }
+    .panel-body { flex:1; display:flex; flex-direction:column; justify-content:center; }
+    .big-letter { font-family:'Fredoka',sans-serif; font-size:62pt; font-weight:700; color:#FF5252; line-height:1; }
+    .vocab-row { display:flex; gap:2mm; justify-content:space-around; }
+    .vocab-item { display:flex; flex-direction:column; align-items:center; gap:0.5mm; }
+    .vocab-word { font-family:'Fredoka',sans-serif; font-size:8.5pt; font-weight:700; }
+    .vocab-svg { width:22mm; height:18mm; }
+    .trace-ltr { font-family:'Fredoka',sans-serif; font-size:32pt; font-weight:700; color:rgba(229,57,53,0.35); -webkit-text-stroke:1px rgba(229,57,53,0.5); }
+    .trace-model { font-family:'Fredoka',sans-serif; font-size:32pt; font-weight:700; color:#FF5252; border:2px solid #FF5252; border-radius:6px; padding:0 2mm; line-height:1.1; }
+    .letter-grid { display:grid; grid-template-columns:repeat(6,1fr); gap:1.5mm; }
+    .lg-cell { border:1.5px solid #BDC3C7; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Fredoka',sans-serif; font-size:10.5pt; background:#FAFAFA; aspect-ratio:1; }
+    .lg-cell.correct { border:3px solid #E53935; background:#FFEBEE; color:#C62828; font-weight:700; }
+    .pic-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2mm; }
+    .pic-box { border:1.5px solid #BDC3C7; border-radius:8px; padding:1.5mm; display:flex; flex-direction:column; align-items:center; gap:0.5mm; background:#FAFAFA; }
+    .pic-box.correct { border:3px solid #4CAF50; background:#E8F5E9; position:relative; }
+    .pic-box.correct::after { content:'✓'; position:absolute; top:-8px; right:-4px; background:#4CAF50; color:white; width:18px; height:18px; border-radius:50%; font-size:10pt; font-weight:700; display:flex; align-items:center; justify-content:center; }
+    .pic-label { font-size:7pt; font-weight:700; font-family:'Fredoka',sans-serif; }
+    .pic-svg { width:100%; height:14mm; }
+    .find-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:1mm; }
+    .find-cell { aspect-ratio:1; border:1px solid #CFD8DC; border-radius:4px; display:flex; align-items:center; justify-content:center; font-family:'Fredoka',sans-serif; font-size:11pt; background:#FAFAFA; }
+    .find-cell.correct { border:3px solid #E53935; border-radius:50%; background:#FFEBEE; color:#C62828; font-weight:700; }
+    .write-lines { display:flex; flex-direction:column; gap:1.5mm; }
+    .write-line { height:10mm; border-bottom:2px solid #2C3E50; position:relative; background:#FFEBEE; border-radius:0 0 4px 4px; }
+    .write-line::after { content:''; position:absolute; top:50%; left:0; right:0; border-top:1px dashed #BDC3C7; }
+    .write-answer { position:absolute; left:2mm; top:50%; transform:translateY(-50%); font-family:'Fredoka',sans-serif; font-size:18pt; font-weight:700; color:rgba(198,40,40,0.6); letter-spacing:4mm; }
+    .reward-box { flex:1; background:linear-gradient(135deg,#FFEBEE,#FCE4EC,#FFF9C4); border:2.5px solid #2C3E50; border-radius:13px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2mm; padding:3mm; box-shadow:3px 3px 0 #2C3E50; text-align:center; }
+    .sticker-row { display:flex; gap:2.5mm; margin-top:1mm; }
+    .sticker-box { width:12mm; height:12mm; border:2px solid #4CAF50; border-radius:50%; background:#E8F5E9; display:flex; align-items:center; justify-content:center; font-size:12pt; }
+    .footer { border-top:2px solid #2C3E50; padding-top:2mm; display:flex; justify-content:space-between; align-items:center; font-size:7.5pt; color:#777; }
+    .footer-brand { font-family:'Fredoka',sans-serif; color:#FF7043; font-weight:700; font-size:8.5pt; }
+  </style>
+</head>
+<body>
+<div class="answer-banner">🔑 ANSWER KEY – For Teacher / Parent Use Only &nbsp;·&nbsp; Do Not Distribute to Students</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print Answer Key</button>
+<div class="page">
+  <div class="header">
+    <div class="brand">✦ Worksheet Wonder</div>
+    <div style="display:flex;gap:2mm;">
+      <span class="badge">Kindergarten</span>
+      <span class="badge badge-key">🔑 ANSWER KEY</span>
+    </div>
+  </div>
+  <div class="user-bar">
+    <div class="user-field"><span class="user-label">Name:</span><div class="user-line"></div></div>
+    <div class="user-field"><span class="user-label">Date:</span><div class="user-line"></div></div>
+    <div class="user-field"><span class="user-label">Teacher:</span><div class="user-line"></div></div>
+  </div>
+  <div class="title-row">🔑 ANSWER KEY &nbsp;·&nbsp; <span style="color:#C62828;">Letter A</span> &nbsp;·&nbsp; My First Alphabet Workbook</div>
+  <div class="activities">
+
+    <!-- ACT 1 -->
+    <div class="panel" style="background:#FFF5F5;">
+      <div class="panel-title">🌟 1. Meet the Letter A</div>
+      <div class="panel-instr">Reference: vocabulary with illustrations</div>
+      <div class="panel-body">
+        <div style="display:flex;align-items:center;justify-content:center;gap:4mm;margin-bottom:2mm;">
+          <span class="big-letter">A</span>
+          <div style="display:flex;flex-direction:column;align-items:center;">
+            <span style="font-family:'Fredoka',sans-serif;font-size:40pt;font-weight:700;color:#FF8A80;">a</span>
+            <span style="font-size:7.5pt;color:#888;font-style:italic;">uppercase · lowercase</span>
+          </div>
+        </div>
+        <div class="vocab-row">
+          <div class="vocab-item">
+            <svg class="vocab-svg" viewBox="0 0 80 65" fill="none"><ellipse cx="40" cy="38" rx="26" ry="24" fill="#E53935"/><ellipse cx="30" cy="30" rx="7" ry="4" fill="white" opacity="0.4" transform="rotate(-30 30 30)"/><path d="M40 14 Q44 6 52 8" stroke="#43A047" stroke-width="2.5" stroke-linecap="round" fill="none"/><path d="M40 14 Q32 4 28 10" stroke="#66BB6A" stroke-width="2" stroke-linecap="round" fill="none"/><ellipse cx="40" cy="14" rx="2" ry="3" fill="#5D4037"/></svg>
+            <span class="vocab-word" style="color:#C62828;">✓ Apple</span>
+          </div>
+          <div class="vocab-item">
+            <svg class="vocab-svg" viewBox="0 0 80 65" fill="none"><ellipse cx="40" cy="50" rx="11" ry="9" fill="#212121"/><ellipse cx="40" cy="35" rx="8" ry="7" fill="#424242"/><ellipse cx="40" cy="22" rx="7" ry="6" fill="#212121"/><circle cx="38" cy="20" r="1.5" fill="white"/><circle cx="42" cy="20" r="1.5" fill="white"/><path d="M37 17 Q33 10 30 8" stroke="#212121" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M43 17 Q47 10 50 8" stroke="#212121" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
+            <span class="vocab-word" style="color:#C62828;">✓ Ant</span>
+          </div>
+          <div class="vocab-item">
+            <svg class="vocab-svg" viewBox="0 0 80 65" fill="none"><ellipse cx="38" cy="40" rx="30" ry="13" fill="#388E3C"/><rect x="8" y="34" width="52" height="8" rx="4" fill="#43A047"/><rect x="62" y="36" width="14" height="5" rx="2" fill="#388E3C"/><circle cx="12" cy="32" r="4" fill="#43A047"/><circle cx="12" cy="30" r="2" fill="#1B5E20"/></svg>
+            <span class="vocab-word" style="color:#C62828;">✓ Alligator</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 2: Trace (show filled) -->
+    <div class="panel">
+      <div class="panel-title">✏️ 2. Trace Uppercase A</div>
+      <div class="panel-instr" style="color:#C62828;">Expected: Child traces over dotted A's</div>
+      <div class="panel-body">
+        <div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-model">A</span>
+            <span style="font-size:10pt;color:#999;">→</span>
+            <span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;">
+            <span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span><span class="trace-ltr">A</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 3 -->
+    <div class="panel">
+      <div class="panel-title">✏️ 3. Trace Lowercase a</div>
+      <div class="panel-instr" style="color:#C62828;">Expected: Child traces over dotted a's</div>
+      <div class="panel-body">
+        <div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-model" style="color:#FF8A80;border-color:#FF8A80;">a</span>
+            <span style="font-size:10pt;color:#999;">→</span>
+            <span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;margin-bottom:1mm;">
+            <span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:2mm;">
+            <span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span><span class="trace-ltr">a</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 4: Circle – correct answers circled in red -->
+    <div class="panel">
+      <div class="panel-title">⭕ 4. Circle All the A's</div>
+      <div class="panel-instr" style="color:#C62828;">Red circles = correct answers (all A/a cells)</div>
+      <div class="panel-body">
+        <div class="letter-grid">
+          <div class="lg-cell">B</div><div class="lg-cell correct">A</div><div class="lg-cell">C</div><div class="lg-cell correct">a</div><div class="lg-cell">D</div><div class="lg-cell correct">A</div>
+          <div class="lg-cell correct">a</div><div class="lg-cell">E</div><div class="lg-cell correct">A</div><div class="lg-cell">F</div><div class="lg-cell correct">a</div><div class="lg-cell">G</div>
+          <div class="lg-cell">H</div><div class="lg-cell correct">a</div><div class="lg-cell">B</div><div class="lg-cell correct">A</div><div class="lg-cell">C</div><div class="lg-cell correct">a</div>
+          <div class="lg-cell correct">A</div><div class="lg-cell">D</div><div class="lg-cell correct">a</div><div class="lg-cell">E</div><div class="lg-cell correct">A</div><div class="lg-cell">F</div>
+          <div class="lg-cell">G</div><div class="lg-cell correct">A</div><div class="lg-cell">H</div><div class="lg-cell correct">a</div><div class="lg-cell">B</div><div class="lg-cell correct">A</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 5: Beginning Sounds -->
+    <div class="panel">
+      <div class="panel-title">🔊 5. Beginning Sounds</div>
+      <div class="panel-instr" style="color:#C62828;">Green ✓ = starts with A · Grey = does NOT</div>
+      <div class="panel-body">
+        <div class="pic-grid">
+          <div class="pic-box correct">
+            <svg class="pic-svg" viewBox="0 0 60 45"><ellipse cx="30" cy="28" rx="18" ry="16" fill="#E53935"/><ellipse cx="22" cy="22" rx="5" ry="3" fill="white" opacity="0.4" transform="rotate(-30 22 22)"/><path d="M30 12 Q33 5 39 7" stroke="#43A047" stroke-width="2" stroke-linecap="round" fill="none"/><ellipse cx="30" cy="12" rx="1.5" ry="2" fill="#5D4037"/></svg>
+            <span class="pic-label" style="color:#2E7D32;">✓ Apple</span>
+          </div>
+          <div class="pic-box correct">
+            <svg class="pic-svg" viewBox="0 0 60 45"><ellipse cx="30" cy="36" rx="8" ry="7" fill="#212121"/><ellipse cx="30" cy="25" rx="6" ry="5" fill="#424242"/><ellipse cx="30" cy="16" rx="5" ry="4.5" fill="#212121"/><circle cx="28" cy="14" r="1.2" fill="white"/><circle cx="32" cy="14" r="1.2" fill="white"/></svg>
+            <span class="pic-label" style="color:#2E7D32;">✓ Ant</span>
+          </div>
+          <div class="pic-box correct">
+            <svg class="pic-svg" viewBox="0 0 60 45"><ellipse cx="28" cy="28" rx="22" ry="9" fill="#388E3C"/><rect x="6" y="24" width="38" height="6" rx="3" fill="#43A047"/><rect x="40" y="25" width="8" height="4" rx="2" fill="#388E3C"/><circle cx="10" cy="22" r="3" fill="#43A047"/></svg>
+            <span class="pic-label" style="color:#2E7D32;">✓ Alligator</span>
+          </div>
+          <div class="pic-box">
+            <svg class="pic-svg" viewBox="0 0 60 45"><circle cx="30" cy="25" r="14" fill="#1565C0"/><path d="M30 11 Q40 19 40 25 Q40 31 30 39 Q20 31 20 25 Q20 19 30 11Z" fill="#EF5350"/></svg>
+            <span class="pic-label" style="color:#999;">✗ Ball</span>
+          </div>
+          <div class="pic-box">
+            <svg class="pic-svg" viewBox="0 0 60 45"><circle cx="30" cy="24" r="11" fill="#FF8F00"/><polygon points="20,14 14,6 24,12" fill="#FF8F00"/><polygon points="40,14 46,6 36,12" fill="#FF8F00"/><circle cx="26" cy="23" r="2" fill="#333"/><circle cx="34" cy="23" r="2" fill="#333"/></svg>
+            <span class="pic-label" style="color:#999;">✗ Cat</span>
+          </div>
+          <div class="pic-box">
+            <svg class="pic-svg" viewBox="0 0 60 45"><circle cx="30" cy="24" r="13" fill="#A1887F"/><ellipse cx="21" cy="20" rx="5" ry="8" fill="#795548"/><ellipse cx="39" cy="20" rx="5" ry="8" fill="#795548"/><circle cx="26" cy="23" r="2.2" fill="#333"/><circle cx="34" cy="23" r="2.2" fill="#333"/></svg>
+            <span class="pic-label" style="color:#999;">✗ Dog</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 6: Find Letter -->
+    <div class="panel">
+      <div class="panel-title">🔍 6. Find Letter A</div>
+      <div class="panel-instr" style="color:#C62828;">Red circles = the 5 hidden A's</div>
+      <div class="panel-body">
+        <div class="find-grid">
+          <div class="find-cell">B</div><div class="find-cell correct">A</div><div class="find-cell">C</div><div class="find-cell">D</div><div class="find-cell">E</div>
+          <div class="find-cell">F</div><div class="find-cell">G</div><div class="find-cell correct">A</div><div class="find-cell">H</div><div class="find-cell">B</div>
+          <div class="find-cell">C</div><div class="find-cell">D</div><div class="find-cell">E</div><div class="find-cell correct">A</div><div class="find-cell">F</div>
+          <div class="find-cell">G</div><div class="find-cell correct">A</div><div class="find-cell">H</div><div class="find-cell">B</div><div class="find-cell">C</div>
+          <div class="find-cell">D</div><div class="find-cell">E</div><div class="find-cell">F</div><div class="find-cell">G</div><div class="find-cell correct">A</div>
+        </div>
+        <div style="font-size:7.5pt;color:#C62828;margin-top:1.5mm;text-align:center;font-weight:700;">✓ All 5 A's found at positions: (R1C2), (R2C3), (R3C4), (R4C2), (R5C5)</div>
+      </div>
+    </div>
+
+    <!-- ACT 7: Write -->
+    <div class="panel">
+      <div class="panel-title">📝 7. Write the Letter</div>
+      <div class="panel-instr" style="color:#C62828;">Expected: A and a written independently</div>
+      <div class="panel-body">
+        <div style="display:flex;gap:3mm;align-items:center;margin-bottom:2mm;">
+          <span style="font-family:'Fredoka',sans-serif;font-size:14pt;font-weight:700;color:#FF5252;">A a</span>
+          <span style="font-size:7.5pt;color:#C62828;font-weight:700;">← Model letters</span>
+        </div>
+        <div class="write-lines">
+          <div class="write-line"><span class="write-answer">A a A a A a</span></div>
+          <div class="write-line"><span class="write-answer">A a A a A a</span></div>
+          <div class="write-line"><span class="write-answer">A a A a A a</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACT 8: Reward -->
+    <div class="reward-box">
+      <div style="font-size:24pt;">🌟</div>
+      <div style="font-family:'Fredoka',sans-serif;font-size:13pt;font-weight:700;color:#FF7043;">Amazing Work!</div>
+      <div style="font-family:'Fredoka',sans-serif;font-size:10pt;color:#FF7043;font-weight:700;">You know Letter A!</div>
+      <div class="sticker-row">
+        <div class="sticker-box">⭐</div>
+        <div class="sticker-box">⭐</div>
+        <div class="sticker-box">⭐</div>
+      </div>
+      <div style="font-size:7.5pt;color:#C62828;font-weight:700;margin-top:1mm;">ANSWER KEY – Score: __ / 30 letters circled correctly</div>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="footer-brand">✦ worksheetwonder.com</div>
+    <div>Answer Key &nbsp;·&nbsp; Letter A &nbsp;·&nbsp; Teacher/Parent Copy Only</div>
+    <div style="color:#C62828;font-weight:700;">🔑 KEY</div>
+  </div>
+</div>
+</body>
+</html>

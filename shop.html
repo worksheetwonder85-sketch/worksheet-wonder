@@ -34,7 +34,7 @@
         <div class="container">
             <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
                 <img src="assets/images/logo.png" alt="Worksheet Wonder Logo" class="navbar-logo">
-                <span class="brand-text ms-2">Worksheet Wonder</span>
+                <span class="brand-text ms-2">Worksheet <span class="brand-2">Wonder</span></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
                 <span class="navbar-toggler-icon"></span>
@@ -58,6 +58,28 @@
             </div>
         </div>
     </nav>
+
+<!-- WW-SUBJECT-TABS -->
+<div class="ww-subject-tabs">
+<div class="container">
+<nav class="ww-tabs-scroll" aria-label="Subjects">
+<a href="subject-maths.html" class="ww-tab" style="--tab:#2B7CD3">Mathematics</a>
+<a href="subject-english.html" class="ww-tab" style="--tab:#35A853">English</a>
+<a href="subject-science.html" class="ww-tab" style="--tab:#209E8C">Science</a>
+<a href="subject-evs.html" class="ww-tab" style="--tab:#7C8A3A">EVS</a>
+<a href="subject-computer.html" class="ww-tab" style="--tab:#7C5CBF">Computer</a>
+<a href="subject-gk.html" class="ww-tab" style="--tab:#F26A21">General Knowledge</a>
+<a href="subject-art-craft.html" class="ww-tab" style="--tab:#D6538B">Art &amp; Craft</a>
+</nav>
+</div>
+</div>
+<script>
+(function(){var p=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+var els=document.querySelectorAll('.ww-tab');
+for(var i=0;i<els.length;i++){if(els[i].getAttribute('href').toLowerCase()===p){els[i].classList.add('active');break;}}
+})();
+</script>
+
 
     <!-- =========================
          2. BREADCRUMB
@@ -101,33 +123,40 @@
         <div class="container">
             <div class="row g-3">
                 <div class="col-lg-5">
-                    <input type="text" class="form-control form-control-lg" placeholder="Search bundles (e.g., Math, Alphabet)..." aria-label="Search">
+                    <input type="text" id="shop-search-input" class="form-control form-control-lg" placeholder="Search bundles (e.g., Math, Alphabet)..." aria-label="Search">
                 </div>
                 <div class="col-lg-2 col-md-4">
-                    <select class="form-select form-select-lg" aria-label="Filter by Grade">
+                    <select id="shop-grade-filter" class="form-select form-select-lg" aria-label="Filter by Grade">
                         <option selected>All Grades</option>
-                        <option value="1">Preschool</option>
-                        <option value="2">Kindergarten</option>
-                        <option value="3">Grade 1</option>
-                        <option value="4">Grade 2</option>
-                        <option value="5">Grade 3</option>
+                        <option>Preschool</option>
+                        <option>Kindergarten</option>
+                        <option>Grade 1</option>
+                        <option>Grade 2</option>
+                        <option>Grade 3</option>
+                        <option>Grade 4</option>
+                        <option>Grade 5</option>
+                        <option>Grade 6</option>
                     </select>
                 </div>
                 <div class="col-lg-2 col-md-4">
-                    <select class="form-select form-select-lg" aria-label="Filter by Subject">
+                    <select id="shop-subject-filter" class="form-select form-select-lg" aria-label="Filter by Subject">
                         <option selected>All Subjects</option>
-                        <option value="1">Alphabet</option>
-                        <option value="2">Math</option>
-                        <option value="3">English</option>
-                        <option value="4">Science</option>
+                        <option>Alphabet</option>
+                        <option>Maths</option>
+                        <option>English</option>
+                        <option>Science</option>
+                        <option>Social Studies</option>
+                        <option>EVS</option>
+                        <option>Creative Writing</option>
+                        <option>Activities</option>
                     </select>
                 </div>
                 <div class="col-lg-3 col-md-4">
-                    <select class="form-select form-select-lg" aria-label="Sort by">
+                    <select id="shop-sort-filter" class="form-select form-select-lg" aria-label="Sort by">
                         <option selected>Sort by: Newest</option>
-                        <option value="1">Popular</option>
-                        <option value="2">Price: Low to High</option>
-                        <option value="3">Price: High to Low</option>
+                        <option>Popular</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
                     </select>
                 </div>
             </div>
@@ -139,178 +168,22 @@
     ========================== -->
     <section class="py-5">
         <div class="container">
-            <div class="row g-4">
-                
-                <!-- Product 1 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="bundle-card position-relative h-100 shadow-sm rounded">
-                        <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 shadow-sm z-1">⭐ Bestseller</span>
-                        <span class="badge bg-primary position-absolute top-0 start-0 m-3 shadow-sm z-1">English</span>
-                        <img src="assets/images/bundles/alphabet.jpg" class="img-fluid rounded-top w-100" style="height:250px; object-fit:cover;" alt="Alphabet Adventure Bundle" onerror="this.style.backgroundColor='#eef9ff'">
-                        <div class="p-4">
-                            <h4>Alphabet Adventure Bundle</h4>
-                            <p class="text-muted">Master the alphabet with these engaging and fun printables.</p>
-                            <div class="d-flex justify-content-between mb-3 text-secondary">
-                                <span><i class="bi bi-star-fill text-warning"></i> 4.9</span>
-                                <span><i class="bi bi-file-earmark-pdf"></i> 50 Worksheets</span>
-                            </div>
-                            <h3 class="text-primary mb-3">₹199</h3>
-                            <div class="d-grid gap-2">
-                                <a href="worksheet-details.html" class="btn btn-outline-primary">View Details</a>
-                                <a href="cart.html" class="btn btn-rainbow">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
+            <!-- Loading Indicator -->
+            <div id="products-loading" class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
                 </div>
+                <p class="mt-2 text-muted">Loading product bundles...</p>
+            </div>
 
-                <!-- Product 2 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="bundle-card position-relative h-100 shadow-sm rounded">
-                        <span class="badge bg-success position-absolute top-0 start-0 m-3 shadow-sm z-1">Math</span>
-                        <img src="assets/images/bundles/math.jpg" class="img-fluid rounded-top w-100" style="height:250px; object-fit:cover;" alt="Math Masters Bundle" onerror="this.style.backgroundColor='#eef9ff'">
-                        <div class="p-4">
-                            <h4>Math Masters Bundle</h4>
-                            <p class="text-muted">A complete pack for counting, addition, and subtraction practice.</p>
-                            <div class="d-flex justify-content-between mb-3 text-secondary">
-                                <span><i class="bi bi-star-fill text-warning"></i> 4.8</span>
-                                <span><i class="bi bi-file-earmark-pdf"></i> 65 Worksheets</span>
-                            </div>
-                            <h3 class="text-primary mb-3">₹249</h3>
-                            <div class="d-grid gap-2">
-                                <a href="worksheet-details.html" class="btn btn-outline-primary">View Details</a>
-                                <a href="cart.html" class="btn btn-rainbow">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- Error Message -->
+            <div id="products-error" class="alert alert-danger d-none text-center" role="alert">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i> Failed to connect to the database. Please try reloading the page.
+            </div>
 
-                <!-- Product 3 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="bundle-card position-relative h-100 shadow-sm rounded">
-                        <span class="badge bg-info text-dark position-absolute top-0 start-0 m-3 shadow-sm z-1">Writing</span>
-                        <img src="assets/images/bundles/tracing.jpg" class="img-fluid rounded-top w-100" style="height:250px; object-fit:cover;" alt="Tracing Fun Bundle" onerror="this.style.backgroundColor='#eef9ff'">
-                        <div class="p-4">
-                            <h4>Tracing Fun Bundle</h4>
-                            <p class="text-muted">Improve handwriting and pencil control with fun tracing lines.</p>
-                            <div class="d-flex justify-content-between mb-3 text-secondary">
-                                <span><i class="bi bi-star-fill text-warning"></i> 4.7</span>
-                                <span><i class="bi bi-file-earmark-pdf"></i> 30 Worksheets</span>
-                            </div>
-                            <h3 class="text-success mb-3 fw-bold">FREE</h3>
-                            <div class="d-grid gap-2">
-                                <a href="worksheet-details.html" class="btn btn-outline-primary">View Details</a>
-                                <a href="freebies.html" class="btn btn-success">Download Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 4 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="bundle-card position-relative h-100 shadow-sm rounded">
-                        <span class="badge bg-primary position-absolute top-0 start-0 m-3 shadow-sm z-1">English</span>
-                        <img src="assets/images/bundles/sightwords.jpg" class="img-fluid rounded-top w-100" style="height:250px; object-fit:cover;" alt="Sight Words Bundle" onerror="this.style.backgroundColor='#eef9ff'">
-                        <div class="p-4">
-                            <h4>Sight Words Bundle</h4>
-                            <p class="text-muted">Essential high-frequency words for early readers.</p>
-                            <div class="d-flex justify-content-between mb-3 text-secondary">
-                                <span><i class="bi bi-star-fill text-warning"></i> 4.9</span>
-                                <span><i class="bi bi-file-earmark-pdf"></i> 40 Worksheets</span>
-                            </div>
-                            <h3 class="text-primary mb-3">₹149</h3>
-                            <div class="d-grid gap-2">
-                                <a href="worksheet-details.html" class="btn btn-outline-primary">View Details</a>
-                                <a href="cart.html" class="btn btn-rainbow">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 5 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="bundle-card position-relative h-100 shadow-sm rounded">
-                        <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 shadow-sm z-1">⭐ Bestseller</span>
-                        <span class="badge bg-primary position-absolute top-0 start-0 m-3 shadow-sm z-1">English</span>
-                        <img src="assets/images/bundles/phonics.jpg" class="img-fluid rounded-top w-100" style="height:250px; object-fit:cover;" alt="Phonics Fun Bundle" onerror="this.style.backgroundColor='#eef9ff'">
-                        <div class="p-4">
-                            <h4>Phonics Fun Bundle</h4>
-                            <p class="text-muted">Interactive phonics practice to build strong reading skills.</p>
-                            <div class="d-flex justify-content-between mb-3 text-secondary">
-                                <span><i class="bi bi-star-fill text-warning"></i> 5.0</span>
-                                <span><i class="bi bi-file-earmark-pdf"></i> 55 Worksheets</span>
-                            </div>
-                            <h3 class="text-primary mb-3">₹199</h3>
-                            <div class="d-grid gap-2">
-                                <a href="worksheet-details.html" class="btn btn-outline-primary">View Details</a>
-                                <a href="cart.html" class="btn btn-rainbow">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 6 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="bundle-card position-relative h-100 shadow-sm rounded">
-                        <span class="badge bg-success position-absolute top-0 start-0 m-3 shadow-sm z-1">Math / Art</span>
-                        <img src="assets/images/bundles/shapes.jpg" class="img-fluid rounded-top w-100" style="height:250px; object-fit:cover;" alt="Shapes & Colours Bundle" onerror="this.style.backgroundColor='#eef9ff'">
-                        <div class="p-4">
-                            <h4>Shapes & Colours Bundle</h4>
-                            <p class="text-muted">Creative activities to recognize basic shapes and primary colors.</p>
-                            <div class="d-flex justify-content-between mb-3 text-secondary">
-                                <span><i class="bi bi-star-fill text-warning"></i> 4.8</span>
-                                <span><i class="bi bi-file-earmark-pdf"></i> 35 Worksheets</span>
-                            </div>
-                            <h3 class="text-primary mb-3">₹149</h3>
-                            <div class="d-grid gap-2">
-                                <a href="worksheet-details.html" class="btn btn-outline-primary">View Details</a>
-                                <a href="cart.html" class="btn btn-rainbow">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 7 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="bundle-card position-relative h-100 shadow-sm rounded">
-                        <span class="badge bg-info text-dark position-absolute top-0 start-0 m-3 shadow-sm z-1">Writing</span>
-                        <img src="assets/images/bundles/writing.jpg" class="img-fluid rounded-top w-100" style="height:250px; object-fit:cover;" alt="Writing Practice Bundle" onerror="this.style.backgroundColor='#eef9ff'">
-                        <div class="p-4">
-                            <h4>Writing Practice Bundle</h4>
-                            <p class="text-muted">Cursive and print handwriting practice for all levels.</p>
-                            <div class="d-flex justify-content-between mb-3 text-secondary">
-                                <span><i class="bi bi-star-fill text-warning"></i> 4.7</span>
-                                <span><i class="bi bi-file-earmark-pdf"></i> 60 Worksheets</span>
-                            </div>
-                            <h3 class="text-primary mb-3">₹249</h3>
-                            <div class="d-grid gap-2">
-                                <a href="worksheet-details.html" class="btn btn-outline-primary">View Details</a>
-                                <a href="cart.html" class="btn btn-rainbow">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 8 -->
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="bundle-card position-relative h-100 shadow-sm rounded">
-                        <span class="badge bg-danger position-absolute top-0 start-0 m-3 shadow-sm z-1">Science</span>
-                        <img src="assets/images/bundles/science.jpg" class="img-fluid rounded-top w-100" style="height:250px; object-fit:cover;" alt="Science Explorer Bundle" onerror="this.style.backgroundColor='#eef9ff'">
-                        <div class="p-4">
-                            <h4>Science Explorer Bundle</h4>
-                            <p class="text-muted">Discover nature, animals, and the human body.</p>
-                            <div class="d-flex justify-content-between mb-3 text-secondary">
-                                <span><i class="bi bi-star-fill text-warning"></i> 4.9</span>
-                                <span><i class="bi bi-file-earmark-pdf"></i> 75 Worksheets</span>
-                            </div>
-                            <h3 class="text-primary mb-3">₹299</h3>
-                            <div class="d-grid gap-2">
-                                <a href="worksheet-details.html" class="btn btn-outline-primary">View Details</a>
-                                <a href="cart.html" class="btn btn-rainbow">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+            <!-- Products Grid -->
+            <div class="row g-4 d-none" id="products-grid">
+                <!-- JavaScript will render product cards here -->
             </div>
         </div>
     </section>
@@ -522,11 +395,11 @@
                 <div class="col-lg-2">
                     <h5 class="footer-heading">Popular Categories</h5>
                     <ul class="footer-links list-unstyled">
-                        <li><a href="worksheets/preschool.html">Preschool</a></li>
-                        <li><a href="worksheets/kindergarten.html">Kindergarten</a></li>
-                        <li><a href="worksheets/grade1.html">Grade 1</a></li>
-                        <li><a href="worksheets/grade2.html">Grade 2</a></li>
-                        <li><a href="worksheets/grade3.html">Grade 3</a></li>
+                        <li><a href="preschool.html">Preschool</a></li>
+                        <li><a href="kindergarten.html">Kindergarten</a></li>
+                        <li><a href="grade1.html">Grade 1</a></li>
+                        <li><a href="grade2.html">Grade 2</a></li>
+                        <li><a href="grade3.html">Grade 3</a></li>
                     </ul>
                 </div>
                 <!-- Support -->
@@ -534,7 +407,7 @@
                     <h5 class="footer-heading">Support</h5>
                     <ul class="list-unstyled footer-links">
                         <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                         <li><a href="terms.html">Terms & Conditions</a></li>
                         <li><a href="refund.html">Refund Policy</a></li>
                         <li><a href="contact.html">Help Center</a></li>
@@ -563,7 +436,7 @@
                     © 2026 Worksheet Wonder. All Rights Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
-                    <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a>
+                    <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a>
                 </div>
             </div>
         </div>
@@ -588,8 +461,10 @@
         });
     </script>
     
-    <!-- Custom JavaScript -->
-    <!-- Assuming script.js handles the back-to-top button logic -->
+    <!-- Database Helper & Custom JavaScript -->
+    <script src="assets/js/database.js"></script>
+    <script src="assets/js/shop.js"></script>
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

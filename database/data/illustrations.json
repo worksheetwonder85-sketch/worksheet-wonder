@@ -1,0 +1,304 @@
+﻿[
+    {
+        "id":  "ILL-001",
+        "primaryColor":  "#FF4D4D (Red)",
+        "category":  "Fruit \u0026 Food",
+        "name":  "Apple",
+        "svgFileName":  "apple.svg",
+        "style":  "Flat Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "WS-PS-FM-001",
+                                  "1",
+                                  "KG-ENG-ALPHABET-001"
+                              ]
+    },
+    {
+        "id":  "ILL-002",
+        "primaryColor":  "#8B4513 (Brown)",
+        "category":  "Insects \u0026 Animals",
+        "name":  "Ant",
+        "svgFileName":  "ant.svg",
+        "style":  "Cute Mascot Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "KG-ENG-ALPHABET-001"
+                              ]
+    },
+    {
+        "id":  "ILL-003",
+        "primaryColor":  "#2E8B57 (Green)",
+        "category":  "Wild Animals",
+        "name":  "Alligator",
+        "svgFileName":  "alligator.svg",
+        "style":  "Flat Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "701"
+                              ]
+    },
+    {
+        "id":  "ILL-004",
+        "primaryColor":  "#1E90FF (Blue)",
+        "category":  "Toys \u0026 Objects",
+        "name":  "Ball",
+        "svgFileName":  "ball.svg",
+        "style":  "Colorful Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "2"
+                              ]
+    },
+    {
+        "id":  "ILL-005",
+        "primaryColor":  "#A0522D (Brown)",
+        "category":  "Animals \u0026 Mascot",
+        "name":  "Bear",
+        "svgFileName":  "bear.svg",
+        "style":  "Cute Mascot Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-006",
+        "primaryColor":  "#FFD700 (Yellow)",
+        "category":  "Insects",
+        "name":  "Bee",
+        "svgFileName":  "bee.svg",
+        "style":  "Flat Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "Science-101"
+                              ]
+    },
+    {
+        "id":  "ILL-007",
+        "primaryColor":  "#00BFFF (Cyan)",
+        "category":  "Birds \u0026 Nature",
+        "name":  "Bird",
+        "svgFileName":  "bird.svg",
+        "style":  "Flat Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-008",
+        "primaryColor":  "#FFA500 (Orange)",
+        "category":  "Pets \u0026 Animals",
+        "name":  "Cat",
+        "svgFileName":  "cat.svg",
+        "style":  "Cute Mascot Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-009",
+        "primaryColor":  "#000000 (Black \u0026 White)",
+        "category":  "Farm Animals",
+        "name":  "Cow",
+        "svgFileName":  "cow.svg",
+        "style":  "Vector Line Art",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-010",
+        "primaryColor":  "#D2691E (Brown)",
+        "category":  "Pets \u0026 Animals",
+        "name":  "Dog",
+        "svgFileName":  "dog.svg",
+        "style":  "Cute Mascot Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-011",
+        "primaryColor":  "#FFFF00 (Yellow)",
+        "category":  "Birds \u0026 Farm",
+        "name":  "Duck",
+        "svgFileName":  "duck.svg",
+        "style":  "Flat Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "2"
+                              ]
+    },
+    {
+        "id":  "ILL-012",
+        "primaryColor":  "#708090 (Slate Grey)",
+        "category":  "Wild Animals",
+        "name":  "Elephant",
+        "svgFileName":  "elephant.svg",
+        "style":  "Flat Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-013",
+        "primaryColor":  "#FF7F50 (Coral)",
+        "category":  "Sea Life",
+        "name":  "Fish",
+        "svgFileName":  "fish.svg",
+        "style":  "Colorful Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "2",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-014",
+        "primaryColor":  "#FF69B4 (Pink)",
+        "category":  "Plants \u0026 Nature",
+        "name":  "Flower",
+        "svgFileName":  "flower.svg",
+        "style":  "Botanical Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "3",
+                                  "EVS-101"
+                              ]
+    },
+    {
+        "id":  "ILL-015",
+        "primaryColor":  "#32CD32 (Lime)",
+        "category":  "Amphibians",
+        "name":  "Frog",
+        "svgFileName":  "frog.svg",
+        "style":  "Cute Mascot Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "2",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-016",
+        "primaryColor":  "#F5F5DC (Beige)",
+        "category":  "Farm Animals",
+        "name":  "Goat",
+        "svgFileName":  "goat.svg",
+        "style":  "Vector Line Art",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-017",
+        "primaryColor":  "#8B0000 (Dark Red)",
+        "category":  "Farm Animals",
+        "name":  "Horse",
+        "svgFileName":  "horse.svg",
+        "style":  "Flat Vector",
+        "difficulty":  "Medium",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-018",
+        "primaryColor":  "#FF8C00 (Gold)",
+        "category":  "Safari Animals",
+        "name":  "Lion",
+        "svgFileName":  "lion.svg",
+        "style":  "Mascot Vector",
+        "difficulty":  "Medium",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-019",
+        "primaryColor":  "#8B4513 (Brown)",
+        "category":  "Wild Animals",
+        "name":  "Monkey",
+        "svgFileName":  "monkey.svg",
+        "style":  "Cute Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "2",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-020",
+        "primaryColor":  "#FFFFFF (White)",
+        "category":  "Pets \u0026 Animals",
+        "name":  "Rabbit",
+        "svgFileName":  "rabbit.svg",
+        "style":  "Cute Mascot Vector",
+        "difficulty":  "Easy",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-021",
+        "primaryColor":  "#FF8C00 (Orange)",
+        "category":  "Wild Animals",
+        "name":  "Tiger",
+        "svgFileName":  "tiger.svg",
+        "style":  "Vector Line Art",
+        "difficulty":  "Medium",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    },
+    {
+        "id":  "ILL-022",
+        "primaryColor":  "#4682B4 (Steel Blue)",
+        "category":  "Ocean Life",
+        "name":  "Whale",
+        "svgFileName":  "whale.svg",
+        "style":  "Flat Vector",
+        "difficulty":  "Medium",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "Science-102"
+                              ]
+    },
+    {
+        "id":  "ILL-023",
+        "primaryColor":  "#000000 (Black \u0026 White)",
+        "category":  "Safari Animals",
+        "name":  "Zebra",
+        "svgFileName":  "zebra.svg",
+        "style":  "Vector Line Art",
+        "difficulty":  "Medium",
+        "relatedWorksheets":  [
+                                  "1",
+                                  "3"
+                              ]
+    }
+]

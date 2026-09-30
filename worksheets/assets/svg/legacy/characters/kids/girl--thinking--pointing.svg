@@ -1,0 +1,25 @@
+﻿<!--
+  Asset ID:        WW-CHR-girl--thinking--pointing.svg
+  Title:           girl  thinking  pointing
+  Category:        kids
+  Creator:         Senior Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            girl, character, thinking, pointing
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Head & Hair (Pigtails style) -->
+  <circle cx="32" cy="20" r="10" id="head-base"/>
+  <path d="M22 20c-3-2-5-6-4-8s6-2 6 2M42 20c3-2 5-6 4-8s-6-2-6 2" id="pigtails"/>
+  <!-- Face: Thinking -->
+  <circle cx="28" cy="20" r="1" fill="#333"/>
+  <circle cx="36" cy="20" r="1" fill="#333"/>
+  <line x1="28" y1="25" x2="36" y2="25"/>
+  <!-- Body (Dress) -->
+  <polygon points="24 30 40 30 44 48 20 48" id="body-dress"/>
+  <!-- Arms: One pointing up -->
+  <path d="M20 32c-3-1-5-6-5-10M40 32c2 3 6 4 8 8" id="arms"/>
+  <path d="M28 48v12h-2M36 48v12h2" id="legs"/>
+</svg>

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "5 Fun Ways to Teach Fine Motor Skills at Home",
+    "content": "<p>Fine motor skills are essential for preschool and kindergarten kids to build pencil grip and scissor control. In this article, we share 5 simple activities, such as playdough sculpting, bead threading, and line tracing, that make learning fun...</p>",
+    "author_id": 3,
+    "thumbnail": "database/images/blog-images/fine-motor-skills-thumb.png",
+    "status": "published",
+    "published_date": "2026-07-01T09:00:00Z",
+    "created_at": "2026-06-28T14:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Transitioning from Single-Digit to Double-Digit Addition",
+    "content": "<p>When grade 1 students first encounter two-digit addition, they can feel overwhelmed. Using visual grids and blocks can ease this transition. Learn our step-by-step framework to teach regrouping naturally without causing frustration...</p>",
+    "author_id": 2,
+    "thumbnail": "database/images/blog-images/double-digit-addition-thumb.png",
+    "status": "published",
+    "published_date": "2026-07-08T10:00:00Z",
+    "created_at": "2026-07-05T15:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Making Science Experiments Safe and Simple for Grade 4",
+    "content": "<p>Science experiments don't have to require a fancy laboratory or hazardous chemicals. Try these simple kitchen science experiments that teach the scientific method using vinegar, baking soda, food color, and water...</p>",
+    "author_id": 3,
+    "thumbnail": "database/images/blog-images/science-experiments-thumb.png",
+    "status": "draft",
+    "published_date": null,
+    "created_at": "2026-07-16T11:00:00Z"
+  }
+]

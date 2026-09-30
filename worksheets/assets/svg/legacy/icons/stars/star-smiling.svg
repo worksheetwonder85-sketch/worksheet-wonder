@@ -1,0 +1,17 @@
+﻿<!--
+  Asset ID:        WW-ICON-star-smiling.svg
+  Title:           star smiling
+  Category:        stars
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            star, smiling, happy, cute, character
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="32 4 40 21 58 24 45 37 48 56 32 47 16 56 19 37 6 24 24 21"/>
+  <circle cx="25" cy="28" r="2" fill="#333"/>
+  <circle cx="39" cy="28" r="2" fill="#333"/>
+  <path d="M26 36c2 3 8 3 10 0"/>
+</svg>

@@ -1,0 +1,15 @@
+﻿<!--
+  Asset ID:        WW-ICON-book.svg
+  Title:           book
+  Category:        learning
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            book, read, learn, literacy
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6 52c6-4 20-4 26 0 6-4 20-4 26 0V12C52 8 38 8 32 12 26 8 12 8 6 12v40z"/>
+  <line x1="32" y1="12" x2="32" y2="52"/>
+</svg>

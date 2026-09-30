@@ -1,0 +1,56 @@
+﻿[
+    {
+        "description":  "Effective strategies and classroom management advice for educators.",
+        "name":  "Teaching Tips",
+        "id":  1,
+        "slug":  "teaching-tips"
+    },
+    {
+        "description":  "Guiding your child\u0027s learning journey at home with confidence.",
+        "name":  "Parenting Tips",
+        "id":  2,
+        "slug":  "parenting-tips"
+    },
+    {
+        "description":  "Fun, interactive group learning exercises and icebreakers.",
+        "name":  "Classroom Activities",
+        "id":  3,
+        "slug":  "classroom-activities"
+    },
+    {
+        "description":  "Educational games and playful learning techniques.",
+        "name":  "Learning Games",
+        "id":  4,
+        "slug":  "learning-games"
+    },
+    {
+        "description":  "How to maximize printables in home and school environments.",
+        "name":  "Printable Resources",
+        "id":  5,
+        "slug":  "printable-resources"
+    },
+    {
+        "description":  "Milestones in cognitive, emotional, and fine motor growth.",
+        "name":  "Child Development",
+        "id":  6,
+        "slug":  "child-development"
+    },
+    {
+        "description":  "Holiday-themed learning activities and holiday crafts.",
+        "name":  "Seasonal Activities",
+        "id":  7,
+        "slug":  "seasonal-activities"
+    },
+    {
+        "description":  "Integrating digital tools effectively in modern learning.",
+        "name":  "Educational Technology",
+        "id":  8,
+        "slug":  "educational-technology"
+    },
+    {
+        "description":  "Harnessing artificial intelligence for personalized learning.",
+        "name":  "AI in Education",
+        "id":  9,
+        "slug":  "ai-in-education"
+    }
+]

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The letter B (uppercase)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #e0e0e0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .page {
+            width: 210mm;
+            height: 297mm;
+            padding: 20mm;
+            box-sizing: border-box;
+            background: white;
+            position: relative;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            color: #000;
+        }
+
+        @media print {
+            body { background: white; }
+            .page { box-shadow: none; width: 100%; height: 100%; padding: 15mm; margin: 0; }
+        }
+
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .logo-svg {
+            height: 35px;
+            margin-bottom: 25px;
+        }
+
+        .worksheet-title {
+            color: #1c5296;
+            font-size: 20pt;
+            font-weight: bold;
+            margin: 0 0 5px 0;
+        }
+
+        .worksheet-subtitle {
+            color: #4b6a9c;
+            font-size: 11pt;
+            margin: 0 0 10px 0;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #1c5296;
+            margin-bottom: 15px;
+        }
+
+        .instruction {
+            font-size: 15pt;
+            font-weight: normal;
+            margin: 0 0 40px 0;
+        }
+
+        .main-activity {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+            padding: 0 20px;
+        }
+
+        .big-letter {
+            width: 200px;
+            height: 240px;
+        }
+
+        .main-image {
+            text-align: center;
+            width: 300px;
+        }
+
+        .main-image svg {
+            width: 100%;
+            height: 140px;
+        }
+
+        .main-image .label {
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-top: 15px;
+        }
+
+        .b-is-for-container {
+            border: 2px solid #a4dbd4;
+            border-radius: 10px;
+            padding: 30px;
+            position: relative;
+            margin-bottom: 40px;
+        }
+
+        .b-is-for-tag {
+            position: absolute;
+            top: -20px;
+            left: 30px;
+            background: white;
+            border: 2px solid #a4dbd4;
+            border-radius: 5px;
+            padding: 5px 15px;
+            font-size: 18pt;
+        }
+
+        .vocab-words {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            margin-top: 10px;
+        }
+
+        .vocab-item {
+            text-align: center;
+        }
+
+        .vocab-item svg {
+            height: 90px;
+            margin-bottom: 15px;
+        }
+
+        .vocab-item .label {
+            font-size: 20pt;
+            font-weight: bold;
+        }
+
+        .practice-heading {
+            font-size: 15pt;
+            font-weight: normal;
+            margin-bottom: 25px;
+        }
+
+        .tracing-row {
+            width: 100%;
+            height: 120px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 15mm;
+            left: 20mm;
+            right: 20mm;
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #1c5296;
+            padding-top: 10px;
+            font-size: 9pt;
+            color: #1c5296;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- HEADER -->
+        <div class="header">
+            <svg class="logo-svg" viewBox="0 0 160 40">
+                <rect x="0" y="5" width="45" height="30" rx="4" fill="#00a7d0" />
+                <rect x="2" y="7" width="41" height="26" rx="3" fill="#00b4e0" />
+                <path d="M 12 12 L 15 12 L 15 20 L 22 12 L 26 12 L 18 19 L 26 28 L 22 28 L 15 21 L 15 28 L 12 28 Z" fill="#fff" />
+                <path d="M 28 12 L 36 12 L 36 15 L 31 15 L 31 18 L 35 18 L 35 21 L 31 21 L 31 28 L 28 28 Z" fill="#fff" />
+                <text x="50" y="29" font-family="'Open Sans', sans-serif" font-size="26" font-weight="bold" fill="#66a827">Learning</text>
+                <path d="M 98 13 Q 110 -2 122 13" fill="none" stroke="#66a827" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="110" cy="5" r="4" fill="#00a7d0"/>
+            </svg>
+            
+            <h1 class="worksheet-title">The letter B (uppercase)</h1>
+            <p class="worksheet-subtitle">Kindergarten Letters Worksheet</p>
+            <div class="divider"></div>
+            <p class="instruction">Trace the B with your finger. Say the "B" words.</p>
+        </div>
+
+        <!-- MAIN ACTIVITY -->
+        <div class="main-activity">
+            <!-- BIG B -->
+            <svg class="big-letter" viewBox="0 0 200 240">
+                <!-- Writing Lines -->
+                <line x1="0" y1="40" x2="200" y2="40" stroke="#d3d3d3" stroke-width="1.5"/>
+                <line x1="0" y1="120" x2="200" y2="120" stroke="#d3d3d3" stroke-width="1.5" stroke-dasharray="8 8"/>
+                <line x1="0" y1="200" x2="200" y2="200" stroke="#d3d3d3" stroke-width="1.5"/>
+
+                <!-- Letter Shape -->
+                <path d="M 60 40 L 60 200" fill="none" stroke="#13b5aa" stroke-width="32" stroke-linecap="square"/>
+                <path d="M 60 40 H 100 C 150 40, 150 120, 100 120 H 60" fill="none" stroke="#13b5aa" stroke-width="32" stroke-linejoin="miter"/>
+                <path d="M 60 120 H 110 C 170 120, 170 200, 110 200 H 60" fill="none" stroke="#13b5aa" stroke-width="32" stroke-linejoin="miter"/>
+
+                <!-- Arrows -->
+                <!-- Arrow 1 -->
+                <g transform="translate(60, 15)">
+                    <circle cx="0" cy="0" r="8" fill="#666"/>
+                    <text x="0" y="4" font-size="11" font-family="sans-serif" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+                </g>
+                <path d="M 60 60 L 60 175" fill="none" stroke="#666" stroke-width="1.5" />
+                <polygon points="57,170 63,170 60,178" fill="#666"/>
+
+                <!-- Arrow 2 -->
+                <g transform="translate(75, 55)">
+                    <circle cx="0" cy="0" r="8" fill="#666"/>
+                    <text x="0" y="4" font-size="11" font-family="sans-serif" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+                </g>
+                <path d="M 85 55 C 120 55, 120 105, 85 105" fill="none" stroke="#666" stroke-width="1.5" />
+                <polygon points="88,100 82,105 88,110" fill="#666"/>
+
+                <!-- Arrow 3 -->
+                <g transform="translate(75, 135)">
+                    <circle cx="0" cy="0" r="8" fill="#666"/>
+                    <text x="0" y="4" font-size="11" font-family="sans-serif" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+                </g>
+                <path d="M 85 135 C 130 135, 130 185, 85 185" fill="none" stroke="#666" stroke-width="1.5" />
+                <polygon points="88,180 82,185 88,190" fill="#666"/>
+            </svg>
+
+            <!-- BOAT IMAGE -->
+            <div class="main-image">
+                <svg viewBox="0 0 200 150">
+                    <path d="M 30 100 L 60 130 H 140 L 170 100 Z" fill="none" stroke="#333" stroke-width="2"/>
+                    <path d="M 100 20 L 100 90" fill="none" stroke="#333" stroke-width="2"/>
+                    <path d="M 95 25 L 45 90 H 95 Z" fill="none" stroke="#333" stroke-width="2"/>
+                    <path d="M 105 25 L 150 90 H 105 Z" fill="none" stroke="#333" stroke-width="2"/>
+                    <path d="M 10 120 Q 25 110 40 120 T 70 120 T 100 120 T 130 120 T 160 120 T 190 120" fill="none" stroke="#333" stroke-width="1.5"/>
+                    <path d="M 20 135 Q 35 125 50 135 T 80 135 T 110 135 T 140 135 T 170 135 T 185 135" fill="none" stroke="#333" stroke-width="1.5"/>
+                </svg>
+                <div class="label">BOAT</div>
+            </div>
+        </div>
+
+        <!-- B IS FOR BOX -->
+        <div class="b-is-for-container">
+            <div class="b-is-for-tag">'B' is for...</div>
+            <div class="vocab-words">
+                <!-- Bear -->
+                <div class="vocab-item">
+                    <svg viewBox="0 0 100 100">
+                        <circle cx="25" cy="25" r="15" fill="#c47a3f"/>
+                        <circle cx="75" cy="25" r="15" fill="#c47a3f"/>
+                        <circle cx="25" cy="25" r="8" fill="#e8bc90"/>
+                        <circle cx="75" cy="25" r="8" fill="#e8bc90"/>
+                        <circle cx="50" cy="55" r="35" fill="#c47a3f"/>
+                        <ellipse cx="50" cy="65" rx="16" ry="12" fill="#e8bc90"/>
+                        <ellipse cx="50" cy="60" rx="7" ry="5" fill="#333"/>
+                        <circle cx="35" cy="45" r="4" fill="#333"/>
+                        <circle cx="65" cy="45" r="4" fill="#333"/>
+                        <path d="M 50 64 L 50 70 M 44 70 Q 50 75 56 70" fill="none" stroke="#333" stroke-width="2"/>
+                    </svg>
+                    <div class="label">Bear</div>
+                </div>
+
+                <!-- Ball -->
+                <div class="vocab-item">
+                    <svg viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="40" fill="#e83838"/>
+                        <path d="M 50 10 A 40 40 0 0 1 50 90 A 20 40 0 0 0 50 10" fill="#fcd935"/>
+                        <path d="M 50 10 A 40 40 0 0 0 50 90 A 20 40 0 0 1 50 10" fill="#359cfc"/>
+                        <circle cx="50" cy="50" r="12" fill="#fff"/>
+                        <circle cx="50" cy="50" r="12" fill="none" stroke="#333" stroke-width="2"/>
+                        <circle cx="50" cy="50" r="40" fill="none" stroke="#333" stroke-width="2"/>
+                    </svg>
+                    <div class="label">Ball</div>
+                </div>
+
+                <!-- Banana -->
+                <div class="vocab-item">
+                    <svg viewBox="0 0 100 100">
+                        <path d="M 20 80 C 10 40, 50 10, 80 20 C 60 15, 35 45, 30 85 C 27 90, 20 90, 20 80 Z" fill="#ffe135"/>
+                        <path d="M 80 20 L 85 15 L 90 18 L 85 25 Z" fill="#7d5830"/>
+                        <path d="M 20 80 C 10 40, 50 10, 80 20 C 60 15, 35 45, 30 85 C 27 90, 20 90, 20 80 Z" fill="none" stroke="#333" stroke-width="2"/>
+                        <path d="M 80 20 L 85 15 L 90 18 L 85 25" fill="none" stroke="#333" stroke-width="2"/>
+                        <path d="M 26 80 C 25 50, 50 25, 78 22" fill="none" stroke="#cca914" stroke-width="2"/>
+                    </svg>
+                    <div class="label">Banana</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRACTICE TRACING -->
+        <p class="practice-heading">Practice tracing B's.</p>
+        
+        <svg class="tracing-row" viewBox="0 0 400 120" preserveAspectRatio="none">
+            <!-- Writing Lines -->
+            <line x1="0" y1="20" x2="400" y2="20" stroke="#d3d3d3" stroke-width="1.5"/>
+            <line x1="0" y1="60" x2="400" y2="60" stroke="#d3d3d3" stroke-width="1.5" stroke-dasharray="6 6"/>
+            <line x1="0" y1="100" x2="400" y2="100" stroke="#d3d3d3" stroke-width="1.5"/>
+
+            <!-- B Traces -->
+            <g transform="translate(30, 20)">
+                <path d="M 10 0 L 10 80" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round"/>
+                <path d="M 10 0 H 30 C 50 0, 50 40, 30 40 H 10" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 10 40 H 35 C 55 40, 55 80, 35 80 H 10" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+
+            <g transform="translate(125, 20)">
+                <path d="M 10 0 L 10 80" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round"/>
+                <path d="M 10 0 H 30 C 50 0, 50 40, 30 40 H 10" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 10 40 H 35 C 55 40, 55 80, 35 80 H 10" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+
+            <g transform="translate(220, 20)">
+                <path d="M 10 0 L 10 80" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round"/>
+                <path d="M 10 0 H 30 C 50 0, 50 40, 30 40 H 10" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 10 40 H 35 C 55 40, 55 80, 35 80 H 10" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+
+            <g transform="translate(315, 20)">
+                <path d="M 10 0 L 10 80" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round"/>
+                <path d="M 10 0 H 30 C 50 0, 50 40, 30 40 H 10" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 10 40 H 35 C 55 40, 55 80, 35 80 H 10" fill="none" stroke="#13b5aa" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+        </svg>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div>Reading and Math for K-5</div>
+            <div>© www.k5learning.com</div>
+        </div>
+    </div>
+</body>
+</html>

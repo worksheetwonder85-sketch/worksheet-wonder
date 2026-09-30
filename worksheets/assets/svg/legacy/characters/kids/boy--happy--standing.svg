@@ -1,0 +1,25 @@
+﻿<!--
+  Asset ID:        WW-CHR-boy--happy--standing.svg
+  Title:           boy  happy  standing
+  Category:        kids
+  Creator:         Senior Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            boy, character, happy, standing
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Head & Hair (8-unit scale) -->
+  <circle cx="32" cy="20" r="10" id="head-base"/>
+  <path d="M22 18c2-4 8-6 12-4s8 6 8 8" id="hair"/>
+  <!-- Face: Happy -->
+  <circle cx="28" cy="20" r="1" fill="#333"/>
+  <circle cx="36" cy="20" r="1" fill="#333"/>
+  <path d="M29 25c1.5 2 4.5 2 6 0"/>
+  <!-- Body (Shirt) -->
+  <rect x="24" y="30" width="16" height="18" rx="2" ry="2" id="body-shirt"/>
+  <!-- Limbs -->
+  <path d="M24 32v10M40 32v10" id="arms"/>
+  <path d="M28 48v12h-2M36 48v12h2" id="legs"/>
+</svg>

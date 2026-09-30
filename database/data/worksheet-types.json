@@ -1,0 +1,184 @@
+﻿[
+    {
+        "category":  "Early Learning",
+        "name":  "Tracing",
+        "id":  1,
+        "slug":  "tracing",
+        "description":  "Line, letter, number, and shape tracing for fine motor development."
+    },
+    {
+        "category":  "Core Practice",
+        "name":  "Matching",
+        "id":  2,
+        "slug":  "matching",
+        "description":  "Connect items, terms, pictures, and words."
+    },
+    {
+        "category":  "Creative",
+        "name":  "Coloring",
+        "id":  3,
+        "slug":  "coloring",
+        "description":  "Educational coloring sheets focusing on focus and fine motor skills."
+    },
+    {
+        "category":  "Hands-On",
+        "name":  "Cut and Paste",
+        "id":  4,
+        "slug":  "cut-and-paste",
+        "description":  "Scissor skills and tactile sorting activities."
+    },
+    {
+        "category":  "Assessment",
+        "name":  "Circle the Answer",
+        "id":  5,
+        "slug":  "circle-the-answer",
+        "description":  "Select correct choices by circling the picture or text."
+    },
+    {
+        "category":  "Core Practice",
+        "name":  "Fill in the Blanks",
+        "id":  6,
+        "slug":  "fill-in-the-blanks",
+        "description":  "Complete sentences, equations, and sequences."
+    },
+    {
+        "category":  "Assessment",
+        "name":  "Multiple Choice",
+        "id":  7,
+        "slug":  "multiple-choice",
+        "description":  "Standardized test practice with 3 to 4 option choices."
+    },
+    {
+        "category":  "Visual",
+        "name":  "Picture Questions",
+        "id":  8,
+        "slug":  "picture-questions",
+        "description":  "Visual prompts, diagram labeling, and image observation."
+    },
+    {
+        "category":  "Applied Learning",
+        "name":  "Word Problems",
+        "id":  9,
+        "slug":  "word-problems",
+        "description":  "Real-world scenario problem solving and multi-step reasoning."
+    },
+    {
+        "category":  "Classification",
+        "name":  "Sorting",
+        "id":  10,
+        "slug":  "sorting",
+        "description":  "Categorize objects by shape, size, color, or property."
+    },
+    {
+        "category":  "Logic",
+        "name":  "Sequencing",
+        "id":  11,
+        "slug":  "sequencing",
+        "description":  "Order events, numbers, story cards, and patterns."
+    },
+    {
+        "category":  "Activity",
+        "name":  "Dot-to-Dot",
+        "id":  12,
+        "slug":  "dot-to-dot",
+        "description":  "Connect numbered or alphabet dots to reveal pictures."
+    },
+    {
+        "category":  "Activity",
+        "name":  "Color by Number",
+        "id":  13,
+        "slug":  "color-by-number",
+        "description":  "Math and code-based coloring worksheets."
+    },
+    {
+        "category":  "Logic",
+        "name":  "Maze",
+        "id":  14,
+        "slug":  "maze",
+        "description":  "Spatial reasoning, pathfinding, and problem-solving mazes."
+    },
+    {
+        "category":  "Logic",
+        "name":  "Puzzle",
+        "id":  15,
+        "slug":  "puzzle",
+        "description":  "Logic grids, cross-words, word scrambles, and brain teasers."
+    },
+    {
+        "category":  "Vocabulary",
+        "name":  "Crossword",
+        "id":  16,
+        "slug":  "crossword",
+        "description":  "Vocabulary building grid puzzles with hints."
+    },
+    {
+        "category":  "Vocabulary",
+        "name":  "Word Search",
+        "id":  17,
+        "slug":  "word-search",
+        "description":  "Find key vocabulary terms in letter grids."
+    },
+    {
+        "category":  "Resource",
+        "name":  "Flashcards",
+        "id":  18,
+        "slug":  "flashcards",
+        "description":  "Printable flashcards for quick revision and drill."
+    },
+    {
+        "category":  "Assessment",
+        "name":  "Assessment",
+        "id":  19,
+        "slug":  "assessment",
+        "description":  "Comprehensive chapter tests and evaluation sheets."
+    },
+    {
+        "category":  "Core Practice",
+        "name":  "Review",
+        "id":  20,
+        "slug":  "review",
+        "description":  "Topic recap and mixed skill review sheets."
+    },
+    {
+        "category":  "Advanced",
+        "name":  "Challenge",
+        "id":  21,
+        "slug":  "challenge",
+        "description":  "Enrichment and high-level critical thinking worksheets."
+    },
+    {
+        "category":  "Activity",
+        "name":  "Activity Sheet",
+        "id":  22,
+        "slug":  "activity-sheet",
+        "description":  "Interactive classroom or home learning printables."
+    },
+    {
+        "category":  "Hands-On",
+        "name":  "Craft",
+        "id":  23,
+        "slug":  "craft",
+        "description":  "Paper crafts, mask making, and 3D folding templates."
+    },
+    {
+        "category":  "Project",
+        "name":  "STEAM",
+        "id":  24,
+        "slug":  "steam",
+        "description":  "Science, Tech, Engineering, Art, and Math integrated sheets."
+    },
+    {
+        "category":  "Core Practice",
+        "name":  "Homework",
+        "id":  25,
+        "slug":  "homework",
+        "description":  "Take-home practice worksheets with clear instructions."
+    },
+    {
+        "category":  "Project",
+        "name":  "Project",
+        "id":  26,
+        "slug":  "project",
+        "description":  "Multi-day research, poster, or presentation guides."
+    }
+]

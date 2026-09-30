@@ -1,0 +1,15 @@
+﻿<!--
+  Asset ID:        WW-ICON-brain.svg
+  Title:           brain
+  Category:        learning
+  Creator:         Illustration Production Manager
+  Date Created:    2026-07-14
+  Version:         1.0
+  Status:          Approved
+  License:         Proprietary - Commercial License for Worksheet Wonder
+  Tags:            brain, smart, intelligence, think, idea
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M32 14c-4-4-10-4-14-1s-4 8-1 12c-4 2-6 6-5 10s4 8 8 7c0 4 4 8 8 8s6-2 7-6c1 4 3 6 7 6s8-4 8-8c4 1 7-3 8-7s-1-8-5-10c3-4 3-9-1-12s-10-3-14 1"/>
+  <path d="M32 14v32"/>
+</svg>

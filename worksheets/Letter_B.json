@@ -1,0 +1,52 @@
+{
+  "letter": "B",
+  "uppercase": "B",
+  "lowercase": "b",
+  "worksheetTitle": "The Letter B (Uppercase)",
+  "subtitle": "Trace, Write, and Learn",
+  "grade": "Kindergarten",
+  "ageGroup": "Ages 4–6",
+  "words": [
+    "Ball",
+    "Bear",
+    "Butterfly"
+  ],
+  "strokeOrder": [
+    {
+      "stroke": 1,
+      "description": "Start at top dot 1 and draw a straight line down to the baseline.",
+      "startPoint": [20, 10],
+      "endPoint": [20, 90]
+    },
+    {
+      "stroke": 2,
+      "description": "Start at top dot 2, curve right and back to the middle line.",
+      "startPoint": [20, 10],
+      "controlPoint": [65, 30],
+      "endPoint": [20, 50]
+    },
+    {
+      "stroke": 3,
+      "description": "Start at middle dot 3, curve right and back to the baseline.",
+      "startPoint": [20, 50],
+      "controlPoint": [70, 70],
+      "endPoint": [20, 90]
+    }
+  ],
+  "typography": {
+    "title": "Fredoka 30pt",
+    "instructions": "Nunito 12pt",
+    "vocabulary": "Fredoka 18pt",
+    "tracingLetter": "Fredoka 52pt",
+    "writingLetter": "Fredoka 48pt",
+    "footer": "Nunito 10pt"
+  },
+  "paper": "A4 Portrait (210mm x 297mm)",
+  "colorPalette": {
+    "primary": "#4A90E2",
+    "secondary": "#2C3E50",
+    "accent": "#FF8A65",
+    "background": "#FAFCFE",
+    "guidelines": "#A0C4DF"
+  }
+}

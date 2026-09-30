@@ -1,0 +1,338 @@
+﻿[
+    {
+        "description":  "Identify numbers, count objects, and develop number sense.",
+        "name":  "Number Recognition \u0026 Counting",
+        "id":  101,
+        "subject_id":  2,
+        "slug":  "number-recognition-counting"
+    },
+    {
+        "description":  "Count in 2s, 5s, 10s, and recognize sequence rules.",
+        "name":  "Skip Counting \u0026 Number Patterns",
+        "id":  102,
+        "subject_id":  2,
+        "slug":  "skip-counting-patterns"
+    },
+    {
+        "description":  "Before/After numbers, Greater Than, Less Than, and Ordinal numbers.",
+        "name":  "Compare \u0026 Order Numbers",
+        "id":  103,
+        "subject_id":  2,
+        "slug":  "compare-order-numbers"
+    },
+    {
+        "description":  "Units, Tens, Hundreds, Thousands, and parity classification.",
+        "name":  "Place Value \u0026 Even/Odd",
+        "id":  104,
+        "subject_id":  2,
+        "slug":  "place-value-even-odd"
+    },
+    {
+        "description":  "Single-digit, double-digit, regrouping, and column addition.",
+        "name":  "Addition",
+        "id":  105,
+        "subject_id":  2,
+        "slug":  "addition"
+    },
+    {
+        "description":  "Single-digit, multi-digit subtraction, borrowing, and differences.",
+        "name":  "Subtraction",
+        "id":  106,
+        "subject_id":  2,
+        "slug":  "subtraction"
+    },
+    {
+        "description":  "Equal groups, array models, and multiplication tables.",
+        "name":  "Multiplication",
+        "id":  107,
+        "subject_id":  2,
+        "slug":  "multiplication"
+    },
+    {
+        "description":  "Equal sharing, long division, remainders, and inverse math.",
+        "name":  "Division",
+        "id":  108,
+        "subject_id":  2,
+        "slug":  "division"
+    },
+    {
+        "description":  "Halves, quarters, equivalent fractions, and decimal operations.",
+        "name":  "Fractions \u0026 Decimals",
+        "id":  109,
+        "subject_id":  2,
+        "slug":  "fractions-decimals"
+    },
+    {
+        "description":  "Tell time on clocks, elapsed time, days, months, and calendars.",
+        "name":  "Time \u0026 Calendar",
+        "id":  110,
+        "subject_id":  2,
+        "slug":  "time-calendar"
+    },
+    {
+        "description":  "Coin recognition, counting currency, change calculation, and shopping.",
+        "name":  "Money",
+        "id":  111,
+        "subject_id":  2,
+        "slug":  "money"
+    },
+    {
+        "description":  "Length, weight, capacity, temperature, and unit conversions.",
+        "name":  "Measurement",
+        "id":  112,
+        "subject_id":  2,
+        "slug":  "measurement"
+    },
+    {
+        "description":  "2D \u0026 3D shapes, perimeter, area, lines, angles, and line symmetry.",
+        "name":  "Geometry, Shapes \u0026 Symmetry",
+        "id":  113,
+        "subject_id":  2,
+        "slug":  "geometry-shapes-symmetry"
+    },
+    {
+        "description":  "Above/Below, In/Out, Left/Right, and spatial orientation.",
+        "name":  "Position Words \u0026 Spatial Reasoning",
+        "id":  114,
+        "subject_id":  2,
+        "slug":  "position-words-spatial"
+    },
+    {
+        "description":  "Tally marks, pictographs, bar graphs, and data interpretation.",
+        "name":  "Data Handling, Graphs \u0026 Tables",
+        "id":  115,
+        "subject_id":  2,
+        "slug":  "data-handling-graphs"
+    },
+    {
+        "description":  "Story-based math problems, quick mental strategies, and review.",
+        "name":  "Word Problems \u0026 Mental Math",
+        "id":  116,
+        "subject_id":  2,
+        "slug":  "word-problems-mental-math"
+    },
+    {
+        "description":  "Capital and small letters, stroke order, and line tracing.",
+        "name":  "Alphabet \u0026 Letter Formation",
+        "id":  201,
+        "subject_id":  1,
+        "slug":  "alphabet-letter-formation"
+    },
+    {
+        "description":  "Beginning/middle/ending sounds, CVC words, blends, and digraphs.",
+        "name":  "Phonics \u0026 Word Building",
+        "id":  202,
+        "subject_id":  1,
+        "slug":  "phonics-word-building"
+    },
+    {
+        "description":  "High-frequency words, word families, synonyms, and antonyms.",
+        "name":  "Sight Words \u0026 Vocabulary",
+        "id":  203,
+        "subject_id":  1,
+        "slug":  "sight-words-vocabulary"
+    },
+    {
+        "description":  "Short stories, passage reading, direct answers, and inferencing.",
+        "name":  "Reading Comprehension",
+        "id":  204,
+        "subject_id":  1,
+        "slug":  "reading-comprehension"
+    },
+    {
+        "description":  "Nouns, pronouns, verbs, adjectives, adverbs, prepositions, articles.",
+        "name":  "Grammar \u0026 Parts of Speech",
+        "id":  205,
+        "subject_id":  1,
+        "slug":  "grammar-parts-of-speech"
+    },
+    {
+        "description":  "Capitals, periods, question marks, commas, and spelling rules.",
+        "name":  "Punctuation \u0026 Spelling",
+        "id":  206,
+        "subject_id":  1,
+        "slug":  "punctuation-spelling"
+    },
+    {
+        "description":  "Print handwriting, cursive tracing, and sentence building.",
+        "name":  "Handwriting \u0026 Sentence Structure",
+        "id":  207,
+        "subject_id":  1,
+        "slug":  "handwriting-sentence-structure"
+    },
+    {
+        "description":  "Paragraph writing, story starters, journal prompts, and essays.",
+        "name":  "Creative Writing \u0026 Composition",
+        "id":  208,
+        "subject_id":  1,
+        "slug":  "creative-writing-composition"
+    },
+    {
+        "description":  "Living vs non-living, habitats, life cycles, and adaptation.",
+        "name":  "Living Things \u0026 Habits",
+        "id":  301,
+        "subject_id":  3,
+        "slug":  "living-things-habits"
+    },
+    {
+        "description":  "Plant parts, photosynthesis, animal classification, and food chains.",
+        "name":  "Plants \u0026 Animals",
+        "id":  302,
+        "subject_id":  3,
+        "slug":  "plants-animals"
+    },
+    {
+        "description":  "Sight, hearing, smell, taste, touch, organs, and hygiene.",
+        "name":  "Human Body \u0026 Five Senses",
+        "id":  303,
+        "subject_id":  3,
+        "slug":  "human-body-five-senses"
+    },
+    {
+        "description":  "Nutrition, water cycle, states of matter, light, sound, and energy.",
+        "name":  "Food, Water \u0026 Energy",
+        "id":  304,
+        "subject_id":  3,
+        "slug":  "food-water-energy"
+    },
+    {
+        "description":  "Spring/Summer/Autumn/Winter, rocks, soil, and earth layers.",
+        "name":  "Weather, Earth \u0026 Seasons",
+        "id":  305,
+        "subject_id":  3,
+        "slug":  "weather-earth-seasons"
+    },
+    {
+        "description":  "Sun, moon, stars, planets, and space exploration facts.",
+        "name":  "Space \u0026 Solar System",
+        "id":  306,
+        "subject_id":  3,
+        "slug":  "space-solar-system"
+    },
+    {
+        "description":  "Push/pull, gravity, friction, simple machines, and eco-conservation.",
+        "name":  "Forces, Motion \u0026 Environment",
+        "id":  307,
+        "subject_id":  3,
+        "slug":  "forces-motion-environment"
+    },
+    {
+        "description":  "Family roles, home rooms, school environment, and belonging.",
+        "name":  "My Family, Home \u0026 School",
+        "id":  401,
+        "subject_id":  5,
+        "slug":  "family-home-school"
+    },
+    {
+        "description":  "Doctors, firefighters, teachers, police, and local places.",
+        "name":  "Community Helpers \u0026 Neighbourhood",
+        "id":  402,
+        "subject_id":  5,
+        "slug":  "community-helpers-neighbourhood"
+    },
+    {
+        "description":  "Cultural festivals, hygiene, road safety, and good manners.",
+        "name":  "Festivals, Good Habits \u0026 Safety",
+        "id":  403,
+        "subject_id":  5,
+        "slug":  "festivals-habits-safety"
+    },
+    {
+        "description":  "Land, air, water transport, letters, phones, and digital media.",
+        "name":  "Transport \u0026 Communication",
+        "id":  404,
+        "subject_id":  5,
+        "slug":  "transport-communication"
+    },
+    {
+        "description":  "Caring for pets, saving water, trees, and environmental care.",
+        "name":  "Plants, Animals \u0026 Nature in EVS",
+        "id":  405,
+        "subject_id":  5,
+        "slug":  "nature-in-evs"
+    },
+    {
+        "description":  "Monitor, CPU, keyboard, mouse, input, and output hardware.",
+        "name":  "Parts of Computer \u0026 Devices",
+        "id":  501,
+        "subject_id":  8,
+        "slug":  "computer-parts-devices"
+    },
+    {
+        "description":  "Left/right click, drag-drop, home row keys, and typing drills.",
+        "name":  "Keyboarding \u0026 Mouse Practice",
+        "id":  502,
+        "subject_id":  8,
+        "slug":  "keyboarding-mouse-practice"
+    },
+    {
+        "description":  "Web browsing, online safety, privacy, and digital etiquette.",
+        "name":  "Internet Basics \u0026 Digital Safety",
+        "id":  503,
+        "subject_id":  8,
+        "slug":  "internet-basics-digital-safety"
+    },
+    {
+        "description":  "Sequencing commands, block coding concepts, and logic loops.",
+        "name":  "Coding Basics \u0026 Algorithms",
+        "id":  504,
+        "subject_id":  8,
+        "slug":  "coding-basics-algorithms"
+    },
+    {
+        "description":  "World nations, national flags, anthems, and national birds/flowers.",
+        "name":  "Countries, Flags \u0026 Symbols",
+        "id":  601,
+        "subject_id":  9,
+        "slug":  "countries-flags-symbols"
+    },
+    {
+        "description":  "Inventors, leaders, scientists, and historical milestones.",
+        "name":  "Famous Personalities \u0026 History",
+        "id":  602,
+        "subject_id":  9,
+        "slug":  "famous-personalities-history"
+    },
+    {
+        "description":  "7 continents, 5 oceans, mountains, rivers, and world maps.",
+        "name":  "Continents, Oceans \u0026 Geography",
+        "id":  603,
+        "subject_id":  9,
+        "slug":  "continents-oceans-geography"
+    },
+    {
+        "description":  "Record-breaking facts, extreme nature, space trivia, and science facts.",
+        "name":  "Nature, Animals \u0026 Space Facts",
+        "id":  604,
+        "subject_id":  9,
+        "slug":  "nature-animals-space-facts"
+    },
+    {
+        "description":  "Creative coloring, color mixing, and math color by code.",
+        "name":  "Coloring Pages \u0026 Color by Code",
+        "id":  701,
+        "subject_id":  10,
+        "slug":  "coloring-pages-color-by-code"
+    },
+    {
+        "description":  "Pencil mastery, connecting dots, and maze drawing.",
+        "name":  "Tracing Lines \u0026 Dot-to-Dot",
+        "id":  702,
+        "subject_id":  10,
+        "slug":  "tracing-lines-dot-to-dot"
+    },
+    {
+        "description":  "Paper folding, 3D crafts, scissor activities, and puppet making.",
+        "name":  "Cut \u0026 Paste \u0026 Origami Craft",
+        "id":  703,
+        "subject_id":  10,
+        "slug":  "cut-paste-origami"
+    },
+    {
+        "description":  "Holiday decorations, science crafts, and creative STEAM projects.",
+        "name":  "STEAM \u0026 Festive Crafts",
+        "id":  704,
+        "subject_id":  10,
+        "slug":  "steam-festive-crafts"
+    }
+]
