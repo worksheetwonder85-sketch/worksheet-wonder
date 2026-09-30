@@ -103,17 +103,51 @@ for(var i=0;i<els.length;i++){if(els[i].getAttribute('href').toLowerCase()===p){
     </section>
 
     <!-- =========================
+         FREE LEARNING TOOLS
+    ========================== -->
+    <section class="free-tools py-5 bg-light border-top">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Free Learning Tools</h2>
+                <p class="text-muted mb-0">Make it personal — create custom worksheets, awards and charts for your child.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="ww-card p-4 rounded shadow-sm border-0 bg-white h-100 text-center">
+                        <div class="display-4 mb-3">✏️</div>
+                        <h5 class="fw-bold">Name Worksheet Generator <span class="badge bg-success ms-1">NEW</span></h5>
+                        <p class="text-muted small">Type any name and get a printable tracing worksheet — or make a custom spelling list.</p>
+                        <a href="name-worksheets.html" class="btn btn-primary mt-2">Create Worksheet</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ww-card p-4 rounded shadow-sm border-0 bg-white h-100 text-center">
+                        <div class="display-4 mb-3">🏆</div>
+                        <h5 class="fw-bold">Printable Certificates <span class="badge bg-success ms-1">NEW</span></h5>
+                        <p class="text-muted small">Award Star Reader, Math Champion, Super Speller and Homework Hero certificates.</p>
+                        <a href="certificates.html" class="btn btn-primary mt-2">Make a Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ww-card p-4 rounded shadow-sm border-0 bg-white h-100 text-center">
+                        <div class="display-4 mb-3">⭐</div>
+                        <h5 class="fw-bold">Progress Charts <span class="badge bg-success ms-1">NEW</span></h5>
+                        <p class="text-muted small">Star reward charts, sticker charts and a 30-day reading log to track progress.</p>
+                        <a href="progress-charts.html" class="btn btn-primary mt-2">Print a Chart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
          FREE WORKSHEET CATEGORIES
     ========================== -->
     <section class="categories-nav py-4 bg-light">
         <div class="container text-center">
-            <div class="d-flex justify-content-center flex-wrap gap-2">
-                <a href="#" class="btn btn-rainbow">All Freebies</a>
-                <a href="#" class="btn btn-outline-primary">Alphabet</a>
-                <a href="#" class="btn btn-outline-success">Math</a>
-                <a href="#" class="btn btn-outline-warning">Tracing</a>
-                <a href="#" class="btn btn-outline-danger">Coloring</a>
-            </div>
+            <p class="text-muted small mb-2">Pick a category to see only those packs:</p>
+            <div class="d-flex justify-content-center flex-wrap gap-2" id="freebie-tabs"></div>
+            <p class="text-muted small mt-2 mb-0" id="freebie-count"></p>
         </div>
     </section>
 
@@ -2666,44 +2700,6 @@ for(var i=0;i<els.length;i++){if(els[i].getAttribute('href').toLowerCase()===p){
 
 
     <!-- =========================
-         FREE LEARNING TOOLS
-    ========================== -->
-    <section class="free-tools py-5 bg-light border-top">
-        <div class="container">
-            <div class="text-center mb-4">
-                <h2 class="fw-bold">Free Learning Tools</h2>
-                <p class="text-muted mb-0">Make it personal — create custom worksheets, awards and charts for your child.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="ww-card p-4 rounded shadow-sm border-0 bg-white h-100 text-center">
-                        <div class="display-4 mb-3">✏️</div>
-                        <h5 class="fw-bold">Name Worksheet Generator <span class="badge bg-success ms-1">NEW</span></h5>
-                        <p class="text-muted small">Type any name and get a printable tracing worksheet — or make a custom spelling list.</p>
-                        <a href="name-worksheets.html" class="btn btn-primary mt-2">Create Worksheet</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="ww-card p-4 rounded shadow-sm border-0 bg-white h-100 text-center">
-                        <div class="display-4 mb-3">🏆</div>
-                        <h5 class="fw-bold">Printable Certificates <span class="badge bg-success ms-1">NEW</span></h5>
-                        <p class="text-muted small">Award Star Reader, Math Champion, Super Speller and Homework Hero certificates.</p>
-                        <a href="certificates.html" class="btn btn-primary mt-2">Make a Certificate</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="ww-card p-4 rounded shadow-sm border-0 bg-white h-100 text-center">
-                        <div class="display-4 mb-3">⭐</div>
-                        <h5 class="fw-bold">Progress Charts <span class="badge bg-success ms-1">NEW</span></h5>
-                        <p class="text-muted small">Star reward charts, sticker charts and a 30-day reading log to track progress.</p>
-                        <a href="progress-charts.html" class="btn btn-primary mt-2">Print a Chart</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- =========================
          EMAIL SIGNUP CTA
     ========================== -->
     <section class="cta-section py-5 bg-light text-center border-top border-bottom">
@@ -2833,5 +2829,55 @@ for(var i=0;i<els.length;i++){if(els[i].getAttribute('href').toLowerCase()===p){
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/main.js"></script>
+<script>
+/* Freebies category tabs: built from the cards themselves, so every
+   category on the page gets its own tab automatically. */
+document.addEventListener('DOMContentLoaded', function () {
+    var grid = document.querySelector('.freebies-grid .row');
+    var tabsEl = document.getElementById('freebie-tabs');
+    var countEl = document.getElementById('freebie-count');
+    if (!grid || !tabsEl) return;
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('.worksheet-card'));
+    var labels = [];
+    var seen = {};
+    cards.forEach(function (card) {
+        var b = null;
+        var spans = card.querySelectorAll(':scope > span.badge');
+        if (spans.length) b = spans[0];
+        var label = b ? b.textContent.trim() : 'Other';
+        card.setAttribute('data-cat', label);
+        if (!seen[label]) { seen[label] = 1; labels.push(label); }
+    });
+    function makeBtn(text, tab, active) {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = text;
+        btn.setAttribute('data-tab', tab);
+        btn.className = 'btn btn-sm ' + (active ? 'btn-rainbow' : 'btn-outline-primary');
+        return btn;
+    }
+    function apply(tab) {
+        var n = 0;
+        cards.forEach(function (card) {
+            var show = (tab === '__all' || card.getAttribute('data-cat') === tab);
+            if (card.parentElement) card.parentElement.style.display = show ? '' : 'none';
+            if (show) n++;
+        });
+        if (countEl) countEl.textContent = 'Showing ' + n + ' of ' + cards.length + ' packs';
+        Array.prototype.forEach.call(tabsEl.querySelectorAll('button'), function (b) {
+            var active = b.getAttribute('data-tab') === tab;
+            b.className = 'btn btn-sm ' + (active ? 'btn-rainbow' : 'btn-outline-primary');
+        });
+    }
+    tabsEl.appendChild(makeBtn('All Freebies', '__all', true));
+    labels.forEach(function (l) { tabsEl.appendChild(makeBtn(l, l, false)); });
+    tabsEl.addEventListener('click', function (e) {
+        var b = e.target.closest ? e.target.closest('button[data-tab]') : null;
+        if (b) apply(b.getAttribute('data-tab'));
+    });
+    apply('__all');
+});
+</script>
+
 </body>
 </html>
