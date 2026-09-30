@@ -18,11 +18,27 @@
         return '<span class="rating" aria-label="Rated ' + rating + ' out of 5">' + out + '</span>';
     }
 
+    /* Difficulty pill: Easy (green) / Medium (amber) / Hard (red).
+       Reads w.level ('Easy'|'Medium'|'Hard', case-insensitive).
+       Renders nothing when level is missing or unrecognized. */
+    function levelBadge(level) {
+        var key = String(level || '').toLowerCase();
+        var map = {
+            easy:   ['Easy', '#198754', '#ffffff'],
+            medium: ['Medium', '#ffc107', '#212529'],
+            hard:   ['Hard', '#dc3545', '#ffffff']
+        };
+        if (!map[key]) return '';
+        return '<span class="badge rounded-pill" style="background:' + map[key][1] +
+            ';color:' + map[key][2] + '">' + map[key][0] + '</span>';
+    }
+
     /* K5-style listing row: blue underlined title left, thumbnail right, dotted divider */
     function worksheetCard(w) {
         var badge = w.price > 0
             ? '<span class="badge bg-warning text-dark">$' + w.price.toFixed(2) + '</span>'
             : '<span class="badge bg-success">FREE</span>';
+        var lvlBadge = levelBadge(w.level);
         var detailsUrl = 'worksheet-details.html?id=' + w.id;
         var thumb = w.thumb
             ? '<a href="' + detailsUrl + '"><img src="' + w.thumb + '" class="k5-thumb" alt="' +
@@ -31,7 +47,8 @@
         return '' +
         '<div class="col-12">' +
             '<div class="k5-listing-row">' +
-                '<div class="flex-grow-1">' +
+                '<div class="flex-grow-1"' + (lvlBadge ? ' style="position:relative;padding-right:92px"' : '') + '>' +
+                    (lvlBadge ? '<span style="position:absolute;top:2px;right:0">' + lvlBadge + '</span>' : '') +
                     '<a class="k5-title" href="' + detailsUrl + '">' + w.title + '</a>' +
                     '<div class="k5-meta mt-1">' + w.pages + ' page' + (w.pages > 1 ? 's' : '') +
                         ' &middot; ' + w.topic + ' &middot; ' + badge + '</div>' +
@@ -135,6 +152,7 @@
     // Expose helpers for page scripts
     window.WW = window.WW || {};
     window.WW.worksheetCard = worksheetCard;
+    window.WW.levelBadge = levelBadge;
     window.WW.subjectCard = subjectCard;
     window.WW.gradeCard = gradeCard;
     window.WW.emptyState = emptyState;
@@ -260,6 +278,15 @@
         { label: 'Cursive', href: 'cursive.html', groups: [
             { header: 'Topics', links: topics([['Cursive', 'cursive']]) }
         ]},
+        { label: 'Hindi', href: 'subject-hindi.html', groups: [
+            { header: 'By Grade', links: [
+                ['Preschool', 'worksheets.html?subject=hindi&grade=preschool'],
+                ['Kindergarten', 'worksheets.html?subject=hindi&grade=kindergarten']] },
+            { header: 'Topics', links: topics([
+                ['Hindi Vowels', 'hindi-vowels'],
+                ['Hindi Consonants', 'hindi-consonants'],
+                ['Hindi Numbers', 'hindi-numbers']]) }
+        ]},
         { label: 'Bookstore', href: 'shop.html' },
         { label: 'Grades', href: 'grade.html', groups: [
             { header: 'By Grade', links: GRADES.map(function (g) { return [g[0], g[1] + '.html']; }) }
@@ -274,6 +301,7 @@
         'kindergarten.html': 'Kindergarten', 'vocabulary.html': 'Vocabulary',
         'spelling.html': 'Spelling', 'grammar.html': 'Grammar & Writing',
         'subject-science.html': 'Science', 'cursive.html': 'Cursive',
+        'subject-hindi.html': 'Hindi',
         'shop.html': 'Bookstore', 'worksheets.html': 'Worksheets',
         'freebies.html': 'Freebies', 'blog.html': 'Blog',
         'preschool.html': 'Grades', 'grade1.html': 'Grades', 'grade2.html': 'Grades',
@@ -287,7 +315,8 @@
             ['Math', 'subject-maths.html'], ['Reading', 'reading.html'],
             ['Kindergarten', 'kindergarten.html'], ['Grammar & Writing', 'grammar.html'],
             ['Vocabulary', 'vocabulary.html'], ['Spelling', 'spelling.html'],
-            ['Science', 'subject-science.html'], ['Cursive', 'cursive.html']] },
+            ['Science', 'subject-science.html'], ['Cursive', 'cursive.html'],
+            ['Hindi', 'subject-hindi.html']] },
         { title: 'Resources', links: [
             ['Worksheets', 'worksheets.html'], ['Bookstore', 'shop.html'],
             ['Freebies', 'freebies.html'], ['Blog', 'blog.html']] },
@@ -383,7 +412,7 @@
         { label: 'Freebies', href: 'freebies.html' },
         { label: 'Blog', href: 'blog.html' }
     ];
-    var TABS = NAV.slice(0, 9); // Math … Bookstore
+    var TABS = NAV.slice(0, 10); // Math … Hindi
 
     function tabItem(tab, i) {
         var label = esc(tab.label);

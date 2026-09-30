@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Printable Certificates for Kids | Worksheet Wonder</title>
+    <meta name="description" content="Free printable award certificates for kids: Star Reader, Math Champion, Super Speller and Homework Hero. Type the child's name, print, and celebrate.">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+
+    <style>
+        /* ---------- Certificates page ---------- */
+        .ww-how-step { background: #fff; border: 1px solid #E2E8F0; border-radius: 12px; padding: 1.25rem; height: 100%; }
+        .ww-how-num { width: 40px; height: 40px; border-radius: 50%; background: #16305b; color: #fff;
+            display: inline-flex; align-items: center; justify-content: center; font-weight: 800; margin-bottom: .5rem; }
+
+        /* Certificate frame — navy outer, gold inner (festive but professional) */
+        .ww-cert { background: #16305b; padding: 12px; border-radius: 8px; max-width: 900px; margin: 0 auto;
+            box-shadow: 0 12px 32px rgba(22, 48, 91, .22); }
+        .ww-cert.teal { background: #0e5f5a; }
+        .ww-cert.purple { background: #5b2d90; }
+        .ww-cert.burnt { background: #b34a12; }
+        .ww-cert-inner { position: relative; background: #fffdf6; border: 3px double #c9a227; border-radius: 4px;
+            padding: 44px 36px 32px; text-align: center; }
+        .ww-cert-kicker { letter-spacing: 4px; font-size: .72rem; color: #8a6d1c; font-weight: 700; }
+        .ww-cert-emblem { width: 92px; height: 92px; margin: 14px auto 4px; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center; font-size: 42px; color: #fff;
+            background: radial-gradient(circle at 35% 30%, #e8c55a, #b98a1c);
+            box-shadow: 0 0 0 6px #fffdf6, 0 0 0 8px #c9a227; }
+        .ww-cert-title { font-family: 'Baloo 2', cursive; font-weight: 800; color: #16305b; font-size: 2.5rem; margin: 12px 0 2px; }
+        .ww-cert-rule { width: 120px; height: 3px; background: #c9a227; margin: 8px auto 14px; border-radius: 2px; }
+        .ww-cert-awarded { color: #5b6472; margin-bottom: 6px; }
+        .ww-cert-name-input, .ww-print-val.ww-cert-name-input { font-family: 'Baloo 2', cursive; font-size: 2rem;
+            text-align: center; border: none; border-bottom: 2px dotted #b98a1c; background: transparent;
+            width: min(440px, 85%); color: #16305b; font-weight: 700; padding: 2px 6px; }
+        .ww-cert-name-input:focus { outline: none; border-bottom-style: solid; }
+        .ww-cert-reason { color: #5b6472; font-style: italic; margin-top: 12px; }
+        .ww-cert-meta { display: flex; justify-content: space-between; gap: 24px; margin-top: 36px; text-align: center; }
+        .ww-cert-meta label { display: block; font-size: .72rem; letter-spacing: 2px; color: #8a94a6; font-weight: 700; margin-bottom: 4px; }
+        .ww-cert-date-input, .ww-print-val.ww-cert-date-input { border: none; border-bottom: 1px solid #9aa3b2;
+            text-align: center; background: transparent; color: #16305b; font-weight: 600; padding: 2px 8px; }
+        .ww-cert-sig-line { border-bottom: 1px solid #9aa3b2; min-width: 170px; height: 30px; }
+        .ww-cert-foot { margin-top: 26px; font-size: .78rem; color: #8a6d1c; letter-spacing: 3px; font-weight: 700; }
+        .ww-cert-corner { position: absolute; color: #c9a227; font-size: 1.3rem; line-height: 1; }
+        .ww-cert-corner.tl { top: 12px; left: 14px; } .ww-cert-corner.tr { top: 12px; right: 14px; }
+        .ww-cert-corner.bl { bottom: 12px; left: 14px; } .ww-cert-corner.br { bottom: 12px; right: 14px; }
+        @media (max-width: 576px) {
+            .ww-cert-title { font-size: 1.9rem; }
+            .ww-cert-meta { flex-direction: column; align-items: center; }
+        }
+
+        /* ---------- Print: only the chosen certificate ---------- */
+        #ww-print-area { display: none; }
+        @media print {
+            body.ww-printing > *:not(#ww-print-area) { display: none !important; }
+            body.ww-printing #ww-print-area { display: block !important; }
+            body.ww-printing { background: #fff !important; }
+            .ww-cert { box-shadow: none; max-width: 100%; margin: 0; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- =========================
+         TOP ANNOUNCEMENT BAR
+    ========================== -->
+    <div class="top-bar py-2 text-center text-white fw-medium">
+        New free printable worksheets added every week
+    </div>
+
+    <!-- =========================
+         HEADER NAVBAR
+    ========================== -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+                <img src="assets/images/logo.png" alt="Worksheet Wonder Logo" class="navbar-logo" style="height: 42px;">
+                <span class="brand-text ms-2 fs-4 text-primary">Worksheet <span class="brand-2">Wonder</span></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+                    <!-- Grades Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="gradesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Grades
+                        </a>
+                        <ul class="dropdown-menu shadow-sm" aria-labelledby="gradesDropdown">
+                            <li><a class="dropdown-item" href="preschool.html">Preschool</a></li>
+                            <li><a class="dropdown-item" href="kindergarten.html">Kindergarten</a></li>
+                            <li><a class="dropdown-item" href="grade1.html">Grade 1</a></li>
+                            <li><a class="dropdown-item" href="grade2.html">Grade 2</a></li>
+                            <li><a class="dropdown-item" href="grade3.html">Grade 3</a></li>
+                            <li><a class="dropdown-item" href="grade4.html">Grade 4</a></li>
+                            <li><a class="dropdown-item" href="grade5.html">Grade 5</a></li>
+                            <li><a class="dropdown-item" href="grade6.html">Grade 6</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Subjects Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="subjectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Subjects
+                        </a>
+                        <ul class="dropdown-menu shadow-sm" aria-labelledby="subjectsDropdown">
+                            <li><a class="dropdown-item" href="subject-maths.html">Mathematics</a></li>
+                            <li><a class="dropdown-item" href="subject-english.html">English</a></li>
+                            <li><a class="dropdown-item" href="subject-science.html">Science</a></li>
+                            <li><a class="dropdown-item" href="subject-evs.html">EVS</a></li>
+                            <li><a class="dropdown-item" href="subject-computer.html">Computer</a></li>
+                            <li><a class="dropdown-item" href="subject-gk.html">General Knowledge</a></li>
+                            <li><a class="dropdown-item" href="subject-art-craft.html">Art &amp; Craft</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="worksheets.html">Worksheets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="freebies.html">Freebies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <a href="login.html" class="btn btn-rainbow ms-lg-3">
+                    <i class="bi bi-person-circle"></i> Login
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- =========================
+         BREADCRUMB SECTION
+    ========================== -->
+    <section class="breadcrumb-section py-3 bg-light">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Certificates</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero-section py-5 bg-white border-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <span class="badge bg-secondary fs-6 mb-3">🏆 Certificates</span>
+                    <h1 class="display-4 fw-bold text-dark">Free Printable Certificates for Kids</h1>
+                    <p class="lead text-muted mt-3 mb-4">Celebrate every win — reading milestones, math victories, spelling stars and homework streaks. Type the child's name, print the certificate, and award it today.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#certificates" class="btn btn-rainbow btn-lg">
+                            <i class="bi bi-award me-2"></i> Browse Certificates
+                        </a>
+                        <a href="progress-charts.html" class="btn btn-outline-primary btn-lg">
+                            <i class="bi bi-bar-chart me-2"></i> Progress Charts
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center mt-4 mt-lg-0">
+                    <div class="card bg-light border-0 shadow-sm p-4 text-start">
+                        <h5 class="fw-bold mb-3 border-bottom pb-2">Why certificates work</h5>
+                        <p class="text-muted mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Motivates daily practice</p>
+                        <p class="text-muted mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Builds confidence in kids</p>
+                        <p class="text-muted mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Free to print, unlimited use</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         HOW IT WORKS
+    ========================== -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="ww-how-step text-center">
+                        <div class="ww-how-num">1</div>
+                        <h5 class="fw-bold">Type the name</h5>
+                        <p class="text-muted mb-0">Enter the child's name and the date right on the certificate.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ww-how-step text-center">
+                        <div class="ww-how-num">2</div>
+                        <h5 class="fw-bold">Print it</h5>
+                        <p class="text-muted mb-0">Hit Print — only the certificate prints, in landscape.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ww-how-step text-center">
+                        <div class="ww-how-num">3</div>
+                        <h5 class="fw-bold">Award &amp; celebrate</h5>
+                        <p class="text-muted mb-0">Sign it, present it, and stick it on the fridge.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         CERTIFICATES
+    ========================== -->
+    <section class="py-5 bg-white" id="certificates">
+        <div class="container">
+
+            <!-- 1. Star Reader -->
+            <article class="mb-5 pb-5 border-bottom">
+                <h2 class="fw-bold mb-2">📚 Star Reader</h2>
+                <p class="text-muted mb-4">For reading milestones — finishing a book, learning sight words, or a great reading streak.</p>
+                <div class="ww-cert mb-4" id="cert-reader">
+                    <div class="ww-cert-inner">
+                        <span class="ww-cert-corner tl">✦</span><span class="ww-cert-corner tr">✦</span>
+                        <span class="ww-cert-corner bl">✦</span><span class="ww-cert-corner br">✦</span>
+                        <div class="ww-cert-kicker">WORKSHEET WONDER • CERTIFICATE OF ACHIEVEMENT</div>
+                        <div class="ww-cert-emblem">★</div>
+                        <h3 class="ww-cert-title">Star Reader</h3>
+                        <div class="ww-cert-rule"></div>
+                        <p class="ww-cert-awarded">This certificate is proudly presented to</p>
+                        <div><input type="text" class="ww-cert-name-input" placeholder="Child's name" aria-label="Child's name"></div>
+                        <p class="ww-cert-reason">for outstanding achievement in reading</p>
+                        <div class="ww-cert-meta">
+                            <div><label>DATE</label><input type="date" class="ww-cert-date-input ww-date-input" aria-label="Date"></div>
+                            <div><label>SIGNATURE</label><div class="ww-cert-sig-line"></div></div>
+                        </div>
+                        <div class="ww-cert-foot">WORKSHEET WONDER • LEARNING MADE WONDERFUL</div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-rainbow btn-lg" data-print-target="cert-reader" data-landscape="1">
+                        <i class="bi bi-printer me-2"></i> Print Star Reader Certificate
+                    </button>
+                </div>
+            </article>
+
+            <!-- 2. Math Champion -->
+            <article class="mb-5 pb-5 border-bottom">
+                <h2 class="fw-bold mb-2">🔢 Math Champion</h2>
+                <p class="text-muted mb-4">For math victories — mastering addition, times tables, fractions, or problem-solving.</p>
+                <div class="ww-cert teal mb-4" id="cert-math">
+                    <div class="ww-cert-inner">
+                        <span class="ww-cert-corner tl">✦</span><span class="ww-cert-corner tr">✦</span>
+                        <span class="ww-cert-corner bl">✦</span><span class="ww-cert-corner br">✦</span>
+                        <div class="ww-cert-kicker">WORKSHEET WONDER • CERTIFICATE OF ACHIEVEMENT</div>
+                        <div class="ww-cert-emblem">✖</div>
+                        <h3 class="ww-cert-title">Math Champion</h3>
+                        <div class="ww-cert-rule"></div>
+                        <p class="ww-cert-awarded">This certificate is proudly presented to</p>
+                        <div><input type="text" class="ww-cert-name-input" placeholder="Child's name" aria-label="Child's name"></div>
+                        <p class="ww-cert-reason">for excellent problem-solving in mathematics</p>
+                        <div class="ww-cert-meta">
+                            <div><label>DATE</label><input type="date" class="ww-cert-date-input ww-date-input" aria-label="Date"></div>
+                            <div><label>SIGNATURE</label><div class="ww-cert-sig-line"></div></div>
+                        </div>
+                        <div class="ww-cert-foot">WORKSHEET WONDER • LEARNING MADE WONDERFUL</div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-rainbow btn-lg" data-print-target="cert-math" data-landscape="1">
+                        <i class="bi bi-printer me-2"></i> Print Math Champion Certificate
+                    </button>
+                </div>
+            </article>
+
+            <!-- 3. Super Speller -->
+            <article class="mb-5 pb-5 border-bottom">
+                <h2 class="fw-bold mb-2">✏️ Super Speller</h2>
+                <p class="text-muted mb-4">For spelling success — acing a spelling test or finishing a spelling pack.</p>
+                <div class="ww-cert purple mb-4" id="cert-speller">
+                    <div class="ww-cert-inner">
+                        <span class="ww-cert-corner tl">✦</span><span class="ww-cert-corner tr">✦</span>
+                        <span class="ww-cert-corner bl">✦</span><span class="ww-cert-corner br">✦</span>
+                        <div class="ww-cert-kicker">WORKSHEET WONDER • CERTIFICATE OF ACHIEVEMENT</div>
+                        <div class="ww-cert-emblem">A</div>
+                        <h3 class="ww-cert-title">Super Speller</h3>
+                        <div class="ww-cert-rule"></div>
+                        <p class="ww-cert-awarded">This certificate is proudly presented to</p>
+                        <div><input type="text" class="ww-cert-name-input" placeholder="Child's name" aria-label="Child's name"></div>
+                        <p class="ww-cert-reason">for super spelling success</p>
+                        <div class="ww-cert-meta">
+                            <div><label>DATE</label><input type="date" class="ww-cert-date-input ww-date-input" aria-label="Date"></div>
+                            <div><label>SIGNATURE</label><div class="ww-cert-sig-line"></div></div>
+                        </div>
+                        <div class="ww-cert-foot">WORKSHEET WONDER • LEARNING MADE WONDERFUL</div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-rainbow btn-lg" data-print-target="cert-speller" data-landscape="1">
+                        <i class="bi bi-printer me-2"></i> Print Super Speller Certificate
+                    </button>
+                </div>
+            </article>
+
+            <!-- 4. Homework Hero -->
+            <article class="mb-2">
+                <h2 class="fw-bold mb-2">🦸 Homework Hero</h2>
+                <p class="text-muted mb-4">For dedication — finishing homework every day for a week, or always trying their best.</p>
+                <div class="ww-cert burnt mb-4" id="cert-hero">
+                    <div class="ww-cert-inner">
+                        <span class="ww-cert-corner tl">✦</span><span class="ww-cert-corner tr">✦</span>
+                        <span class="ww-cert-corner bl">✦</span><span class="ww-cert-corner br">✦</span>
+                        <div class="ww-cert-kicker">WORKSHEET WONDER • CERTIFICATE OF ACHIEVEMENT</div>
+                        <div class="ww-cert-emblem">🏅</div>
+                        <h3 class="ww-cert-title">Homework Hero</h3>
+                        <div class="ww-cert-rule"></div>
+                        <p class="ww-cert-awarded">This certificate is proudly presented to</p>
+                        <div><input type="text" class="ww-cert-name-input" placeholder="Child's name" aria-label="Child's name"></div>
+                        <p class="ww-cert-reason">for completing homework with dedication</p>
+                        <div class="ww-cert-meta">
+                            <div><label>DATE</label><input type="date" class="ww-cert-date-input ww-date-input" aria-label="Date"></div>
+                            <div><label>SIGNATURE</label><div class="ww-cert-sig-line"></div></div>
+                        </div>
+                        <div class="ww-cert-foot">WORKSHEET WONDER • LEARNING MADE WONDERFUL</div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-rainbow btn-lg" data-print-target="cert-hero" data-landscape="1">
+                        <i class="bi bi-printer me-2"></i> Print Homework Hero Certificate
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- =========================
+         ALSO TRY
+    ========================== -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm p-4 d-flex flex-row align-items-center gap-4">
+                        <div class="display-4">📊</div>
+                        <div class="flex-grow-1">
+                            <h3 class="fw-bold mb-1">Also try: Printable Progress Charts</h3>
+                            <p class="text-muted mb-0">Star charts, sticker charts and a 30-day reading log to track daily practice.</p>
+                        </div>
+                        <a href="progress-charts.html" class="btn btn-outline-primary flex-shrink-0">Open Charts <i class="bi bi-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         CTA SECTION
+    ========================== -->
+    <section class="py-5 bg-primary text-white text-center">
+        <div class="container">
+            <h2 class="display-6 fw-bold mb-3">Explore All Printable Materials</h2>
+            <p class="lead mb-4">Filter by grade, topic, and difficulty to find the perfect worksheet.</p>
+            <a href="worksheets.html" class="btn btn-light btn-lg fw-bold text-primary">
+                Open Worksheet Catalog
+            </a>
+        </div>
+    </section>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h4 class="fw-bold text-white mb-3">Worksheet Wonder</h4>
+                    <p class="text-muted">Providing high-quality, printable worksheets, educational activities, and workbooks for Preschool through Grade 6 children worldwide.</p>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold text-uppercase mb-3">Grades</h6>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="preschool.html" class="text-muted text-decoration-none">Preschool</a></li>
+                        <li><a href="kindergarten.html" class="text-muted text-decoration-none">Kindergarten</a></li>
+                        <li><a href="grade1.html" class="text-muted text-decoration-none">Grade 1</a></li>
+                        <li><a href="grade2.html" class="text-muted text-decoration-none">Grade 2</a></li>
+                        <li><a href="grade3.html" class="text-muted text-decoration-none">Grade 3</a></li>
+                        <li><a href="grade4.html" class="text-muted text-decoration-none">Grade 4</a></li>
+                        <li><a href="grade5.html" class="text-muted text-decoration-none">Grade 5</a></li>
+                        <li><a href="grade6.html" class="text-muted text-decoration-none">Grade 6</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h6 class="fw-bold text-uppercase mb-3">Subjects</h6>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="subject-maths.html" class="text-muted text-decoration-none">Mathematics</a></li>
+                        <li><a href="subject-english.html" class="text-muted text-decoration-none">English</a></li>
+                        <li><a href="subject-science.html" class="text-muted text-decoration-none">Science</a></li>
+                        <li><a href="subject-evs.html" class="text-muted text-decoration-none">EVS</a></li>
+                        <li><a href="subject-computer.html" class="text-muted text-decoration-none">Computer</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h6 class="fw-bold text-uppercase mb-3">Quick Links</h6>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="about.html" class="text-muted text-decoration-none">About Us</a></li>
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Contact Us</a></li>
+                        <li><a href="shop.html" class="text-muted text-decoration-none">Shop</a></li>
+                        <li><a href="privacy.html" class="text-muted text-decoration-none">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-4 pt-4 text-center text-muted">
+                <small>&copy; 2026 Worksheet Wonder. All Rights Reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Print target (populated by printables.js, visible only when printing) -->
+    <div id="ww-print-area" aria-hidden="true"></div>
+
+    <!-- Bootstrap & Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/printables.js"></script>
+</body>
+</html>

@@ -32,23 +32,33 @@
         var moreBtn = document.getElementById('load-more-btn');
         var STEP = 24, shown = STEP;
 
+        function activeLevel() {
+            var lv = String(q.level || '').toLowerCase();
+            return (lv === 'easy' || lv === 'medium' || lv === 'hard') ? lv : '';
+        }
+
         function currentFilters() {
             return {
                 grade: q.grade || '',
                 subject: q.subject || '',
                 topic: q.topic || '',
-                limit: 1000
+                limit: activeLevel() ? 10000 : 1000
             };
         }
 
         function render() {
             var all = DB.searchWorksheets(input ? input.value : '', currentFilters());
+            var lv = activeLevel();
+            if (lv) {
+                all = all.filter(function (w) { return String(w.level || '').toLowerCase() === lv; });
+            }
             var list = all.slice(0, shown);
             var title = document.getElementById('results-title');
             if (title) {
                 var bits = [];
                 if (q.grade) { var g = DB.getGradeBySlug(q.grade); if (g) bits.push(g.name); }
                 if (q.subject) { var s = DB.getSubjectBySlug(q.subject); if (s) bits.push(s.name); }
+                if (lv) bits.push(lv.charAt(0).toUpperCase() + lv.slice(1));
                 title.textContent = bits.length ? bits.join(' · ') + ' Worksheets' : 'All Worksheets';
             }
             var count = document.getElementById('results-count');
@@ -79,6 +89,21 @@
                 }, 250);
             });
         }
+
+        var levelSel = document.getElementById('level-filter');
+        if (levelSel) {
+            var curLevel = activeLevel();
+            if (curLevel) levelSel.value = curLevel;
+            levelSel.addEventListener('change', function () {
+                var p = params();
+                if (levelSel.value) p.level = levelSel.value; else delete p.level;
+                var qs = Object.keys(p).map(function (k) {
+                    return encodeURIComponent(k) + '=' + encodeURIComponent(p[k]);
+                }).join('&');
+                location.href = location.pathname + (qs ? '?' + qs : '');
+            });
+        }
+
         render();
     });
 })();

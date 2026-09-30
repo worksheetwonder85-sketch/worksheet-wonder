@@ -279,6 +279,79 @@ Reading, math and more for Preschool to Grade 6
 </section>
 
 <!-- ===========================
+     WORKSHEET OF THE DAY
+=========================== -->
+
+<style>
+.wotd-card{background:#fff;border:1px solid #E2E8F0;border-radius:1rem;overflow:hidden;box-shadow:0 10px 30px rgba(31,58,95,.08)}
+.wotd-eyebrow{display:inline-block;color:var(--k5-orange);font-weight:700;letter-spacing:2.5px;font-size:.78rem;text-transform:uppercase;margin-bottom:.5rem}
+.wotd-title{color:var(--k5-navy);font-weight:700;margin-bottom:.5rem}
+.wotd-meta{color:#64748B;margin-bottom:.25rem}
+.wotd-date{color:#94A3B8;font-size:.9rem;margin-bottom:1.25rem}
+.wotd-btn{display:inline-block;background:var(--k5-orange);color:#fff;font-weight:700;padding:.7rem 1.8rem;border-radius:999px;text-decoration:none}
+.wotd-btn:hover{color:#fff;filter:brightness(.93)}
+.wotd-thumb-wrap{background:var(--k5-hero-bg);min-height:220px;height:100%;display:flex;align-items:center;justify-content:center;padding:1.5rem}
+.wotd-thumb-wrap img{max-height:260px;width:auto;max-width:100%;border-radius:.5rem;box-shadow:0 6px 18px rgba(31,58,95,.15)}
+</style>
+
+<section class="py-5" id="wotdSection">
+
+<div class="container">
+
+<div class="wotd-card">
+
+<div class="row g-0 align-items-stretch">
+
+<div class="col-md-4">
+
+<div class="wotd-thumb-wrap">
+
+<img id="wotdThumb"
+     src="assets/images/worksheets/trace-a.png"
+     class="img-fluid"
+     alt="Worksheet of the day">
+
+</div>
+
+</div>
+
+<div class="col-md-8 d-flex align-items-center">
+
+<div class="p-4 p-md-5">
+
+<span class="wotd-eyebrow">
+Worksheet of the Day
+</span>
+
+<h3 class="wotd-title" id="wotdTitle">
+Today's pick is loading&hellip;
+</h3>
+
+<p class="wotd-meta" id="wotdMeta"></p>
+
+<p class="wotd-date" id="wotdDate"></p>
+
+<a class="wotd-btn"
+   id="wotdBtn"
+   href="worksheets.html">
+
+Print / Download
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
      CATEGORY STRIP (K5 style)
 =========================== -->
 
@@ -1827,5 +1900,6 @@ AOS.init({
 
 <script src="assets/js/main.js"></script>
 <script src="assets/js/database.js"></script>
+<script src="assets/js/wotd.js"></script>
 </body>
 </html>

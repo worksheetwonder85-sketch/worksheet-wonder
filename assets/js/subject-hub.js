@@ -24,7 +24,8 @@
         'subject-evs': 'evs',
         'subject-computer': 'computer',
         'subject-art-craft': 'art-craft',
-        'subject-gk': 'gk'
+        'subject-gk': 'gk',
+        'subject-hindi': 'hindi',
     };
 
     /* K5's exact math tab topic grouping (mathematics only).

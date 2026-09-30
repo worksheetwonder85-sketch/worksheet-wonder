@@ -25,6 +25,9 @@
         var cta = w.price > 0
             ? '<button class="btn btn-rainbow btn-lg" data-add-to-cart data-title="' + w.title.replace(/"/g, '') + '" data-meta="Digital worksheet · ' + w.pages + ' pages" data-price="' + w.price + '"><i class="bi bi-cart-plus me-2"></i>Add to Cart</button>'
             : '<a class="btn btn-rainbow btn-lg" href="' + pdfFile + '" download><i class="bi bi-download me-2"></i>Download Free PDF</a>';
+        var answerKeyBtn = w.answerKey
+            ? '<a class="btn btn-outline-success btn-lg" href="' + w.answerKey + '" download><i class="bi bi-key me-2"></i>Answer Key (Free)</a>'
+            : '';
 
         box.innerHTML =
         '<div class="row g-4">' +
@@ -36,6 +39,7 @@
                     (grade ? '<a href="' + grade.slug + '.html" class="badge bg-primary text-decoration-none">' + grade.name + '</a>' : '') +
                     (subject ? '<a href="' + subject.page + '" class="badge bg-info text-dark text-decoration-none">' + subject.name + '</a>' : '') +
                     '<span class="badge bg-light text-dark">' + w.topic + '</span>' +
+                    (window.WW.levelBadge ? window.WW.levelBadge(w.level) : '') +
                 '</div>' +
                 '<h1 class="fw-bold mb-2">' + w.title + '</h1>' +
                 '<div class="mb-3">' + window.WW.stars(w.rating) + ' <span class="text-muted">' + w.rating.toFixed(1) + ' · ' + w.downloads.toLocaleString() + ' downloads</span></div>' +
@@ -46,7 +50,7 @@
                     '<li class="mb-2">🖨️ Print at home or school — unlimited use</li>' +
                 '</ul>' +
                 '<div class="d-flex align-items-center gap-3 mb-4">' + priceHtml + '</div>' +
-                '<div class="d-flex gap-3 flex-wrap">' + cta +
+                '<div class="d-flex gap-3 flex-wrap">' + cta + answerKeyBtn +
                 '<a href="worksheets.html" class="btn btn-outline-primary btn-lg">Back to Browse</a></div>' +
             '</div>' +
         '</div>' +
